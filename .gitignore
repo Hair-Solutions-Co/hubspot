@@ -53,3 +53,4 @@ npm-debug.log*
 # Design Manager workspace — independent Git repo (clone/symlink into this path locally).
 # Entire directory is untracked here so hubspot and design-manager histories stay separate.
 99-development/design-manager/
+__pycache__/
