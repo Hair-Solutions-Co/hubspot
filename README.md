@@ -45,6 +45,24 @@ HubSpot engineering is organized by operational boundary first, then by scope fa
 - `99-development/example-apps/` contains official reference repos, not production integrations.
 - **Customer portal / Design Manager** lives in a **separate Git repository** (not committed here). Clone it into `99-development/design-manager/` beside this repo so paths in `hubspot.code-workspace` and local scripts still resolve. Theme, app, data, and ops scripts live under that checkout’s `customer-portal/`.
 
+## OPENCLAW Defaults (local shell helper)
+
+`OPENCLAW` in `~/.zshrc` now uses these defaults:
+
+- `OPENCLAW_HOSTINGER_HOST=hostinger-openclaw` (SSH alias fallback)
+- `OPENCLAW_DOCKER_CONTAINER=openclaw-lgzr-openclaw-1`
+- `OPENCLAW_SSH_USER=root`
+
+Required at runtime:
+
+- `OPENCLAW_GATEWAY_TOKEN` (export in shell before running `OPENCLAW`)
+
+Optional setup helper inputs (`OPENCLAW_SETUP`):
+
+- `HOSTINGER_API_KEY`
+- `HOSTINGER_VPS_ID`
+- `HOSTINGER_API_BASE_URL` (defaults to `https://developers.hostinger.com/api/v1`)
+
 ## Core References
 
 - Scopes: `https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/scopes`
@@ -53,3 +71,6 @@ HubSpot engineering is organized by operational boundary first, then by scope fa
 - Object APIs: `https://developers.hubspot.com/docs/guides/crm/using-object-apis`
 - Associations: `https://developers.hubspot.com/docs/api-reference/crm-associations-v4/guide`
 - Imports: `https://developers.hubspot.com/docs/api-reference/legacy/crm/imports/guide`
+=======
+# hubspot
+>>>>>>> a9f6e0ee68f2a3da08ae02c03a46161746d26ee2
