@@ -1,0 +1,37 @@
+{
+  "name": "@hair-solutions-co/hubspot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Hair Solutions Co. — HubSpot engineering workspace",
+  "scripts": {
+    "hubspot:snapshot": "bash ./scripts/op_run.sh python3 ./scripts/hubspot_object_reports.py snapshot",
+    "hubspot:snapshot:contacts": "bash ./scripts/op_run.sh python3 ./scripts/hubspot_object_reports.py snapshot contacts",
+    "hubspot:exportcrm": "bash ./scripts/op_run.sh python3 ./scripts/hubspot_object_reports.py exportcrm",
+    "hubspot:exportcrm:contacts": "bash ./scripts/op_run.sh python3 ./scripts/hubspot_object_reports.py exportcrm contacts",
+    "hubspot:exportprop": "bash ./scripts/op_run.sh python3 ./scripts/hubspot_object_reports.py exportprop",
+    "hubspot:exportprop:contacts": "bash ./scripts/op_run.sh python3 ./scripts/hubspot_object_reports.py exportprop contacts",
+    "hubspot:crm:snapshot": "bash ./scripts/op_run.sh python3 scripts/crm_daily_snapshot.py",
+    "hubspot:crm:schema": "bash ./scripts/op_run.sh python3 scripts/crm_schema_pull.py",
+    "hubspot:tickets:snapshot": "bash ./scripts/op_run.sh python3 scripts/open_ticket_snapshot.py",
+    "hubspot:daily": "bash ./scripts/daily_snapshot.sh",
+    "hubspot:weekly:schema": "bash ./scripts/weekly_schema_pull.sh",
+    "hubspot:token:scopes": "bash ./scripts/op_run.sh python3 ./scripts/hubspot_token_scopes.py",
+    "test:hubspot-object-reports": "python3 -m unittest tests/test_hubspot_object_reports.py -v",
+
+    "automation:schema-drift": "bash ./scripts/op_run.sh python3 automations/01_schema_drift_audit.py",
+    "automation:schema-drift:reset": "bash ./scripts/op_run.sh python3 automations/01_schema_drift_audit.py --reset-baseline",
+    "automation:required-field-gap": "bash ./scripts/op_run.sh python3 automations/02_required_field_gap.py",
+    "automation:enum-mismatch": "bash ./scripts/op_run.sh python3 automations/03_enum_mismatch.py",
+    "automation:unused-properties": "bash ./scripts/op_run.sh python3 automations/04_unused_properties.py",
+    "automation:data-type-mismatch": "bash ./scripts/op_run.sh python3 automations/05_data_type_mismatch.py",
+    "automation:new-contact-triage": "bash ./scripts/op_run.sh python3 automations/06_new_contact_triage.py",
+    "automation:pipeline-health": "bash ./scripts/op_run.sh python3 automations/07_pipeline_health.py",
+    "automation:stale-records": "bash ./scripts/op_run.sh python3 automations/08_stale_records.py",
+    "automation:duplicate-detection": "bash ./scripts/op_run.sh python3 automations/09_duplicate_detection.py",
+    "automation:ownerless-records": "bash ./scripts/op_run.sh python3 automations/10_ownerless_records.py",
+    "automation:crm-phase-1": "bash ./scripts/op_run.sh python3 automations/run_crm_phase1.py",
+    "automation:crm-phase-1:fast": "bash ./scripts/op_run.sh python3 automations/run_crm_phase1.py --skip-slow"
+  },
+  "author": "Vincent <vincent@hairsolutions.co>",
+  "license": "UNLICENSED"
+}

@@ -1,0 +1,42 @@
+{
+  "label": "HSC Customer Snapshot Block",
+  "css_assets": [],
+  "external_js": [],
+  "global": false,
+  "host_template_types": ["EMAIL"],
+  "is_available_for_new_content": true,
+  "icon": "",
+  "smart_type": "NOT_SMART",
+  "tags": [],
+  "fields": [
+    {
+      "name": "context",
+      "label": "Content Context",
+      "required": false,
+      "locked": false,
+      "type": "choice",
+      "display": "select",
+      "choices": [
+        ["annual_recap", "Annual Recap (J5-E1)"],
+        ["renewal_snapshot", "Renewal Snapshot (J8-E1)"]
+      ],
+      "default": "annual_recap"
+    },
+    {
+      "name": "cta_url",
+      "label": "CTA URL",
+      "required": false,
+      "locked": false,
+      "type": "url",
+      "default": "https://hairsolutions.co/pages/account"
+    },
+    {
+      "name": "cta_label",
+      "label": "CTA Label",
+      "required": false,
+      "locked": false,
+      "type": "text",
+      "default": "View Your Account"
+    }
+  ]
+}

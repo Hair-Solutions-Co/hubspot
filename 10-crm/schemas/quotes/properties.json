@@ -1,0 +1,2977 @@
+[
+  {
+    "name": "hs_deal_name",
+    "label": "Deal Name",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "dealinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The title of the deal associated with this quote.",
+    "options": []
+  },
+  {
+    "name": "hs_acceptance_method",
+    "label": "Acceptance method",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The acceptance method of the quote",
+    "options": [
+      {
+        "label": "E-signature",
+        "value": "esignature",
+        "displayOrder": 0
+      },
+      {
+        "label": "Print and sign",
+        "value": "print_and_sign",
+        "displayOrder": 1
+      },
+      {
+        "label": "Accept without signature",
+        "value": "clickwrap",
+        "displayOrder": 2
+      }
+    ]
+  },
+  {
+    "name": "hs_accepted_date",
+    "label": "Accepted date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time the quote was accepted",
+    "options": []
+  },
+  {
+    "name": "hs_all_accessible_team_ids",
+    "label": "All teams",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The team IDs, including the team hierarchy, of all default and custom owner properties for this record.",
+    "options": []
+  },
+  {
+    "name": "hs_all_assigned_business_unit_ids",
+    "label": "Business units",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The business units this record is assigned to.",
+    "options": []
+  },
+  {
+    "name": "hs_all_associated_deal_owner_ids",
+    "label": "All Associated Deal Owner IDs",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "All owner Ids of the associated deal.",
+    "options": []
+  },
+  {
+    "name": "hs_all_owner_ids",
+    "label": "All owner IDs",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Values of all default and custom owner properties for this record.",
+    "options": []
+  },
+  {
+    "name": "hs_all_team_ids",
+    "label": "All team IDs",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The team IDs of all default and custom owner properties for this record.",
+    "options": []
+  },
+  {
+    "name": "hs_allowed_checkout_fee_ids",
+    "label": "Allowed checkout fee IDs",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Stores up to two ids for the checkout fees that can be applied to the quote at checkout",
+    "options": []
+  },
+  {
+    "name": "hs_allowed_payment_methods",
+    "label": "Allowed Payment Methods",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Accepted forms of payment if quote is using HubSpot Payment",
+    "options": [
+      {
+        "label": "ACH",
+        "value": "ACH",
+        "displayOrder": 0
+      },
+      {
+        "label": "CREDIT_OR_DEBIT_CARD",
+        "value": "CREDIT_OR_DEBIT_CARD",
+        "displayOrder": 1
+      },
+      {
+        "label": "SEPA",
+        "value": "SEPA",
+        "displayOrder": 2
+      },
+      {
+        "label": "BACS",
+        "value": "BACS",
+        "displayOrder": 3
+      },
+      {
+        "label": "PADS",
+        "value": "PADS",
+        "displayOrder": 4
+      }
+    ]
+  },
+  {
+    "name": "hs_approval_request_note",
+    "label": "Approval request note",
+    "type": "string",
+    "fieldType": "textarea",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Note for approvers from the requestor with additional information about the quote",
+    "options": []
+  },
+  {
+    "name": "hs_approver_id",
+    "label": "Quote Approver",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The approver for this quote. This is a legacy quote property.",
+    "options": []
+  },
+  {
+    "name": "hs_archived",
+    "label": "Is Archived",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Indicates if this quote is archived or not",
+    "options": [
+      {
+        "label": "Yes",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "No",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_associated_deal_owner_id",
+    "label": "Associated Deal Owner ID",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The owner Id of the associated deal.",
+    "options": []
+  },
+  {
+    "name": "hs_bill_to_details_editability",
+    "label": "Bill To details editability",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Bill To details editability",
+    "options": [
+      {
+        "label": "READONLY",
+        "value": "readonly",
+        "displayOrder": 0
+      },
+      {
+        "label": "EDITABLE",
+        "value": "editable",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_billing_enabled",
+    "label": "Billing enabled",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Enable billing to automatically create invoices and subscriptions.",
+    "options": [
+      {
+        "label": "Yes",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "No",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_billing_invoice_checkout",
+    "label": "Billing invoice checkout",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Indicates that this quote uses billing invoice checkout instead of quote-level checkout for payments.",
+    "options": [
+      {
+        "label": "Yes",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "No",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_buyer_billing_address",
+    "label": "Buyer billing address",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The street address used to bill quote buyer",
+    "options": []
+  },
+  {
+    "name": "hs_buyer_billing_address2",
+    "label": "Buyer billing street address 2",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The second line street address used to bill quote buyer",
+    "options": []
+  },
+  {
+    "name": "hs_buyer_billing_city",
+    "label": "Buyer billing city",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The city name used to billquote buyer",
+    "options": []
+  },
+  {
+    "name": "hs_buyer_billing_country",
+    "label": "Buyer billing country",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The buyer's billing country.",
+    "options": []
+  },
+  {
+    "name": "hs_buyer_billing_country_code",
+    "label": "Buyer billing country code",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The country code used to bill quote buyer",
+    "options": []
+  },
+  {
+    "name": "hs_buyer_billing_state",
+    "label": "Buyer billing state/region",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The state/region used to bill quote buyer",
+    "options": []
+  },
+  {
+    "name": "hs_buyer_billing_state_code",
+    "label": "Buyer billing state/region code",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The state/region code used to bill quote buyer",
+    "options": []
+  },
+  {
+    "name": "hs_buyer_billing_zip",
+    "label": "Buyer billing postal code",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The postal code used to bill quote buyer",
+    "options": []
+  },
+  {
+    "name": "hs_buyer_tax_id",
+    "label": "Buyer Tax ID",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Tax types and IDs for a buyer company",
+    "options": []
+  },
+  {
+    "name": "hs_buyer_tax_id_editability",
+    "label": "Buyer Tax ID editability",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Buyer Tax ID editability",
+    "options": [
+      {
+        "label": "READONLY",
+        "value": "readonly",
+        "displayOrder": 0
+      },
+      {
+        "label": "EDITABLE",
+        "value": "editable",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_change_effective_date",
+    "label": "Change effective date",
+    "type": "date",
+    "fieldType": "date",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date the change quote goes into effect",
+    "options": []
+  },
+  {
+    "name": "hs_change_prorating",
+    "label": "Change Prorating",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Enable proration to adjust charges based on the change effective date",
+    "options": [
+      {
+        "label": "Yes",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "No",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_clickwrap_accepted_by",
+    "label": "Accepted By (Clickwrap)",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The name or identifier of the individual who accepted the quote via clickwrap (i.e., without providing a handwritten or electronic signature).",
+    "options": []
+  },
+  {
+    "name": "hs_closing_agent_enabled",
+    "label": "Closing agent enabled",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Boolean property which determines whether the buyer-facing agent will be rendered on the public quote",
+    "options": [
+      {
+        "label": "Yes",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "No",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_collect_billing_address",
+    "label": "Collect Billing Address",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Indicates if billing address should be collected with this quote",
+    "options": [
+      {
+        "label": "True",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "False",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_collect_shipping_address",
+    "label": "Collect shipping address",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Indicates if shipping address should be collected with this quote",
+    "options": [
+      {
+        "label": "True",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "False",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_collection_process",
+    "label": "Payment collection process",
+    "type": "enumeration",
+    "fieldType": "radio",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "How payments on this quote are collected from the buyer.",
+    "options": [
+      {
+        "label": "Automatically charge invoices",
+        "value": "AUTO_PAYMENTS",
+        "displayOrder": 0
+      },
+      {
+        "label": "Collect payment on each invoice",
+        "value": "MANUAL_PAYMENTS",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_comments",
+    "label": "Comments to buyer",
+    "type": "string",
+    "fieldType": "html",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Comments to the buyer. This property is not filled for CPQ_QUOTE template types",
+    "options": []
+  },
+  {
+    "name": "hs_content_id",
+    "label": "Content id",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Content id associated with the quote",
+    "options": []
+  },
+  {
+    "name": "hs_contract_effective_start_date",
+    "label": "Contract effective start date",
+    "type": "date",
+    "fieldType": "date",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Contract effective start date.",
+    "options": []
+  },
+  {
+    "name": "hs_contract_effective_start_date_type",
+    "label": "Contract effective start date type",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Specifies how the effective start date of a contract is determined.",
+    "options": [
+      {
+        "label": "On agreement",
+        "value": "ON_AGREEMENT",
+        "displayOrder": 0
+      },
+      {
+        "label": "Custom",
+        "value": "CUSTOM",
+        "displayOrder": 1
+      },
+      {
+        "label": "Delayed by days",
+        "value": "DELAYED_BY_DAYS",
+        "displayOrder": 2
+      },
+      {
+        "label": "Delayed by months",
+        "value": "DELAYED_BY_MONTHS",
+        "displayOrder": 3
+      }
+    ]
+  },
+  {
+    "name": "hs_contract_effective_start_delayed_by_days",
+    "label": "Contract effective start delayed by days",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The number of days contract's effective start date is delayed by.",
+    "options": []
+  },
+  {
+    "name": "hs_contract_effective_start_delayed_by_months",
+    "label": "Contract effective start delayed by months",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The number of months contract's effective start date is delayed by.",
+    "options": []
+  },
+  {
+    "name": "hs_cover_letter",
+    "label": "Cover Letter",
+    "type": "string",
+    "fieldType": "html",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The cover letter presented on this quote.",
+    "options": []
+  },
+  {
+    "name": "hs_created_by_user_id",
+    "label": "Created by user ID",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The user who created this record. This value is set automatically by HubSpot.",
+    "options": []
+  },
+  {
+    "name": "hs_createdate",
+    "label": "Create date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date the quote was created",
+    "options": []
+  },
+  {
+    "name": "hs_currency",
+    "label": "Currency",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Currency code for the quote",
+    "options": []
+  },
+  {
+    "name": "hs_dealless_quote",
+    "label": "Is Dealless quote",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Signifies whether a quote is dealless quote or not.",
+    "options": [
+      {
+        "label": "Yes",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "No",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_display_tcv_on_quote",
+    "label": "Display TCV on Quote",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Indicates if total contract value (TCV) should be displayed on the published quote",
+    "options": [
+      {
+        "label": "Yes",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "No",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_domain",
+    "label": "Quote Domain",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Domain this quote should be served from",
+    "options": []
+  },
+  {
+    "name": "hs_enabled_automated_taxes",
+    "label": "Automated taxes enabled",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Whether or not automated tax is enabled for the quote",
+    "options": [
+      {
+        "label": "Yes",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "No",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_esign_date",
+    "label": "ESign Date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time the quote was signed by all signers. This includes countersigners. This will be empty or 0 if the quote has not been fully signed.",
+    "options": []
+  },
+  {
+    "name": "hs_esign_enabled",
+    "label": "ESign enabled",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Indicates if esign is enabled for quote",
+    "options": [
+      {
+        "label": "True",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "False",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_esign_num_signers_completed",
+    "label": "ESign completed signatures",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Number of completed signatures collected so far",
+    "options": []
+  },
+  {
+    "name": "hs_esign_num_signers_required",
+    "label": "ESign number of signers required",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Total number of signers required for this quote to be fully signed. This includes both contact signers and countersigners.",
+    "options": []
+  },
+  {
+    "name": "hs_esign_reassignment_enabled",
+    "label": "ESign Reassignment Enabled",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Whether the signer is allowed to reassign themselves to a different signer",
+    "options": [
+      {
+        "label": "Yes",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "No",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_esign_verification_method",
+    "label": "Esign Verification Method",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The Verification Method for Esign",
+    "options": [
+      {
+        "label": "None",
+        "value": "none",
+        "displayOrder": 0
+      },
+      {
+        "label": "Email",
+        "value": "email",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_executive_summary",
+    "label": "Executive summary",
+    "type": "string",
+    "fieldType": "html",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "An executive summary for the quote is a brief overview that introduces the company and its offering, highlights key benefits and outcomes in relation to the prospect's challenges, builds trust, and demonstrates commitment to service and support.",
+    "options": []
+  },
+  {
+    "name": "hs_expiration_date",
+    "label": "Expiration date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date that this quote expires",
+    "options": []
+  },
+  {
+    "name": "hs_expiration_template_path",
+    "label": "Expiration Template Path",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Path of the expiration template for the quote",
+    "options": []
+  },
+  {
+    "name": "hs_expired",
+    "label": "Expired",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Value representing whether this quote is expired",
+    "options": [
+      {
+        "label": "Yes",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "No",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_expired_end_of_access_date",
+    "label": "Expired end of access date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The timestamp for when an accessible, expired CQT quote will no longer be accessible",
+    "options": []
+  },
+  {
+    "name": "hs_feedback",
+    "label": "Quote approval feedback",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Feedback about this quote during the approval process",
+    "options": []
+  },
+  {
+    "name": "hs_fees_total",
+    "label": "Fees total",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The sum of all fees applied to the quote.",
+    "options": []
+  },
+  {
+    "name": "hs_first_sent_date",
+    "label": "first sent date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The first time quote was sent to the customer. This is updated automatically by HubSpot.",
+    "options": []
+  },
+  {
+    "name": "hs_language",
+    "label": "Language",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The language for displaying this quote publicly",
+    "options": []
+  },
+  {
+    "name": "hs_last_buyer_interaction_date",
+    "label": "Last Buyer Interaction Date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date of the last buyer interaction",
+    "options": []
+  },
+  {
+    "name": "hs_last_published_date",
+    "label": "Last published date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time of the last time this quote was published.",
+    "options": []
+  },
+  {
+    "name": "hs_last_sent_date",
+    "label": "Last sent date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The last time the quote was sent through the HubSpot quote email sender.",
+    "options": []
+  },
+  {
+    "name": "hs_lastmodifieddate",
+    "label": "Last modified date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The last time any property on the quote was modified",
+    "options": []
+  },
+  {
+    "name": "hs_legacy_stripe_migrated",
+    "label": "Legacy Stripe Migrated",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Indicates if the processor(aka hs_payment_type) is changed as part of legacy stripe quote migration\"",
+    "options": [
+      {
+        "label": "Yes",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "No",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_line_item_context_id",
+    "label": "Line Item Context Id",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Id for the object that holds metadata for the line items associated with this quote",
+    "options": []
+  },
+  {
+    "name": "hs_line_item_global_term_hs_discount_percentage",
+    "label": "Global Term Line Item Discount Percentage",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "For internal HubSpot Application use only. Global term for the discount percentage applied.",
+    "options": []
+  },
+  {
+    "name": "hs_line_item_global_term_hs_discount_percentage_enabled",
+    "label": "Global Term Line Item Discount Percentage Enabled",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "For internal HubSpot Application use only. Indicates if the Global term for the discount percentage is enabled.",
+    "options": [
+      {
+        "label": "True",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "False",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_line_item_global_term_hs_recurring_billing_period",
+    "label": "Global Term Line Item Recurring Billing Period",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "For internal HubSpot Application use only. Global term for product recurring billing duration.",
+    "options": []
+  },
+  {
+    "name": "hs_line_item_global_term_hs_recurring_billing_period_enabled",
+    "label": "Global Term Line Item Recurring Billing Period Enabled",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "For internal HubSpot Application use only. Indicates if the Global term for product recurring billing duration is enabled.",
+    "options": [
+      {
+        "label": "True",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "False",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_line_item_global_term_hs_recurring_billing_start_date",
+    "label": "Global Term Line Item Recurring Billing Start Date",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "For internal HubSpot Application use only. Global term for recurring billing start date for a line item.",
+    "options": []
+  },
+  {
+    "name": "hs_line_item_global_term_hs_recurring_billing_start_date_enabled",
+    "label": "Global Term Line Item Recurring Billing Start Date Enabled",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "For internal HubSpot Application use only. Indicates if the Global term for recurring billing start date for a line item is enabled.",
+    "options": [
+      {
+        "label": "True",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "False",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_line_item_global_term_recurringbillingfrequency",
+    "label": "Global Term Line Item Recurring Billing Frequency",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "For internal HubSpot Application use only. Global term for how frequently the product is billed.",
+    "options": []
+  },
+  {
+    "name": "hs_line_item_global_term_recurringbillingfrequency_enabled",
+    "label": "Global Term Line Item Recurring Billing Frequency Enabled",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "For internal HubSpot Application use only. Indicates if the Global term for how frequently the product is billed is enabled",
+    "options": [
+      {
+        "label": "True",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "False",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_locale",
+    "label": "Locale",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The locale for displaying this quote publicly",
+    "options": []
+  },
+  {
+    "name": "hs_lock_reason",
+    "label": "Lock reason",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Hold reason for why this quote is locked",
+    "options": [
+      {
+        "label": "Initializing",
+        "value": "INITIALIZING",
+        "displayOrder": 0
+      },
+      {
+        "label": "Publishing",
+        "value": "PUBLISHING",
+        "displayOrder": 1
+      },
+      {
+        "label": "Recalling",
+        "value": "RECALLING",
+        "displayOrder": 2
+      }
+    ]
+  },
+  {
+    "name": "hs_locked",
+    "label": "Locked",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Indicates if this quote is locked and can never be updated",
+    "options": [
+      {
+        "label": "True",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "False",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_logo_url",
+    "label": "Logo URL",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "URL to image of the logo displayed on the quote",
+    "options": []
+  },
+  {
+    "name": "hs_manually_signed",
+    "label": "Has been manually signed",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Indicates whether the quote has been marked signed.",
+    "options": [
+      {
+        "label": "Yes",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "No",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_merged_object_ids",
+    "label": "Merged record IDs",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The list of record IDs that have been merged into this record. This value is set automatically by HubSpot.",
+    "options": []
+  },
+  {
+    "name": "hs_net_payment_terms",
+    "label": "Net payment terms",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The period in days in which a buyer must make full payment",
+    "options": []
+  },
+  {
+    "name": "hs_num_associated_deals",
+    "label": "Associated Deals",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The number of deals associated with this quote. This is set automatically by HubSpot.",
+    "options": []
+  },
+  {
+    "name": "hs_number_of_buyer_billing_contact_changes",
+    "label": "Number of buyer billing contact changes",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Number of times the billing contact has been changed by the buyer",
+    "options": []
+  },
+  {
+    "name": "hs_object_id",
+    "label": "Record ID",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The unique ID for this record. This value is set automatically by HubSpot.",
+    "options": []
+  },
+  {
+    "name": "hs_object_source",
+    "label": "Record creation source",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Raw internal PropertySource present in the RequestMeta when this record was created.",
+    "options": []
+  },
+  {
+    "name": "hs_object_source_detail_1",
+    "label": "Record source detail 1",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "First level of detail on how this record was created.",
+    "options": []
+  },
+  {
+    "name": "hs_object_source_detail_2",
+    "label": "Record source detail 2",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Second level of detail on how this record was created.",
+    "options": []
+  },
+  {
+    "name": "hs_object_source_detail_3",
+    "label": "Record source detail 3",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Third level of detail on how this record was created.",
+    "options": []
+  },
+  {
+    "name": "hs_object_source_id",
+    "label": "Record creation source ID",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Raw internal sourceId present in the RequestMeta when this record was created.",
+    "options": []
+  },
+  {
+    "name": "hs_object_source_label",
+    "label": "Record source",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "How this record was created.",
+    "options": []
+  },
+  {
+    "name": "hs_object_source_user_id",
+    "label": "Record creation source user ID",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Raw internal userId present in the RequestMeta when this record was created.",
+    "options": []
+  },
+  {
+    "name": "hs_original_template_path",
+    "label": "Original template path",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Content model template path used to create a CPQ quote",
+    "options": []
+  },
+  {
+    "name": "hs_owning_teams",
+    "label": "Owning Teams",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The teams that are attributed to this record.",
+    "options": []
+  },
+  {
+    "name": "hs_payment_date",
+    "label": "Payment date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time the quote was paid by the customer. This will be 0 if the payment is processing and empty if the quote is not paid.",
+    "options": []
+  },
+  {
+    "name": "hs_payment_enabled",
+    "label": "Payment enabled",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Indicates if payment can be collected via the quote link",
+    "options": [
+      {
+        "label": "True",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "False",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_payment_status",
+    "label": "Quote payment status",
+    "type": "enumeration",
+    "fieldType": "calculation_equation",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "An enumeration representing the current status of payments on a quote. This is purely for information and should not be updated manually. Check the values for more states.",
+    "options": [
+      {
+        "label": "Pending",
+        "value": "PENDING",
+        "displayOrder": 1
+      },
+      {
+        "label": "Processing",
+        "value": "PROCESSING",
+        "displayOrder": 2
+      },
+      {
+        "label": "Paid",
+        "value": "PAID",
+        "displayOrder": 3
+      },
+      {
+        "label": "No payment options",
+        "value": "PAYMENT_NOT_ENABLED",
+        "displayOrder": 4
+      }
+    ]
+  },
+  {
+    "name": "hs_payment_type",
+    "label": "Payment Type",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Payment type for the quote if payment is enabled",
+    "options": [
+      {
+        "label": "HUBSPOT",
+        "value": "HUBSPOT",
+        "displayOrder": 0
+      },
+      {
+        "label": "STRIPE",
+        "value": "STRIPE",
+        "displayOrder": 1
+      },
+      {
+        "label": "BYO_STRIPE",
+        "value": "BYO_STRIPE",
+        "displayOrder": 2
+      }
+    ]
+  },
+  {
+    "name": "hs_pdf_download_link",
+    "label": "Quote PDF download link",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The link to download a pdf of a quote",
+    "options": []
+  },
+  {
+    "name": "hs_pdf_generation_error_reason",
+    "label": "PDF generation failure error reason",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Error reason for Quote PDF generation failure",
+    "options": [
+      {
+        "label": "Quote render failed",
+        "value": "QUOTE_RENDER_FAILED",
+        "displayOrder": 0
+      },
+      {
+        "label": "Missing slug",
+        "value": "MISSING_SLUG",
+        "displayOrder": 1
+      },
+      {
+        "label": "Missing domain",
+        "value": "MISSING_DOMAIN",
+        "displayOrder": 2
+      },
+      {
+        "label": "Content not published",
+        "value": "CONTENT_NOT_PUBLISHED",
+        "displayOrder": 3
+      },
+      {
+        "label": "Content unavailable",
+        "value": "CONTENT_UNAVAILABLE",
+        "displayOrder": 4
+      },
+      {
+        "label": "Missing signature assets",
+        "value": "MISSING_SIGNATURE_ASSETS",
+        "displayOrder": 5
+      },
+      {
+        "label": "PDF not found",
+        "value": "PDF_NOT_FOUND",
+        "displayOrder": 6
+      },
+      {
+        "label": "PDF too small",
+        "value": "PDF_TOO_SMALL",
+        "displayOrder": 7
+      },
+      {
+        "label": "Missing signature area",
+        "value": "MISSING_SIGNATURE_AREA",
+        "displayOrder": 8
+      },
+      {
+        "label": "Invalid host",
+        "value": "INVALID_HOST",
+        "displayOrder": 9
+      },
+      {
+        "label": "Internal client error",
+        "value": "INTERNAL_CLIENT_ERROR",
+        "displayOrder": 10
+      },
+      {
+        "label": "Internal error",
+        "value": "INTERNAL_ERROR",
+        "displayOrder": 11
+      },
+      {
+        "label": "Success",
+        "value": "SUCCESS",
+        "displayOrder": 12
+      }
+    ]
+  },
+  {
+    "name": "hs_pdf_generation_status",
+    "label": "Status of quote pdf generation",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Quote PDF generation status",
+    "options": [
+      {
+        "label": "Pdf for quote is generating",
+        "value": "PDF_GENERATING",
+        "displayOrder": 0
+      },
+      {
+        "label": "Pdf for quote has generated",
+        "value": "PDF_GENERATED",
+        "displayOrder": 1
+      },
+      {
+        "label": "Pdf for quote failed to generate",
+        "value": "PDF_GENERATION_FAILED",
+        "displayOrder": 2
+      },
+      {
+        "label": "Retrying to generate a quote Pdf that has previously failed",
+        "value": "PDF_FAILURE_RETRYING",
+        "displayOrder": 3
+      },
+      {
+        "label": "Pdf for quote failed to generate, recall quote",
+        "value": "PDF_GENERATION_FAILED_RECALL",
+        "displayOrder": 4
+      }
+    ]
+  },
+  {
+    "name": "hs_pinned_engagement_id",
+    "label": "Pinned engagement ID",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The object ID of the current pinned engagement. This will only be shown in the app if there is already an association to the engagement.",
+    "options": []
+  },
+  {
+    "name": "hs_primary_color",
+    "label": "Branding color",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Color value used on the quote document",
+    "options": []
+  },
+  {
+    "name": "hs_proposal_domain",
+    "label": "Proposal Domain",
+    "type": "string",
+    "fieldType": "calculation_equation",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Domain this proposal should be served from",
+    "options": []
+  },
+  {
+    "name": "hs_proposal_slug",
+    "label": "Proposal Slug",
+    "type": "string",
+    "fieldType": "calculation_equation",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Path to serve this proposal from",
+    "options": []
+  },
+  {
+    "name": "hs_proposal_template_path",
+    "label": "Proposal Template",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Template Path this proposal is rendered with",
+    "options": []
+  },
+  {
+    "name": "hs_public_url_key",
+    "label": "Public URL key",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Key for accessing quote document URL",
+    "options": []
+  },
+  {
+    "name": "hs_purchase_order_editability",
+    "label": "Purchase Order editability",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Purchase Order editability",
+    "options": [
+      {
+        "label": "READONLY",
+        "value": "readonly",
+        "displayOrder": 0
+      },
+      {
+        "label": "EDITABLE",
+        "value": "editable",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_purchase_order_number",
+    "label": "PO number",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Purchase order number",
+    "options": []
+  },
+  {
+    "name": "hs_quote_amount",
+    "label": "Quote amount",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The total amount due for the quote. This can be either total contract value or the amount due at checkout depending on portal settings",
+    "options": []
+  },
+  {
+    "name": "hs_quote_amount_in_home_currency",
+    "label": "Quote Amount in Home Currency",
+    "type": "number",
+    "fieldType": "calculation_equation",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The quote amount in the portal's home currency. This will not be updated if the home currency is changed",
+    "options": []
+  },
+  {
+    "name": "hs_quote_auth_method",
+    "label": "Quote authentication method",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Buyer authentication setting for shared quote links",
+    "options": [
+      {
+        "label": "Public access",
+        "value": "public_access",
+        "displayOrder": 0
+      },
+      {
+        "label": "Password",
+        "value": "password",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_quote_auth_password",
+    "label": "Quote authentication password",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The password to access the quote for a password authentication method.",
+    "options": []
+  },
+  {
+    "name": "hs_quote_esign_status",
+    "label": "Signing Status",
+    "type": "enumeration",
+    "fieldType": "calculation_equation",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Calculated status for quote e-signature progress based on esign enablement and signature completion",
+    "options": [
+      {
+        "label": "Not Applicable",
+        "value": "NO_ESIGN_STATUS",
+        "displayOrder": 0
+      },
+      {
+        "label": "Pending Signature",
+        "value": "PENDING_SIGNATURE",
+        "displayOrder": 1
+      },
+      {
+        "label": "Signed",
+        "value": "SIGNED",
+        "displayOrder": 2
+      }
+    ]
+  },
+  {
+    "name": "hs_quote_link",
+    "label": "Link to hosted Quote",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The url hosting the public quote. This will be empty if the quote is not publicly available.",
+    "options": []
+  },
+  {
+    "name": "hs_quote_number",
+    "label": "Quote number",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Reference number shown on quote document",
+    "options": []
+  },
+  {
+    "name": "hs_quote_owner_id",
+    "label": "Quote Owner ID",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The owner of this quote. This will be the associated deal's owner or the quote's creator if there is no associated deal.",
+    "options": []
+  },
+  {
+    "name": "hs_quote_progression_status",
+    "label": "Quote progression status",
+    "type": "enumeration",
+    "fieldType": "calculation_equation",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "A representation of the quote's status throughout its lifetime. This has a hierarchy represented by the order of the property's possible values. Example: If a quote is both Viewed and Paid, then Paid will take priority.",
+    "options": [
+      {
+        "label": "Draft",
+        "value": "DRAFT",
+        "displayOrder": 0
+      },
+      {
+        "label": "Pending Approval",
+        "value": "PENDING_APPROVAL",
+        "displayOrder": 1
+      },
+      {
+        "label": "Changes Requested",
+        "value": "CHANGES_REQUESTED",
+        "displayOrder": 2
+      },
+      {
+        "label": "Published",
+        "value": "PUBLISHED",
+        "displayOrder": 3
+      },
+      {
+        "label": "Published - Pending signature",
+        "value": "PENDING_SIGNATURE",
+        "displayOrder": 4
+      },
+      {
+        "label": "Pending Acceptance",
+        "value": "PENDING_ACCEPTANCE",
+        "displayOrder": 5
+      },
+      {
+        "label": "Published - Sent",
+        "value": "SENT",
+        "displayOrder": 6
+      },
+      {
+        "label": "Sent - Pending signature",
+        "value": "SENT_PENDING_SIGNATURE",
+        "displayOrder": 7
+      },
+      {
+        "label": "Published - Viewed",
+        "value": "VIEWED",
+        "displayOrder": 8
+      },
+      {
+        "label": "Viewed - Pending signature",
+        "value": "VIEWED_PENDING_SIGNATURE",
+        "displayOrder": 9
+      },
+      {
+        "label": "Pending Countersignature",
+        "value": "NEEDS_COUNTERSIGN",
+        "displayOrder": 10
+      },
+      {
+        "label": "Accepted",
+        "value": "ACCEPTED",
+        "displayOrder": 11
+      },
+      {
+        "label": "Void",
+        "value": "VOID",
+        "displayOrder": 12
+      }
+    ]
+  },
+  {
+    "name": "hs_quote_status",
+    "label": "Quote Status",
+    "type": "enumeration",
+    "fieldType": "calculation_equation",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Derived quote status for CRM indexing",
+    "options": [
+      {
+        "label": "Draft",
+        "value": "DRAFT",
+        "displayOrder": 0
+      },
+      {
+        "label": "Pending approval",
+        "value": "PENDING_APPROVAL",
+        "displayOrder": 1
+      },
+      {
+        "label": "Changes requested",
+        "value": "CHANGES_REQUESTED",
+        "displayOrder": 2
+      },
+      {
+        "label": "Published",
+        "value": "PUBLISHED",
+        "displayOrder": 3
+      },
+      {
+        "label": "Publishing",
+        "value": "PUBLISHING",
+        "displayOrder": 4
+      },
+      {
+        "label": "Accepted",
+        "value": "ACCEPTED",
+        "displayOrder": 5
+      },
+      {
+        "label": "Expired",
+        "value": "EXPIRED",
+        "displayOrder": 6
+      },
+      {
+        "label": "Void",
+        "value": "VOID",
+        "displayOrder": 7
+      },
+      {
+        "label": "Archived",
+        "value": "ARCHIVED",
+        "displayOrder": 8
+      }
+    ]
+  },
+  {
+    "name": "hs_quote_total_preference",
+    "label": "Quote Total Preference",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "What LineItem property will be used to calculate the Quote Amount",
+    "options": [
+      {
+        "label": "TCV",
+        "value": "TCV",
+        "displayOrder": 0
+      },
+      {
+        "label": "Total First Payment",
+        "value": "TOTAL_FIRST_PAYMENT",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_quote_version",
+    "label": "Quote Version",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The current version of the quote",
+    "options": []
+  },
+  {
+    "name": "hs_quote_view_count",
+    "label": "Quote View Count",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The number of views of the quote",
+    "options": []
+  },
+  {
+    "name": "hs_read_only",
+    "label": "Read only object",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Determines whether a record can be edited by a user.",
+    "options": [
+      {
+        "label": "True",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "False",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_render_status",
+    "label": "Status of quote rendering",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The render status of a quote",
+    "options": [
+      {
+        "label": "Quote is staged for rendering",
+        "value": "STAGED_FOR_RENDERING",
+        "displayOrder": 0
+      },
+      {
+        "label": "Quote is rendering",
+        "value": "RENDERING",
+        "displayOrder": 1
+      },
+      {
+        "label": "Quote has rendered on the specified domain and slug",
+        "value": "RENDERED",
+        "displayOrder": 2
+      },
+      {
+        "label": "Quote failed to render",
+        "value": "RENDER_FAILED",
+        "displayOrder": 3
+      }
+    ]
+  },
+  {
+    "name": "hs_sales_email_last_replied",
+    "label": "Recent Sales Email Replied Date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The last time a tracked sales email was replied to for this quote",
+    "options": []
+  },
+  {
+    "name": "hs_shared_team_ids",
+    "label": "Shared teams",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Additional teams whose users can access the record based on their permissions. This can be set manually or through Workflows or APIs.",
+    "options": []
+  },
+  {
+    "name": "hs_shared_user_ids",
+    "label": "Shared users",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Additional users that can access the record based on their permissions. This can be set manually or through Workflows and APIs.",
+    "options": []
+  },
+  {
+    "name": "hs_show_bill_to_details",
+    "label": "Show bill to details",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Whether to show the bill to details section on the quote",
+    "options": [
+      {
+        "label": "Yes",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "No",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_show_countersignature_box",
+    "label": "Has space for manual countersignature",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Indicates whether the quote should have a place for a manual countersignature",
+    "options": [
+      {
+        "label": "True",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "False",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_show_signature_box",
+    "label": "Has space for manual signature",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Indicates if the quote document should have a place for a written signature",
+    "options": [
+      {
+        "label": "True",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "False",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_sign_status",
+    "label": "Signing status of quote",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "",
+    "options": [
+      {
+        "label": "Quote is pending esign process",
+        "value": "ESIGN_PENDING",
+        "displayOrder": 0
+      },
+      {
+        "label": "Quote needs countersign to complete esign process",
+        "value": "ESIGN_COUNTERSIGN_PENDING",
+        "displayOrder": 1
+      },
+      {
+        "label": "Quote has completed esign process",
+        "value": "ESIGN_COMPLETED",
+        "displayOrder": 2
+      },
+      {
+        "label": "Quote has been manually signed (via marked as sign feature)",
+        "value": "MANUALLY_SIGNED",
+        "displayOrder": 3
+      }
+    ]
+  },
+  {
+    "name": "hs_slug",
+    "label": "Quote Slug",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Path to serve this quote from",
+    "options": []
+  },
+  {
+    "name": "hs_sold_to_details_editability",
+    "label": "Sold To details editability",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Sold To details editability",
+    "options": [
+      {
+        "label": "READONLY",
+        "value": "readonly",
+        "displayOrder": 0
+      },
+      {
+        "label": "EDITABLE",
+        "value": "editable",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_status",
+    "label": "Internal quote status",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The current status of the quote.",
+    "options": [
+      {
+        "label": "Draft",
+        "value": "DRAFT",
+        "displayOrder": 0
+      },
+      {
+        "label": "Pending approval",
+        "value": "PENDING_APPROVAL",
+        "displayOrder": 1
+      },
+      {
+        "label": "Rejected",
+        "value": "REJECTED",
+        "displayOrder": 2
+      },
+      {
+        "label": "Approved",
+        "value": "APPROVED",
+        "displayOrder": 3
+      },
+      {
+        "label": "Approval not needed",
+        "value": "APPROVAL_NOT_NEEDED",
+        "displayOrder": 4
+      },
+      {
+        "label": "Accepted",
+        "value": "ACCEPTED",
+        "displayOrder": 5
+      },
+      {
+        "label": "Voided",
+        "value": "VOID",
+        "displayOrder": 6
+      }
+    ]
+  },
+  {
+    "name": "hs_store_payment_method_at_checkout",
+    "label": "Can store payment method at checkout",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Whether the option to store payment method is available to a customer at checkout",
+    "options": [
+      {
+        "label": "Yes",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "No",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_tax_calculation_id",
+    "label": "Tax calculation ID",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The reference ID to the tax calculation data for this quote",
+    "options": []
+  },
+  {
+    "name": "hs_tax_total",
+    "label": "Tax total",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Total tax collected for the quote.",
+    "options": []
+  },
+  {
+    "name": "hs_tcv",
+    "label": "Total Contract Value",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The total contract value (TCV) of this quote.",
+    "options": []
+  },
+  {
+    "name": "hs_template",
+    "label": "Legacy Quote Template",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The legacy quote template used to generate a quote. These templates will be sunset on Dec. 12th 2022.",
+    "options": [
+      {
+        "label": "Template 1 - Original",
+        "value": "ORIGINAL",
+        "displayOrder": 1
+      },
+      {
+        "label": "Template 2 - Basic",
+        "value": "BASIC",
+        "displayOrder": 2
+      },
+      {
+        "label": "Template 3 - Modern",
+        "value": "MODERN",
+        "displayOrder": 3
+      }
+    ]
+  },
+  {
+    "name": "hs_template_type",
+    "label": "Template type",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The system in which the quote template was created.",
+    "options": [
+      {
+        "label": "CUSTOMIZABLE_QUOTE_TEMPLATE",
+        "value": "CUSTOMIZABLE_QUOTE_TEMPLATE",
+        "displayOrder": 0
+      },
+      {
+        "label": "PROPOSAL",
+        "value": "PROPOSAL",
+        "displayOrder": 1
+      },
+      {
+        "label": "QUOTE",
+        "value": "QUOTE",
+        "displayOrder": 2
+      },
+      {
+        "label": "CPQ_QUOTE",
+        "value": "CPQ_QUOTE",
+        "displayOrder": 3
+      }
+    ]
+  },
+  {
+    "name": "hs_terms",
+    "label": "Terms",
+    "type": "string",
+    "fieldType": "html",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The terms of the quote.",
+    "options": []
+  },
+  {
+    "name": "hs_test_mode",
+    "label": "Test mode",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Indicates if the quote is in test mode",
+    "options": [
+      {
+        "label": "True",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "False",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_timezone",
+    "label": "Time zone",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Timezone for displaying dates on the quote",
+    "options": []
+  },
+  {
+    "name": "hs_title",
+    "label": "Quote title",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The title of this quote",
+    "options": []
+  },
+  {
+    "name": "hs_total_discount",
+    "label": "Total Discount",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The aggregate value of all discounts applied to the quote",
+    "options": []
+  },
+  {
+    "name": "hs_total_discount_percent",
+    "label": "Total discount percent",
+    "type": "number",
+    "fieldType": "calculation_equation",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The total discount applied to the quote, expressed as a percentage of the quote's total contract value.",
+    "options": []
+  },
+  {
+    "name": "hs_type",
+    "label": "Type",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The type of the quote. This is in relation to the contract that the quote is a part of.",
+    "options": [
+      {
+        "label": "INITIAL",
+        "value": "INITIAL",
+        "displayOrder": 0
+      },
+      {
+        "label": "CHANGE",
+        "value": "CHANGE",
+        "displayOrder": 1
+      },
+      {
+        "label": "RENEWAL",
+        "value": "RENEWAL",
+        "displayOrder": 2
+      }
+    ]
+  },
+  {
+    "name": "hs_unique_creation_key",
+    "label": "Unique creation key",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Unique property used for idempotent creates",
+    "options": []
+  },
+  {
+    "name": "hs_updated_by_user_id",
+    "label": "Updated by user ID",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The user who last updated this record. This value is set automatically by HubSpot.",
+    "options": []
+  },
+  {
+    "name": "hs_user_ids_of_all_notification_followers",
+    "label": "User IDs of all notification followers",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The user IDs of all users that have clicked follow within the object to opt-in to getting follow notifications",
+    "options": []
+  },
+  {
+    "name": "hs_user_ids_of_all_notification_unfollowers",
+    "label": "User IDs of all notification unfollowers",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The user IDs of all object owners that have clicked unfollow within the object to opt-out of getting follow notifications",
+    "options": []
+  },
+  {
+    "name": "hs_user_ids_of_all_owners",
+    "label": "User IDs of all owners",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The user IDs of all owners of this record.",
+    "options": []
+  },
+  {
+    "name": "hs_uses_company_address_for_billing_address",
+    "label": "Uses company address for billing address",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Decide whether or not to use company billing address as the buyer billing address",
+    "options": [
+      {
+        "label": "Yes",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "No",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_was_imported",
+    "label": "Performed in an import",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Object is part of an import",
+    "options": [
+      {
+        "label": "True",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "False",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hubspot_owner_assigneddate",
+    "label": "Owner assigned date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The most recent timestamp of when an owner was assigned to this record. This value is set automatically by HubSpot.",
+    "options": []
+  },
+  {
+    "name": "hubspot_owner_id",
+    "label": "Quote owner",
+    "type": "enumeration",
+    "fieldType": "calculation_equation",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The owner of the quote",
+    "options": []
+  },
+  {
+    "name": "hubspot_team_id",
+    "label": "HubSpot team",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The name of the team associated with the owner of the quote",
+    "options": []
+  },
+  {
+    "name": "notes_last_contacted",
+    "label": "Last Contacted",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The last timestamp when a call, email or meeting was logged for this quote",
+    "options": []
+  },
+  {
+    "name": "notes_last_updated",
+    "label": "Last Activity Date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The last time a note, call, email, meeting, or task was logged for a quote. This is set automatically by HubSpot based on user actions in the quote record.",
+    "options": []
+  },
+  {
+    "name": "notes_next_activity_date",
+    "label": "Next Activity Date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date of the next upcoming activity for this quote",
+    "options": []
+  },
+  {
+    "name": "num_contacted_notes",
+    "label": "Number of times contacted",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The number of times a call, email or meeting was logged for this quote",
+    "options": []
+  },
+  {
+    "name": "num_notes",
+    "label": "Number of Sales Activities",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "quoteinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Number of sales activities for this quote",
+    "options": []
+  },
+  {
+    "name": "hs_automated_reminders_enabled",
+    "label": "Automated reminders enabled",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "quoteremindersinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Whether the quote has automated reminders set up.",
+    "options": [
+      {
+        "label": "Yes",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "No",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_last_reminder_sent_date",
+    "label": "Last automated reminder sent date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "quoteremindersinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Date on which the last automated reminder was sent.",
+    "options": []
+  },
+  {
+    "name": "hs_upcoming_reminder_date",
+    "label": "Upcoming reminder date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "quoteremindersinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Upcoming reminder date",
+    "options": []
+  },
+  {
+    "name": "hs_breeze_edit_count",
+    "label": "Breeze Edit Count",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "quotetrackinginformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The number of times breeze made an edit to the quote",
+    "options": []
+  },
+  {
+    "name": "hs_quote_activity_count",
+    "label": "Quote Activity Count",
+    "type": "number",
+    "fieldType": "calculation_equation",
+    "groupName": "quotetrackinginformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "A measurement of the activity on a quote. By default this is the sum of all print, download, and view events",
+    "options": []
+  },
+  {
+    "name": "hs_quote_activity_count_since_last_communication",
+    "label": "Quote Activity Count Since Last Communication",
+    "type": "number",
+    "fieldType": "calculation_equation",
+    "groupName": "quotetrackinginformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "A measurement of the activity on a quote since the last communication. By default this is the sum of all print, download, and view events",
+    "options": []
+  },
+  {
+    "name": "hs_quote_download_count",
+    "label": "Quote Download Count",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "quotetrackinginformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The count of all download activity on a quote",
+    "options": []
+  },
+  {
+    "name": "hs_quote_download_count_since_last_communication",
+    "label": "Quote Download Count Since Last Communication",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "quotetrackinginformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The number of downloads a quote has received since the last communication with a customer",
+    "options": []
+  },
+  {
+    "name": "hs_quote_print_count",
+    "label": "Quote Print Count",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "quotetrackinginformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The count of all print activity on a quote",
+    "options": []
+  },
+  {
+    "name": "hs_quote_print_count_since_last_communication",
+    "label": "Quote Print Count Since Last Communication",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "quotetrackinginformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The number of prints a quote has received since the last communication with a customer",
+    "options": []
+  },
+  {
+    "name": "hs_quote_view_count_since_last_communication",
+    "label": "Quote View Count Since Last Communication",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "quotetrackinginformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The number of views a quote has received since the last communication with a customer",
+    "options": []
+  },
+  {
+    "name": "hs_sender_company_address",
+    "label": "Sender company street address",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "sendercompanyinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The street address of the company sending this quote",
+    "options": []
+  },
+  {
+    "name": "hs_sender_company_address2",
+    "label": "Sender company street address 2",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "sendercompanyinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The second line of the street address of the company sending this quote",
+    "options": []
+  },
+  {
+    "name": "hs_sender_company_city",
+    "label": "Sender company city",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "sendercompanyinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The city in which the company sending this quote is located",
+    "options": []
+  },
+  {
+    "name": "hs_sender_company_country",
+    "label": "Sender company country",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "sendercompanyinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The country in which the company sending this quote is located",
+    "options": []
+  },
+  {
+    "name": "hs_sender_company_domain",
+    "label": "Sender company domain",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "sendercompanyinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The domain of the company sending this quote",
+    "options": []
+  },
+  {
+    "name": "hs_sender_company_image_url",
+    "label": "Sender company image URL",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "sendercompanyinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "URL to image of the sender company image to be set on the quote",
+    "options": []
+  },
+  {
+    "name": "hs_sender_company_name",
+    "label": "Sender company name",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "sendercompanyinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The name of the company sending this quote",
+    "options": []
+  },
+  {
+    "name": "hs_sender_company_state",
+    "label": "Sender company state/region",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "sendercompanyinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The state/region in which the company sending this quote is located",
+    "options": []
+  },
+  {
+    "name": "hs_sender_company_zip",
+    "label": "Sender company postal code",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "sendercompanyinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The zip code in which the company sending this quote is located",
+    "options": []
+  },
+  {
+    "name": "hs_sender_email",
+    "label": "Sender email",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "senderinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Email address of the sender of this quote",
+    "options": []
+  },
+  {
+    "name": "hs_sender_firstname",
+    "label": "Sender first name",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "senderinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "First name of the sender of this quote",
+    "options": []
+  },
+  {
+    "name": "hs_sender_image_url",
+    "label": "Sender image URL",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "senderinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "URL to image of the sender avatar image to be set on the quote",
+    "options": []
+  },
+  {
+    "name": "hs_sender_jobtitle",
+    "label": "Sender job title",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "senderinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Job title of the sender of this quote",
+    "options": []
+  },
+  {
+    "name": "hs_sender_lastname",
+    "label": "Sender last name",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "senderinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Last name of the sender of this quote",
+    "options": []
+  },
+  {
+    "name": "hs_sender_phone",
+    "label": "Sender phone number",
+    "type": "string",
+    "fieldType": "phonenumber",
+    "groupName": "senderinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Phone number of the sender of this quote",
+    "options": []
+  }
+]

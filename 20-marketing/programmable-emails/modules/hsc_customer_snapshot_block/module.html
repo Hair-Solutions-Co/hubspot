@@ -1,0 +1,191 @@
+{#
+  hsc_customer_snapshot_block
+  Used in: J5-E1 (Annual Recap), J8-E1 (30-Day Renewal Success Snapshot)
+
+  BLOCKED until Phase 2 computation workflows are live.
+  This module reads only from precomputed contact properties — no real-time CRM lookups.
+  All values must be resolved by workflow before the email sends.
+
+  Inputs (contact properties — all Phase 2):
+    hsc_total_orders_lifetime              — lifetime order count
+    hsc_total_orders_last_12m              — rolling 12-month order count
+    hsc_last_known_system_family           — most recent system model
+    hsc_last_spec_summary                  — human-readable spec snapshot
+    hsc_customer_milestone_summary         — pre-rendered milestone text (workflow writes this)
+    hsc_specs_locked                       — bool: specs confirmed
+    hsc_estimated_annual_spend_individual  — what they'd spend buying individually
+    hsc_estimated_plan_savings             — savings if on a plan
+    hsc_subscription_status               — active|paused|expired|cancelled|none
+    hsc_subscription_plan_name            — plan name e.g. "4-Unit Plan"
+    hsc_subscription_renewal_date         — next renewal date
+    hsc_subscription_deliveries_last_12m  — deliveries in trailing 12m
+    hsc_subscription_payment_link         — self-service payment URL
+
+  Context values:
+    annual_recap     — J5-E1: year-in-review for elite/multi-purchase customers
+    renewal_snapshot — J8-E1: 30-day pre-renewal success summary
+
+  Rule: if a precomputed field is empty, the section for that field is suppressed.
+        Never show a blank stat or a broken token.
+#}
+
+{%- set ctx              = module.context | default("annual_recap") -%}
+{%- set orders_lifetime  = contact.hsc_total_orders_lifetime -%}
+{%- set orders_12m       = contact.hsc_total_orders_last_12m -%}
+{%- set system_family    = contact.hsc_last_known_system_family | default("") -%}
+{%- set spec_summary     = contact.hsc_last_spec_summary | default("") -%}
+{%- set milestone        = contact.hsc_customer_milestone_summary | default("") -%}
+{%- set savings          = contact.hsc_estimated_plan_savings -%}
+{%- set sub_status       = contact.hsc_subscription_status | default("none") -%}
+{%- set sub_plan         = contact.hsc_subscription_plan_name | default("") -%}
+{%- set sub_renewal      = contact.hsc_subscription_renewal_date -%}
+{%- set sub_deliveries   = contact.hsc_subscription_deliveries_last_12m -%}
+{%- set sub_payment_link = contact.hsc_subscription_payment_link | default("") -%}
+
+{%- if ctx == "annual_recap" -%}
+
+  {# J5-E1 — Annual Recap for elite/multi-purchase customers #}
+  <table role="presentation" cellpadding="0" cellspacing="0" width="100%" style="margin:0 0 28px 0;">
+    <tr>
+      <td style="font-family:Arial,sans-serif;">
+
+        {#-- Milestone callout (workflow-pre-rendered string) --#}
+        {%- if milestone -%}
+          <table role="presentation" cellpadding="0" cellspacing="0" width="100%" style="margin:0 0 20px 0;">
+            <tr>
+              <td style="background:#1a1a1a;padding:24px;text-align:center;">
+                <p style="margin:0;font-size:13px;font-weight:700;color:#8b6f47;text-transform:uppercase;letter-spacing:1px;">Your Year with Hair Solutions</p>
+                <p style="margin:8px 0 0 0;font-size:16px;color:#fff;line-height:1.6;">{{ milestone }}</p>
+              </td>
+            </tr>
+          </table>
+        {%- endif -%}
+
+        {#-- Stats row --#}
+        {%- if orders_12m or orders_lifetime or sub_deliveries -%}
+          <table role="presentation" cellpadding="0" cellspacing="0" width="100%" style="margin:0 0 20px 0;border-collapse:collapse;">
+            <tr>
+              {%- if orders_lifetime -%}
+                <td style="text-align:center;padding:16px 12px;background:#f8f4ef;border:1px solid #e8e0d8;">
+                  <p style="margin:0;font-size:28px;font-weight:700;color:#8b6f47;">{{ orders_lifetime }}</p>
+                  <p style="margin:4px 0 0 0;font-size:12px;color:#666;text-transform:uppercase;letter-spacing:0.5px;">Systems Total</p>
+                </td>
+              {%- endif -%}
+              {%- if orders_12m -%}
+                <td style="text-align:center;padding:16px 12px;background:#f8f4ef;border:1px solid #e8e0d8;">
+                  <p style="margin:0;font-size:28px;font-weight:700;color:#8b6f47;">{{ orders_12m }}</p>
+                  <p style="margin:4px 0 0 0;font-size:12px;color:#666;text-transform:uppercase;letter-spacing:0.5px;">This Year</p>
+                </td>
+              {%- endif -%}
+              {%- if sub_deliveries and sub_status == "active" -%}
+                <td style="text-align:center;padding:16px 12px;background:#f8f4ef;border:1px solid #e8e0d8;">
+                  <p style="margin:0;font-size:28px;font-weight:700;color:#8b6f47;">{{ sub_deliveries }}</p>
+                  <p style="margin:4px 0 0 0;font-size:12px;color:#666;text-transform:uppercase;letter-spacing:0.5px;">Plan Deliveries</p>
+                </td>
+              {%- endif -%}
+            </tr>
+          </table>
+        {%- endif -%}
+
+        {#-- Current system + spec --#}
+        {%- if system_family or spec_summary -%}
+          <table role="presentation" cellpadding="0" cellspacing="0" width="100%" style="margin:0 0 20px 0;">
+            <tr>
+              <td style="background:#f4f6f8;padding:16px 20px;border-left:4px solid #4a6c8c;font-family:Arial,sans-serif;">
+                {%- if system_family -%}
+                  <p style="margin:0 0 4px 0;font-size:13px;font-weight:700;color:#1a1a1a;">Current system: {{ system_family }}</p>
+                {%- endif -%}
+                {%- if spec_summary -%}
+                  <p style="margin:0;font-size:13px;color:#666;">{{ spec_summary }}</p>
+                {%- endif -%}
+              </td>
+            </tr>
+          </table>
+        {%- endif -%}
+
+        {#-- Savings nudge (only if not already subscribed) --#}
+        {%- if savings and sub_status != "active" -%}
+          <table role="presentation" cellpadding="0" cellspacing="0" width="100%" style="margin:0 0 20px 0;">
+            <tr>
+              <td style="background:#f4f8f4;padding:16px 20px;border-left:4px solid #4a7c59;font-family:Arial,sans-serif;">
+                <p style="margin:0 0 6px 0;font-size:14px;font-weight:700;color:#1a1a1a;">You could save ${{ savings | int }} this year on a plan.</p>
+                <p style="margin:0;font-size:13px;color:#666;">Based on your order history, a subscription plan saves most customers in your cadence 30–40% per year. <a href="https://hairsolutions.co/pages/plans" style="color:#4a7c59;text-decoration:underline;">See plan options.</a></p>
+              </td>
+            </tr>
+          </table>
+        {%- endif -%}
+
+        {#-- CTA --#}
+        <a href="{{ module.cta_url }}" style="display:inline-block;background:#1a1a1a;color:#fff;font-size:13px;font-weight:700;text-decoration:none;padding:12px 24px;border-radius:4px;">{{ module.cta_label }}</a>
+
+      </td>
+    </tr>
+  </table>
+
+{%- elif ctx == "renewal_snapshot" -%}
+
+  {# J8-E1 — 30-Day Renewal Success Snapshot #}
+  <table role="presentation" cellpadding="0" cellspacing="0" width="100%" style="margin:0 0 28px 0;">
+    <tr>
+      <td style="font-family:Arial,sans-serif;">
+
+        {#-- Plan summary header --#}
+        {%- if sub_plan -%}
+          <p style="margin:0 0 6px 0;font-size:12px;font-weight:700;color:#666;text-transform:uppercase;letter-spacing:0.5px;">Your plan</p>
+          <p style="margin:0 0 20px 0;font-size:20px;font-weight:700;color:#1a1a1a;">{{ sub_plan }}</p>
+        {%- endif -%}
+
+        {#-- Delivery count this cycle --#}
+        {%- if sub_deliveries -%}
+          <table role="presentation" cellpadding="0" cellspacing="0" width="100%" style="margin:0 0 20px 0;">
+            <tr>
+              <td style="text-align:center;padding:20px;background:#f8f4ef;border:1px solid #e8e0d8;">
+                <p style="margin:0;font-size:36px;font-weight:700;color:#8b6f47;">{{ sub_deliveries }}</p>
+                <p style="margin:6px 0 0 0;font-size:13px;color:#666;">systems delivered this year</p>
+              </td>
+            </tr>
+          </table>
+        {%- endif -%}
+
+        {#-- Milestone callout --#}
+        {%- if milestone -%}
+          <table role="presentation" cellpadding="0" cellspacing="0" width="100%" style="margin:0 0 20px 0;">
+            <tr>
+              <td style="background:#f4f8f4;padding:16px 20px;border-left:4px solid #4a7c59;font-family:Arial,sans-serif;">
+                <p style="margin:0;font-size:14px;color:#444;line-height:1.6;">{{ milestone }}</p>
+              </td>
+            </tr>
+          </table>
+        {%- endif -%}
+
+        {#-- Renewal date --#}
+        {%- if sub_renewal -%}
+          <p style="margin:0 0 8px 0;font-size:14px;color:#444;line-height:1.6;">
+            Your plan renews on <strong>{{ sub_renewal | datetimeformat("%B %-d, %Y") }}</strong>.
+            {%- if sub_status == "active" -%}
+              Your next system will be dispatched on schedule — nothing to do.
+            {%- elif sub_status == "unpaid" -%}
+              <strong style="color:#c0392b;"> Your payment needs attention before renewal.</strong>
+            {%- endif -%}
+          </p>
+        {%- endif -%}
+
+        {#-- Payment link for unpaid --#}
+        {%- if sub_status == "unpaid" and sub_payment_link -%}
+          <table role="presentation" cellpadding="0" cellspacing="0" width="100%" style="margin:0 0 20px 0;">
+            <tr>
+              <td style="background:#fdf2f2;padding:14px 18px;border-left:4px solid #c0392b;font-family:Arial,sans-serif;">
+                <p style="margin:0 0 8px 0;font-size:14px;color:#444;">Update your payment method to keep your plan active.</p>
+                <a href="{{ sub_payment_link }}" style="display:inline-block;background:#c0392b;color:#fff;font-size:13px;font-weight:700;text-decoration:none;padding:10px 20px;border-radius:4px;">Update Payment</a>
+              </td>
+            </tr>
+          </table>
+        {%- else -%}
+          <a href="{{ module.cta_url }}" style="display:inline-block;background:#1a1a1a;color:#fff;font-size:13px;font-weight:700;text-decoration:none;padding:12px 24px;border-radius:4px;margin-top:8px;">{{ module.cta_label }}</a>
+        {%- endif -%}
+
+      </td>
+    </tr>
+  </table>
+
+{%- endif -%}

@@ -1,0 +1,937 @@
+[
+  {
+    "name": "ip__sync_extension__external_source_account_id",
+    "label": "External Sync Source",
+    "type": "enumeration",
+    "fieldType": "text",
+    "groupName": "ip__sync_extension__sync_extension",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The ID of the external account that synced with this product.",
+    "options": []
+  },
+  {
+    "name": "hs_price_cad",
+    "label": "Price CAD",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "multi_currency_prices",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Price in Canadian Dollar",
+    "options": []
+  },
+  {
+    "name": "hs_price_eur",
+    "label": "Price EUR",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "multi_currency_prices",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Price in Euro",
+    "options": []
+  },
+  {
+    "name": "hs_price_gbp",
+    "label": "Price GBP",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "multi_currency_prices",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Price in Pound Sterling",
+    "options": []
+  },
+  {
+    "name": "hs_price_usd",
+    "label": "Price USD",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "multi_currency_prices",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Price in US Dollar",
+    "options": []
+  },
+  {
+    "name": "hs_product_bundle_supported_currencies",
+    "label": "Product bundle supported currencies",
+    "type": "enumeration",
+    "fieldType": "calculation_rollup",
+    "groupName": "multi_currency_prices",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Internal property used to build up hs_supported_currencies. If this is a Product bundle, then this represents the set of currencies supported by all of the associated Bundle Items",
+    "options": []
+  },
+  {
+    "name": "hs_product_supported_currencies",
+    "label": "Product supported currencies",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "multi_currency_prices",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Internal property used to build up hs_supported_currencies. If this is a simple Product, then this represents the set of currencies supported by the pricing related properties on this Product",
+    "options": []
+  },
+  {
+    "name": "hs_supported_currencies",
+    "label": "Supported currencies",
+    "type": "enumeration",
+    "fieldType": "calculation_equation",
+    "groupName": "multi_currency_prices",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The set of currencies supported by this Product",
+    "options": []
+  },
+  {
+    "name": "amount",
+    "label": "Net price",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "price",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Internal placeholder (to prevent conflicts with line item property of same name)",
+    "options": []
+  },
+  {
+    "name": "discount",
+    "label": "Unit discount",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "price",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The discount amount applied",
+    "options": []
+  },
+  {
+    "name": "hs_cost_of_goods_sold",
+    "label": "Unit cost",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "price",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The amount that sold goods cost the HubSpot customer",
+    "options": []
+  },
+  {
+    "name": "hs_discount_percentage",
+    "label": "Discount Percentage",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "price",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The discount percentage applied",
+    "options": []
+  },
+  {
+    "name": "hs_pricing_model",
+    "label": "Pricing model",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "price",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Defines the pricing model as either 'flat' or one of three tiered options",
+    "options": [
+      {
+        "label": "Flat",
+        "value": "flat",
+        "displayOrder": 0
+      },
+      {
+        "label": "Volume-based",
+        "value": "volume",
+        "displayOrder": 1
+      },
+      {
+        "label": "Stair-step",
+        "value": "stairstep",
+        "displayOrder": 2
+      },
+      {
+        "label": "Graduated",
+        "value": "graduated",
+        "displayOrder": 3
+      }
+    ]
+  },
+  {
+    "name": "hs_tier_prices",
+    "label": "Tier Prices",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "price",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Tier prices",
+    "options": []
+  },
+  {
+    "name": "hs_tier_ranges",
+    "label": "Tier Ranges",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "price",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Tier ranges",
+    "options": []
+  },
+  {
+    "name": "price",
+    "label": "Unit price",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "price",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Cost of product",
+    "options": []
+  },
+  {
+    "name": "recurringbillingfrequency",
+    "label": "Billing frequency",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "price",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "How often a product with recurring billing is billed. It informs the pricing calculation for deals and quotes. Products with one-time billing aren\u2019t included.",
+    "options": [
+      {
+        "label": "Weekly",
+        "value": "weekly",
+        "displayOrder": 0
+      },
+      {
+        "label": "Every two weeks",
+        "value": "biweekly",
+        "displayOrder": 1
+      },
+      {
+        "label": "Monthly",
+        "value": "monthly",
+        "displayOrder": 2
+      },
+      {
+        "label": "Quarterly",
+        "value": "quarterly",
+        "displayOrder": 3
+      },
+      {
+        "label": "Semi-annually",
+        "value": "per_six_months",
+        "displayOrder": 4
+      },
+      {
+        "label": "Annually",
+        "value": "annually",
+        "displayOrder": 5
+      },
+      {
+        "label": "Every two years",
+        "value": "per_two_years",
+        "displayOrder": 6
+      },
+      {
+        "label": "Every three years",
+        "value": "per_three_years",
+        "displayOrder": 7
+      },
+      {
+        "label": "Every four years",
+        "value": "per_four_years",
+        "displayOrder": 8
+      },
+      {
+        "label": "Every five years",
+        "value": "per_five_years",
+        "displayOrder": 9
+      }
+    ]
+  },
+  {
+    "name": "tax",
+    "label": "Tax",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "price",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The tax amount applied",
+    "options": []
+  },
+  {
+    "name": "createdate",
+    "label": "Create Date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "productinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date the product was created",
+    "options": []
+  },
+  {
+    "name": "description",
+    "label": "Product description",
+    "type": "string",
+    "fieldType": "textarea",
+    "groupName": "productinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Full description of product",
+    "options": []
+  },
+  {
+    "name": "hs_all_accessible_team_ids",
+    "label": "All teams",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "productinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The team IDs, including the team hierarchy, of all default and custom owner properties for this record.",
+    "options": []
+  },
+  {
+    "name": "hs_all_assigned_business_unit_ids",
+    "label": "Business units",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "productinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The business units this record is assigned to.",
+    "options": []
+  },
+  {
+    "name": "hs_all_owner_ids",
+    "label": "All owner IDs",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "productinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Values of all default and custom owner properties for this record.",
+    "options": []
+  },
+  {
+    "name": "hs_all_team_ids",
+    "label": "All team IDs",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "productinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The team IDs of all default and custom owner properties for this record.",
+    "options": []
+  },
+  {
+    "name": "hs_avatar_filemanager_key",
+    "label": "Avatar FileManager key",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "productinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The path in the FileManager CDN for this product's image. Automatically set by HubSpot.",
+    "options": []
+  },
+  {
+    "name": "hs_bundle_grouping_config_id",
+    "label": "Bundle Grouping Config ID",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "productinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "ID reference to the LineItemGroupConfig that configures the grouping of line items created from this Product bundle",
+    "options": []
+  },
+  {
+    "name": "hs_bundle_type",
+    "label": "Bundle type",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "productinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Indicates the type of bundling",
+    "options": [
+      {
+        "label": "None",
+        "value": "none",
+        "displayOrder": 0
+      },
+      {
+        "label": "Open",
+        "value": "open",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_created_by_user_id",
+    "label": "Created by user ID",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "productinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The user who created this record. This value is set automatically by HubSpot.",
+    "options": []
+  },
+  {
+    "name": "hs_createdate",
+    "label": "Object create date/time",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "productinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time at which this object was created. This value is automatically set by HubSpot and may not be modified.",
+    "options": []
+  },
+  {
+    "name": "hs_folder",
+    "label": "Folder",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "productinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The folder containing this product",
+    "options": [
+      {
+        "label": "",
+        "value": "PLACEHOLDER_CAN_DELETE",
+        "displayOrder": 0
+      }
+    ]
+  },
+  {
+    "name": "hs_folder_id",
+    "label": "Folder Id",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "productinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The ID of the folder that has this product",
+    "options": []
+  },
+  {
+    "name": "hs_folder_name",
+    "label": "Folder name",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "productinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Property derived from hs_folder equal to the option's label. Used to provide string-like search functionality as opposed to the enumeration search functionality of hs_folder",
+    "options": []
+  },
+  {
+    "name": "hs_images",
+    "label": "Image Url",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "productinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Product images.",
+    "options": []
+  },
+  {
+    "name": "hs_lastmodifieddate",
+    "label": "Last Modified Date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "productinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date any property on this product was modified",
+    "options": []
+  },
+  {
+    "name": "hs_merged_object_ids",
+    "label": "Merged record IDs",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "productinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The list of record IDs that have been merged into this record. This value is set automatically by HubSpot.",
+    "options": []
+  },
+  {
+    "name": "hs_object_id",
+    "label": "Record ID",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "productinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The unique ID for this record. This value is set automatically by HubSpot.",
+    "options": []
+  },
+  {
+    "name": "hs_object_source",
+    "label": "Record creation source",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "productinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Raw internal PropertySource present in the RequestMeta when this record was created.",
+    "options": []
+  },
+  {
+    "name": "hs_object_source_detail_1",
+    "label": "Record source detail 1",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "productinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "First level of detail on how this record was created.",
+    "options": []
+  },
+  {
+    "name": "hs_object_source_detail_2",
+    "label": "Record source detail 2",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "productinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Second level of detail on how this record was created.",
+    "options": []
+  },
+  {
+    "name": "hs_object_source_detail_3",
+    "label": "Record source detail 3",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "productinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Third level of detail on how this record was created.",
+    "options": []
+  },
+  {
+    "name": "hs_object_source_id",
+    "label": "Record creation source ID",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "productinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Raw internal sourceId present in the RequestMeta when this record was created.",
+    "options": []
+  },
+  {
+    "name": "hs_object_source_label",
+    "label": "Record source",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "productinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "How this record was created.",
+    "options": []
+  },
+  {
+    "name": "hs_object_source_user_id",
+    "label": "Record creation source user ID",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "productinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Raw internal userId present in the RequestMeta when this record was created.",
+    "options": []
+  },
+  {
+    "name": "hs_owning_teams",
+    "label": "Owning Teams",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "productinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The teams that are attributed to this record.",
+    "options": []
+  },
+  {
+    "name": "hs_pinned_engagement_id",
+    "label": "Pinned engagement ID",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "productinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The object ID of the current pinned engagement. This will only be shown in the app if there is already an association to the engagement.",
+    "options": []
+  },
+  {
+    "name": "hs_product_classification",
+    "label": "Product Classification",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "productinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The classification of product.Categorizes your product as either Standalone, Variant or Bundle",
+    "options": [
+      {
+        "label": "Standalone",
+        "value": "standalone",
+        "displayOrder": 0
+      },
+      {
+        "label": "Variant",
+        "value": "variant",
+        "displayOrder": 1
+      },
+      {
+        "label": "Bundle",
+        "value": "bundle",
+        "displayOrder": 2
+      }
+    ]
+  },
+  {
+    "name": "hs_product_type",
+    "label": "Product type",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "productinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The type of product. By default, categorize your product as either Inventory, Non-Inventory or Service.",
+    "options": [
+      {
+        "label": "Inventory",
+        "value": "inventory",
+        "displayOrder": 0
+      },
+      {
+        "label": "Non-Inventory",
+        "value": "non_inventory",
+        "displayOrder": 1
+      },
+      {
+        "label": "Service",
+        "value": "service",
+        "displayOrder": 2
+      }
+    ]
+  },
+  {
+    "name": "hs_read_only",
+    "label": "Read only object",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "productinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Determines whether a record can be edited by a user.",
+    "options": [
+      {
+        "label": "True",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "False",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_rich_text_description",
+    "label": "Description",
+    "type": "string",
+    "fieldType": "html",
+    "groupName": "productinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Full description of product with rich text formatting",
+    "options": []
+  },
+  {
+    "name": "hs_shared_team_ids",
+    "label": "Shared teams",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "productinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Additional teams whose users can access the record based on their permissions. This can be set manually or through Workflows or APIs.",
+    "options": []
+  },
+  {
+    "name": "hs_shared_user_ids",
+    "label": "Shared users",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "productinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Additional users that can access the record based on their permissions. This can be set manually or through Workflows and APIs.",
+    "options": []
+  },
+  {
+    "name": "hs_sku",
+    "label": "SKU",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "productinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Unique product identifier",
+    "options": []
+  },
+  {
+    "name": "hs_status",
+    "label": "Status",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "productinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Active or inactive status for a product. Determines whether or not the product will appear in search when creating a line item from a product",
+    "options": [
+      {
+        "label": "Active",
+        "value": "active",
+        "displayOrder": 0
+      },
+      {
+        "label": "Inactive",
+        "value": "inactive",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_tax_category",
+    "label": "Tax Category",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "productinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The tax category used to determine what amount of tax to automatically apply to line items created from this product",
+    "options": []
+  },
+  {
+    "name": "hs_unique_creation_key",
+    "label": "Unique creation key",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "productinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Unique property used for idempotent creates",
+    "options": []
+  },
+  {
+    "name": "hs_updated_by_user_id",
+    "label": "Updated by user ID",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "productinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The user who last updated this record. This value is set automatically by HubSpot.",
+    "options": []
+  },
+  {
+    "name": "hs_url",
+    "label": "URL",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "productinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Product url.",
+    "options": []
+  },
+  {
+    "name": "hs_user_ids_of_all_notification_followers",
+    "label": "User IDs of all notification followers",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "productinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The user IDs of all users that have clicked follow within the object to opt-in to getting follow notifications",
+    "options": []
+  },
+  {
+    "name": "hs_user_ids_of_all_notification_unfollowers",
+    "label": "User IDs of all notification unfollowers",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "productinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The user IDs of all object owners that have clicked unfollow within the object to opt-out of getting follow notifications",
+    "options": []
+  },
+  {
+    "name": "hs_user_ids_of_all_owners",
+    "label": "User IDs of all owners",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "productinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The user IDs of all owners of this record.",
+    "options": []
+  },
+  {
+    "name": "hs_was_imported",
+    "label": "Performed in an import",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "productinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Object is part of an import",
+    "options": [
+      {
+        "label": "True",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "False",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hubspot_owner_assigneddate",
+    "label": "Owner assigned date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "productinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The most recent timestamp of when an owner was assigned to this record. This value is set automatically by HubSpot.",
+    "options": []
+  },
+  {
+    "name": "hubspot_owner_id",
+    "label": "Owner",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "productinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The owner of the object.",
+    "options": []
+  },
+  {
+    "name": "hubspot_team_id",
+    "label": "HubSpot Team",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "productinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The primary team of the owner.",
+    "options": []
+  },
+  {
+    "name": "name",
+    "label": "Name",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "productinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Product name",
+    "options": []
+  },
+  {
+    "name": "quantity",
+    "label": "Quantity",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "productinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Internal placeholder (to prevent conflicts with line item property of same name)",
+    "options": []
+  },
+  {
+    "name": "stripe_product_id",
+    "label": "Stripe Product ID",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "stripe_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The unique identifier for this product in Stripe",
+    "options": []
+  },
+  {
+    "name": "stripe_product_is_active",
+    "label": "Stripe Product Is Active",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "stripe_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Indicates whether this product is currently active in Stripe",
+    "options": [
+      {
+        "label": "Yes",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "No",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_recurring_billing_period",
+    "label": "Term",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "term",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Product recurring billing duration",
+    "options": []
+  },
+  {
+    "name": "hs_recurring_billing_start_date",
+    "label": "Start Date",
+    "type": "date",
+    "fieldType": "date",
+    "groupName": "term",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Recurring billing start date for a line item",
+    "options": []
+  }
+]

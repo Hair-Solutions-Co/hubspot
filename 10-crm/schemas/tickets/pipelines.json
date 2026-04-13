@@ -1,0 +1,305 @@
+[
+  {
+    "label": "Support Pipeline",
+    "displayOrder": 0,
+    "id": "0",
+    "stages": [
+      {
+        "label": "New",
+        "displayOrder": 0,
+        "metadata": {
+          "ticketState": "OPEN",
+          "isClosed": "false"
+        },
+        "id": "1",
+        "createdAt": "2026-03-17T09:49:43.905Z",
+        "updatedAt": "2026-03-17T09:49:43.905Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Auto-Reply Sent",
+        "displayOrder": 1,
+        "metadata": {
+          "ticketState": "OPEN",
+          "isClosed": "false"
+        },
+        "id": "1325321729",
+        "createdAt": "2026-03-17T09:49:43.905Z",
+        "updatedAt": "2026-03-17T09:49:43.905Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Awaiting Customer Reply",
+        "displayOrder": 2,
+        "metadata": {
+          "ticketState": "OPEN",
+          "isClosed": "false"
+        },
+        "id": "1325321730",
+        "createdAt": "2026-03-17T09:49:43.905Z",
+        "updatedAt": "2026-03-17T09:49:43.905Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "In Progress",
+        "displayOrder": 3,
+        "metadata": {
+          "ticketState": "OPEN",
+          "isClosed": "false"
+        },
+        "id": "1325321731",
+        "createdAt": "2026-03-17T09:49:43.905Z",
+        "updatedAt": "2026-03-17T09:49:43.905Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Escalated",
+        "displayOrder": 4,
+        "metadata": {
+          "ticketState": "OPEN",
+          "isClosed": "false"
+        },
+        "id": "1325321732",
+        "createdAt": "2026-03-17T09:49:43.905Z",
+        "updatedAt": "2026-03-17T09:49:43.905Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Resolved",
+        "displayOrder": 5,
+        "metadata": {
+          "ticketState": "OPEN",
+          "isClosed": "false"
+        },
+        "id": "1325321733",
+        "createdAt": "2026-03-17T09:49:43.905Z",
+        "updatedAt": "2026-03-17T09:49:43.905Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Closed",
+        "displayOrder": 6,
+        "metadata": {
+          "ticketState": "CLOSED",
+          "isClosed": "true"
+        },
+        "id": "4",
+        "createdAt": "2026-03-17T09:49:43.905Z",
+        "updatedAt": "2026-03-17T09:49:43.905Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      }
+    ],
+    "createdAt": "1970-01-01T00:00:00Z",
+    "updatedAt": "2026-03-17T09:49:43.905Z",
+    "archived": false
+  },
+  {
+    "label": "Sales Inquiries",
+    "displayOrder": 1,
+    "id": "876724543",
+    "stages": [
+      {
+        "label": "New Inquiry",
+        "displayOrder": 0,
+        "metadata": {
+          "ticketState": "OPEN",
+          "isClosed": "false"
+        },
+        "id": "1314062737",
+        "createdAt": "2026-03-01T10:44:54.819Z",
+        "updatedAt": "2026-04-07T04:54:34.407Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Qualification Needed",
+        "displayOrder": 1,
+        "metadata": {
+          "ticketState": "OPEN",
+          "isClosed": "false"
+        },
+        "id": "1314062738",
+        "createdAt": "2026-03-01T10:44:54.819Z",
+        "updatedAt": "2026-04-07T04:54:34.407Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Recommendation Active",
+        "displayOrder": 2,
+        "metadata": {
+          "ticketState": "OPEN",
+          "isClosed": "false"
+        },
+        "id": "1314062739",
+        "createdAt": "2026-03-01T10:44:54.819Z",
+        "updatedAt": "2026-04-07T04:54:34.407Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Quote Prep",
+        "displayOrder": 3,
+        "metadata": {
+          "ticketState": "OPEN",
+          "isClosed": "false"
+        },
+        "id": "1337764015",
+        "createdAt": "2026-04-07T04:54:32.132Z",
+        "updatedAt": "2026-04-07T04:54:34.407Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Quote Sent",
+        "displayOrder": 4,
+        "metadata": {
+          "ticketState": "OPEN",
+          "isClosed": "false"
+        },
+        "id": "1337787444",
+        "createdAt": "2026-04-07T04:54:32.623Z",
+        "updatedAt": "2026-04-07T04:54:34.407Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Follow-Up",
+        "displayOrder": 5,
+        "metadata": {
+          "ticketState": "OPEN",
+          "isClosed": "false"
+        },
+        "id": "1337787445",
+        "createdAt": "2026-04-07T04:54:33.058Z",
+        "updatedAt": "2026-04-07T04:54:34.407Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Converted to Deal",
+        "displayOrder": 6,
+        "metadata": {
+          "ticketState": "OPEN",
+          "isClosed": "false"
+        },
+        "id": "1337787446",
+        "createdAt": "2026-04-07T04:54:33.486Z",
+        "updatedAt": "2026-04-07T04:54:34.407Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Closed - Not Interested",
+        "displayOrder": 7,
+        "metadata": {
+          "ticketState": "CLOSED",
+          "isClosed": "true"
+        },
+        "id": "1314062740",
+        "createdAt": "2026-03-01T10:44:54.819Z",
+        "updatedAt": "2026-04-07T04:54:34.407Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Closed - Disqualified",
+        "displayOrder": 8,
+        "metadata": {
+          "ticketState": "CLOSED",
+          "isClosed": "true"
+        },
+        "id": "1337764016",
+        "createdAt": "2026-04-07T04:54:33.926Z",
+        "updatedAt": "2026-04-07T04:54:34.407Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Closed - Routed to Service",
+        "displayOrder": 9,
+        "metadata": {
+          "ticketState": "CLOSED",
+          "isClosed": "true"
+        },
+        "id": "1337764017",
+        "createdAt": "2026-04-07T04:54:34.407Z",
+        "updatedAt": "2026-04-07T04:54:34.407Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      }
+    ],
+    "createdAt": "2026-03-01T10:44:54.819Z",
+    "updatedAt": "2026-04-07T04:54:34.407Z",
+    "archived": false
+  },
+  {
+    "label": "Order Queue",
+    "displayOrder": 2,
+    "id": "876725568",
+    "stages": [
+      {
+        "label": "Pending",
+        "displayOrder": 0,
+        "metadata": {
+          "ticketState": "OPEN",
+          "isClosed": "false"
+        },
+        "id": "1315418461",
+        "createdAt": "2026-03-02T21:19:28.976Z",
+        "updatedAt": "2026-03-02T21:19:59.716Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Scheduled",
+        "displayOrder": 1,
+        "metadata": {
+          "ticketState": "OPEN",
+          "isClosed": "false"
+        },
+        "id": "1315418462",
+        "createdAt": "2026-03-02T21:19:28.976Z",
+        "updatedAt": "2026-03-02T21:19:59.716Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Order Sent",
+        "displayOrder": 2,
+        "metadata": {
+          "ticketState": "OPEN",
+          "isClosed": "false"
+        },
+        "id": "1315418463",
+        "createdAt": "2026-03-02T21:19:28.976Z",
+        "updatedAt": "2026-03-02T21:19:59.716Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Closed",
+        "displayOrder": 3,
+        "metadata": {
+          "ticketState": "CLOSED",
+          "isClosed": "true"
+        },
+        "id": "1315418464",
+        "createdAt": "2026-03-02T21:19:28.976Z",
+        "updatedAt": "2026-03-02T21:19:59.716Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      }
+    ],
+    "createdAt": "2026-03-02T21:19:28.976Z",
+    "updatedAt": "2026-03-02T21:19:59.716Z",
+    "archived": false
+  }
+]

@@ -1,0 +1,296 @@
+{#
+  base-layout.html
+  Hair Solutions Co. — Master Email Scaffold
+
+  This file is the reference base template. Individual journey email templates
+  copy this scaffold and replace the MODULE ZONE section with their specific
+  module includes or static content blocks.
+
+  DO NOT send this file as-is. It is a scaffold, not a sendable email.
+
+  HubSpot Setup:
+    - Create as a "Coded file" in Design Manager → Email Templates
+    - Set isEnabledForEmailV3Rendering: true (required for programmable modules)
+    - Template type: EMAIL
+    - platformVersion: 2025.2
+
+  Token reference:
+    {{ contact.firstname | default("there") }}   — personalized salutation
+    {{ unsubscribe_link }}                        — CAN-SPAM required
+    {{ site_settings.company_name }}              — pulls from portal settings
+    {{ site_settings.company_city }}              — physical address line
+    {{ site_settings.company_state }}
+    {{ site_settings.company_zip }}
+    {{ site_settings.company_country }}
+    {{ site_settings.company_street_address_1 }}
+
+  To include a programmable module in a child template:
+    {% module "module_id" path="@hubspot/programmable-emails/modules/hsc_goal_based_recommendation_block" %}
+
+  Color palette:
+    #1a1a1a  — primary dark / black
+    #8b6f47  — warm gold (brand accent)
+    #4a6c8c  — blue accent
+    #4a7c59  — green accent
+    #f8f4ef  — warm off-white background
+    #e8e0d8  — warm border
+    #666     — secondary text
+#}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="format-detection" content="telephone=no,address=no,email=no,date=no,url=no" />
+  <!--[if !mso]><!-->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!--<![endif]-->
+  <title>{{ content.subject }}</title>
+
+  <style type="text/css">
+    /* ===== Client Resets ===== */
+    body, html {
+      margin: 0 !important;
+      padding: 0 !important;
+      width: 100% !important;
+      height: 100% !important;
+    }
+    body {
+      background-color: #f0ece6;
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+    }
+    table {
+      border-spacing: 0;
+      mso-table-lspace: 0pt;
+      mso-table-rspace: 0pt;
+    }
+    table td {
+      border-collapse: collapse;
+    }
+    img {
+      border: 0;
+      height: auto;
+      line-height: 100%;
+      outline: none;
+      text-decoration: none;
+      -ms-interpolation-mode: bicubic;
+    }
+    a {
+      text-decoration: none;
+    }
+    a[x-apple-data-detectors] {
+      color: inherit !important;
+      text-decoration: none !important;
+    }
+    /* ===== Responsive: mobile ===== */
+    @media only screen and (max-width: 620px) {
+      .email-container {
+        width: 100% !important;
+        max-width: 100% !important;
+      }
+      .fluid {
+        width: 100% !important;
+        max-width: 100% !important;
+        height: auto !important;
+      }
+      .stack-column,
+      .stack-column-center {
+        display: block !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        direction: ltr !important;
+      }
+      .stack-column-center {
+        text-align: center !important;
+      }
+      .mobile-padding {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+      }
+      .mobile-center {
+        text-align: center !important;
+      }
+      .mobile-hide {
+        display: none !important;
+      }
+      .mobile-block {
+        display: block !important;
+      }
+    }
+  </style>
+
+  <!--[if mso]>
+  <style type="text/css">
+    .fallback-font { font-family: Arial, sans-serif !important; }
+  </style>
+  <![endif]-->
+</head>
+
+<body style="margin:0;padding:0;background-color:#f0ece6;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;">
+
+  {# ========================================================
+     PREVIEW TEXT
+     Shows in inbox preview — keep under 100 characters.
+     Replace in each journey template.
+     ======================================================== #}
+  <div style="display:none;max-height:0;overflow:hidden;mso-hide:all;">
+    {{ content.meta_description }}
+    &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;
+  </div>
+
+  {# ========================================================
+     OUTER WRAPPER
+     ======================================================== #}
+  <table role="presentation" cellpadding="0" cellspacing="0" width="100%" style="background-color:#f0ece6;">
+    <tr>
+      <td align="center" style="padding:24px 12px;">
+
+        {# =====================================================
+           EMAIL CONTAINER — 600px max
+           ===================================================== #}
+        <table role="presentation" cellpadding="0" cellspacing="0" width="600" class="email-container" style="max-width:600px;background-color:#ffffff;">
+
+          {# =================================================
+             HEADER
+             Logo centered, warm gold bar at top.
+             ================================================= #}
+          <tr>
+            <td style="background-color:#1a1a1a;padding:0;">
+              <table role="presentation" cellpadding="0" cellspacing="0" width="100%">
+                <tr>
+                  <td style="background-color:#8b6f47;height:4px;font-size:0;line-height:0;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td align="center" style="padding:28px 40px 24px 40px;" class="mobile-padding">
+                    {# Logo: use an img tag pointing to CDN-hosted SVG/PNG.
+                       Replace src with the actual HubSpot file manager URL after upload. #}
+                    <a href="https://hairsolutions.co" style="text-decoration:none;">
+                      <img src="https://hs-assets.hairsolutions.co/email/logo-white.png"
+                           alt="Hair Solutions Co."
+                           width="160"
+                           height="auto"
+                           style="display:block;max-width:160px;height:auto;border:0;font-family:Arial,sans-serif;font-size:18px;font-weight:700;color:#ffffff;text-decoration:none;" />
+                    </a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          {# =================================================
+             SALUTATION / INTRO ROW
+             Optional — include in journey templates where
+             the email has a personal opening paragraph.
+             ================================================= #}
+          {#
+          <tr>
+            <td style="padding:36px 40px 0 40px;font-family:Arial,sans-serif;" class="mobile-padding">
+              <p style="margin:0 0 16px 0;font-size:16px;color:#1a1a1a;line-height:1.6;">
+                Hi {{ contact.firstname | default("there") }},
+              </p>
+              {# Opening copy goes here — one short paragraph max before modules. #}
+            </td>
+          </tr>
+          #}
+
+          {# =================================================
+             MODULE ZONE
+             Replace this entire section in journey templates.
+             Insert {% module %} calls or static content blocks.
+
+             Example programmable module include:
+               {% module "goal_block"
+                  path="@hubspot/programmable-emails/modules/hsc_goal_based_recommendation_block"
+                  context="annual_recap"
+                  cta_url="https://hairsolutions.co/pages/account"
+                  cta_label="View Your Account" %}
+
+             Wrap each module in a <tr><td> with consistent padding.
+             ================================================= #}
+          <tr>
+            <td style="padding:36px 40px 28px 40px;font-family:Arial,sans-serif;" class="mobile-padding">
+
+              {# ---- MODULE ZONE START ---- #}
+
+              {# INSERT JOURNEY-SPECIFIC MODULES OR CONTENT HERE #}
+
+              {# ---- MODULE ZONE END ---- #}
+
+            </td>
+          </tr>
+
+          {# =================================================
+             DIVIDER
+             ================================================= #}
+          <tr>
+            <td style="padding:0 40px;" class="mobile-padding">
+              <table role="presentation" cellpadding="0" cellspacing="0" width="100%">
+                <tr>
+                  <td style="border-top:1px solid #e8e0d8;height:1px;font-size:0;line-height:0;">&nbsp;</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          {# =================================================
+             FOOTER
+             CAN-SPAM compliant:
+               - Physical mailing address
+               - Unsubscribe link
+               - Company name
+             ================================================= #}
+          <tr>
+            <td style="padding:28px 40px 32px 40px;font-family:Arial,sans-serif;" class="mobile-padding">
+
+              {# Social links row #}
+              <table role="presentation" cellpadding="0" cellspacing="0" width="100%" style="margin:0 0 20px 0;">
+                <tr>
+                  <td align="center">
+                    <a href="https://instagram.com/hairsolutionsco" style="display:inline-block;margin:0 6px;color:#666;font-family:Arial,sans-serif;font-size:12px;text-decoration:underline;">Instagram</a>
+                    <span style="color:#ccc;font-size:12px;">|</span>
+                    <a href="https://facebook.com/hairsolutionsco" style="display:inline-block;margin:0 6px;color:#666;font-family:Arial,sans-serif;font-size:12px;text-decoration:underline;">Facebook</a>
+                    <span style="color:#ccc;font-size:12px;">|</span>
+                    <a href="https://hairsolutions.co" style="display:inline-block;margin:0 6px;color:#666;font-family:Arial,sans-serif;font-size:12px;text-decoration:underline;">hairsolutions.co</a>
+                  </td>
+                </tr>
+              </table>
+
+              {# CAN-SPAM address + unsubscribe #}
+              <table role="presentation" cellpadding="0" cellspacing="0" width="100%">
+                <tr>
+                  <td align="center">
+                    <p style="margin:0 0 6px 0;font-size:11px;color:#999;font-family:Arial,sans-serif;line-height:1.6;text-align:center;">
+                      {{ site_settings.company_name }}<br />
+                      {{ site_settings.company_street_address_1 }}, {{ site_settings.company_city }}, {{ site_settings.company_state }} {{ site_settings.company_zip }}
+                    </p>
+                    <p style="margin:0;font-size:11px;color:#999;font-family:Arial,sans-serif;text-align:center;">
+                      <a href="{{ unsubscribe_link }}" style="color:#999;text-decoration:underline;">Unsubscribe</a>
+                      &nbsp;|&nbsp;
+                      <a href="{{ subscription_preferences_link }}" style="color:#999;text-decoration:underline;">Email Preferences</a>
+                    </p>
+                  </td>
+                </tr>
+              </table>
+
+            </td>
+          </tr>
+
+          {# =================================================
+             GOLD BAR — bottom
+             ================================================= #}
+          <tr>
+            <td style="background-color:#8b6f47;height:4px;font-size:0;line-height:0;">&nbsp;</td>
+          </tr>
+
+        </table>
+        {# end email-container #}
+
+      </td>
+    </tr>
+  </table>
+  {# end outer wrapper #}
+
+</body>
+</html>

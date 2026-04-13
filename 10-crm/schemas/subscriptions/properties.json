@@ -1,0 +1,1463 @@
+[
+  {
+    "name": "hs_all_accessible_team_ids",
+    "label": "All teams",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The team IDs, including the team hierarchy, of all default and custom owner properties for this record.",
+    "options": []
+  },
+  {
+    "name": "hs_all_assigned_business_unit_ids",
+    "label": "Brands",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The brands this record is assigned to.",
+    "options": []
+  },
+  {
+    "name": "hs_all_owner_ids",
+    "label": "All owner IDs",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Values of all default and custom owner properties for this record.",
+    "options": []
+  },
+  {
+    "name": "hs_all_team_ids",
+    "label": "All team IDs",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The team IDs of all default and custom owner properties for this record.",
+    "options": []
+  },
+  {
+    "name": "hs_allowed_checkout_fee_ids",
+    "label": "Allowed checkout fee IDs",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Stores up to two ids for the checkout fees that can be applied to the subscription at checkout",
+    "options": []
+  },
+  {
+    "name": "hs_allowed_payment_methods",
+    "label": "Allowed payment methods",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The payment methods that can be used to pay the invoice",
+    "options": [
+      {
+        "label": "Credit or Debit Card",
+        "value": "credit_or_debit_card",
+        "displayOrder": 0
+      },
+      {
+        "label": "ACH",
+        "value": "ach",
+        "displayOrder": 1
+      },
+      {
+        "label": "SEPA",
+        "value": "sepa",
+        "displayOrder": 2
+      },
+      {
+        "label": "BACS",
+        "value": "bacs",
+        "displayOrder": 3
+      },
+      {
+        "label": "PADS",
+        "value": "pads",
+        "displayOrder": 4
+      }
+    ]
+  },
+  {
+    "name": "hs_arr",
+    "label": "Annual recurring revenue",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The annual recurring revenue from the subscription.",
+    "options": []
+  },
+  {
+    "name": "hs_arr_in_company_currency",
+    "label": "Annual recurring revenue in company currency",
+    "type": "number",
+    "fieldType": "calculation_equation",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The annual recurring revenue from the subscription, in your company's currency",
+    "options": []
+  },
+  {
+    "name": "hs_automated_taxes_enabled",
+    "label": "Automated sales taxes enabled",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Whether or not automated sales taxes is enabled for subscription",
+    "options": [
+      {
+        "label": "Yes",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "No",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_automatically_email_invoices",
+    "label": "Automatically email invoices",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Determines if recurring invoices are automatically emailed to the customer on each billing date",
+    "options": [
+      {
+        "label": "Yes",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "No",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_churn_date",
+    "label": "Churn date",
+    "type": "date",
+    "fieldType": "date",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Indicates when the subscription status has changed to INACTIVE or UNPAID.",
+    "options": []
+  },
+  {
+    "name": "hs_collect_address_types",
+    "label": "Address types to collect",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The types of addresses that are collected while paying the invoice.",
+    "options": [
+      {
+        "label": "Billing Address",
+        "value": "billing_address",
+        "displayOrder": 0
+      },
+      {
+        "label": "Shipping Address",
+        "value": "shipping_address",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_collection_process",
+    "label": "Collection process",
+    "type": "enumeration",
+    "fieldType": "radio",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Describes the payment collection process for the subscription i.e. automatic vs manual (not yet supported)",
+    "options": [
+      {
+        "label": "Automatic payments",
+        "value": "automatic_payments",
+        "displayOrder": 0
+      },
+      {
+        "label": "Manual payments",
+        "value": "manual_payments",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_contact_email",
+    "label": "Contact email",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The email address of the contact associated to the subscription. This is the primary email address used for subscription related emails.",
+    "options": []
+  },
+  {
+    "name": "hs_contract_managed",
+    "label": "contract_managed",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Indicates whether or not a subscription is managed by a billing-enabled contract.",
+    "options": [
+      {
+        "label": "Yes",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "No",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_created_by_user_id",
+    "label": "Created by user ID",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The user who created this record. This value is set automatically by HubSpot.",
+    "options": []
+  },
+  {
+    "name": "hs_createdate",
+    "label": "Object create date/time",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time at which this object was created. This value is automatically set by HubSpot and may not be modified.",
+    "options": []
+  },
+  {
+    "name": "hs_currency_code",
+    "label": "Currency code",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The currency code of the subscription.",
+    "options": []
+  },
+  {
+    "name": "hs_current_arr",
+    "label": "Current ARR",
+    "type": "number",
+    "fieldType": "calculation_equation",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Sum of ARR from currently active subscription line items",
+    "options": []
+  },
+  {
+    "name": "hs_current_mrr",
+    "label": "Current MRR",
+    "type": "number",
+    "fieldType": "calculation_rollup",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Sum of MRR from currently active subscription line items",
+    "options": []
+  },
+  {
+    "name": "hs_ending_arr",
+    "label": "Ending ARR",
+    "type": "number",
+    "fieldType": "calculation_equation",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "ARR at subscription end, set from the last line item segment",
+    "options": []
+  },
+  {
+    "name": "hs_ending_mrr",
+    "label": "Ending MRR",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "MRR at subscription end date",
+    "options": []
+  },
+  {
+    "name": "hs_entry_arr",
+    "label": "Entry ARR",
+    "type": "number",
+    "fieldType": "calculation_equation",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "ARR at subscription start, set from the first line item segment",
+    "options": []
+  },
+  {
+    "name": "hs_entry_mrr",
+    "label": "Entry MRR",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "MRR at subscription start",
+    "options": []
+  },
+  {
+    "name": "hs_internal_subscription_id",
+    "label": "Subscription ID",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The internal reference id for a subscription. This is separate from the CRM object id for a subscription. ",
+    "options": []
+  },
+  {
+    "name": "hs_invoice_comments",
+    "label": "Invoice Comments",
+    "type": "string",
+    "fieldType": "html",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Comments to the invoice recipient",
+    "options": []
+  },
+  {
+    "name": "hs_invoice_creation",
+    "label": "Invoice Creation",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "An indicator of whether a subscription is invoiced through HubSpot's Commerce Hub. ",
+    "options": [
+      {
+        "label": "On",
+        "value": "on",
+        "displayOrder": 0
+      },
+      {
+        "label": "Off",
+        "value": "off",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_is_status_active",
+    "label": "Status is active",
+    "type": "number",
+    "fieldType": "calculation_equation",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The calculated property value is 1 when the Subscription status is active or 0 otherwise.",
+    "options": []
+  },
+  {
+    "name": "hs_language",
+    "label": "Language",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Language of the invoice ",
+    "options": []
+  },
+  {
+    "name": "hs_last_modification_reason",
+    "label": "Last modification reason",
+    "type": "string",
+    "fieldType": "textarea",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Reason for last subscription edit",
+    "options": []
+  },
+  {
+    "name": "hs_last_modified_at",
+    "label": "Subscription modified on",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The timestamp in epoch milliseconds for when a subscription was last modified. ",
+    "options": []
+  },
+  {
+    "name": "hs_last_modified_by",
+    "label": "Last modified by",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The id of the user who last modified the subscription",
+    "options": []
+  },
+  {
+    "name": "hs_last_payment_amount",
+    "label": "Last payment amount",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The amount that was charged for the subscription during the most recent billing period.",
+    "options": []
+  },
+  {
+    "name": "hs_last_payment_date",
+    "label": "Last Payment Date",
+    "type": "date",
+    "fieldType": "date",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "When the last payment processed for the subscription",
+    "options": []
+  },
+  {
+    "name": "hs_last_payment_status",
+    "label": "Status of last payment",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The status of the most recently initiated payment",
+    "options": [
+      {
+        "label": "Succeeded",
+        "value": "succeeded",
+        "displayOrder": 0
+      },
+      {
+        "label": "Failed",
+        "value": "failed",
+        "displayOrder": 1
+      },
+      {
+        "label": "Partially Refunded",
+        "value": "partially_refunded",
+        "displayOrder": 2
+      },
+      {
+        "label": "Refunded",
+        "value": "refunded",
+        "displayOrder": 3
+      },
+      {
+        "label": "Processing",
+        "value": "processing",
+        "displayOrder": 4
+      }
+    ]
+  },
+  {
+    "name": "hs_lastmodifieddate",
+    "label": "Object last modified date/time",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Most recent timestamp of any property update for this object. This includes HubSpot internal properties, which can be visible or hidden. This property is updated automatically.",
+    "options": []
+  },
+  {
+    "name": "hs_locale",
+    "label": "Locale",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Locale of the invoice ",
+    "options": []
+  },
+  {
+    "name": "hs_merged_object_ids",
+    "label": "Merged record IDs",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The list of record IDs that have been merged into this record. This value is set automatically by HubSpot.",
+    "options": []
+  },
+  {
+    "name": "hs_mrr",
+    "label": "Monthly recurring revenue",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The monthly recurring revenue from the subscription.",
+    "options": []
+  },
+  {
+    "name": "hs_mrr_in_company_currency",
+    "label": "Monthly recurring revenue in company currency",
+    "type": "number",
+    "fieldType": "calculation_equation",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The monthly recurring revenue from the subscription, in your company's currency",
+    "options": []
+  },
+  {
+    "name": "hs_name",
+    "label": "Name",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The name of the subscription.",
+    "options": []
+  },
+  {
+    "name": "hs_net_payment_terms",
+    "label": "Net Payment Terms",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Refers to the period, expressed in days (e.g., Net 30), within which subscription invoices must be paid",
+    "options": []
+  },
+  {
+    "name": "hs_next_payment_amount",
+    "label": "Next payment amount",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The value to be processed on next payment date. If next payment date is null, the property is set to empty.",
+    "options": []
+  },
+  {
+    "name": "hs_next_payment_due_date",
+    "label": "Next billing date",
+    "type": "date",
+    "fieldType": "date",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The next billing date where the subscription will be invoiced. If the collection method value is automatic_payments, the subscription will be automatically charged. If the collection method value is manual_payments, an invoice will be created.",
+    "options": []
+  },
+  {
+    "name": "hs_number_of_completed_payments",
+    "label": "Number of completed payments",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The number of payments that have been successfully processed for the subscription.",
+    "options": []
+  },
+  {
+    "name": "hs_number_of_expected_payments",
+    "label": "Number of expected payments",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The number of total payments expected for the subscription.",
+    "options": []
+  },
+  {
+    "name": "hs_object_id",
+    "label": "Record ID",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The unique ID for this record. This value is set automatically by HubSpot.",
+    "options": []
+  },
+  {
+    "name": "hs_object_source",
+    "label": "Record creation source",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Raw internal PropertySource present in the RequestMeta when this record was created.",
+    "options": []
+  },
+  {
+    "name": "hs_object_source_detail_1",
+    "label": "Record source detail 1",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "First level of detail on how this record was created.",
+    "options": []
+  },
+  {
+    "name": "hs_object_source_detail_2",
+    "label": "Record source detail 2",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Second level of detail on how this record was created.",
+    "options": []
+  },
+  {
+    "name": "hs_object_source_detail_3",
+    "label": "Record source detail 3",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Third level of detail on how this record was created.",
+    "options": []
+  },
+  {
+    "name": "hs_object_source_id",
+    "label": "Record creation source ID",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Raw internal sourceId present in the RequestMeta when this record was created.",
+    "options": []
+  },
+  {
+    "name": "hs_object_source_label",
+    "label": "Record source",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "How this record was created.",
+    "options": []
+  },
+  {
+    "name": "hs_object_source_user_id",
+    "label": "Record creation source user ID",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Raw internal userId present in the RequestMeta when this record was created.",
+    "options": []
+  },
+  {
+    "name": "hs_original_buyer_email_address",
+    "label": "Original buyer email address",
+    "type": "string",
+    "fieldType": "textarea",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The email address of the original buyer of the subscription",
+    "options": []
+  },
+  {
+    "name": "hs_overdue_invoice_count",
+    "label": "Overdue invoice count",
+    "type": "number",
+    "fieldType": "calculation_rollup",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Count of associated invoices that are overdue",
+    "options": []
+  },
+  {
+    "name": "hs_owning_teams",
+    "label": "Owning Teams",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The teams that are attributed to this record.",
+    "options": []
+  },
+  {
+    "name": "hs_paid_invoice_count",
+    "label": "Paid invoice count",
+    "type": "number",
+    "fieldType": "calculation_rollup",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Count of associated invoices that are paid",
+    "options": []
+  },
+  {
+    "name": "hs_payment_enabled",
+    "label": "Payment Enabled",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Indicates if a checkout link is included on invoices from subscriptions with a manual collection method",
+    "options": [
+      {
+        "label": "Yes",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "No",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_payment_method",
+    "label": "Payment method",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The payment method on file for this subscription.",
+    "options": []
+  },
+  {
+    "name": "hs_payment_method_source_at_creation",
+    "label": "Payment method source at creation",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Indicates where a payment method is collected when creating a subscription",
+    "options": [
+      {
+        "label": "Checkout",
+        "value": "checkout",
+        "displayOrder": 0
+      },
+      {
+        "label": "Payment method on file",
+        "value": "payment_method_on_file",
+        "displayOrder": 1
+      },
+      {
+        "label": "First invoice",
+        "value": "first_invoice",
+        "displayOrder": 2
+      },
+      {
+        "label": "Migration",
+        "value": "migration",
+        "displayOrder": 3
+      }
+    ]
+  },
+  {
+    "name": "hs_payments_source_app_id",
+    "label": "Payment source",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The object or tool that created the subscription. ",
+    "options": [
+      {
+        "label": "Payment Link",
+        "value": "sales_checkout",
+        "displayOrder": 0
+      },
+      {
+        "label": "Test",
+        "value": "test",
+        "displayOrder": 1
+      },
+      {
+        "label": "Quote",
+        "value": "quote",
+        "displayOrder": 2
+      },
+      {
+        "label": "Migration",
+        "value": "migration",
+        "displayOrder": 3
+      },
+      {
+        "label": "Billing",
+        "value": "billing",
+        "displayOrder": 4
+      }
+    ]
+  },
+  {
+    "name": "hs_payments_source_id",
+    "label": "Payment source ID",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The unique ID for the object or tool that created the the subscription. This value is automatically set by HubSpot and may not be modified.",
+    "options": []
+  },
+  {
+    "name": "hs_pinned_engagement_id",
+    "label": "Pinned engagement ID",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The object ID of the current pinned engagement. This will only be shown in the app if there is already an association to the engagement.",
+    "options": []
+  },
+  {
+    "name": "hs_processor_type",
+    "label": "Processor",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The processor for collecting subscription payments.",
+    "options": [
+      {
+        "label": "HubSpot Payments",
+        "value": "hs_payments",
+        "displayOrder": 0
+      },
+      {
+        "label": "Stripe",
+        "value": "byo_stripe",
+        "displayOrder": 1
+      },
+      {
+        "label": "None",
+        "value": "none",
+        "displayOrder": 2
+      }
+    ]
+  },
+  {
+    "name": "hs_read_only",
+    "label": "Read only object",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Determines whether a record can be edited by a user.",
+    "options": [
+      {
+        "label": "True",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "False",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_recipient_billing_address",
+    "label": "Recipient billing street address",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "",
+    "options": []
+  },
+  {
+    "name": "hs_recipient_billing_address2",
+    "label": "Recipient billing street address 2",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "",
+    "options": []
+  },
+  {
+    "name": "hs_recipient_billing_address_source",
+    "label": "Recipient billing address source",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Whether to use the recipient address on Company or Subscription object when making new Invoices",
+    "options": [
+      {
+        "label": "From Subscription",
+        "value": "from_subscription",
+        "displayOrder": 0
+      },
+      {
+        "label": "From Company",
+        "value": "from_company",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_recipient_billing_city",
+    "label": "Recipient billing city",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "",
+    "options": []
+  },
+  {
+    "name": "hs_recipient_billing_country",
+    "label": "Recipient billing country",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "",
+    "options": []
+  },
+  {
+    "name": "hs_recipient_billing_country_code",
+    "label": "Recipient billing country code",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "",
+    "options": []
+  },
+  {
+    "name": "hs_recipient_billing_state",
+    "label": "Recipient billing state/region",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "",
+    "options": []
+  },
+  {
+    "name": "hs_recipient_billing_zip",
+    "label": "Recipient billing postal code",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "",
+    "options": []
+  },
+  {
+    "name": "hs_recipient_company_address",
+    "label": "Recipient company street address",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The address of the recipient's company or organization.",
+    "options": []
+  },
+  {
+    "name": "hs_recipient_company_address2",
+    "label": "Recipient company street address 2",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Additional address of the recipient's company or organization.",
+    "options": []
+  },
+  {
+    "name": "hs_recipient_company_city",
+    "label": "Recipient company city",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The city of the recipient's company or organization.",
+    "options": []
+  },
+  {
+    "name": "hs_recipient_company_country",
+    "label": "Recipient company country",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The country of the recipient's company or organization.",
+    "options": []
+  },
+  {
+    "name": "hs_recipient_company_state",
+    "label": "Recipient company state/region",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The state or region of the recipient's company or organization.",
+    "options": []
+  },
+  {
+    "name": "hs_recipient_company_zip",
+    "label": "Recipient company postal code",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The postal or zip code of the recipient's company or organization.",
+    "options": []
+  },
+  {
+    "name": "hs_recurring_billing_end_date",
+    "label": "End date",
+    "type": "date",
+    "fieldType": "date",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date the subscription will end.",
+    "options": []
+  },
+  {
+    "name": "hs_recurring_billing_frequency",
+    "label": "Recurring billing frequency",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "How often the customer is billed for the subscription.",
+    "options": [
+      {
+        "label": "Daily",
+        "value": "daily",
+        "displayOrder": 0
+      },
+      {
+        "label": "Weekly",
+        "value": "weekly",
+        "displayOrder": 1
+      },
+      {
+        "label": "Every two weeks",
+        "value": "biweekly",
+        "displayOrder": 2
+      },
+      {
+        "label": "Monthly",
+        "value": "monthly",
+        "displayOrder": 3
+      },
+      {
+        "label": "Quarterly",
+        "value": "quarterly",
+        "displayOrder": 4
+      },
+      {
+        "label": "Semi-annually",
+        "value": "per_six_months",
+        "displayOrder": 5
+      },
+      {
+        "label": "Annually",
+        "value": "annually",
+        "displayOrder": 6
+      },
+      {
+        "label": "Every two years",
+        "value": "per_two_years",
+        "displayOrder": 7
+      },
+      {
+        "label": "Every three years",
+        "value": "per_three_years",
+        "displayOrder": 8
+      },
+      {
+        "label": "Every four years",
+        "value": "per_four_years",
+        "displayOrder": 9
+      },
+      {
+        "label": "Every five years",
+        "value": "per_five_years",
+        "displayOrder": 10
+      }
+    ]
+  },
+  {
+    "name": "hs_recurring_billing_start_date",
+    "label": "Start date",
+    "type": "date",
+    "fieldType": "date",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date the subscription is scheduled to start (which is the day of the first payment).",
+    "options": []
+  },
+  {
+    "name": "hs_shared_team_ids",
+    "label": "Shared teams",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Additional teams whose users can access the record based on their permissions. This can be set manually or through Workflows or APIs.",
+    "options": []
+  },
+  {
+    "name": "hs_shared_user_ids",
+    "label": "Shared users",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Additional users that can access the record based on their permissions. This can be set manually or through Workflows and APIs.",
+    "options": []
+  },
+  {
+    "name": "hs_status",
+    "label": "Status",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The status of the subscription.",
+    "options": [
+      {
+        "label": "Active",
+        "value": "active",
+        "displayOrder": 0
+      },
+      {
+        "label": "Past due",
+        "value": "past_due",
+        "displayOrder": 1
+      },
+      {
+        "label": "Unpaid",
+        "value": "unpaid",
+        "displayOrder": 2
+      },
+      {
+        "label": "Canceled",
+        "value": "canceled",
+        "displayOrder": 3
+      },
+      {
+        "label": "Expired",
+        "value": "expired",
+        "displayOrder": 4
+      },
+      {
+        "label": "Scheduled",
+        "value": "scheduled",
+        "displayOrder": 5
+      },
+      {
+        "label": "Paused",
+        "value": "paused",
+        "displayOrder": 6
+      }
+    ]
+  },
+  {
+    "name": "hs_store_payment_method_at_checkout",
+    "label": "Store payment method at checkout",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Allow customers to store their payment method at checkout.",
+    "options": [
+      {
+        "label": "Yes",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "No",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_tax_ids",
+    "label": "Tax ID",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The account tax IDs listed on the generated invoice. The tax ID includes a tax ID type and a tax ID number. Valid tax ids are managed in invoice settings.",
+    "options": []
+  },
+  {
+    "name": "hs_total_arr",
+    "label": "Total ARR (Internal)",
+    "type": "number",
+    "fieldType": "calculation_rollup",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Sum of ARR from all associated subscription line items",
+    "options": []
+  },
+  {
+    "name": "hs_total_collected_amount",
+    "label": "Total collected amount",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The total amount collected from the subscription. The amount is in the currency of the subscription.",
+    "options": []
+  },
+  {
+    "name": "hs_total_mrr",
+    "label": "Total MRR (Internal)",
+    "type": "number",
+    "fieldType": "calculation_rollup",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Sum of MRR from all associated subscription line items",
+    "options": []
+  },
+  {
+    "name": "hs_total_remaining_amount",
+    "label": "Total Remaining Amount",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The total amount remaining to be collected for subscriptions with a fixed number of payments. The amount is in the currency of the subscription.",
+    "options": []
+  },
+  {
+    "name": "hs_unique_creation_key",
+    "label": "Unique creation key",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Unique property used for idempotent creates",
+    "options": []
+  },
+  {
+    "name": "hs_update_payment_method_link",
+    "label": "Update payment method link",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Link to update payment method on this subscription",
+    "options": []
+  },
+  {
+    "name": "hs_updated_by_user_id",
+    "label": "Updated by user ID",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The user who last updated this record. This value is set automatically by HubSpot.",
+    "options": []
+  },
+  {
+    "name": "hs_user_ids_of_all_notification_followers",
+    "label": "User IDs of all notification followers",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The user IDs of all users that have clicked follow within the object to opt-in to getting follow notifications",
+    "options": []
+  },
+  {
+    "name": "hs_user_ids_of_all_notification_unfollowers",
+    "label": "User IDs of all notification unfollowers",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The user IDs of all object owners that have clicked unfollow within the object to opt-out of getting follow notifications",
+    "options": []
+  },
+  {
+    "name": "hs_user_ids_of_all_owners",
+    "label": "User IDs of all owners",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The user IDs of all owners of this record.",
+    "options": []
+  },
+  {
+    "name": "hs_was_imported",
+    "label": "Performed in an import",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Object is part of an import",
+    "options": [
+      {
+        "label": "True",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "False",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hubspot_owner_assigneddate",
+    "label": "Owner assigned date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The most recent timestamp of when an owner was assigned to this record. This value is set automatically by HubSpot.",
+    "options": []
+  },
+  {
+    "name": "hubspot_owner_id",
+    "label": "Subscription owner",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The owner of the subscription.",
+    "options": []
+  },
+  {
+    "name": "hubspot_team_id",
+    "label": "Owner's main team",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "subscription_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The main team of the record owner. This value is set automatically by HubSpot.",
+    "options": []
+  },
+  {
+    "name": "payment_processor",
+    "label": "Payment Processor",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "subscription_information",
+    "hubspotDefined": false,
+    "formField": true,
+    "description": "",
+    "options": []
+  }
+]

@@ -1,0 +1,55 @@
+# Dependencies
+node_modules/
+
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+
+# 1Password
+.1password/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE / editor
+.cursor/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build output
+dist/
+build/
+.next/
+out/
+10-crm/imports-exports/exports/
+
+# Automation outputs (timestamped real-data reports — local only)
+outputs/
+
+# HubSpot CLI
+hubspot.config.yml
+
+# Prisma
+*.db
+*.db-journal
+
+# Logs
+*.log
+npm-debug.log*
+
+# Vercel
+.vercel/
+
+# HubSpot official example clones (obtain locally; not tracked in this repo)
+99-development/example-apps/associations-sync-server/
+99-development/example-apps/crm-object-sync/
+99-development/example-apps/property-mapping-client/
+99-development/example-apps/property-mapping-server/
+
+# Design Manager workspace — independent Git repo (clone/symlink into this path locally).
+# Entire directory is untracked here so hubspot and design-manager histories stay separate.
+99-development/design-manager/

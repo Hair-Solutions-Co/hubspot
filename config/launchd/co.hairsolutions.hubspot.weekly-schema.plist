@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>co.hairsolutions.hubspot.weekly-schema</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>/Users/vMac/00-hair-solutions-co/00_engineering/04_hubspot/scripts/weekly_schema_pull.sh</string>
+  </array>
+
+  <key>WorkingDirectory</key>
+  <string>/Users/vMac/00-hair-solutions-co/00_engineering/04_hubspot</string>
+
+  <!-- Monday at 6:30 AM -->
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Weekday</key>
+    <integer>1</integer>
+    <key>Hour</key>
+    <integer>6</integer>
+    <key>Minute</key>
+    <integer>30</integer>
+  </dict>
+
+  <key>StandardOutPath</key>
+  <string>/tmp/hubspot-weekly-schema.log</string>
+  <key>StandardErrorPath</key>
+  <string>/tmp/hubspot-weekly-schema.log</string>
+
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key>
+    <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+  </dict>
+</dict>
+</plist>

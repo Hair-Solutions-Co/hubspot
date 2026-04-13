@@ -1,0 +1,29 @@
+{
+  "label": "HSC Goal-Based Recommendation Block",
+  "css_assets": [],
+  "external_js": [],
+  "global": false,
+  "host_template_types": ["EMAIL"],
+  "is_available_for_new_content": true,
+  "icon": "",
+  "smart_type": "NOT_SMART",
+  "tags": [],
+  "fields": [
+    {
+      "name": "heading",
+      "label": "Section Heading",
+      "required": false,
+      "locked": false,
+      "type": "text",
+      "default": "Based on what you told us, here's where to start:"
+    },
+    {
+      "name": "fallback_body",
+      "label": "Fallback Body (no goal set)",
+      "required": false,
+      "locked": false,
+      "type": "richtext",
+      "default": "<p>Hair Solutions offers bases in lace, skin, mono, and hybrid. <a href=\"https://hairsolutions.co/pages/quiz\">Take our 2-minute fit quiz</a> and we'll point you to the right starting point.</p>"
+    }
+  ]
+}

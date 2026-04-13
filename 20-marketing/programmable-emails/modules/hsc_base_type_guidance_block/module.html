@@ -1,0 +1,258 @@
+{#
+  hsc_base_type_guidance_block
+  Used in: J3-E2 (prep), J3-E7 (removal/styling), J4-E2 (reorder), J5-E2 (artisan), J7-E2 (win-back)
+
+  Input: contact.hsc_base_preference
+  Live enum values:
+    nano_skin | micro_skin | thin_skin | dura_skin   → skin group
+    swiss_lace | french_lace                          → lace group
+    mono                                              → mono group
+    hybrid                                            → hybrid group
+    undecided                                         → fallback
+
+  The `context` field on the module selects which copy variant renders.
+  All styles inline — email clients strip <style> blocks.
+#}
+
+{%- set base = contact.hsc_base_preference -%}
+{%- set ctx = module.context | default("prep") -%}
+
+{#-- Normalise base into a group for cleaner branching --#}
+{%- if base == "swiss_lace" or base == "french_lace" -%}
+  {%- set group = "lace" -%}
+  {%- set base_label = base | replace("_", " ") | capitalize -%}
+{%- elif base == "nano_skin" or base == "micro_skin" -%}
+  {%- set group = "thin_skin" -%}
+  {%- set base_label = base | replace("_", " ") | capitalize -%}
+{%- elif base == "thin_skin" or base == "dura_skin" -%}
+  {%- set group = "standard_skin" -%}
+  {%- set base_label = base | replace("_", " ") | capitalize -%}
+{%- elif base == "mono" -%}
+  {%- set group = "mono" -%}
+  {%- set base_label = "Mono" -%}
+{%- elif base == "hybrid" -%}
+  {%- set group = "hybrid" -%}
+  {%- set base_label = "Hybrid" -%}
+{%- else -%}
+  {%- set group = "unknown" -%}
+  {%- set base_label = "" -%}
+{%- endif -%}
+
+{%- if group == "unknown" -%}
+
+  {# No base preference on file — generic prompt #}
+  <table role="presentation" cellpadding="0" cellspacing="0" width="100%" style="margin:0 0 24px 0;">
+    <tr>
+      <td style="background:#f8f8f6;border-left:4px solid #aaa;padding:20px 24px;font-family:Arial,sans-serif;">
+        <p style="margin:0 0 10px 0;font-size:14px;color:#444;line-height:1.6;">We don't have your base preference on file yet. A quick consultation lets us give you guidance that actually fits your system.</p>
+        <a href="{{ module.fallback_cta_url }}" style="display:inline-block;background:#1a1a1a;color:#fff;font-size:13px;font-weight:700;text-decoration:none;padding:10px 20px;border-radius:4px;">Book a Consultation</a>
+      </td>
+    </tr>
+  </table>
+
+{%- elif ctx == "prep" -%}
+
+  {# Preparation Guide — J3-E2 #}
+  <table role="presentation" cellpadding="0" cellspacing="0" width="100%" style="margin:0 0 24px 0;">
+    <tr>
+      <td style="background:#f8f4ef;border-left:4px solid #8b6f47;padding:20px 24px;font-family:Arial,sans-serif;">
+        <p style="margin:0 0 8px 0;font-size:15px;font-weight:700;color:#1a1a1a;">Preparing for your {{ base_label }}</p>
+
+        {%- if group == "lace" -%}
+          <p style="margin:0 0 12px 0;font-size:14px;color:#444;line-height:1.6;">Lace bonds best to clean, oil-free skin. Before your first attach, degrease the scalp with a prep solution or 70% isopropyl alcohol and let it dry fully — 2 to 3 minutes. No lotion, no dry shampoo, no product near the hairline.</p>
+          <p style="margin:0 0 4px 0;font-size:13px;color:#666;font-weight:700;">First attach checklist:</p>
+          <ul style="margin:4px 0 0 0;padding-left:20px;font-size:14px;color:#444;line-height:1.9;">
+            <li>Scalp clean and degreased</li>
+            <li>Scalp head-shaved or closely taped perimeter if applicable</li>
+            <li>Lace measured and trimmed to your hairline template</li>
+            <li>Adhesive or tape selected (tape recommended for first attach)</li>
+            <li>10–15 minutes set aside — no rushing the first bond</li>
+          </ul>
+        {%- elif group == "thin_skin" -%}
+          <p style="margin:0 0 12px 0;font-size:14px;color:#444;line-height:1.6;">Ultra-thin skin bonds with minimal adhesive — a thin, even layer is all you need. Too much causes slippage. Clean the scalp with alcohol prep, apply adhesive to the scalp (not the base), let it go tacky (30–60 seconds), then press and hold for 10 seconds.</p>
+          <p style="margin:0 0 4px 0;font-size:13px;color:#666;font-weight:700;">First attach checklist:</p>
+          <ul style="margin:4px 0 0 0;padding-left:20px;font-size:14px;color:#444;line-height:1.9;">
+            <li>Scalp clean and fully degreased</li>
+            <li>Adhesive layer thin and even — wipe off excess before applying</li>
+            <li>Base positioned before adhesive goes fully tacky</li>
+            <li>Press firmly from centre outward, no air pockets</li>
+            <li>24-hour cure before swimming or heavy sweating</li>
+          </ul>
+        {%- elif group == "standard_skin" -%}
+          <p style="margin:0 0 12px 0;font-size:14px;color:#444;line-height:1.6;">Dura and standard thin skin accept both tape and glue. Tape is faster for regular wearers; glue holds longer in heat. Either way, degrease first — adhesive on oily skin will fail within days.</p>
+          <p style="margin:0 0 4px 0;font-size:13px;color:#666;font-weight:700;">First attach checklist:</p>
+          <ul style="margin:4px 0 0 0;padding-left:20px;font-size:14px;color:#444;line-height:1.9;">
+            <li>Scalp clean and alcohol-prepped</li>
+            <li>Tape strips cut clean (no jagged edges)</li>
+            <li>Base positioned before final press</li>
+            <li>Press firmly from centre out, 10+ seconds</li>
+            <li>Avoid water for 24 hours if using glue</li>
+          </ul>
+        {%- elif group == "mono" -%}
+          <p style="margin:0 0 12px 0;font-size:14px;color:#444;line-height:1.6;">Mono bases are typically attached at the perimeter using tape or liquid adhesive. The structured centre holds shape even under pressure — it won't flex like lace, so perimeter tape coverage is all you need.</p>
+          <p style="margin:0 0 4px 0;font-size:13px;color:#666;font-weight:700;">First attach checklist:</p>
+          <ul style="margin:4px 0 0 0;padding-left:20px;font-size:14px;color:#444;line-height:1.9;">
+            <li>Perimeter clean and degreased</li>
+            <li>Tape applied to perimeter only — not centre</li>
+            <li>Align front hairline first, press back</li>
+            <li>Check temples and nape for full contact</li>
+            <li>No solvents on the mono mesh — they weaken it</li>
+          </ul>
+        {%- elif group == "hybrid" -%}
+          <p style="margin:0 0 12px 0;font-size:14px;color:#444;line-height:1.6;">Hybrid bases have a skin perimeter and a lace centre. Bond the skin perimeter as you would a standard skin system — tape or glue on clean, degreased skin. The lace centre does not need adhesive.</p>
+          <p style="margin:0 0 4px 0;font-size:13px;color:#666;font-weight:700;">First attach checklist:</p>
+          <ul style="margin:4px 0 0 0;padding-left:20px;font-size:14px;color:#444;line-height:1.9;">
+            <li>Skin perimeter degreased and prepped</li>
+            <li>Adhesive applied to perimeter only</li>
+            <li>Lace centre left free — do not glue it down</li>
+            <li>Press perimeter firmly for 10 seconds</li>
+            <li>Allow 30 minutes before styling the parting</li>
+          </ul>
+        {%- endif -%}
+
+      </td>
+    </tr>
+  </table>
+
+{%- elif ctx == "removal_styling" -%}
+
+  {# Removal & Styling — J3-E7 #}
+  <table role="presentation" cellpadding="0" cellspacing="0" width="100%" style="margin:0 0 24px 0;">
+    <tr>
+      <td style="background:#f4f6f8;border-left:4px solid #4a6c8c;padding:20px 24px;font-family:Arial,sans-serif;">
+        <p style="margin:0 0 8px 0;font-size:15px;font-weight:700;color:#1a1a1a;">Removing and re-styling your {{ base_label }}</p>
+
+        {%- if group == "lace" -%}
+          <p style="margin:0 0 10px 0;font-size:14px;color:#444;line-height:1.6;">Lace needs a solvent — never peel dry. Apply solvent or oil (baby oil works) along the hairline, wait 60 seconds, then peel slowly from the back forward. Rush it and the lace tears.</p>
+          <p style="margin:0 0 4px 0;font-size:13px;color:#666;font-weight:700;">Styling notes:</p>
+          <ul style="margin:4px 0 0 0;padding-left:20px;font-size:14px;color:#444;line-height:1.9;">
+            <li>Heat styling up to 180°C / 350°F is safe on most remy lace systems</li>
+            <li>Always use heat protectant — it protects the weft, not just the hair</li>
+            <li>Parting can be restyled; pushing it too far stretches the lace</li>
+            <li>Wash with cool water, not hot — hot water loosens the bond early</li>
+          </ul>
+        {%- elif group == "thin_skin" or group == "standard_skin" -%}
+          <p style="margin:0 0 10px 0;font-size:14px;color:#444;line-height:1.6;">Skin bases release cleanly from solvent. Apply along the edge, wait 30 seconds, and peel slowly. The poly surface handles residue well — most glue comes off with a second solvent wipe and a soft cloth.</p>
+          <p style="margin:0 0 4px 0;font-size:13px;color:#666;font-weight:700;">Styling notes:</p>
+          <ul style="margin:4px 0 0 0;padding-left:20px;font-size:14px;color:#444;line-height:1.9;">
+            <li>Heat styling safe up to 150°C / 300°F on skin systems</li>
+            <li>Avoid high heat at the poly edge — it can cause micro-splitting</li>
+            <li>Parting is fixed on injected skin; styled parting only on V-loop</li>
+            <li>Brush from tips up — skin knots are delicate at the base</li>
+          </ul>
+        {%- elif group == "mono" -%}
+          <p style="margin:0 0 10px 0;font-size:14px;color:#444;line-height:1.6;">Apply solvent to the tape perimeter only. The mono mesh does not need solvent and should not be soaked — it weakens the structure. Peel from the nape forward once the perimeter is loose.</p>
+          <p style="margin:0 0 4px 0;font-size:13px;color:#666;font-weight:700;">Styling notes:</p>
+          <ul style="margin:4px 0 0 0;padding-left:20px;font-size:14px;color:#444;line-height:1.9;">
+            <li>Mono holds parting well — less restyling needed daily</li>
+            <li>Brush with a wide-tooth comb, not a fine paddle brush</li>
+            <li>Heat styling up to 180°C is safe; the mesh is durable</li>
+            <li>Deep condition the hair monthly — mono systems can dry faster</li>
+          </ul>
+        {%- elif group == "hybrid" -%}
+          <p style="margin:0 0 10px 0;font-size:14px;color:#444;line-height:1.6;">Apply solvent to the skin perimeter only. The lace centre lifts naturally once the perimeter releases. Do not pull the lace away from the centre — let the solvent do the work first.</p>
+          <p style="margin:0 0 4px 0;font-size:13px;color:#666;font-weight:700;">Styling notes:</p>
+          <ul style="margin:4px 0 0 0;padding-left:20px;font-size:14px;color:#444;line-height:1.9;">
+            <li>Parting is most natural over the lace centre</li>
+            <li>Heat styling safe — treat lace zone with protectant</li>
+            <li>Skin perimeter can be trimmed if it shows; lace cannot</li>
+          </ul>
+        {%- endif -%}
+
+      </td>
+    </tr>
+  </table>
+
+{%- elif ctx == "reorder" -%}
+
+  {# Replacement Nudge — J4-E2 #}
+  <table role="presentation" cellpadding="0" cellspacing="0" width="100%" style="margin:0 0 24px 0;">
+    <tr>
+      <td style="background:#f8f6f4;border-left:4px solid #8c6a4a;padding:20px 24px;font-family:Arial,sans-serif;">
+        <p style="margin:0 0 8px 0;font-size:15px;font-weight:700;color:#1a1a1a;">Signs your {{ base_label }} is ready for replacement</p>
+
+        {%- if group == "lace" -%}
+          <p style="margin:0 0 10px 0;font-size:14px;color:#444;line-height:1.6;">Lace signals wear before other base types do. The first sign is usually a slightly looser hairline — the lace relaxes and the bond no longer sits flush. Other signs:</p>
+          <ul style="margin:4px 0 12px 0;padding-left:20px;font-size:14px;color:#444;line-height:1.9;">
+            <li>Lace visible in direct sunlight at the hairline</li>
+            <li>Hair thinning noticeably at the front 2 cm</li>
+            <li>Lifting within 48 hours of a fresh bond</li>
+            <li>Colour fading in the knots near the perimeter</li>
+          </ul>
+        {%- elif group == "thin_skin" or group == "standard_skin" -%}
+          <p style="margin:0 0 10px 0;font-size:14px;color:#444;line-height:1.6;">Skin bases show wear as micro-tears and surface thinning. You usually feel it before you see it — the poly starts to feel rough or sticky between cleanings. Other signs:</p>
+          <ul style="margin:4px 0 12px 0;padding-left:20px;font-size:14px;color:#444;line-height:1.9;">
+            <li>Adhesive residue that no longer removes cleanly</li>
+            <li>Small pin-holes visible when held up to light</li>
+            <li>Edge cracking or splitting near the perimeter</li>
+            <li>Hair density thinning at the crown</li>
+          </ul>
+        {%- elif group == "mono" -%}
+          <p style="margin:0 0 10px 0;font-size:14px;color:#444;line-height:1.6;">Mono is the most durable base type, but the perimeter tape zone wears first. Signs the system needs replacing:</p>
+          <ul style="margin:4px 0 12px 0;padding-left:20px;font-size:14px;color:#444;line-height:1.9;">
+            <li>Tape perimeter fraying or lifting within 3 days of reattach</li>
+            <li>Mesh discolouration that doesn't clean out</li>
+            <li>Hair shedding from the weft on combing</li>
+            <li>The structured centre feels stiff and brittle when flexed</li>
+          </ul>
+        {%- elif group == "hybrid" -%}
+          <p style="margin:0 0 10px 0;font-size:14px;color:#444;line-height:1.6;">Hybrid systems usually wear out at the skin perimeter while the lace centre still looks good. Signs it's time:</p>
+          <ul style="margin:4px 0 12px 0;padding-left:20px;font-size:14px;color:#444;line-height:1.9;">
+            <li>Skin perimeter cracking or peeling at the edge</li>
+            <li>Lace centre showing tension lines from the weight of hair</li>
+            <li>Bond holding less than 5 days at the nape</li>
+          </ul>
+        {%- endif -%}
+
+        <a href="https://hairsolutions.co/pages/reorder" style="display:inline-block;background:#1a1a1a;color:#fff;font-size:13px;font-weight:700;text-decoration:none;padding:10px 20px;border-radius:4px;">Reorder Now</a>
+      </td>
+    </tr>
+  </table>
+
+{%- elif ctx == "whats_new" -%}
+
+  {# What's New / Win-Back — J7-E2 #}
+  <table role="presentation" cellpadding="0" cellspacing="0" width="100%" style="margin:0 0 24px 0;">
+    <tr>
+      <td style="background:#f4f8f4;border-left:4px solid #4a7c59;padding:20px 24px;font-family:Arial,sans-serif;">
+        <p style="margin:0 0 8px 0;font-size:15px;font-weight:700;color:#1a1a1a;">What's changed for {{ base_label }} wearers</p>
+
+        {%- if group == "lace" -%}
+          <p style="margin:0 0 10px 0;font-size:14px;color:#444;line-height:1.6;">We've updated our lace line with tighter knot density at the hairline. The result is a front 1.5 cm that's even more invisible than before — the knots are smaller and the bleaching is more precise. If your last system was over a year ago, you'll notice the difference immediately.</p>
+        {%- elif group == "thin_skin" or group == "standard_skin" -%}
+          <p style="margin:0 0 10px 0;font-size:14px;color:#444;line-height:1.6;">Our skin systems now come with a reinforced edge treatment that significantly reduces splitting at the perimeter — the number one reason wearers reported early replacement. Same natural look, better durability.</p>
+        {%- elif group == "mono" -%}
+          <p style="margin:0 0 10px 0;font-size:14px;color:#444;line-height:1.6;">We've introduced a lighter mono mesh option with the same structural integrity and a noticeably more breathable feel during warmer months. It's also 15% lighter — noticeable by end of day.</p>
+        {%- elif group == "hybrid" -%}
+          <p style="margin:0 0 10px 0;font-size:14px;color:#444;line-height:1.6;">Our latest hybrid construction uses a narrower skin perimeter, which reduces the poly footprint while keeping the same hold. The lace centre is wider — meaning more natural movement across the top.</p>
+        {%- endif -%}
+
+        <a href="https://hairsolutions.co/collections/new" style="display:inline-block;background:#1a1a1a;color:#fff;font-size:13px;font-weight:700;text-decoration:none;padding:10px 20px;border-radius:4px;">See What's New</a>
+      </td>
+    </tr>
+  </table>
+
+{%- elif ctx == "artisan_update" -%}
+
+  {# Artisan Update — J5-E2 #}
+  <table role="presentation" cellpadding="0" cellspacing="0" width="100%" style="margin:0 0 24px 0;">
+    <tr>
+      <td style="background:#f8f8f4;border-left:4px solid #6a6a3a;padding:20px 24px;font-family:Arial,sans-serif;">
+        <p style="margin:0 0 8px 0;font-size:15px;font-weight:700;color:#1a1a1a;">New developments in {{ base_label }} construction</p>
+
+        {%- if group == "lace" -%}
+          <p style="margin:0 0 10px 0;font-size:14px;color:#444;line-height:1.6;">The factory team has refined the bleaching process on our Swiss lace line. The new process produces consistently lighter knots with less risk of over-bleaching — which means the lace lasts longer and the hairline stays invisible further into the wear cycle. Worth considering when your next order is due.</p>
+        {%- elif group == "thin_skin" or group == "standard_skin" -%}
+          <p style="margin:0 0 10px 0;font-size:14px;color:#444;line-height:1.6;">We've updated the V-loop injection method on our skin systems. The new technique spaces the knots more evenly, which means less density variation across the crown and a more consistent look between orders — particularly relevant if you've ever noticed slight differences batch to batch.</p>
+        {%- elif group == "mono" -%}
+          <p style="margin:0 0 10px 0;font-size:14px;color:#444;line-height:1.6;">Our mono mesh supplier has introduced a new filament thickness option. The ultra-fine option is now available for custom orders — same structural integrity, lower profile, and noticeably lighter than the standard mesh. If you run warm or wear for extended periods, this is worth specifying on your next order.</p>
+        {%- elif group == "hybrid" -%}
+          <p style="margin:0 0 10px 0;font-size:14px;color:#444;line-height:1.6;">We've updated the bonding method at the lace-to-skin junction on hybrid bases. The previous overlap was 3mm; the new construction uses 5mm, which eliminates the occasional separation that some wearers experienced at the perimeter edge after 6+ weeks of wear.</p>
+        {%- endif -%}
+
+        <a href="https://hairsolutions.co/pages/whats-new" style="display:inline-block;background:#1a1a1a;color:#fff;font-size:13px;font-weight:700;text-decoration:none;padding:10px 20px;border-radius:4px;">See Full Update</a>
+      </td>
+    </tr>
+  </table>
+
+{%- endif -%}

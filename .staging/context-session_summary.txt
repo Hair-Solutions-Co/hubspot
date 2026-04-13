@@ -1,0 +1,12 @@
+Category: session_summary
+Score: 1.00
+
+<transcript_data>
+Activity Metrics:
+  Tool uses: 14
+  Distinct tools: 6
+  Exchanges: 50
+</transcript_data>
+
+Key snippets:
+  - 14 tool uses across 6 tools, 50 exchanges

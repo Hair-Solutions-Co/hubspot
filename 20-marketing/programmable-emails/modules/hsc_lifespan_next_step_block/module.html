@@ -1,0 +1,101 @@
+{#
+  hsc_lifespan_next_step_block
+  Used in: J3-E8 (Review & Next Steps), J4-E2 (Replacement Nudge)
+
+  Inputs:
+    contact.hsc_last_known_system_family  — branded model name e.g. "Lace Pro"
+    contact.hsc_predicted_reorder_date   — uses native next_expected_reorder_date
+    contact.hsc_reorder_readiness        — enum: active_now|30_days|60_days|90+_days|unknown|not_applicable
+    contact.hsc_base_preference          — for lifespan range copy
+    contact.hsc_density_preference       — for optional refinement prompt
+    contact.hsc_experience_level         — first_system|some_experience|experienced_wearer
+
+  Rule: all business logic precomputed by workflow before email sends.
+        This module only renders what is already in CRM properties.
+        Never calculate dates inside this template.
+#}
+
+{%- set system  = contact.hsc_last_known_system_family | default("") -%}
+{%- set reorder = contact.hsc_reorder_readiness | default("unknown") -%}
+{%- set base    = contact.hsc_base_preference | default("") -%}
+{%- set density = contact.hsc_density_preference | default("") -%}
+{%- set level   = contact.hsc_experience_level | default("first_system") -%}
+
+{#-- Lifespan range by base group --#}
+{%- if base == "swiss_lace" or base == "french_lace" -%}
+  {%- set lifespan_range = "4–8 weeks" -%}
+  {%- set base_group = "lace" -%}
+{%- elif base == "nano_skin" or base == "micro_skin" -%}
+  {%- set lifespan_range = "6–10 weeks" -%}
+  {%- set base_group = "skin" -%}
+{%- elif base == "thin_skin" or base == "dura_skin" -%}
+  {%- set lifespan_range = "8–14 weeks" -%}
+  {%- set base_group = "skin" -%}
+{%- elif base == "mono" -%}
+  {%- set lifespan_range = "10–16 weeks" -%}
+  {%- set base_group = "mono" -%}
+{%- elif base == "hybrid" -%}
+  {%- set lifespan_range = "6–12 weeks" -%}
+  {%- set base_group = "hybrid" -%}
+{%- else -%}
+  {%- set lifespan_range = "6–12 weeks" -%}
+  {%- set base_group = "unknown" -%}
+{%- endif -%}
+
+<table role="presentation" cellpadding="0" cellspacing="0" width="100%" style="margin:0 0 24px 0;">
+  <tr>
+    <td style="background:#f8f4ef;border-left:4px solid #8b6f47;padding:20px 24px;font-family:Arial,sans-serif;">
+
+      {#-- System name header if available --#}
+      {%- if system -%}
+        <p style="margin:0 0 4px 0;font-size:12px;font-weight:700;color:#8b6f47;text-transform:uppercase;letter-spacing:0.5px;">Your system</p>
+        <p style="margin:0 0 14px 0;font-size:18px;font-weight:700;color:#1a1a1a;">{{ system }}</p>
+      {%- endif -%}
+
+      {#-- Lifespan section --#}
+      <p style="margin:0 0 6px 0;font-size:13px;font-weight:700;color:#666;text-transform:uppercase;letter-spacing:0.5px;">Typical lifespan</p>
+      <p style="margin:0 0 14px 0;font-size:22px;font-weight:700;color:#1a1a1a;">{{ lifespan_range }}</p>
+
+      {#-- Reorder timing message --#}
+      {%- if reorder == "active_now" -%}
+        <p style="margin:0 0 14px 0;font-size:14px;color:#444;line-height:1.6;background:#fff3e0;padding:12px 14px;border-radius:4px;">
+          <strong>Your replacement window is open.</strong> Based on your wear schedule, now is the right time to order your next system so it arrives before you need it.
+        </p>
+        <a href="{{ module.reorder_cta_url }}" style="display:inline-block;background:#8b6f47;color:#fff;font-size:13px;font-weight:700;text-decoration:none;padding:10px 22px;border-radius:4px;margin-bottom:14px;">Order Your Next System</a>
+      {%- elif reorder == "30_days" -%}
+        <p style="margin:0 0 14px 0;font-size:14px;color:#444;line-height:1.6;">
+          Your next replacement window opens in about <strong>30 days</strong>. A good time to check your current system and decide whether to reorder the same spec or make adjustments.
+        </p>
+      {%- elif reorder == "60_days" -%}
+        <p style="margin:0 0 14px 0;font-size:14px;color:#444;line-height:1.6;">
+          You're roughly <strong>2 months out</strong> from your next replacement window. Your current system should still be performing well — but this is a good time to think about whether you want to refine anything for the next order.
+        </p>
+      {%- else -%}
+        <p style="margin:0 0 14px 0;font-size:14px;color:#444;line-height:1.6;">
+          When your system starts showing the signs we mentioned, your next order should already be in transit. Most wearers order 2–3 weeks before they expect to need a replacement.
+        </p>
+      {%- endif -%}
+
+      {#-- Density refinement prompt for experienced wearers --#}
+      {%- if level == "experienced_wearer" and density -%}
+        <p style="margin:14px 0 6px 0;font-size:13px;color:#666;border-top:1px solid #e8e0d8;padding-top:14px;">
+          <strong>Current density on file:</strong> {{ density }}%
+          {%- if density | int < 80 -%}
+            — lighter density, good for natural look in strong light.
+          {%- elif density | int >= 80 and density | int <= 100 -%}
+            — medium density, the most versatile range.
+          {%- else -%}
+            — fuller density, suits thicker natural hair profiles.
+          {%- endif -%}
+        </p>
+        <p style="margin:6px 0 0 0;font-size:13px;color:#666;">Want to adjust density on your next order? <a href="{{ module.consultation_cta_url }}" style="color:#8b6f47;text-decoration:underline;">Let us know before you reorder.</a></p>
+      {%- endif -%}
+
+      {#-- First-system encouragement — only for first_system level --#}
+      {%- if level == "first_system" -%}
+        <p style="margin:14px 0 0 0;font-size:13px;color:#666;border-top:1px solid #e8e0d8;padding-top:14px;">First system? Most wearers feel noticeably more confident with their routine by week 3. If anything hasn't clicked yet, reply to this email — we'll sort it out.</p>
+      {%- endif -%}
+
+    </td>
+  </tr>
+</table>

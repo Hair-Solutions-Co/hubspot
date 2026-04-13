@@ -1,0 +1,764 @@
+[
+  {
+    "label": "Old Deals Pipeline",
+    "displayOrder": 0,
+    "id": "866559161",
+    "stages": [
+      {
+        "label": "Appointment Scheduled",
+        "displayOrder": 0,
+        "metadata": {
+          "isClosed": "false",
+          "probability": "0.2"
+        },
+        "id": "1296488757",
+        "createdAt": "2026-02-07T07:37:05.369Z",
+        "updatedAt": "2026-02-07T07:37:05.369Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Qualified To Buy",
+        "displayOrder": 1,
+        "metadata": {
+          "isClosed": "false",
+          "probability": "0.4"
+        },
+        "id": "1296488758",
+        "createdAt": "2026-02-07T07:37:05.369Z",
+        "updatedAt": "2026-02-07T07:37:05.369Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Presentation Scheduled",
+        "displayOrder": 2,
+        "metadata": {
+          "isClosed": "false",
+          "probability": "0.6"
+        },
+        "id": "1296488759",
+        "createdAt": "2026-02-07T07:37:05.369Z",
+        "updatedAt": "2026-02-07T07:37:05.369Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Decision Maker Bought-In",
+        "displayOrder": 3,
+        "metadata": {
+          "isClosed": "false",
+          "probability": "0.8"
+        },
+        "id": "1296488760",
+        "createdAt": "2026-02-07T07:37:05.369Z",
+        "updatedAt": "2026-02-07T07:37:05.369Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Contract Sent",
+        "displayOrder": 4,
+        "metadata": {
+          "isClosed": "false",
+          "probability": "0.9"
+        },
+        "id": "1296488761",
+        "createdAt": "2026-02-07T07:37:05.369Z",
+        "updatedAt": "2026-02-07T07:37:05.369Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Closed Won",
+        "displayOrder": 5,
+        "metadata": {
+          "isClosed": "true",
+          "probability": "1.0"
+        },
+        "id": "1296488762",
+        "createdAt": "2026-02-07T07:37:05.369Z",
+        "updatedAt": "2026-02-07T07:37:05.369Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Closed Lost",
+        "displayOrder": 6,
+        "metadata": {
+          "isClosed": "true",
+          "probability": "0.0"
+        },
+        "id": "1296488763",
+        "createdAt": "2026-02-07T07:37:05.369Z",
+        "updatedAt": "2026-02-07T07:37:05.369Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      }
+    ],
+    "createdAt": "2026-02-07T07:37:05.369Z",
+    "updatedAt": "2026-02-07T07:37:05.369Z",
+    "archived": false
+  },
+  {
+    "label": "Sales",
+    "displayOrder": 0,
+    "id": "882597223",
+    "stages": [
+      {
+        "label": "Decision Pending",
+        "displayOrder": 0,
+        "metadata": {
+          "isClosed": "false",
+          "probability": "0.4"
+        },
+        "id": "1325233956",
+        "createdAt": "2026-03-17T09:49:05.996Z",
+        "updatedAt": "2026-04-07T04:53:58.848Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Payment Pending",
+        "displayOrder": 1,
+        "metadata": {
+          "isClosed": "false",
+          "probability": "0.8"
+        },
+        "id": "1325233957",
+        "createdAt": "2026-03-17T09:49:05.996Z",
+        "updatedAt": "2026-04-07T04:53:58.848Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Closed Won",
+        "displayOrder": 2,
+        "metadata": {
+          "isClosed": "true",
+          "probability": "1.0"
+        },
+        "id": "1325233958",
+        "createdAt": "2026-03-17T09:49:05.996Z",
+        "updatedAt": "2026-04-07T04:53:58.848Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Closed Lost",
+        "displayOrder": 3,
+        "metadata": {
+          "isClosed": "true",
+          "probability": "0.0"
+        },
+        "id": "1325233963",
+        "createdAt": "2026-03-17T09:49:05.996Z",
+        "updatedAt": "2026-04-07T04:53:58.848Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Closed Deferred",
+        "displayOrder": 4,
+        "metadata": {
+          "isClosed": "true",
+          "probability": "0.0"
+        },
+        "id": "1325233960",
+        "createdAt": "2026-03-17T09:49:05.996Z",
+        "updatedAt": "2026-04-07T04:53:58.848Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      }
+    ],
+    "createdAt": "2026-03-17T09:49:05.996Z",
+    "updatedAt": "2026-04-07T04:53:58.848Z",
+    "archived": false
+  },
+  {
+    "label": "Deals pipeline",
+    "displayOrder": 0,
+    "id": "default",
+    "stages": [
+      {
+        "label": "Appointment Scheduled",
+        "displayOrder": 0,
+        "metadata": {
+          "isClosed": "false",
+          "probability": "0.2"
+        },
+        "id": "appointmentscheduled",
+        "createdAt": "2026-01-24T01:22:15.682Z",
+        "updatedAt": "2026-01-24T01:22:15.682Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Qualified To Buy",
+        "displayOrder": 1,
+        "metadata": {
+          "isClosed": "false",
+          "probability": "0.4"
+        },
+        "id": "qualifiedtobuy",
+        "createdAt": "2026-01-24T01:22:15.682Z",
+        "updatedAt": "2026-01-24T01:22:15.682Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Presentation Scheduled",
+        "displayOrder": 2,
+        "metadata": {
+          "isClosed": "false",
+          "probability": "0.6"
+        },
+        "id": "presentationscheduled",
+        "createdAt": "2026-01-24T01:22:15.682Z",
+        "updatedAt": "2026-01-24T01:22:15.682Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Decision Maker Bought-In",
+        "displayOrder": 3,
+        "metadata": {
+          "isClosed": "false",
+          "probability": "0.8"
+        },
+        "id": "decisionmakerboughtin",
+        "createdAt": "2026-01-24T01:22:15.682Z",
+        "updatedAt": "2026-01-24T01:22:15.682Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Contract Sent",
+        "displayOrder": 4,
+        "metadata": {
+          "isClosed": "false",
+          "probability": "0.9"
+        },
+        "id": "contractsent",
+        "createdAt": "2026-01-24T01:22:15.682Z",
+        "updatedAt": "2026-01-24T01:22:15.682Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Closed Won",
+        "displayOrder": 5,
+        "metadata": {
+          "isClosed": "true",
+          "probability": "1.0"
+        },
+        "id": "closedwon",
+        "createdAt": "2026-01-24T01:22:15.682Z",
+        "updatedAt": "2026-01-24T01:22:15.682Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Closed Lost",
+        "displayOrder": 6,
+        "metadata": {
+          "isClosed": "true",
+          "probability": "0.0"
+        },
+        "id": "closedlost",
+        "createdAt": "2026-01-24T01:22:15.682Z",
+        "updatedAt": "2026-01-24T01:22:15.682Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      }
+    ],
+    "createdAt": "1970-01-01T00:00:00Z",
+    "updatedAt": "2026-01-24T01:22:15.682Z",
+    "archived": false
+  },
+  {
+    "label": "Affiliate Agreement Pipeline",
+    "displayOrder": 0,
+    "id": "t_6bd0eba39e0a493c7548b788ce148032",
+    "stages": [
+      {
+        "label": "Agreement Initiated",
+        "displayOrder": 0,
+        "metadata": {
+          "isClosed": "false",
+          "probability": "0.1"
+        },
+        "id": "1295463943",
+        "createdAt": "2026-02-05T20:23:49.878Z",
+        "updatedAt": "2026-02-05T20:23:49.878Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Agreement Negotiation",
+        "displayOrder": 1,
+        "metadata": {
+          "isClosed": "false",
+          "probability": "0.3"
+        },
+        "id": "1295463944",
+        "createdAt": "2026-02-05T20:23:49.878Z",
+        "updatedAt": "2026-02-05T20:23:49.878Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Affiliate Link Received",
+        "displayOrder": 2,
+        "metadata": {
+          "isClosed": "false",
+          "probability": "0.6"
+        },
+        "id": "1295463945",
+        "createdAt": "2026-02-05T20:23:49.878Z",
+        "updatedAt": "2026-02-05T20:23:49.878Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Active Affiliate Partnership",
+        "displayOrder": 3,
+        "metadata": {
+          "isClosed": "false",
+          "probability": "0.9"
+        },
+        "id": "1295463946",
+        "createdAt": "2026-02-05T20:23:49.878Z",
+        "updatedAt": "2026-02-05T20:23:49.878Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Inactive Affiliate Partnership",
+        "displayOrder": 4,
+        "metadata": {
+          "isClosed": "true",
+          "probability": "0.0"
+        },
+        "id": "1295463947",
+        "createdAt": "2026-02-05T20:23:49.878Z",
+        "updatedAt": "2026-02-05T20:23:49.878Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      }
+    ],
+    "createdAt": "2026-02-05T20:23:49.878Z",
+    "updatedAt": "2026-02-05T20:23:49.878Z",
+    "archived": false
+  },
+  {
+    "label": "Plans",
+    "displayOrder": 1,
+    "id": "882654841",
+    "stages": [
+      {
+        "label": "Plan Inquiry",
+        "displayOrder": 0,
+        "metadata": {
+          "isClosed": "true",
+          "probability": "0.0"
+        },
+        "id": "1325232295",
+        "createdAt": "2026-03-17T09:49:20.814Z",
+        "updatedAt": "2026-03-17T09:49:20.802Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Consultation Completed",
+        "displayOrder": 1,
+        "metadata": {
+          "isClosed": "false",
+          "probability": "0.1"
+        },
+        "id": "1325232296",
+        "createdAt": "2026-03-17T09:49:20.814Z",
+        "updatedAt": "2026-03-17T09:49:20.802Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Plan Agreed",
+        "displayOrder": 2,
+        "metadata": {
+          "isClosed": "false",
+          "probability": "0.3"
+        },
+        "id": "1325232297",
+        "createdAt": "2026-03-17T09:49:20.814Z",
+        "updatedAt": "2026-03-17T09:49:20.802Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Unit 1 Deposit Paid",
+        "displayOrder": 3,
+        "metadata": {
+          "isClosed": "false",
+          "probability": "0.4"
+        },
+        "id": "1325232298",
+        "createdAt": "2026-03-17T09:49:20.814Z",
+        "updatedAt": "2026-03-17T09:49:20.802Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Unit 1 In Production",
+        "displayOrder": 4,
+        "metadata": {
+          "isClosed": "false",
+          "probability": "0.5"
+        },
+        "id": "1325232299",
+        "createdAt": "2026-03-17T09:49:20.814Z",
+        "updatedAt": "2026-03-17T09:49:20.802Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Unit 1 Delivered",
+        "displayOrder": 5,
+        "metadata": {
+          "isClosed": "false",
+          "probability": "0.6"
+        },
+        "id": "1325232300",
+        "createdAt": "2026-03-17T09:49:20.814Z",
+        "updatedAt": "2026-03-17T09:49:20.802Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Unit 2 Scheduled",
+        "displayOrder": 6,
+        "metadata": {
+          "isClosed": "false",
+          "probability": "0.65"
+        },
+        "id": "1325232301",
+        "createdAt": "2026-03-17T09:49:20.814Z",
+        "updatedAt": "2026-03-17T09:49:20.802Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Unit 2 In Production",
+        "displayOrder": 7,
+        "metadata": {
+          "isClosed": "false",
+          "probability": "0.7"
+        },
+        "id": "1325232302",
+        "createdAt": "2026-03-17T09:49:20.814Z",
+        "updatedAt": "2026-03-17T09:49:20.802Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Unit 2 Delivered",
+        "displayOrder": 8,
+        "metadata": {
+          "isClosed": "false",
+          "probability": "0.75"
+        },
+        "id": "1325232303",
+        "createdAt": "2026-03-17T09:49:20.814Z",
+        "updatedAt": "2026-03-17T09:49:20.802Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Unit 3 In Production",
+        "displayOrder": 9,
+        "metadata": {
+          "isClosed": "false",
+          "probability": "0.8"
+        },
+        "id": "1325232304",
+        "createdAt": "2026-03-17T09:49:20.814Z",
+        "updatedAt": "2026-03-17T09:49:20.802Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Unit 3 Delivered",
+        "displayOrder": 10,
+        "metadata": {
+          "isClosed": "false",
+          "probability": "0.85"
+        },
+        "id": "1325232305",
+        "createdAt": "2026-03-17T09:49:20.814Z",
+        "updatedAt": "2026-03-17T09:49:20.802Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Unit 4 In Production",
+        "displayOrder": 11,
+        "metadata": {
+          "isClosed": "false",
+          "probability": "0.88"
+        },
+        "id": "1325321640",
+        "createdAt": "2026-03-17T09:49:20.814Z",
+        "updatedAt": "2026-03-17T09:49:20.802Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Unit 4 Delivered",
+        "displayOrder": 12,
+        "metadata": {
+          "isClosed": "false",
+          "probability": "0.9"
+        },
+        "id": "1325321641",
+        "createdAt": "2026-03-17T09:49:20.814Z",
+        "updatedAt": "2026-03-17T09:49:20.802Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Unit 5 In Production",
+        "displayOrder": 13,
+        "metadata": {
+          "isClosed": "false",
+          "probability": "0.92"
+        },
+        "id": "1325321642",
+        "createdAt": "2026-03-17T09:49:20.814Z",
+        "updatedAt": "2026-03-17T09:49:20.802Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Unit 5 Delivered",
+        "displayOrder": 14,
+        "metadata": {
+          "isClosed": "false",
+          "probability": "0.94"
+        },
+        "id": "1325321643",
+        "createdAt": "2026-03-17T09:49:20.814Z",
+        "updatedAt": "2026-03-17T09:49:20.802Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Unit 6 In Production",
+        "displayOrder": 15,
+        "metadata": {
+          "isClosed": "false",
+          "probability": "0.96"
+        },
+        "id": "1325321644",
+        "createdAt": "2026-03-17T09:49:20.814Z",
+        "updatedAt": "2026-03-17T09:49:20.802Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Unit 6 Delivered",
+        "displayOrder": 16,
+        "metadata": {
+          "isClosed": "false",
+          "probability": "0.98"
+        },
+        "id": "1325321645",
+        "createdAt": "2026-03-17T09:49:20.814Z",
+        "updatedAt": "2026-03-17T09:49:20.802Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Plan Complete / Closed Won",
+        "displayOrder": 17,
+        "metadata": {
+          "isClosed": "true",
+          "probability": "1.0"
+        },
+        "id": "1325321646",
+        "createdAt": "2026-03-17T09:49:20.814Z",
+        "updatedAt": "2026-03-17T09:49:20.802Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Plan Cancelled",
+        "displayOrder": 18,
+        "metadata": {
+          "isClosed": "true",
+          "probability": "0.0"
+        },
+        "id": "1325321647",
+        "createdAt": "2026-03-17T09:49:20.814Z",
+        "updatedAt": "2026-03-17T09:49:20.802Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      }
+    ],
+    "createdAt": "2026-03-17T09:49:20.814Z",
+    "updatedAt": "2026-03-17T09:49:20.814Z",
+    "archived": false
+  },
+  {
+    "label": "Shopify Orders",
+    "displayOrder": 2,
+    "id": "882654842",
+    "stages": [
+      {
+        "label": "New",
+        "displayOrder": 0,
+        "metadata": {
+          "isClosed": "true",
+          "probability": "0.0"
+        },
+        "id": "1325321648",
+        "createdAt": "2026-03-17T09:49:32.875Z",
+        "updatedAt": "2026-03-17T09:49:32.863Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Payment Received",
+        "displayOrder": 1,
+        "metadata": {
+          "isClosed": "false",
+          "probability": "0.1"
+        },
+        "id": "1325321649",
+        "createdAt": "2026-03-17T09:49:32.875Z",
+        "updatedAt": "2026-03-17T09:49:32.863Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Processing",
+        "displayOrder": 2,
+        "metadata": {
+          "isClosed": "false",
+          "probability": "0.2"
+        },
+        "id": "1325321650",
+        "createdAt": "2026-03-17T09:49:32.875Z",
+        "updatedAt": "2026-03-17T09:49:32.863Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "PO Sent to Factory",
+        "displayOrder": 3,
+        "metadata": {
+          "isClosed": "false",
+          "probability": "0.4"
+        },
+        "id": "1325321651",
+        "createdAt": "2026-03-17T09:49:32.875Z",
+        "updatedAt": "2026-03-17T09:49:32.863Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "In Production",
+        "displayOrder": 4,
+        "metadata": {
+          "isClosed": "false",
+          "probability": "0.6"
+        },
+        "id": "1325321652",
+        "createdAt": "2026-03-17T09:49:32.875Z",
+        "updatedAt": "2026-03-17T09:49:32.863Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Quality Check",
+        "displayOrder": 5,
+        "metadata": {
+          "isClosed": "false",
+          "probability": "0.7"
+        },
+        "id": "1325321653",
+        "createdAt": "2026-03-17T09:49:32.875Z",
+        "updatedAt": "2026-03-17T09:49:32.863Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Shipped",
+        "displayOrder": 6,
+        "metadata": {
+          "isClosed": "false",
+          "probability": "0.85"
+        },
+        "id": "1325321654",
+        "createdAt": "2026-03-17T09:49:32.875Z",
+        "updatedAt": "2026-03-17T09:49:32.863Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Delivered",
+        "displayOrder": 7,
+        "metadata": {
+          "isClosed": "false",
+          "probability": "0.95"
+        },
+        "id": "1325321655",
+        "createdAt": "2026-03-17T09:49:32.875Z",
+        "updatedAt": "2026-03-17T09:49:32.863Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Fulfilled",
+        "displayOrder": 8,
+        "metadata": {
+          "isClosed": "true",
+          "probability": "1.0"
+        },
+        "id": "1325321656",
+        "createdAt": "2026-03-17T09:49:32.875Z",
+        "updatedAt": "2026-03-17T09:49:32.863Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Cancelled",
+        "displayOrder": 9,
+        "metadata": {
+          "isClosed": "true",
+          "probability": "0.0"
+        },
+        "id": "1325321657",
+        "createdAt": "2026-03-17T09:49:32.875Z",
+        "updatedAt": "2026-03-17T09:49:32.863Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      },
+      {
+        "label": "Refunded",
+        "displayOrder": 10,
+        "metadata": {
+          "isClosed": "true",
+          "probability": "0.0"
+        },
+        "id": "1325321728",
+        "createdAt": "2026-03-17T09:49:32.875Z",
+        "updatedAt": "2026-03-17T09:49:32.863Z",
+        "writePermissions": "CRM_PERMISSIONS_ENFORCEMENT",
+        "archived": false
+      }
+    ],
+    "createdAt": "2026-03-17T09:49:32.875Z",
+    "updatedAt": "2026-03-17T09:49:32.875Z",
+    "archived": false
+  }
+]

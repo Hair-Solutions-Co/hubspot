@@ -1,0 +1,1635 @@
+[
+  {
+    "name": "hs_bundle_id",
+    "label": "Bundle",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "bundleinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "associated bundle Product",
+    "options": []
+  },
+  {
+    "name": "hs_is_parent",
+    "label": "Is parent",
+    "type": "bool",
+    "fieldType": "calculation_equation",
+    "groupName": "bundleinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Whether or not this LineItem has child LineItems associated with it",
+    "options": []
+  },
+  {
+    "name": "hs_line_item_group_config_id",
+    "label": "Line item group config id",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "bundleinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The ID of a Line Item Group Config ",
+    "options": []
+  },
+  {
+    "name": "hs_line_item_group_instance_key",
+    "label": "Line item group instance key",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "bundleinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Instance ID of a Line Item Group",
+    "options": []
+  },
+  {
+    "name": "hs_num_child_line_items",
+    "label": "Number of child Line Items",
+    "type": "number",
+    "fieldType": "calculation_rollup",
+    "groupName": "bundleinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Count of the child Line Items associated with this Line Item",
+    "options": []
+  },
+  {
+    "name": "hs_parent_line_item_id",
+    "label": "Parent Line Item ID",
+    "type": "number",
+    "fieldType": "calculation_rollup",
+    "groupName": "bundleinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Reference to the parent LineItem (for nested LineItems)",
+    "options": []
+  },
+  {
+    "name": "createdate",
+    "label": "Create date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "lineiteminformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date the line item was created",
+    "options": []
+  },
+  {
+    "name": "description",
+    "label": "Description",
+    "type": "string",
+    "fieldType": "textarea",
+    "groupName": "lineiteminformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Full description of product",
+    "options": []
+  },
+  {
+    "name": "hs_all_accessible_team_ids",
+    "label": "All teams",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "lineiteminformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The team IDs, including the team hierarchy, of all default and custom owner properties for this record.",
+    "options": []
+  },
+  {
+    "name": "hs_all_assigned_business_unit_ids",
+    "label": "Business units",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "lineiteminformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The business units this record is assigned to.",
+    "options": []
+  },
+  {
+    "name": "hs_all_owner_ids",
+    "label": "All owner IDs",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "lineiteminformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Values of all default and custom owner properties for this record.",
+    "options": []
+  },
+  {
+    "name": "hs_all_team_ids",
+    "label": "All team IDs",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "lineiteminformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The team IDs of all default and custom owner properties for this record.",
+    "options": []
+  },
+  {
+    "name": "hs_allow_buyer_selected_quantity",
+    "label": "Allow buyer selected quantity",
+    "type": "enumeration",
+    "fieldType": "booleancheckbox",
+    "groupName": "lineiteminformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Whether buyer selected quantity is to be enabled or not for a LineItem",
+    "options": [
+      {
+        "label": "Yes",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "No",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_buyer_selected_quantity_max",
+    "label": "Buyer selected quantity maximum",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "lineiteminformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "",
+    "options": []
+  },
+  {
+    "name": "hs_buyer_selected_quantity_min",
+    "label": "Buyer selected quantity minimum",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "lineiteminformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "",
+    "options": []
+  },
+  {
+    "name": "hs_created_by_user_id",
+    "label": "Created by user ID",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "lineiteminformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The user who created this record. This value is set automatically by HubSpot.",
+    "options": []
+  },
+  {
+    "name": "hs_createdate",
+    "label": "Object create date/time",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "lineiteminformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time at which this object was created. This value is automatically set by HubSpot and may not be modified.",
+    "options": []
+  },
+  {
+    "name": "hs_external_id",
+    "label": "External line item id",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "lineiteminformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The ID of a line item",
+    "options": []
+  },
+  {
+    "name": "hs_group_key",
+    "label": "Group key",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "lineiteminformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Grouped line items are related line item segments",
+    "options": []
+  },
+  {
+    "name": "hs_images",
+    "label": "Image URL",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "lineiteminformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Product images.",
+    "options": []
+  },
+  {
+    "name": "hs_is_optional",
+    "label": "Is optional",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "lineiteminformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "",
+    "options": [
+      {
+        "label": "Yes",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "No",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_lastmodifieddate",
+    "label": "Last Modified Date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "lineiteminformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date any property on this product was modified",
+    "options": []
+  },
+  {
+    "name": "hs_line_item_currency_code",
+    "label": "Currency",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "lineiteminformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Currency code for the line item.",
+    "options": []
+  },
+  {
+    "name": "hs_locked",
+    "label": "Locked",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "lineiteminformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "True if this line item is locked and cannot be modified",
+    "options": [
+      {
+        "label": "Yes",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "No",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_merged_object_ids",
+    "label": "Merged record IDs",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "lineiteminformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The list of record IDs that have been merged into this record. This value is set automatically by HubSpot.",
+    "options": []
+  },
+  {
+    "name": "hs_object_id",
+    "label": "Record ID",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "lineiteminformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The unique ID for this record. This value is set automatically by HubSpot.",
+    "options": []
+  },
+  {
+    "name": "hs_object_source",
+    "label": "Record creation source",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "lineiteminformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Raw internal PropertySource present in the RequestMeta when this record was created.",
+    "options": []
+  },
+  {
+    "name": "hs_object_source_detail_1",
+    "label": "Record source detail 1",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "lineiteminformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "First level of detail on how this record was created.",
+    "options": []
+  },
+  {
+    "name": "hs_object_source_detail_2",
+    "label": "Record source detail 2",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "lineiteminformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Second level of detail on how this record was created.",
+    "options": []
+  },
+  {
+    "name": "hs_object_source_detail_3",
+    "label": "Record source detail 3",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "lineiteminformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Third level of detail on how this record was created.",
+    "options": []
+  },
+  {
+    "name": "hs_object_source_id",
+    "label": "Record creation source ID",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "lineiteminformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Raw internal sourceId present in the RequestMeta when this record was created.",
+    "options": []
+  },
+  {
+    "name": "hs_object_source_label",
+    "label": "Record source",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "lineiteminformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "How this record was created.",
+    "options": []
+  },
+  {
+    "name": "hs_object_source_user_id",
+    "label": "Record creation source user ID",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "lineiteminformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Raw internal userId present in the RequestMeta when this record was created.",
+    "options": []
+  },
+  {
+    "name": "hs_origin_key",
+    "label": "Origin key",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "lineiteminformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Identifier to track the origin of the Line Item",
+    "options": []
+  },
+  {
+    "name": "hs_owning_teams",
+    "label": "Owning Teams",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "lineiteminformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The teams that are attributed to this record.",
+    "options": []
+  },
+  {
+    "name": "hs_parent_object_type_id",
+    "label": "Parent Object Type Id",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "lineiteminformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Object type id of the parent object",
+    "options": []
+  },
+  {
+    "name": "hs_pinned_engagement_id",
+    "label": "Pinned engagement ID",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "lineiteminformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The object ID of the current pinned engagement. This will only be shown in the app if there is already an association to the engagement.",
+    "options": []
+  },
+  {
+    "name": "hs_position_on_quote",
+    "label": "Position on quote",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "lineiteminformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The order which the line item appears on the quotes",
+    "options": []
+  },
+  {
+    "name": "hs_product_id",
+    "label": "Product",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "lineiteminformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "ID of the product this was copied from",
+    "options": []
+  },
+  {
+    "name": "hs_product_type",
+    "label": "Product type",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "lineiteminformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The type of product. By default, categorize your product as either Inventory, Non-Inventory or Service.",
+    "options": [
+      {
+        "label": "Inventory",
+        "value": "inventory",
+        "displayOrder": 0
+      },
+      {
+        "label": "Non-Inventory",
+        "value": "non_inventory",
+        "displayOrder": 1
+      },
+      {
+        "label": "Service",
+        "value": "service",
+        "displayOrder": 2
+      }
+    ]
+  },
+  {
+    "name": "hs_prorating_scale",
+    "label": "Prorating scale",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "lineiteminformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Prorating scale multiplier",
+    "options": []
+  },
+  {
+    "name": "hs_ramp_key",
+    "label": "Ramp key",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "lineiteminformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Logical grouping for ramped line items",
+    "options": []
+  },
+  {
+    "name": "hs_read_only",
+    "label": "Read only object",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "lineiteminformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Determines whether a record can be edited by a user.",
+    "options": [
+      {
+        "label": "True",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "False",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_rich_text_description",
+    "label": "Line Item Description",
+    "type": "string",
+    "fieldType": "html",
+    "groupName": "lineiteminformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Full description of product with rich text formatting",
+    "options": []
+  },
+  {
+    "name": "hs_shared_team_ids",
+    "label": "Shared teams",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "lineiteminformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Additional teams whose users can access the record based on their permissions. This can be set manually or through Workflows or APIs.",
+    "options": []
+  },
+  {
+    "name": "hs_shared_user_ids",
+    "label": "Shared users",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "lineiteminformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Additional users that can access the record based on their permissions. This can be set manually or through Workflows and APIs.",
+    "options": []
+  },
+  {
+    "name": "hs_sku",
+    "label": "SKU",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "lineiteminformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Unique product identifier",
+    "options": []
+  },
+  {
+    "name": "hs_sync_amount",
+    "label": "Sync amount",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "lineiteminformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The amount set by Ecommerce sync",
+    "options": []
+  },
+  {
+    "name": "hs_tax_category",
+    "label": "Tax category",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "lineiteminformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The tax category used to determine what amount of tax to automatically apply to this line item",
+    "options": []
+  },
+  {
+    "name": "hs_unique_creation_key",
+    "label": "Unique creation key",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "lineiteminformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Unique property used for idempotent creates",
+    "options": []
+  },
+  {
+    "name": "hs_updated_by_user_id",
+    "label": "Updated by user ID",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "lineiteminformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The user who last updated this record. This value is set automatically by HubSpot.",
+    "options": []
+  },
+  {
+    "name": "hs_url",
+    "label": "URL",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "lineiteminformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Product url.",
+    "options": []
+  },
+  {
+    "name": "hs_use_prorating",
+    "label": "Use prorating",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "lineiteminformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Opt in to prorating calculation",
+    "options": [
+      {
+        "label": "Yes",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "No",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_user_ids_of_all_notification_followers",
+    "label": "User IDs of all notification followers",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "lineiteminformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The user IDs of all users that have clicked follow within the object to opt-in to getting follow notifications",
+    "options": []
+  },
+  {
+    "name": "hs_user_ids_of_all_notification_unfollowers",
+    "label": "User IDs of all notification unfollowers",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "lineiteminformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The user IDs of all object owners that have clicked unfollow within the object to opt-out of getting follow notifications",
+    "options": []
+  },
+  {
+    "name": "hs_user_ids_of_all_owners",
+    "label": "User IDs of all owners",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "lineiteminformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The user IDs of all owners of this record.",
+    "options": []
+  },
+  {
+    "name": "hs_variant_id",
+    "label": "Variant id of the product",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "lineiteminformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Variant id of the shopify product",
+    "options": []
+  },
+  {
+    "name": "hs_was_imported",
+    "label": "Performed in an import",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "lineiteminformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Object is part of an import",
+    "options": [
+      {
+        "label": "True",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "False",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hubspot_owner_assigneddate",
+    "label": "Owner assigned date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "lineiteminformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The most recent timestamp of when an owner was assigned to this record. This value is set automatically by HubSpot.",
+    "options": []
+  },
+  {
+    "name": "hubspot_owner_id",
+    "label": "Owner",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "lineiteminformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The owner of the object.",
+    "options": []
+  },
+  {
+    "name": "hubspot_team_id",
+    "label": "Owner's main team",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "lineiteminformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The main team of the record owner. This value is set automatically by HubSpot.",
+    "options": []
+  },
+  {
+    "name": "name",
+    "label": "Name",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "lineiteminformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Product name",
+    "options": []
+  },
+  {
+    "name": "amount",
+    "label": "Net price",
+    "type": "number",
+    "fieldType": "calculation_equation",
+    "groupName": "price",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The amount of a line item",
+    "options": []
+  },
+  {
+    "name": "discount",
+    "label": "Unit discount",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "price",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The discount amount applied",
+    "options": []
+  },
+  {
+    "name": "hs_acv",
+    "label": "Annual contract value",
+    "type": "number",
+    "fieldType": "calculation_equation",
+    "groupName": "price",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The annual contract value (ACV) of this product",
+    "options": []
+  },
+  {
+    "name": "hs_arr",
+    "label": "Annual recurring revenue",
+    "type": "number",
+    "fieldType": "calculation_equation",
+    "groupName": "price",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The annual recurring revenue (ARR) of this product",
+    "options": []
+  },
+  {
+    "name": "hs_auto_tax_amount",
+    "label": "Automatic tax amount",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "price",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The amount of tax automatically calculated for this line item by an external system",
+    "options": []
+  },
+  {
+    "name": "hs_cost_of_goods_sold",
+    "label": "Unit cost",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "price",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The amount that sold goods cost the HubSpot customer",
+    "options": []
+  },
+  {
+    "name": "hs_discount_percentage",
+    "label": "Discount percentage",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "price",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The discount percentage applied",
+    "options": []
+  },
+  {
+    "name": "hs_effective_unit_price",
+    "label": "Effective unit price",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "price",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Price that gets applied to this line item when volume tier pricing is used",
+    "options": []
+  },
+  {
+    "name": "hs_external_tax_rate_id",
+    "label": "External tax rate ID",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "price",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The unique identifier in the external system (e.g., Xero) from where the TaxRate was imported.",
+    "options": []
+  },
+  {
+    "name": "hs_is_editable_price",
+    "label": "Is editable price",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "price",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "",
+    "options": [
+      {
+        "label": "Yes",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "No",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_margin",
+    "label": "Margin",
+    "type": "number",
+    "fieldType": "calculation_equation",
+    "groupName": "price",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The margin value of this product",
+    "options": []
+  },
+  {
+    "name": "hs_margin_acv",
+    "label": "Annual contract value margin",
+    "type": "number",
+    "fieldType": "calculation_equation",
+    "groupName": "price",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The margin annual contract value of this product",
+    "options": []
+  },
+  {
+    "name": "hs_margin_arr",
+    "label": "Annual recurring revenue margin",
+    "type": "number",
+    "fieldType": "calculation_equation",
+    "groupName": "price",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The margin annual recurring revenue of this product",
+    "options": []
+  },
+  {
+    "name": "hs_margin_mrr",
+    "label": "Monthly recurring revenue margin",
+    "type": "number",
+    "fieldType": "calculation_equation",
+    "groupName": "price",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The margin monthly recurring revenue of this product",
+    "options": []
+  },
+  {
+    "name": "hs_margin_tcv",
+    "label": "Total contract value margin",
+    "type": "number",
+    "fieldType": "calculation_equation",
+    "groupName": "price",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The margin total contract value of this product",
+    "options": []
+  },
+  {
+    "name": "hs_mrr",
+    "label": "Monthly recurring revenue",
+    "type": "number",
+    "fieldType": "calculation_equation",
+    "groupName": "price",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The monthly recurring revenue (MRR) of this product",
+    "options": []
+  },
+  {
+    "name": "hs_post_tax_amount",
+    "label": "Net price after tax",
+    "type": "number",
+    "fieldType": "calculation_equation",
+    "groupName": "price",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Amount of line item after applying tax",
+    "options": []
+  },
+  {
+    "name": "hs_pre_discount_amount",
+    "label": "Pre discount amount",
+    "type": "number",
+    "fieldType": "calculation_equation",
+    "groupName": "price",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The pre-discount amount of a line item",
+    "options": []
+  },
+  {
+    "name": "hs_price_book_id",
+    "label": "Price Book Identifier",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "price",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Price book this line item is made out of",
+    "options": []
+  },
+  {
+    "name": "hs_pricing_model",
+    "label": "Pricing model",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "price",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Defines the pricing model as either 'flat' or one of three tiered options",
+    "options": [
+      {
+        "label": "Flat",
+        "value": "flat",
+        "displayOrder": 0
+      },
+      {
+        "label": "Volume-based",
+        "value": "volume",
+        "displayOrder": 1
+      },
+      {
+        "label": "Stair-step",
+        "value": "stairstep",
+        "displayOrder": 2
+      },
+      {
+        "label": "Graduated",
+        "value": "graduated",
+        "displayOrder": 3
+      }
+    ]
+  },
+  {
+    "name": "hs_recurring_billing_number_of_payments",
+    "label": "Number of payments",
+    "type": "number",
+    "fieldType": "calculation_equation",
+    "groupName": "price",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Number of payments for the given period on a Line Item",
+    "options": []
+  },
+  {
+    "name": "hs_recurring_billing_terms",
+    "label": "Billing terms",
+    "type": "enumeration",
+    "fieldType": "calculation_equation",
+    "groupName": "price",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "If there are fixed number payments or it goes on until canceled",
+    "options": [
+      {
+        "label": "Fixed number of payments",
+        "value": "FIXED",
+        "displayOrder": 0
+      },
+      {
+        "label": "Automatically renew until canceled",
+        "value": "AUTOMATICALLY_RENEW",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_tax_amount",
+    "label": "Tax amount",
+    "type": "number",
+    "fieldType": "calculation_equation",
+    "groupName": "price",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Amount of tax calculated based on tax rate for this line item",
+    "options": []
+  },
+  {
+    "name": "hs_tax_assessed",
+    "label": "Tax assessed",
+    "type": "bool",
+    "fieldType": "calculation_equation",
+    "groupName": "price",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Indicates whether the line item is tax assessed",
+    "options": [
+      {
+        "label": "Yes",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "No",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_tax_label",
+    "label": "Tax label",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "price",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Name of the tax associated with this line item",
+    "options": []
+  },
+  {
+    "name": "hs_tax_rate",
+    "label": "Resolved tax rate",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "price",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Represents tax rate as percent out of 100. Supports up to 4 decimal places",
+    "options": []
+  },
+  {
+    "name": "hs_tax_rate_group_id",
+    "label": "Tax rate",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "price",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The tax rate used on this line item",
+    "options": []
+  },
+  {
+    "name": "hs_tcv",
+    "label": "Total contract value",
+    "type": "number",
+    "fieldType": "calculation_equation",
+    "groupName": "price",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The total contract value (TCV) of this product",
+    "options": []
+  },
+  {
+    "name": "hs_term_in_months",
+    "label": "Term in months",
+    "type": "number",
+    "fieldType": "calculation_equation",
+    "groupName": "price",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The number of months in the term of this product",
+    "options": []
+  },
+  {
+    "name": "hs_tier_amount",
+    "label": "Tiered pricing amount",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "price",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The total amount based on tiered pricing",
+    "options": []
+  },
+  {
+    "name": "hs_tier_prices",
+    "label": "Tier prices",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "price",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Tier Prices",
+    "options": []
+  },
+  {
+    "name": "hs_tier_ranges",
+    "label": "Tier ranges",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "price",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Tier Ranges",
+    "options": []
+  },
+  {
+    "name": "hs_total_discount",
+    "label": "Calculated total discount",
+    "type": "number",
+    "fieldType": "calculation_equation",
+    "groupName": "price",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Calculated total Discount for the line item taking in consideration the flat amount and discount percentage.",
+    "options": []
+  },
+  {
+    "name": "hs_unscaled_amount",
+    "label": "Unscaled amount",
+    "type": "number",
+    "fieldType": "calculation_equation",
+    "groupName": "price",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Amount without prorating scaling",
+    "options": []
+  },
+  {
+    "name": "hs_unscaled_pre_discount_amount",
+    "label": "Unscaled pre discount amount",
+    "type": "number",
+    "fieldType": "calculation_equation",
+    "groupName": "price",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Pre discount amount without prorating scaling",
+    "options": []
+  },
+  {
+    "name": "hs_unscaled_total_discount",
+    "label": "Unscaled total discount",
+    "type": "number",
+    "fieldType": "calculation_equation",
+    "groupName": "price",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Total discount without prorating scaling",
+    "options": []
+  },
+  {
+    "name": "price",
+    "label": "Unit price",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "price",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Cost of product",
+    "options": []
+  },
+  {
+    "name": "quantity",
+    "label": "Quantity",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "price",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "How many units of a product are in this line item",
+    "options": []
+  },
+  {
+    "name": "recurringbillingfrequency",
+    "label": "Billing frequency",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "price",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "How often a line item with recurring billing is billed. It informs the pricing calculation for deals and quotes. Line items with one-time billing aren\u2019t included.",
+    "options": [
+      {
+        "label": "Weekly",
+        "value": "weekly",
+        "displayOrder": 0
+      },
+      {
+        "label": "Every two weeks",
+        "value": "biweekly",
+        "displayOrder": 1
+      },
+      {
+        "label": "Monthly",
+        "value": "monthly",
+        "displayOrder": 2
+      },
+      {
+        "label": "Quarterly",
+        "value": "quarterly",
+        "displayOrder": 3
+      },
+      {
+        "label": "Semi-annually",
+        "value": "per_six_months",
+        "displayOrder": 4
+      },
+      {
+        "label": "Annually",
+        "value": "annually",
+        "displayOrder": 5
+      },
+      {
+        "label": "Every two years",
+        "value": "per_two_years",
+        "displayOrder": 6
+      },
+      {
+        "label": "Every three years",
+        "value": "per_three_years",
+        "displayOrder": 7
+      },
+      {
+        "label": "Every four years",
+        "value": "per_four_years",
+        "displayOrder": 8
+      },
+      {
+        "label": "Every five years",
+        "value": "per_five_years",
+        "displayOrder": 9
+      }
+    ]
+  },
+  {
+    "name": "tax",
+    "label": "Tax",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "price",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The tax amount applied",
+    "options": []
+  },
+  {
+    "name": "hs_billing_cycle_anchor_date",
+    "label": "Billing cycle anchor date",
+    "type": "date",
+    "fieldType": "date",
+    "groupName": "term",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Preserves the original recurring billing cycle start date",
+    "options": []
+  },
+  {
+    "name": "hs_billing_period_end_date",
+    "label": "Billing period end date",
+    "type": "date",
+    "fieldType": "date",
+    "groupName": "term",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "End date of a fixed billing period.",
+    "options": []
+  },
+  {
+    "name": "hs_billing_period_start_date",
+    "label": "Billing period start date",
+    "type": "date",
+    "fieldType": "date",
+    "groupName": "term",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Start date of a fixed billing period.",
+    "options": []
+  },
+  {
+    "name": "hs_billing_start_delay_days",
+    "label": "Delayed billing start by days",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "term",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Number of days billing should be delayed by. It allows the customers to start billing sometime in the future",
+    "options": []
+  },
+  {
+    "name": "hs_billing_start_delay_months",
+    "label": "Delayed billing start by months",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "term",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Number of months billing should be delayed by. It allows the customers to start billing sometime in the future.",
+    "options": []
+  },
+  {
+    "name": "hs_billing_start_delay_type",
+    "label": "Start billing terms",
+    "type": "enumeration",
+    "fieldType": "calculation_equation",
+    "groupName": "term",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The type of billing start delay. It can be a fixed date in the future, relative delay in number of days or months",
+    "options": [
+      {
+        "label": "Custom Date",
+        "value": "hs_recurring_billing_start_date",
+        "displayOrder": 0
+      },
+      {
+        "label": "Delayed start (days)",
+        "value": "hs_billing_start_delay_days",
+        "displayOrder": 1
+      },
+      {
+        "label": "Delayed start (months)",
+        "value": "hs_billing_start_delay_months",
+        "displayOrder": 2
+      }
+    ]
+  },
+  {
+    "name": "hs_has_prorating_leading",
+    "label": "Has leading prorating",
+    "type": "bool",
+    "fieldType": "calculation_equation",
+    "groupName": "term",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Indicates whether the line item includes a leading prorated part",
+    "options": [
+      {
+        "label": "Yes",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "No",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_has_prorating_trailing",
+    "label": "Has trailing prorating",
+    "type": "bool",
+    "fieldType": "calculation_equation",
+    "groupName": "term",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Indicates whether the line item includes a trailing prorated part",
+    "options": [
+      {
+        "label": "Yes",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "No",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_prorating_leading_amount",
+    "label": "Leading prorating amount",
+    "type": "number",
+    "fieldType": "calculation_equation",
+    "groupName": "term",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Leading prorating amount of line item",
+    "options": []
+  },
+  {
+    "name": "hs_prorating_leading_end_date",
+    "label": "prorating leading end date",
+    "type": "date",
+    "fieldType": "date",
+    "groupName": "term",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "end of prorated period before recurring billing",
+    "options": []
+  },
+  {
+    "name": "hs_prorating_leading_post_tax_amount",
+    "label": "Leading prorating post tax amount",
+    "type": "number",
+    "fieldType": "calculation_equation",
+    "groupName": "term",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Leading prorating amount of line item after applying tax",
+    "options": []
+  },
+  {
+    "name": "hs_prorating_leading_scale",
+    "label": "prorating leading scale",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "term",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "percentage of full billing period covered by leading prorating",
+    "options": []
+  },
+  {
+    "name": "hs_prorating_leading_start_date",
+    "label": "prorating leading start date",
+    "type": "date",
+    "fieldType": "date",
+    "groupName": "term",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "start of prorated period before recurring billing",
+    "options": []
+  },
+  {
+    "name": "hs_prorating_leading_tax_amount",
+    "label": "prorating leading tax amount",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "term",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "tax amount for leading prorating",
+    "options": []
+  },
+  {
+    "name": "hs_prorating_leading_term_length",
+    "label": "prorating leading term length",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "term",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "term length of leading prorating, in Java Period format",
+    "options": []
+  },
+  {
+    "name": "hs_prorating_trailing_amount",
+    "label": "Trailing prorating amount",
+    "type": "number",
+    "fieldType": "calculation_equation",
+    "groupName": "term",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Trailing prorating amount of line item",
+    "options": []
+  },
+  {
+    "name": "hs_prorating_trailing_end_date",
+    "label": "prorating trailing end date",
+    "type": "date",
+    "fieldType": "date",
+    "groupName": "term",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "end of prorated period after recurring billing",
+    "options": []
+  },
+  {
+    "name": "hs_prorating_trailing_post_tax_amount",
+    "label": "Trailing prorating post tax amount",
+    "type": "number",
+    "fieldType": "calculation_equation",
+    "groupName": "term",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Trailing prorating amount of line item after applying tax",
+    "options": []
+  },
+  {
+    "name": "hs_prorating_trailing_scale",
+    "label": "prorating trailing scale",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "term",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "percentage of full billing period covered by trailing prorating",
+    "options": []
+  },
+  {
+    "name": "hs_prorating_trailing_start_date",
+    "label": "prorating trailing start date",
+    "type": "date",
+    "fieldType": "date",
+    "groupName": "term",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "start of prorated period after recurring billing",
+    "options": []
+  },
+  {
+    "name": "hs_prorating_trailing_tax_amount",
+    "label": "prorating trailing tax amount",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "term",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "tax amount for trailing prorating",
+    "options": []
+  },
+  {
+    "name": "hs_prorating_trailing_term_length",
+    "label": "prorating trailing term length",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "term",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "term length of trailing prorating, in Java Period format",
+    "options": []
+  },
+  {
+    "name": "hs_recurring_billing_day_of_month",
+    "label": "Recurring billing day of month",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "term",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Day of month to be used for recurring bills",
+    "options": []
+  },
+  {
+    "name": "hs_recurring_billing_end_date",
+    "label": "Billing end date",
+    "type": "date",
+    "fieldType": "calculation_read_time",
+    "groupName": "term",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Recurring billing end date for a line item",
+    "options": []
+  },
+  {
+    "name": "hs_recurring_billing_period",
+    "label": "Term",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "term",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Product recurring billing duration",
+    "options": []
+  },
+  {
+    "name": "hs_recurring_billing_start_date",
+    "label": "Billing start date",
+    "type": "date",
+    "fieldType": "date",
+    "groupName": "term",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Recurring billing start date for a line item",
+    "options": []
+  }
+]

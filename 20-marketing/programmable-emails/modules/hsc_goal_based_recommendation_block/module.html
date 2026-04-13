@@ -1,0 +1,172 @@
+{#
+  hsc_goal_based_recommendation_block
+  Used in: J1-E3 (Base Types Educational email)
+  Input: contact.hsc_primary_goal
+  Live enum values: realism | durability | easy_cleanup | fast_replacement |
+                    budget_control | help_deciding | issue_resolution
+
+  Rule: no active_lifestyle branch — value does not exist in live CRM.
+  Rule: fallback gracefully when hsc_primary_goal is empty.
+#}
+
+{%- set goal = contact.hsc_primary_goal -%}
+
+{%- if module.heading -%}
+  <h2 style="font-family:Arial,sans-serif;font-size:18px;font-weight:700;color:#1a1a1a;margin:0 0 12px 0;">
+    {{- module.heading -}}
+  </h2>
+{%- endif -%}
+
+{%- if goal == "realism" -%}
+
+  <table role="presentation" cellpadding="0" cellspacing="0" width="100%" style="margin:0 0 24px 0;">
+    <tr>
+      <td style="background:#f8f4ef;border-left:4px solid #8b6f47;padding:20px 24px;font-family:Arial,sans-serif;">
+        <p style="margin:0 0 8px 0;font-size:15px;font-weight:700;color:#1a1a1a;">Your goal: Maximum realism</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444;line-height:1.6;">French lace and Swiss lace are the standards for an undetectable hairline. The material is thin enough that it disappears into skin — no one sees a base, they see hair.</p>
+        <p style="margin:0 0 4px 0;font-size:13px;color:#666;font-weight:700;">What to expect:</p>
+        <ul style="margin:4px 0 12px 0;padding-left:20px;font-size:14px;color:#444;line-height:1.8;">
+          <li>Hairline blends with your skin at any angle</li>
+          <li>Works with tape or glue; tape is easier for first-timers</li>
+          <li>Replacement cycle: 4–8 weeks for most wearers</li>
+        </ul>
+        <a href="https://hairsolutions.co/collections/lace" style="display:inline-block;background:#1a1a1a;color:#fff;font-size:13px;font-weight:700;text-decoration:none;padding:10px 20px;border-radius:4px;">Browse Lace Systems</a>
+      </td>
+    </tr>
+  </table>
+
+{%- elif goal == "durability" -%}
+
+  <table role="presentation" cellpadding="0" cellspacing="0" width="100%" style="margin:0 0 24px 0;">
+    <tr>
+      <td style="background:#f4f8f4;border-left:4px solid #4a7c59;padding:20px 24px;font-family:Arial,sans-serif;">
+        <p style="margin:0 0 8px 0;font-size:15px;font-weight:700;color:#1a1a1a;">Your goal: Long-lasting wear</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444;line-height:1.6;">Thin skin, dura skin, and mono bases are built to take more use between replacements. Thin skin bonds tight to the scalp; mono holds its shape under daily wear.</p>
+        <p style="margin:0 0 4px 0;font-size:13px;color:#666;font-weight:700;">What to expect:</p>
+        <ul style="margin:4px 0 12px 0;padding-left:20px;font-size:14px;color:#444;line-height:1.8;">
+          <li>Replacement cycle: 8–16 weeks depending on base</li>
+          <li>Handles heat styling and active days well</li>
+          <li>Easier maintenance routine than lace</li>
+        </ul>
+        <a href="https://hairsolutions.co/collections/skin-mono" style="display:inline-block;background:#1a1a1a;color:#fff;font-size:13px;font-weight:700;text-decoration:none;padding:10px 20px;border-radius:4px;">Browse Skin & Mono Systems</a>
+      </td>
+    </tr>
+  </table>
+
+{%- elif goal == "easy_cleanup" -%}
+
+  <table role="presentation" cellpadding="0" cellspacing="0" width="100%" style="margin:0 0 24px 0;">
+    <tr>
+      <td style="background:#f4f6f8;border-left:4px solid #4a6c8c;padding:20px 24px;font-family:Arial,sans-serif;">
+        <p style="margin:0 0 8px 0;font-size:15px;font-weight:700;color:#1a1a1a;">Your goal: Low-effort maintenance</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444;line-height:1.6;">Nano skin and micro skin bases have a smooth poly backing that releases cleanly from tape and glue residue. The removal and reattachment routine is the simplest of any base type.</p>
+        <p style="margin:0 0 4px 0;font-size:13px;color:#666;font-weight:700;">What to expect:</p>
+        <ul style="margin:4px 0 12px 0;padding-left:20px;font-size:14px;color:#444;line-height:1.8;">
+          <li>10–15 minute weekly maintenance routine</li>
+          <li>Solvent removes adhesive without scrubbing</li>
+          <li>Good for beginners and experienced wearers alike</li>
+        </ul>
+        <a href="https://hairsolutions.co/collections/skin" style="display:inline-block;background:#1a1a1a;color:#fff;font-size:13px;font-weight:700;text-decoration:none;padding:10px 20px;border-radius:4px;">Browse Skin Systems</a>
+      </td>
+    </tr>
+  </table>
+
+{%- elif goal == "fast_replacement" -%}
+
+  <table role="presentation" cellpadding="0" cellspacing="0" width="100%" style="margin:0 0 24px 0;">
+    <tr>
+      <td style="background:#f8f6f4;border-left:4px solid #8c6a4a;padding:20px 24px;font-family:Arial,sans-serif;">
+        <p style="margin:0 0 8px 0;font-size:15px;font-weight:700;color:#1a1a1a;">Your goal: Quick turnaround</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444;line-height:1.6;">Pre-styled and premade systems ship faster and cost less per unit. Hybrid bases balance a fast-attach skin perimeter with a breathable lace centre — popular for wearers who switch regularly.</p>
+        <p style="margin:0 0 4px 0;font-size:13px;color:#666;font-weight:700;">What to expect:</p>
+        <ul style="margin:4px 0 12px 0;padding-left:20px;font-size:14px;color:#444;line-height:1.8;">
+          <li>Stock systems: 1–3 day dispatch</li>
+          <li>Custom: 4–6 week factory lead time</li>
+          <li>Hybrid attach takes under 5 minutes</li>
+        </ul>
+        <a href="https://hairsolutions.co/collections/premade" style="display:inline-block;background:#1a1a1a;color:#fff;font-size:13px;font-weight:700;text-decoration:none;padding:10px 20px;border-radius:4px;">Browse In-Stock Systems</a>
+      </td>
+    </tr>
+  </table>
+
+{%- elif goal == "budget_control" -%}
+
+  <table role="presentation" cellpadding="0" cellspacing="0" width="100%" style="margin:0 0 24px 0;">
+    <tr>
+      <td style="background:#f6f8f4;border-left:4px solid #6a8c4a;padding:20px 24px;font-family:Arial,sans-serif;">
+        <p style="margin:0 0 8px 0;font-size:15px;font-weight:700;color:#1a1a1a;">Your goal: Predictable, controlled cost</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444;line-height:1.6;">Most wearers on a plan spend 30–40% less per year than buying individually. You lock in your unit price, choose your cadence, and replacements arrive before you need to chase them.</p>
+        <p style="margin:0 0 4px 0;font-size:13px;color:#666;font-weight:700;">How the plan works:</p>
+        <ul style="margin:4px 0 12px 0;padding-left:20px;font-size:14px;color:#444;line-height:1.8;">
+          <li>3, 4, or 6 units per year — your choice</li>
+          <li>Price locked at plan rate for the year</li>
+          <li>No surprise costs between deliveries</li>
+        </ul>
+        <a href="https://hairsolutions.co/pages/plans" style="display:inline-block;background:#1a1a1a;color:#fff;font-size:13px;font-weight:700;text-decoration:none;padding:10px 20px;border-radius:4px;">See Plan Pricing</a>
+      </td>
+    </tr>
+  </table>
+
+{%- elif goal == "help_deciding" -%}
+
+  <table role="presentation" cellpadding="0" cellspacing="0" width="100%" style="margin:0 0 24px 0;">
+    <tr>
+      <td style="background:#f8f8f4;border-left:4px solid #8c8c4a;padding:20px 24px;font-family:Arial,sans-serif;">
+        <p style="margin:0 0 8px 0;font-size:15px;font-weight:700;color:#1a1a1a;">Not sure yet — here's a simple breakdown</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444;line-height:1.6;">Every base type has a sweet spot. The fastest way to find yours is a 15-minute consultation — no obligation, no pitch, just answers.</p>
+        <table role="presentation" cellpadding="0" cellspacing="0" width="100%" style="margin:0 0 12px 0;border-collapse:collapse;">
+          <tr style="background:#f0f0e8;">
+            <th style="text-align:left;padding:8px 12px;font-size:12px;color:#666;font-weight:700;border-bottom:1px solid #ddd;">Base</th>
+            <th style="text-align:left;padding:8px 12px;font-size:12px;color:#666;font-weight:700;border-bottom:1px solid #ddd;">Best for</th>
+            <th style="text-align:left;padding:8px 12px;font-size:12px;color:#666;font-weight:700;border-bottom:1px solid #ddd;">Cycle</th>
+          </tr>
+          <tr>
+            <td style="padding:8px 12px;font-size:13px;color:#444;border-bottom:1px solid #eee;">Lace</td>
+            <td style="padding:8px 12px;font-size:13px;color:#444;border-bottom:1px solid #eee;">Undetectable hairline</td>
+            <td style="padding:8px 12px;font-size:13px;color:#444;border-bottom:1px solid #eee;">4–8 wks</td>
+          </tr>
+          <tr>
+            <td style="padding:8px 12px;font-size:13px;color:#444;border-bottom:1px solid #eee;">Skin</td>
+            <td style="padding:8px 12px;font-size:13px;color:#444;border-bottom:1px solid #eee;">Easy cleanup, durability</td>
+            <td style="padding:8px 12px;font-size:13px;color:#444;border-bottom:1px solid #eee;">8–14 wks</td>
+          </tr>
+          <tr>
+            <td style="padding:8px 12px;font-size:13px;color:#444;border-bottom:1px solid #eee;">Mono</td>
+            <td style="padding:8px 12px;font-size:13px;color:#444;border-bottom:1px solid #eee;">Heavy daily use</td>
+            <td style="padding:8px 12px;font-size:13px;color:#444;border-bottom:1px solid #eee;">10–16 wks</td>
+          </tr>
+          <tr>
+            <td style="padding:8px 12px;font-size:13px;color:#444;">Hybrid</td>
+            <td style="padding:8px 12px;font-size:13px;color:#444;">Balance of all three</td>
+            <td style="padding:8px 12px;font-size:13px;color:#444;">6–12 wks</td>
+          </tr>
+        </table>
+        <a href="https://hairsolutions.co/pages/consultation" style="display:inline-block;background:#1a1a1a;color:#fff;font-size:13px;font-weight:700;text-decoration:none;padding:10px 20px;border-radius:4px;">Book a Free Consultation</a>
+      </td>
+    </tr>
+  </table>
+
+{%- elif goal == "issue_resolution" -%}
+
+  <table role="presentation" cellpadding="0" cellspacing="0" width="100%" style="margin:0 0 24px 0;">
+    <tr>
+      <td style="background:#f8f4f4;border-left:4px solid #8c4a4a;padding:20px 24px;font-family:Arial,sans-serif;">
+        <p style="margin:0 0 8px 0;font-size:15px;font-weight:700;color:#1a1a1a;">Let's sort out what's not working</p>
+        <p style="margin:0 0 12px 0;font-size:14px;color:#444;line-height:1.6;">Whether it's adhesive failure, a base that's wearing too fast, or a hairline that doesn't sit right — most problems have a straightforward fix. Our team has seen all of them.</p>
+        <p style="margin:0;font-size:14px;color:#444;line-height:1.6;">Reply to this email or book a call and we'll walk through it with you.</p>
+      </td>
+    </tr>
+  </table>
+
+{%- else -%}
+
+  {# Fallback: goal not set or unrecognised value #}
+  <table role="presentation" cellpadding="0" cellspacing="0" width="100%" style="margin:0 0 24px 0;">
+    <tr>
+      <td style="font-family:Arial,sans-serif;">
+        {{ module.fallback_body }}
+      </td>
+    </tr>
+  </table>
+
+{%- endif -%}

@@ -1,0 +1,5310 @@
+[
+  {
+    "name": "closed_date",
+    "label": "Close date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticket_activity",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date the ticket was closed",
+    "options": []
+  },
+  {
+    "name": "createdate",
+    "label": "Create date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticket_activity",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date the ticket was created",
+    "options": []
+  },
+  {
+    "name": "first_agent_reply_date",
+    "label": "First agent email response date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticket_activity",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date of the first email response from an agent after a ticket was created",
+    "options": []
+  },
+  {
+    "name": "hs_added_to_waitlist_at",
+    "label": "Added to waitlist at",
+    "type": "string",
+    "fieldType": "calculation_equation",
+    "groupName": "ticket_activity",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Time the ticket was added to the waitlist",
+    "options": []
+  },
+  {
+    "name": "hs_all_conversation_mentions",
+    "label": "All conversation mentions",
+    "type": "enumeration",
+    "fieldType": "calculation_rollup",
+    "groupName": "ticket_activity",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "All mentioned users on the associated conversations",
+    "options": []
+  },
+  {
+    "name": "hs_assignment_method",
+    "label": "Assignment Method",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "ticket_activity",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "defines how the Object Assignment is done",
+    "options": [
+      {
+        "label": "UNKNOWN",
+        "value": "0",
+        "displayOrder": 0
+      },
+      {
+        "label": "API_AGENT_MANUAL",
+        "value": "1",
+        "displayOrder": 1
+      },
+      {
+        "label": "API_BOTS_HANDOFF",
+        "value": "2",
+        "displayOrder": 2
+      },
+      {
+        "label": "SYSTEM_AUTOMATIC",
+        "value": "3",
+        "displayOrder": 3
+      },
+      {
+        "label": "SYSTEM_MIGRATION",
+        "value": "4",
+        "displayOrder": 4
+      },
+      {
+        "label": "SYSTEM_TEST",
+        "value": "5",
+        "displayOrder": 5
+      },
+      {
+        "label": "SKILL_BASED_ROUTING",
+        "value": "6",
+        "displayOrder": 6
+      },
+      {
+        "label": "ASSIGN_CONVERSATION_OWNER_ACTION",
+        "value": "7",
+        "displayOrder": 7
+      },
+      {
+        "label": "AI_CHATBOT_HANDOFF",
+        "value": "8",
+        "displayOrder": 8
+      },
+      {
+        "label": "ROTATE_OWNER_ACTION",
+        "value": "9",
+        "displayOrder": 9
+      },
+      {
+        "label": "WAITLIST",
+        "value": "10",
+        "displayOrder": 10
+      },
+      {
+        "label": "ROTATE_CONVERSATION_OWNER_ACTION",
+        "value": "11",
+        "displayOrder": 11
+      },
+      {
+        "label": "ASSIGN_TO_CUSTOMER_AGENT_ACTION",
+        "value": "12",
+        "displayOrder": 12
+      },
+      {
+        "label": "API_PUBLIC",
+        "value": "13",
+        "displayOrder": 13
+      }
+    ]
+  },
+  {
+    "name": "hs_draft_user_ids",
+    "label": "Draft UserIds",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "ticket_activity",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The ids of the users that have open drafts on this ticket.",
+    "options": []
+  },
+  {
+    "name": "hs_feedback_last_ces_follow_up",
+    "label": "Last CES survey comment",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "ticket_activity",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Last CES survey comment that this contact gave for this ticket",
+    "options": []
+  },
+  {
+    "name": "hs_feedback_last_ces_rating",
+    "label": "Last CES survey rating",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "ticket_activity",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Last CES survey rating that this contact gave for this ticket",
+    "options": [
+      {
+        "label": "1",
+        "value": "1",
+        "displayOrder": 1
+      },
+      {
+        "label": "2",
+        "value": "2",
+        "displayOrder": 2
+      },
+      {
+        "label": "3",
+        "value": "3",
+        "displayOrder": 3
+      },
+      {
+        "label": "4",
+        "value": "4",
+        "displayOrder": 4
+      },
+      {
+        "label": "5",
+        "value": "5",
+        "displayOrder": 5
+      },
+      {
+        "label": "6",
+        "value": "6",
+        "displayOrder": 6
+      },
+      {
+        "label": "7",
+        "value": "7",
+        "displayOrder": 7
+      }
+    ]
+  },
+  {
+    "name": "hs_feedback_last_nps_rating_number",
+    "label": "Latest NPS survey rating",
+    "type": "number",
+    "fieldType": "calculation_rollup",
+    "groupName": "ticket_activity",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Latest NPS rating rolled up from associated feedback submission",
+    "options": []
+  },
+  {
+    "name": "hs_feedback_last_survey_date",
+    "label": "Last CES survey date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticket_activity",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The time that this contact last submitted a CES survey response. This is automatically set by HubSpot.",
+    "options": []
+  },
+  {
+    "name": "hs_in_waitlist",
+    "label": "In Waitlist",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "ticket_activity",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Is ticket in a waitlist, to be assigned when users are able to work the ticket",
+    "options": [
+      {
+        "label": "Yes",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "No",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_last_closed_date",
+    "label": "Last Closed Date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticket_activity",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date when ticket was last closed",
+    "options": []
+  },
+  {
+    "name": "hs_last_csat_comment",
+    "label": "Last CSAT survey comment",
+    "type": "string",
+    "fieldType": "calculation_rollup",
+    "groupName": "ticket_activity",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Last CSAT survey comment associated to this ticket",
+    "options": []
+  },
+  {
+    "name": "hs_last_csat_date",
+    "label": "Last CSAT survey date",
+    "type": "datetime",
+    "fieldType": "calculation_rollup",
+    "groupName": "ticket_activity",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The time that this contact last submitted a CSAT survey response.",
+    "options": []
+  },
+  {
+    "name": "hs_last_csat_rating",
+    "label": "Last CSAT survey rating",
+    "type": "string",
+    "fieldType": "calculation_rollup",
+    "groupName": "ticket_activity",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Last CSAT rating rolled up from associated feedback submission",
+    "options": []
+  },
+  {
+    "name": "hs_last_nps_survey_comment",
+    "label": "Last NPS survey comment",
+    "type": "string",
+    "fieldType": "calculation_rollup",
+    "groupName": "ticket_activity",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Last NPS survey comment associated to this ticket",
+    "options": []
+  },
+  {
+    "name": "hs_lastactivitydate",
+    "label": "Last activity date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticket_activity",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The last time a note, call, email, meeting, or task was logged for a ticket. This is updated automatically by HubSpot.",
+    "options": []
+  },
+  {
+    "name": "hs_lastcontacted",
+    "label": "Last contacted date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticket_activity",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The last time a call, chat conversation, LinkedIn message, postal mail, meeting, sales email, SMS, or WhatsApp message was logged for a ticket. This is set automatically by HubSpot based on user actions in the ticket record.",
+    "options": []
+  },
+  {
+    "name": "hs_lastmodifieddate",
+    "label": "Last modified date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticket_activity",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Most recent timestamp of any property update for this ticket. This includes HubSpot internal properties, which can be visible or hidden. This property is updated automatically.",
+    "options": []
+  },
+  {
+    "name": "hs_mentioned_note_user_ids",
+    "label": "mentioned_note_user_ids",
+    "type": "enumeration",
+    "fieldType": "calculation_equation",
+    "groupName": "ticket_activity",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "All mentioned users on the ticket notes",
+    "options": []
+  },
+  {
+    "name": "hs_mentions_resolved_user_ids",
+    "label": "hs_mentions_resolved_user_ids",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "ticket_activity",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "All resolved user ids mentioned on associated conversations and notes",
+    "options": []
+  },
+  {
+    "name": "hs_mentions_user_ids",
+    "label": "mentions_user_ids",
+    "type": "enumeration",
+    "fieldType": "calculation_equation",
+    "groupName": "ticket_activity",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "All user ids mentioned on associated conversations and notes",
+    "options": []
+  },
+  {
+    "name": "hs_nextactivitydate",
+    "label": "Next activity date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticket_activity",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date of the next upcoming activity for a ticket. This property is set automatically by HubSpot based on user action. This includes logging a future call, email, or meeting using the Log feature, as well as creating a future task or scheduling a future meeting. This is updated automatically by HubSpot.",
+    "options": []
+  },
+  {
+    "name": "hs_num_times_contacted",
+    "label": "Number of times contacted",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticket_activity",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The number of times a call, email, or meeting was logged on the ticket",
+    "options": []
+  },
+  {
+    "name": "hs_retroactive_sla_update_at",
+    "label": "Retroactive SLA update at",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticket_activity",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "This property is a trigger for updating SLAs for the ticket. Activity hereof will be picked up by the SLAs system for processing.",
+    "options": []
+  },
+  {
+    "name": "hs_seen_by_agent_ids",
+    "label": "Users interaction",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "ticket_activity",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Stores a list of users who have viewed the most recent interaction on a ticket",
+    "options": []
+  },
+  {
+    "name": "hs_snoozed_by_user_ids",
+    "label": "Snoozed by",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "ticket_activity",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Stores a list of users who have currently snoozed this ticket. This value is set automatically by HubSpot.",
+    "options": []
+  },
+  {
+    "name": "hs_snoozed_for_portal",
+    "label": "Portal-wide snooze",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "ticket_activity",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Indicates whether this ticket is snoozed for all users in your account. This value is automatically set by HubSpot.",
+    "options": [
+      {
+        "label": "Yes",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "No",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_ticket_reopened_at",
+    "label": "Ticket reopen date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticket_activity",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Date when the ticket was re-opened",
+    "options": []
+  },
+  {
+    "name": "hs_waitlist_routing_targets",
+    "label": "Waitlist routing targets",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "ticket_activity",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Describe the targets to which the waitlist is attempting to assign the object.",
+    "options": []
+  },
+  {
+    "name": "hs_waitlist_sort_value",
+    "label": "Waitlist sort value",
+    "type": "datetime",
+    "fieldType": "calculation_equation",
+    "groupName": "ticket_activity",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Datetime for sorting waitlist objects. Prioritizes sla ttfr. If not present, then sorts by time added to waitlist. The magic number is roughly 20 years.",
+    "options": []
+  },
+  {
+    "name": "hubspot_owner_assigneddate",
+    "label": "Owner assigned date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticket_activity",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The most recent timestamp of when an owner was assigned to this record. This value is set automatically by HubSpot.",
+    "options": []
+  },
+  {
+    "name": "last_reply_date",
+    "label": "Last customer reply date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticket_activity",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date of the last customer response",
+    "options": []
+  },
+  {
+    "name": "num_notes",
+    "label": "Number of Sales Activities",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticket_activity",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The number of times a call, chat conversation, LinkedIn message, postal mail, meeting, note, sales email, SMS, task, or WhatsApp message was logged for a ticket record. This is set automatically by HubSpot based on user actions in the ticket record.",
+    "options": []
+  },
+  {
+    "name": "time_to_close",
+    "label": "Time to close",
+    "type": "number",
+    "fieldType": "calculation_equation",
+    "groupName": "ticket_activity",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The time between when the ticket was created and closed",
+    "options": []
+  },
+  {
+    "name": "time_to_first_agent_reply",
+    "label": "Time to first agent email reply",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticket_activity",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The time from the ticket create date to the first agent email reply",
+    "options": []
+  },
+  {
+    "name": "hs_first_visitor_message_sentiment",
+    "label": "First message sentiment",
+    "type": "enumeration",
+    "fieldType": "calculation_equation",
+    "groupName": "ticket_ai_enrichment",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Sentiment of the visitor's initial message (Positive, Neutral, or Negative), based on an AI-generated sentiment score. Scores of 60-100 are Positive, 41-59 are Neutral, and 0-40 are Negative.",
+    "options": [
+      {
+        "label": "Positive",
+        "value": "Positive",
+        "displayOrder": 0
+      },
+      {
+        "label": "Neutral",
+        "value": "Neutral",
+        "displayOrder": 1
+      },
+      {
+        "label": "Negative",
+        "value": "Negative",
+        "displayOrder": 2
+      }
+    ]
+  },
+  {
+    "name": "hs_first_visitor_message_sentiment_score",
+    "label": "First message sentiment score",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticket_ai_enrichment",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "AI-generated sentiment score (0-100) of the initial message sent by the visitor. Higher scores indicate more positive sentiment.",
+    "options": []
+  },
+  {
+    "name": "hs_last_visitor_message_sentiment",
+    "label": "Last message sentiment",
+    "type": "enumeration",
+    "fieldType": "calculation_equation",
+    "groupName": "ticket_ai_enrichment",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Sentiment of the visitor's latest message (Positive, Neutral, or Negative), based on an AI-generated sentiment score. Scores of 60-100 are Positive, 41-59 are Neutral, and 0-40 are Negative.",
+    "options": [
+      {
+        "label": "Positive",
+        "value": "Positive",
+        "displayOrder": 0
+      },
+      {
+        "label": "Neutral",
+        "value": "Neutral",
+        "displayOrder": 1
+      },
+      {
+        "label": "Negative",
+        "value": "Negative",
+        "displayOrder": 2
+      }
+    ]
+  },
+  {
+    "name": "hs_last_visitor_message_sentiment_score",
+    "label": "Latest message sentiment score",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticket_ai_enrichment",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "AI-generated sentiment score (0-100) of the most recent message sent by the visitor. Higher scores indicate more positive sentiment.",
+    "options": []
+  },
+  {
+    "name": "hs_overall_visitor_messages_sentiment",
+    "label": "Average ticket sentiment",
+    "type": "enumeration",
+    "fieldType": "calculation_equation",
+    "groupName": "ticket_ai_enrichment",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Overall sentiment of the ticket (Positive, Neutral, or Negative), determined by the average of AI-analyzed sentiment scores from all visitor messages. An average score of 60-100 is Positive, 41-59 is Neutral, and 0-40 is Negative.",
+    "options": [
+      {
+        "label": "Positive",
+        "value": "Positive",
+        "displayOrder": 0
+      },
+      {
+        "label": "Neutral",
+        "value": "Neutral",
+        "displayOrder": 1
+      },
+      {
+        "label": "Negative",
+        "value": "Negative",
+        "displayOrder": 2
+      }
+    ]
+  },
+  {
+    "name": "hs_overall_visitor_messages_sentiment_score",
+    "label": "Average ticket sentiment score",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticket_ai_enrichment",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The average sentiment score (0-100) of all visitor messages on a ticket. Each message's sentiment is individually analyzed by AI, and this property displays the mean average of those individual scores. Higher scores indicate a more positive overall sentiment.",
+    "options": []
+  },
+  {
+    "name": "hs_ticket_language_ai_tag",
+    "label": "Language",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "ticket_ai_enrichment",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Language identified by AI based on the visitor's messages within a ticket.",
+    "options": [
+      {
+        "label": "Afrikaans",
+        "value": "af",
+        "displayOrder": 0
+      },
+      {
+        "label": "Alsatian",
+        "value": "als",
+        "displayOrder": 1
+      },
+      {
+        "label": "Amharic",
+        "value": "am",
+        "displayOrder": 2
+      },
+      {
+        "label": "Aragonese",
+        "value": "an",
+        "displayOrder": 3
+      },
+      {
+        "label": "Arabic",
+        "value": "ar",
+        "displayOrder": 4
+      },
+      {
+        "label": "Egyptian Arabic",
+        "value": "arz",
+        "displayOrder": 5
+      },
+      {
+        "label": "Assamese",
+        "value": "as",
+        "displayOrder": 6
+      },
+      {
+        "label": "Asturian",
+        "value": "ast",
+        "displayOrder": 7
+      },
+      {
+        "label": "Avaric",
+        "value": "av",
+        "displayOrder": 8
+      },
+      {
+        "label": "Azerbaijani",
+        "value": "az",
+        "displayOrder": 9
+      },
+      {
+        "label": "South Azerbaijani",
+        "value": "azb",
+        "displayOrder": 10
+      },
+      {
+        "label": "Bashkir",
+        "value": "ba",
+        "displayOrder": 11
+      },
+      {
+        "label": "Bavarian",
+        "value": "bar",
+        "displayOrder": 12
+      },
+      {
+        "label": "Central Bikol",
+        "value": "bcl",
+        "displayOrder": 13
+      },
+      {
+        "label": "Belarusian",
+        "value": "be",
+        "displayOrder": 14
+      },
+      {
+        "label": "Bulgarian",
+        "value": "bg",
+        "displayOrder": 15
+      },
+      {
+        "label": "Bhojpuri",
+        "value": "bh",
+        "displayOrder": 16
+      },
+      {
+        "label": "Bengali",
+        "value": "bn",
+        "displayOrder": 17
+      },
+      {
+        "label": "Tibetan",
+        "value": "bo",
+        "displayOrder": 18
+      },
+      {
+        "label": "Bishnupriya",
+        "value": "bpy",
+        "displayOrder": 19
+      },
+      {
+        "label": "Breton",
+        "value": "br",
+        "displayOrder": 20
+      },
+      {
+        "label": "Bosnian",
+        "value": "bs",
+        "displayOrder": 21
+      },
+      {
+        "label": "Buryat",
+        "value": "bxr",
+        "displayOrder": 22
+      },
+      {
+        "label": "Catalan",
+        "value": "ca",
+        "displayOrder": 23
+      },
+      {
+        "label": "Chavacano",
+        "value": "cbk",
+        "displayOrder": 24
+      },
+      {
+        "label": "Chechen",
+        "value": "ce",
+        "displayOrder": 25
+      },
+      {
+        "label": "Cebuano",
+        "value": "ceb",
+        "displayOrder": 26
+      },
+      {
+        "label": "Central Kurdish",
+        "value": "ckb",
+        "displayOrder": 27
+      },
+      {
+        "label": "Corsican",
+        "value": "co",
+        "displayOrder": 28
+      },
+      {
+        "label": "Czech",
+        "value": "cs",
+        "displayOrder": 29
+      },
+      {
+        "label": "Chuvash",
+        "value": "cv",
+        "displayOrder": 30
+      },
+      {
+        "label": "Welsh",
+        "value": "cy",
+        "displayOrder": 31
+      },
+      {
+        "label": "Danish",
+        "value": "da",
+        "displayOrder": 32
+      },
+      {
+        "label": "German",
+        "value": "de",
+        "displayOrder": 33
+      },
+      {
+        "label": "Zazaki",
+        "value": "diq",
+        "displayOrder": 34
+      },
+      {
+        "label": "Lower Sorbian",
+        "value": "dsb",
+        "displayOrder": 35
+      },
+      {
+        "label": "Doteli",
+        "value": "dty",
+        "displayOrder": 36
+      },
+      {
+        "label": "Divehi",
+        "value": "dv",
+        "displayOrder": 37
+      },
+      {
+        "label": "Greek",
+        "value": "el",
+        "displayOrder": 38
+      },
+      {
+        "label": "Emilian",
+        "value": "eml",
+        "displayOrder": 39
+      },
+      {
+        "label": "English",
+        "value": "en",
+        "displayOrder": 40
+      },
+      {
+        "label": "Esperanto",
+        "value": "eo",
+        "displayOrder": 41
+      },
+      {
+        "label": "Spanish",
+        "value": "es",
+        "displayOrder": 42
+      },
+      {
+        "label": "Estonian",
+        "value": "et",
+        "displayOrder": 43
+      },
+      {
+        "label": "Basque",
+        "value": "eu",
+        "displayOrder": 44
+      },
+      {
+        "label": "Persian",
+        "value": "fa",
+        "displayOrder": 45
+      },
+      {
+        "label": "Finnish",
+        "value": "fi",
+        "displayOrder": 46
+      },
+      {
+        "label": "French",
+        "value": "fr",
+        "displayOrder": 47
+      },
+      {
+        "label": "Northern Frisian",
+        "value": "frr",
+        "displayOrder": 48
+      },
+      {
+        "label": "Western Frisian",
+        "value": "fy",
+        "displayOrder": 49
+      },
+      {
+        "label": "Irish",
+        "value": "ga",
+        "displayOrder": 50
+      },
+      {
+        "label": "Scottish Gaelic",
+        "value": "gd",
+        "displayOrder": 51
+      },
+      {
+        "label": "Galician",
+        "value": "gl",
+        "displayOrder": 52
+      },
+      {
+        "label": "Guarani",
+        "value": "gn",
+        "displayOrder": 53
+      },
+      {
+        "label": "Goan Konkani",
+        "value": "gom",
+        "displayOrder": 54
+      },
+      {
+        "label": "Gujarati",
+        "value": "gu",
+        "displayOrder": 55
+      },
+      {
+        "label": "Manx",
+        "value": "gv",
+        "displayOrder": 56
+      },
+      {
+        "label": "Hebrew",
+        "value": "he",
+        "displayOrder": 57
+      },
+      {
+        "label": "Hindi",
+        "value": "hi",
+        "displayOrder": 58
+      },
+      {
+        "label": "Fiji Hindi",
+        "value": "hif",
+        "displayOrder": 59
+      },
+      {
+        "label": "Croatian",
+        "value": "hr",
+        "displayOrder": 60
+      },
+      {
+        "label": "Upper Sorbian",
+        "value": "hsb",
+        "displayOrder": 61
+      },
+      {
+        "label": "Haitian Creole",
+        "value": "ht",
+        "displayOrder": 62
+      },
+      {
+        "label": "Hungarian",
+        "value": "hu",
+        "displayOrder": 63
+      },
+      {
+        "label": "Armenian",
+        "value": "hy",
+        "displayOrder": 64
+      },
+      {
+        "label": "Interlingua",
+        "value": "ia",
+        "displayOrder": 65
+      },
+      {
+        "label": "Indonesian",
+        "value": "id",
+        "displayOrder": 66
+      },
+      {
+        "label": "Interlingue",
+        "value": "ie",
+        "displayOrder": 67
+      },
+      {
+        "label": "Ilocano",
+        "value": "ilo",
+        "displayOrder": 68
+      },
+      {
+        "label": "Ido",
+        "value": "io",
+        "displayOrder": 69
+      },
+      {
+        "label": "Icelandic",
+        "value": "is",
+        "displayOrder": 70
+      },
+      {
+        "label": "Italian",
+        "value": "it",
+        "displayOrder": 71
+      },
+      {
+        "label": "Japanese",
+        "value": "ja",
+        "displayOrder": 72
+      },
+      {
+        "label": "Lojban",
+        "value": "jbo",
+        "displayOrder": 73
+      },
+      {
+        "label": "Javanese",
+        "value": "jv",
+        "displayOrder": 74
+      },
+      {
+        "label": "Georgian",
+        "value": "ka",
+        "displayOrder": 75
+      },
+      {
+        "label": "Kazakh",
+        "value": "kk",
+        "displayOrder": 76
+      },
+      {
+        "label": "Khmer",
+        "value": "km",
+        "displayOrder": 77
+      },
+      {
+        "label": "Kannada",
+        "value": "kn",
+        "displayOrder": 78
+      },
+      {
+        "label": "Korean",
+        "value": "ko",
+        "displayOrder": 79
+      },
+      {
+        "label": "Karachay-Balkar",
+        "value": "krc",
+        "displayOrder": 80
+      },
+      {
+        "label": "Kurdish",
+        "value": "ku",
+        "displayOrder": 81
+      },
+      {
+        "label": "Komi",
+        "value": "kv",
+        "displayOrder": 82
+      },
+      {
+        "label": "Cornish",
+        "value": "kw",
+        "displayOrder": 83
+      },
+      {
+        "label": "Kyrgyz",
+        "value": "ky",
+        "displayOrder": 84
+      },
+      {
+        "label": "Latin",
+        "value": "la",
+        "displayOrder": 85
+      },
+      {
+        "label": "Luxembourgish",
+        "value": "lb",
+        "displayOrder": 86
+      },
+      {
+        "label": "Lezghian",
+        "value": "lez",
+        "displayOrder": 87
+      },
+      {
+        "label": "Limburgish",
+        "value": "li",
+        "displayOrder": 88
+      },
+      {
+        "label": "Lombard",
+        "value": "lmo",
+        "displayOrder": 89
+      },
+      {
+        "label": "Lao",
+        "value": "lo",
+        "displayOrder": 90
+      },
+      {
+        "label": "Luri",
+        "value": "lrc",
+        "displayOrder": 91
+      },
+      {
+        "label": "Lithuanian",
+        "value": "lt",
+        "displayOrder": 92
+      },
+      {
+        "label": "Latvian",
+        "value": "lv",
+        "displayOrder": 93
+      },
+      {
+        "label": "Maithili",
+        "value": "mai",
+        "displayOrder": 94
+      },
+      {
+        "label": "Malagasy",
+        "value": "mg",
+        "displayOrder": 95
+      },
+      {
+        "label": "Eastern Mari",
+        "value": "mhr",
+        "displayOrder": 96
+      },
+      {
+        "label": "Minangkabau",
+        "value": "min",
+        "displayOrder": 97
+      },
+      {
+        "label": "Macedonian",
+        "value": "mk",
+        "displayOrder": 98
+      },
+      {
+        "label": "Malayalam",
+        "value": "ml",
+        "displayOrder": 99
+      },
+      {
+        "label": "Mongolian",
+        "value": "mn",
+        "displayOrder": 100
+      },
+      {
+        "label": "Marathi",
+        "value": "mr",
+        "displayOrder": 101
+      },
+      {
+        "label": "Western Mari",
+        "value": "mrj",
+        "displayOrder": 102
+      },
+      {
+        "label": "Malay",
+        "value": "ms",
+        "displayOrder": 103
+      },
+      {
+        "label": "Maltese",
+        "value": "mt",
+        "displayOrder": 104
+      },
+      {
+        "label": "Mirandese",
+        "value": "mwl",
+        "displayOrder": 105
+      },
+      {
+        "label": "Burmese",
+        "value": "my",
+        "displayOrder": 106
+      },
+      {
+        "label": "Erzya",
+        "value": "myv",
+        "displayOrder": 107
+      },
+      {
+        "label": "Mazanderani",
+        "value": "mzn",
+        "displayOrder": 108
+      },
+      {
+        "label": "Nahuatl",
+        "value": "nah",
+        "displayOrder": 109
+      },
+      {
+        "label": "Neapolitan",
+        "value": "nap",
+        "displayOrder": 110
+      },
+      {
+        "label": "Low Saxon",
+        "value": "nds",
+        "displayOrder": 111
+      },
+      {
+        "label": "Nepali",
+        "value": "ne",
+        "displayOrder": 112
+      },
+      {
+        "label": "Newar",
+        "value": "new",
+        "displayOrder": 113
+      },
+      {
+        "label": "Dutch",
+        "value": "nl",
+        "displayOrder": 114
+      },
+      {
+        "label": "Norwegian Nynorsk",
+        "value": "nn",
+        "displayOrder": 115
+      },
+      {
+        "label": "Norwegian",
+        "value": "no",
+        "displayOrder": 116
+      },
+      {
+        "label": "Occitan",
+        "value": "oc",
+        "displayOrder": 117
+      },
+      {
+        "label": "Oriya",
+        "value": "or",
+        "displayOrder": 118
+      },
+      {
+        "label": "Ossetian",
+        "value": "os",
+        "displayOrder": 119
+      },
+      {
+        "label": "Punjabi",
+        "value": "pa",
+        "displayOrder": 120
+      },
+      {
+        "label": "Kapampangan",
+        "value": "pam",
+        "displayOrder": 121
+      },
+      {
+        "label": "Palatine German",
+        "value": "pfl",
+        "displayOrder": 122
+      },
+      {
+        "label": "Polish",
+        "value": "pl",
+        "displayOrder": 123
+      },
+      {
+        "label": "Piedmontese",
+        "value": "pms",
+        "displayOrder": 124
+      },
+      {
+        "label": "Western Punjabi",
+        "value": "pnb",
+        "displayOrder": 125
+      },
+      {
+        "label": "Pashto",
+        "value": "ps",
+        "displayOrder": 126
+      },
+      {
+        "label": "Portuguese",
+        "value": "pt",
+        "displayOrder": 127
+      },
+      {
+        "label": "Quechua",
+        "value": "qu",
+        "displayOrder": 128
+      },
+      {
+        "label": "Romansh",
+        "value": "rm",
+        "displayOrder": 129
+      },
+      {
+        "label": "Romanian",
+        "value": "ro",
+        "displayOrder": 130
+      },
+      {
+        "label": "Russian",
+        "value": "ru",
+        "displayOrder": 131
+      },
+      {
+        "label": "Rusyn",
+        "value": "rue",
+        "displayOrder": 132
+      },
+      {
+        "label": "Sanskrit",
+        "value": "sa",
+        "displayOrder": 133
+      },
+      {
+        "label": "Yakut",
+        "value": "sah",
+        "displayOrder": 134
+      },
+      {
+        "label": "Sardinian",
+        "value": "sc",
+        "displayOrder": 135
+      },
+      {
+        "label": "Sicilian",
+        "value": "scn",
+        "displayOrder": 136
+      },
+      {
+        "label": "Scots",
+        "value": "sco",
+        "displayOrder": 137
+      },
+      {
+        "label": "Sindhi",
+        "value": "sd",
+        "displayOrder": 138
+      },
+      {
+        "label": "Serbo-Croatian",
+        "value": "sh",
+        "displayOrder": 139
+      },
+      {
+        "label": "Sinhala",
+        "value": "si",
+        "displayOrder": 140
+      },
+      {
+        "label": "Slovak",
+        "value": "sk",
+        "displayOrder": 141
+      },
+      {
+        "label": "Slovenian",
+        "value": "sl",
+        "displayOrder": 142
+      },
+      {
+        "label": "Somali",
+        "value": "so",
+        "displayOrder": 143
+      },
+      {
+        "label": "Albanian",
+        "value": "sq",
+        "displayOrder": 144
+      },
+      {
+        "label": "Serbian",
+        "value": "sr",
+        "displayOrder": 145
+      },
+      {
+        "label": "Sundanese",
+        "value": "su",
+        "displayOrder": 146
+      },
+      {
+        "label": "Swedish",
+        "value": "sv",
+        "displayOrder": 147
+      },
+      {
+        "label": "Swahili",
+        "value": "sw",
+        "displayOrder": 148
+      },
+      {
+        "label": "Tamil",
+        "value": "ta",
+        "displayOrder": 149
+      },
+      {
+        "label": "Telugu",
+        "value": "te",
+        "displayOrder": 150
+      },
+      {
+        "label": "Tajik",
+        "value": "tg",
+        "displayOrder": 151
+      },
+      {
+        "label": "Thai",
+        "value": "th",
+        "displayOrder": 152
+      },
+      {
+        "label": "Turkmen",
+        "value": "tk",
+        "displayOrder": 153
+      },
+      {
+        "label": "Tagalog",
+        "value": "tl",
+        "displayOrder": 154
+      },
+      {
+        "label": "Turkish",
+        "value": "tr",
+        "displayOrder": 155
+      },
+      {
+        "label": "Tatar",
+        "value": "tt",
+        "displayOrder": 156
+      },
+      {
+        "label": "Tuvan",
+        "value": "tyv",
+        "displayOrder": 157
+      },
+      {
+        "label": "Uyghur",
+        "value": "ug",
+        "displayOrder": 158
+      },
+      {
+        "label": "Ukrainian",
+        "value": "uk",
+        "displayOrder": 159
+      },
+      {
+        "label": "Urdu",
+        "value": "ur",
+        "displayOrder": 160
+      },
+      {
+        "label": "Uzbek",
+        "value": "uz",
+        "displayOrder": 161
+      },
+      {
+        "label": "Venetian",
+        "value": "vec",
+        "displayOrder": 162
+      },
+      {
+        "label": "Vietnamese",
+        "value": "vi",
+        "displayOrder": 163
+      },
+      {
+        "label": "West Flemish",
+        "value": "vls",
+        "displayOrder": 164
+      },
+      {
+        "label": "Walloon",
+        "value": "wa",
+        "displayOrder": 165
+      },
+      {
+        "label": "Wolof",
+        "value": "wo",
+        "displayOrder": 166
+      },
+      {
+        "label": "Yiddish",
+        "value": "yi",
+        "displayOrder": 167
+      },
+      {
+        "label": "Yoruba",
+        "value": "yo",
+        "displayOrder": 168
+      },
+      {
+        "label": "Chinese",
+        "value": "zh",
+        "displayOrder": 169
+      },
+      {
+        "label": "Zulu",
+        "value": "zu",
+        "displayOrder": 170
+      }
+    ]
+  },
+  {
+    "name": "content",
+    "label": "Ticket description",
+    "type": "string",
+    "fieldType": "textarea",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": true,
+    "description": "Description of the ticket",
+    "options": []
+  },
+  {
+    "name": "created_by",
+    "label": "Created by",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "VID of contact that created the ticket",
+    "options": []
+  },
+  {
+    "name": "hs_all_accessible_team_ids",
+    "label": "All teams",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The team IDs, including the team hierarchy, of all default and custom owner properties for this record.",
+    "options": []
+  },
+  {
+    "name": "hs_all_assigned_business_unit_ids",
+    "label": "Brands",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The brands this record is assigned to.",
+    "options": []
+  },
+  {
+    "name": "hs_all_associated_contact_companies",
+    "label": "All associated contact companies",
+    "type": "string",
+    "fieldType": "calculation_rollup",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "All associated contact companies",
+    "options": []
+  },
+  {
+    "name": "hs_all_associated_contact_emails",
+    "label": "All associated contact emails",
+    "type": "string",
+    "fieldType": "calculation_rollup",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "All associated contact emails",
+    "options": []
+  },
+  {
+    "name": "hs_all_associated_contact_firstnames",
+    "label": "All associated contact first names",
+    "type": "string",
+    "fieldType": "calculation_rollup",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "All associated contact first names",
+    "options": []
+  },
+  {
+    "name": "hs_all_associated_contact_lastnames",
+    "label": "All associated contact last names",
+    "type": "string",
+    "fieldType": "calculation_rollup",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "All associated contact last names",
+    "options": []
+  },
+  {
+    "name": "hs_all_associated_contact_mobilephones",
+    "label": "All associated contact mobile phones",
+    "type": "string",
+    "fieldType": "calculation_rollup",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "All associated contact mobile phones",
+    "options": []
+  },
+  {
+    "name": "hs_all_associated_contact_phones",
+    "label": "All associated contact phones",
+    "type": "string",
+    "fieldType": "calculation_rollup",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "All associated contact phones",
+    "options": []
+  },
+  {
+    "name": "hs_all_owner_ids",
+    "label": "All owner IDs",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Values of all default and custom owner properties for this record.",
+    "options": []
+  },
+  {
+    "name": "hs_all_team_ids",
+    "label": "All team IDs",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The team IDs of all default and custom owner properties for this record.",
+    "options": []
+  },
+  {
+    "name": "hs_all_topics_mentioned",
+    "label": "All topics mentioned",
+    "type": "enumeration",
+    "fieldType": "calculation_rollup",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "List of all the distinct topics related to any mention in email, chat, call etc within the ticket",
+    "options": []
+  },
+  {
+    "name": "hs_applied_sla_rule_config_at",
+    "label": "Applied SLA Rule Config Date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Timestamp the current SLA Rule Config was applied to the ticket",
+    "options": []
+  },
+  {
+    "name": "hs_applied_sla_rule_config_id",
+    "label": "Applied SLA Rule Config ID",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Reference to the SLA rule that was applied to this ticket",
+    "options": []
+  },
+  {
+    "name": "hs_applied_sla_schedule_at",
+    "label": "Applied SLA Schedule Date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date at which the current SLA schedule was applied to the ticket.",
+    "options": []
+  },
+  {
+    "name": "hs_applied_sla_schedule_id",
+    "label": "Applied SLA Schedule Id",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The id of the SLA schedule currently applied to the ticket.",
+    "options": []
+  },
+  {
+    "name": "hs_assigned_team_ids",
+    "label": "Assigned Teams",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The target main teams or the user's main team assigned to the ticket by automatic assignment.",
+    "options": []
+  },
+  {
+    "name": "hs_auto_generated_from_thread_id",
+    "label": "Auto-generated from thread id",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Thread that this ticket was automatically created for using ticket rules",
+    "options": []
+  },
+  {
+    "name": "hs_conversations_originating_message_id",
+    "label": "Originating Conversations Message Id",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Conversations Message Id of the message that originated this ticket",
+    "options": []
+  },
+  {
+    "name": "hs_conversations_originating_thread_id",
+    "label": "Conversations originating thread id",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Thread that this ticket was originally created for",
+    "options": []
+  },
+  {
+    "name": "hs_copied_at",
+    "label": "Copied at",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date the ticket was copied",
+    "options": []
+  },
+  {
+    "name": "hs_copied_by_user",
+    "label": "Copied by user",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The user that split the ticket",
+    "options": []
+  },
+  {
+    "name": "hs_copied_from_ticket",
+    "label": "Copied ticket",
+    "type": "enumeration",
+    "fieldType": "radio",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The ticket copied",
+    "options": []
+  },
+  {
+    "name": "hs_copied_ticket_source",
+    "label": "Copied ticket source",
+    "type": "enumeration",
+    "fieldType": "radio",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "How the ticket was copied",
+    "options": [
+      {
+        "label": "Automation",
+        "value": "automation",
+        "displayOrder": 0
+      },
+      {
+        "label": "User",
+        "value": "user",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_created_by_user_id",
+    "label": "Created by user ID",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The user who created this record. This value is set automatically by HubSpot.",
+    "options": []
+  },
+  {
+    "name": "hs_createdate",
+    "label": "HubSpot create date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Internal read-only property representing the date the ticket was created in HubSpot",
+    "options": []
+  },
+  {
+    "name": "hs_current_generic_channel_id",
+    "label": "Current channel",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Current genericChannelId of associated conversation, if any",
+    "options": []
+  },
+  {
+    "name": "hs_custom_inbox",
+    "label": "Custom inbox ID",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "ID of the custom inbox the ticket is associated with",
+    "options": []
+  },
+  {
+    "name": "hs_customer_agent_escalated_time",
+    "label": "Customer Agent escalated time",
+    "type": "datetime",
+    "fieldType": "calculation_rollup",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time that Customer Agent escalated a conversation associated with this ticket for review.",
+    "options": []
+  },
+  {
+    "name": "hs_customer_agent_matched_segment",
+    "label": "Customer Agent Matched Segment",
+    "type": "enumeration",
+    "fieldType": "calculation_rollup",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The audience segment resolved by Customer Agent for workflow routing, synced from the associated conversation.",
+    "options": []
+  },
+  {
+    "name": "hs_customer_agent_ticket_status",
+    "label": "Customer Agent ticket status",
+    "type": "enumeration",
+    "fieldType": "calculation_rollup",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Signifies if the Breeze Customer Agent has escalated an issue",
+    "options": [
+      {
+        "label": "None",
+        "value": "NONE",
+        "displayOrder": 0
+      },
+      {
+        "label": "Pending",
+        "value": "PENDING",
+        "displayOrder": 1
+      },
+      {
+        "label": "Awaiting Human Assignment",
+        "value": "ESCALATED",
+        "displayOrder": 2
+      },
+      {
+        "label": "Handed Off",
+        "value": "HANDED_OFF",
+        "displayOrder": 3
+      },
+      {
+        "label": "Resolved",
+        "value": "RESOLVED",
+        "displayOrder": 4
+      }
+    ]
+  },
+  {
+    "name": "hs_cx_score_range",
+    "label": "CX Score range",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "",
+    "options": [
+      {
+        "label": "Critical",
+        "value": "critical",
+        "displayOrder": 0
+      },
+      {
+        "label": "Needs review",
+        "value": "needs_review",
+        "displayOrder": 1
+      },
+      {
+        "label": "Neutral",
+        "value": "neutral",
+        "displayOrder": 2
+      },
+      {
+        "label": "Good",
+        "value": "good",
+        "displayOrder": 3
+      },
+      {
+        "label": "Exceptional",
+        "value": "exceptional",
+        "displayOrder": 4
+      }
+    ]
+  },
+  {
+    "name": "hs_email_subject",
+    "label": "Email subject",
+    "type": "string",
+    "fieldType": "calculation_rollup",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Email subject",
+    "options": []
+  },
+  {
+    "name": "hs_external_object_ids",
+    "label": "External object ids",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Unique ids corresponding to tickets in a system outside of HubSpot",
+    "options": []
+  },
+  {
+    "name": "hs_file_upload",
+    "label": "File upload",
+    "type": "string",
+    "fieldType": "file",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": true,
+    "description": "Files attached to a support form by a contact.",
+    "options": []
+  },
+  {
+    "name": "hs_first_agent_message_sent_at",
+    "label": "First agent response date",
+    "type": "datetime",
+    "fieldType": "calculation_rollup",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date of the first response from an agent out of all associated conversations",
+    "options": []
+  },
+  {
+    "name": "hs_first_agent_message_sent_by",
+    "label": "First responding rep",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The agent that first responds to a ticket",
+    "options": []
+  },
+  {
+    "name": "hs_first_assignee_type",
+    "label": "First Assignee Type",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "This property is deprecated and going to be deleted, please do not use it. ",
+    "options": [
+      {
+        "label": "Chatbot",
+        "value": "chatbot",
+        "displayOrder": 0
+      },
+      {
+        "label": "User",
+        "value": "user",
+        "displayOrder": 1
+      },
+      {
+        "label": "Customer Agent",
+        "value": "customer_agent",
+        "displayOrder": 2
+      }
+    ]
+  },
+  {
+    "name": "hs_form_id",
+    "label": "Form",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Form which created the ticket",
+    "options": []
+  },
+  {
+    "name": "hs_form_submission_conversion_id",
+    "label": "Form submission conversion ID ",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Submission that created the ticket",
+    "options": []
+  },
+  {
+    "name": "hs_has_live_chat_ended_or_email_sent",
+    "label": "Has live chat ended or email sent",
+    "type": "enumeration",
+    "fieldType": "radio",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "",
+    "options": [
+      {
+        "label": "True",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "False",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_help_desk_onboarding_ticket",
+    "label": "Help Desk onboarding ticket",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "String storing information about whether this ticket is this a test ticket used to introduce the Help Desk for onboarding",
+    "options": []
+  },
+  {
+    "name": "hs_helpdesk_sort_timestamp",
+    "label": "Helpdesk Sort Timestamp",
+    "type": "datetime",
+    "fieldType": "calculation_rollup",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "A calculated property to help with sorting in the Helpdesk",
+    "options": []
+  },
+  {
+    "name": "hs_in_helpdesk",
+    "label": "In Help Desk",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Is this Ticket rendered in the Help Desk",
+    "options": [
+      {
+        "label": "True",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "False",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_inbox_id",
+    "label": "Inbox ID",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Inbox the ticket is in",
+    "options": []
+  },
+  {
+    "name": "hs_is_closed",
+    "label": "Closed",
+    "type": "bool",
+    "fieldType": "calculation_equation",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Flag for whether a ticket is considered closed or open",
+    "options": [
+      {
+        "label": "True",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "False",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_is_closed_in_time_to_close_sla_count",
+    "label": "Is Closed in Time to Close Sla Count",
+    "type": "number",
+    "fieldType": "calculation_equation",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "1 if ttc is successfully reached, 0 if not, and nothing if ttc is still active",
+    "options": []
+  },
+  {
+    "name": "hs_is_closed_in_time_to_first_response_sla_count",
+    "label": "Is Closed in Time to First Response Sla Count",
+    "type": "number",
+    "fieldType": "calculation_equation",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "1 if ttfr is successfully reached, 0 if not, and nothing if ttfr is still active",
+    "options": []
+  },
+  {
+    "name": "hs_is_latest_message_failed",
+    "label": "Is latest message failed",
+    "type": "bool",
+    "fieldType": "calculation_rollup",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Is latest message failed",
+    "options": [
+      {
+        "label": "Yes",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "No",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_is_latest_message_hidden_from_all",
+    "label": "Is latest message hidden from all",
+    "type": "bool",
+    "fieldType": "calculation_rollup",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Is latest message hidden from all",
+    "options": [
+      {
+        "label": "Yes",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "No",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_is_one_touch_ticket",
+    "label": "First contact resolution",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "was the ticket closed with just one agent message sent",
+    "options": [
+      {
+        "label": "Yes",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "No",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_is_visible_in_help_desk",
+    "label": "Is Visible in Help desk",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Whether the ticket is visible in help desk",
+    "options": [
+      {
+        "label": "Yes",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "No",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_last_email_activity",
+    "label": "Last email activity",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The type of the last email activity with the contact associated with the ticket.",
+    "options": [
+      {
+        "label": "First email received from contact",
+        "value": "ORIGINAL_FROM_CONTACT",
+        "displayOrder": 1
+      },
+      {
+        "label": "Email sent to contact",
+        "value": "SENT_TO_CONTACT",
+        "displayOrder": 2
+      },
+      {
+        "label": "Email received from contact",
+        "value": "REPLY_FROM_CONTACT",
+        "displayOrder": 3
+      }
+    ]
+  },
+  {
+    "name": "hs_last_email_date",
+    "label": "Last email date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date of the last email activity with the contact associated with the ticket.",
+    "options": []
+  },
+  {
+    "name": "hs_last_email_details",
+    "label": "Last email details",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The id and direction of the last non-forwarded email",
+    "options": []
+  },
+  {
+    "name": "hs_last_email_type",
+    "label": "Last Email Type",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "",
+    "options": []
+  },
+  {
+    "name": "hs_last_message_from_visitor",
+    "label": "Last message from visitor",
+    "type": "bool",
+    "fieldType": "calculation_equation",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Whether the last message came from visitor",
+    "options": [
+      {
+        "label": "True",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "False",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_last_message_received_at",
+    "label": "Last message received date",
+    "type": "datetime",
+    "fieldType": "calculation_rollup",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date of the last response from the visitor",
+    "options": []
+  },
+  {
+    "name": "hs_last_message_sent_at",
+    "label": "Last response date",
+    "type": "datetime",
+    "fieldType": "calculation_rollup",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date of the last response from an agent or bot",
+    "options": []
+  },
+  {
+    "name": "hs_latest_message_attachment_types",
+    "label": "Latest message attachment types",
+    "type": "enumeration",
+    "fieldType": "calculation_rollup",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "List of attachment types from the latest message",
+    "options": [
+      {
+        "label": "Files",
+        "value": "0",
+        "displayOrder": 0
+      },
+      {
+        "label": "Inline Images ",
+        "value": "1",
+        "displayOrder": 1
+      },
+      {
+        "label": "Quick Replies",
+        "value": "2",
+        "displayOrder": 2
+      },
+      {
+        "label": "Mentions",
+        "value": "3",
+        "displayOrder": 3
+      },
+      {
+        "label": "Email Metadata",
+        "value": "4",
+        "displayOrder": 4
+      },
+      {
+        "label": "Rich Media Templates",
+        "value": "5",
+        "displayOrder": 5
+      },
+      {
+        "label": "Call Metadata",
+        "value": "6",
+        "displayOrder": 6
+      },
+      {
+        "label": "Message Position Descriptor",
+        "value": "7",
+        "displayOrder": 7
+      },
+      {
+        "label": "Location",
+        "value": "8",
+        "displayOrder": 8
+      },
+      {
+        "label": "Message Header",
+        "value": "9",
+        "displayOrder": 9
+      },
+      {
+        "label": "Contact Attachment",
+        "value": "10",
+        "displayOrder": 10
+      },
+      {
+        "label": "WhatsApp Template Metadata",
+        "value": "11",
+        "displayOrder": 11
+      },
+      {
+        "label": "Unsupported Content Attachment",
+        "value": "12",
+        "displayOrder": 12
+      }
+    ]
+  },
+  {
+    "name": "hs_latest_message_is_forwarded_email",
+    "label": "Latest message is forwarded email",
+    "type": "bool",
+    "fieldType": "calculation_rollup",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Is latest message a forwarded email",
+    "options": [
+      {
+        "label": "Yes",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "No",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_latest_message_is_thread_comment",
+    "label": "Latest message is thread comment",
+    "type": "bool",
+    "fieldType": "calculation_rollup",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Is latest message a thread comment",
+    "options": [
+      {
+        "label": "Yes",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "No",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_latest_message_seen_by_agent_ids",
+    "label": "Latest message seen by agent ids",
+    "type": "enumeration",
+    "fieldType": "calculation_rollup",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Agents who have seen the newest message across all conversations associated to the ticket",
+    "options": []
+  },
+  {
+    "name": "hs_latest_message_visible_to_visitor",
+    "label": "Latest message visible to visitor",
+    "type": "string",
+    "fieldType": "calculation_rollup",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The text of the latest message that is visible to the visitor (truncated)",
+    "options": []
+  },
+  {
+    "name": "hs_latest_message_visible_to_visitor_sent_at",
+    "label": "Latest message visible to visitor sent at",
+    "type": "datetime",
+    "fieldType": "calculation_rollup",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The timestamp of when the last message visible to the visitor was sent.",
+    "options": []
+  },
+  {
+    "name": "hs_merged_object_ids",
+    "label": "Merged Ticket IDs",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The list of Ticket record IDs that have been merged into this Ticket. This value is set automatically by HubSpot.",
+    "options": []
+  },
+  {
+    "name": "hs_most_relevant_sla_status",
+    "label": "Most relevant SLA status",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Most relevant sla status",
+    "options": [
+      {
+        "label": "Overdue",
+        "value": "1",
+        "displayOrder": 0
+      },
+      {
+        "label": "Due Soon",
+        "value": "2",
+        "displayOrder": 1
+      },
+      {
+        "label": "Active SLA",
+        "value": "0",
+        "displayOrder": 2
+      },
+      {
+        "label": "SLA completed late",
+        "value": "4",
+        "displayOrder": 3
+      },
+      {
+        "label": "SLA completed on time",
+        "value": "3",
+        "displayOrder": 4
+      }
+    ]
+  },
+  {
+    "name": "hs_most_relevant_sla_type",
+    "label": "Most Relevant SLA Type",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Most relevant SLA type between Close By, First Response, Next Response",
+    "options": [
+      {
+        "label": "Close by",
+        "value": "TIME_TO_CLOSE",
+        "displayOrder": 0
+      },
+      {
+        "label": "First response",
+        "value": "TIME_TO_RESPOND",
+        "displayOrder": 1
+      },
+      {
+        "label": "Next response",
+        "value": "TIME_TO_NEXT_RESPONSE",
+        "displayOrder": 2
+      }
+    ]
+  },
+  {
+    "name": "hs_msteams_message_id",
+    "label": "Microsoft Teams message ID for this ticket.",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Microsoft Teams message ID for this ticket.",
+    "options": []
+  },
+  {
+    "name": "hs_notes_last_activity",
+    "label": "Last Activity",
+    "type": "object_coordinates",
+    "fieldType": "text",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The coordinates of the last activity for a ticket. This is set automatically by HubSpot based on user actions in the ticket record.",
+    "options": []
+  },
+  {
+    "name": "hs_notes_next_activity",
+    "label": "Next Activity",
+    "type": "object_coordinates",
+    "fieldType": "text",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The coordinates of the next upcoming activity for a ticket. This is set automatically by HubSpot based on user actions in the ticket record.",
+    "options": []
+  },
+  {
+    "name": "hs_notes_next_activity_type",
+    "label": "Next Activity Type",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The type of the next upcoming activity for a ticket. This property is set automatically by HubSpot based on user action. This includes logging a future call, email, or meeting using the Log feature, as well as creating a future task or scheduling a future meeting. This is updated automatically by HubSpot.",
+    "options": [
+      {
+        "label": "Call",
+        "value": "CALL",
+        "displayOrder": 0
+      },
+      {
+        "label": "Conversation session",
+        "value": "CONVERSATION_SESSION",
+        "displayOrder": 1
+      },
+      {
+        "label": "Email reply from contact",
+        "value": "INCOMING_EMAIL",
+        "displayOrder": 2
+      },
+      {
+        "label": "Email sent to contact",
+        "value": "EMAIL",
+        "displayOrder": 3
+      },
+      {
+        "label": "Forwarded email",
+        "value": "FORWARDED_EMAIL",
+        "displayOrder": 4
+      },
+      {
+        "label": "LinkedIn message",
+        "value": "LINKEDIN_MESSAGE",
+        "displayOrder": 5
+      },
+      {
+        "label": "Meeting",
+        "value": "MEETING",
+        "displayOrder": 6
+      },
+      {
+        "label": "Note",
+        "value": "NOTE",
+        "displayOrder": 7
+      },
+      {
+        "label": "Postal mail",
+        "value": "POSTAL_MAIL",
+        "displayOrder": 8
+      },
+      {
+        "label": "Publishing task",
+        "value": "PUBLISHING_TASK",
+        "displayOrder": 9
+      },
+      {
+        "label": "SMS",
+        "value": "SMS",
+        "displayOrder": 10
+      },
+      {
+        "label": "Task",
+        "value": "TASK",
+        "displayOrder": 11
+      },
+      {
+        "label": "WhatsApp",
+        "value": "WHATS_APP",
+        "displayOrder": 12
+      }
+    ]
+  },
+  {
+    "name": "hs_num_associated_companies",
+    "label": "Number of Associated Companies",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Number of companies associated with this ticket",
+    "options": []
+  },
+  {
+    "name": "hs_num_associated_conversations",
+    "label": "Number of Associated Conversations",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Number of conversations associated to the ticket",
+    "options": []
+  },
+  {
+    "name": "hs_number_of_touches",
+    "label": "Number of touches",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "",
+    "options": []
+  },
+  {
+    "name": "hs_object_id",
+    "label": "Record ID",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The unique ID for this record. This value is set automatically by HubSpot.",
+    "options": []
+  },
+  {
+    "name": "hs_object_source",
+    "label": "Record creation source",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Raw internal PropertySource present in the RequestMeta when this record was created.",
+    "options": []
+  },
+  {
+    "name": "hs_object_source_detail_1",
+    "label": "Record source detail 1",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "First level of detail on how this record was created.",
+    "options": []
+  },
+  {
+    "name": "hs_object_source_detail_2",
+    "label": "Record source detail 2",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Second level of detail on how this record was created.",
+    "options": []
+  },
+  {
+    "name": "hs_object_source_detail_3",
+    "label": "Record source detail 3",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Third level of detail on how this record was created.",
+    "options": []
+  },
+  {
+    "name": "hs_object_source_id",
+    "label": "Record creation source ID",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Raw internal sourceId present in the RequestMeta when this record was created.",
+    "options": []
+  },
+  {
+    "name": "hs_object_source_label",
+    "label": "Record source",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "How this record was created.",
+    "options": []
+  },
+  {
+    "name": "hs_object_source_user_id",
+    "label": "Record creation source user ID",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Raw internal userId present in the RequestMeta when this record was created.",
+    "options": []
+  },
+  {
+    "name": "hs_originating_channel_instance_id",
+    "label": "Originating channel account",
+    "type": "enumeration",
+    "fieldType": "calculation_rollup",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "First channel account used when conversation was started",
+    "options": []
+  },
+  {
+    "name": "hs_originating_email_engagement_id",
+    "label": "Originating email engagement id",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Engagement id of the email originating this ticket",
+    "options": []
+  },
+  {
+    "name": "hs_originating_generic_channel_id",
+    "label": "Originating channel type",
+    "type": "enumeration",
+    "fieldType": "calculation_rollup",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The channel the conversation is in",
+    "options": []
+  },
+  {
+    "name": "hs_outbound_ticket",
+    "label": "Outbound ticket",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Was the ticket created by sending an outbound communication from an object record page?",
+    "options": [
+      {
+        "label": "Yes",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "No",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_owning_teams",
+    "label": "Owning Teams",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The teams that are attributed to this record.",
+    "options": []
+  },
+  {
+    "name": "hs_pinned_engagement_id",
+    "label": "Pinned Engagement ID",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The object ID of the current pinned engagement. This will only be shown if there is already an association to the engagement.",
+    "options": []
+  },
+  {
+    "name": "hs_pipeline",
+    "label": "Pipeline",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": true,
+    "description": "The pipeline that contains this ticket",
+    "options": []
+  },
+  {
+    "name": "hs_pipeline_stage",
+    "label": "Ticket status",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": true,
+    "description": "The pipeline stage that contains this ticket",
+    "options": []
+  },
+  {
+    "name": "hs_predicted_cx_score",
+    "label": "CX Score",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "",
+    "options": []
+  },
+  {
+    "name": "hs_predicted_cx_score_evidence",
+    "label": "CX Score explanation",
+    "type": "string",
+    "fieldType": "textarea",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Explanation for the ticket's CX Score",
+    "options": []
+  },
+  {
+    "name": "hs_primary_company",
+    "label": "Primary Company",
+    "type": "string",
+    "fieldType": "calculation_rollup",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Primary company of a ticket",
+    "options": []
+  },
+  {
+    "name": "hs_primary_company_id",
+    "label": "Primary Company ID",
+    "type": "number",
+    "fieldType": "calculation_rollup",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Primary company ID of a ticket",
+    "options": []
+  },
+  {
+    "name": "hs_primary_company_name",
+    "label": "Primary Company Name",
+    "type": "string",
+    "fieldType": "calculation_rollup",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Primary company name of a ticket",
+    "options": []
+  },
+  {
+    "name": "hs_primary_topic",
+    "label": "Primary topic",
+    "type": "enumeration",
+    "fieldType": "calculation_rollup",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Single top-level topic in a portal's Topic taxonomy that represents the reason the ticket/conversation was first opened",
+    "options": []
+  },
+  {
+    "name": "hs_read_only",
+    "label": "Read only object",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Determines whether a record can be edited by a user.",
+    "options": [
+      {
+        "label": "True",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "False",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_resolution",
+    "label": "Resolution",
+    "type": "enumeration",
+    "fieldType": "radio",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": true,
+    "description": "The action taken to resolve the ticket",
+    "options": [
+      {
+        "label": "Issue fixed",
+        "value": "ISSUE_FIXED",
+        "displayOrder": 0
+      },
+      {
+        "label": "Feature request tracked",
+        "value": "FEATURE_REQUEST_TRACKED",
+        "displayOrder": 1
+      },
+      {
+        "label": "Refund applied",
+        "value": "REFUND_APPLIED",
+        "displayOrder": 2
+      },
+      {
+        "label": "Sent knowledge document link",
+        "value": "SENT_KNOWLEDGE_DOCUMENT_LINK",
+        "displayOrder": 3
+      }
+    ]
+  },
+  {
+    "name": "hs_sales_email_last_replied",
+    "label": "Recent Sales Email Replied Date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The last time a tracked sales email was replied to for this ticket",
+    "options": []
+  },
+  {
+    "name": "hs_shared_team_ids",
+    "label": "Shared teams",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Additional teams whose users can access the Ticket based on their permissions. This can be set manually or through Workflows or APIs.",
+    "options": []
+  },
+  {
+    "name": "hs_shared_user_ids",
+    "label": "Shared users",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Additional users that can access the Ticket based on their permissions. This can be set manually or through Workflows and APIs.",
+    "options": []
+  },
+  {
+    "name": "hs_sla_operating_hours",
+    "label": "SLA operating hours",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Configured operating hours when SLA was applied",
+    "options": []
+  },
+  {
+    "name": "hs_sla_pause_status",
+    "label": "SLA Pause Status",
+    "type": "enumeration",
+    "fieldType": "radio",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Status describing if the SLAs on a ticket are paused.",
+    "options": [
+      {
+        "label": "Paused",
+        "value": "paused",
+        "displayOrder": 0
+      }
+    ]
+  },
+  {
+    "name": "hs_source_object_id",
+    "label": "Source Object ID",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The ID of the object from which the data was migrated. This is set automatically during portal data migration.",
+    "options": []
+  },
+  {
+    "name": "hs_source_url",
+    "label": "Source url",
+    "type": "string",
+    "fieldType": "calculation_rollup",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The url where the ticket initially started.",
+    "options": []
+  },
+  {
+    "name": "hs_summarized_ticket_owner_type",
+    "label": "Summarized Ticket Owner Type",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Summarizes the mix of automated and human ownership involved in handling a ticket throughout its entire lifecycle.",
+    "options": [
+      {
+        "label": "Human rep only",
+        "value": "human_rep_only",
+        "displayOrder": 0
+      },
+      {
+        "label": "Customer Agent only",
+        "value": "customer_agent_only",
+        "displayOrder": 1
+      },
+      {
+        "label": "Rule-based bot only",
+        "value": "rule_based_bot_only",
+        "displayOrder": 2
+      },
+      {
+        "label": "Combination of human and automation",
+        "value": "combination_of_human_and_automation",
+        "displayOrder": 3
+      },
+      {
+        "label": "Combination of automation",
+        "value": "combination_of_automation",
+        "displayOrder": 4
+      }
+    ]
+  },
+  {
+    "name": "hs_tag_ids",
+    "label": "Ticket Tags",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "List of tag ids applicable to a ticket. This property is set automatically by HubSpot.",
+    "options": []
+  },
+  {
+    "name": "hs_thread_ids_to_restore",
+    "label": "Thread IDs To Restore",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Thread IDs (from cv-threads) used to implement custom cascading delete/restore",
+    "options": []
+  },
+  {
+    "name": "hs_ticket_category",
+    "label": "Category",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": true,
+    "description": "Main reason customer reached out for help",
+    "options": [
+      {
+        "label": "Product issue",
+        "value": "PRODUCT_ISSUE",
+        "displayOrder": 1
+      },
+      {
+        "label": "Billing issue",
+        "value": "BILLING_ISSUE",
+        "displayOrder": 2
+      },
+      {
+        "label": "Feature request",
+        "value": "FEATURE_REQUEST",
+        "displayOrder": 3
+      },
+      {
+        "label": "General inquiry",
+        "value": "GENERAL_INQUIRY",
+        "displayOrder": 4
+      }
+    ]
+  },
+  {
+    "name": "hs_ticket_id",
+    "label": "Ticket ID",
+    "type": "number",
+    "fieldType": "calculation_equation",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The unique id for this ticket. This unique id is automatically populated by HubSpot.",
+    "options": []
+  },
+  {
+    "name": "hs_ticket_owner_type",
+    "label": "Ticket Owner Type",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Identifies each individual type of owner that handled a ticket throughout its entire lifecycle.",
+    "options": [
+      {
+        "label": "Human rep",
+        "value": "human_rep",
+        "displayOrder": 0
+      },
+      {
+        "label": "Customer Agent",
+        "value": "customer_agent",
+        "displayOrder": 1
+      },
+      {
+        "label": "Rule-based bot",
+        "value": "rule_based_bot",
+        "displayOrder": 2
+      }
+    ]
+  },
+  {
+    "name": "hs_ticket_priority",
+    "label": "Priority",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": true,
+    "description": "The level of attention needed on the ticket",
+    "options": [
+      {
+        "label": "Low",
+        "value": "LOW",
+        "displayOrder": 0
+      },
+      {
+        "label": "Medium",
+        "value": "MEDIUM",
+        "displayOrder": 1
+      },
+      {
+        "label": "High",
+        "value": "HIGH",
+        "displayOrder": 2
+      },
+      {
+        "label": "Urgent",
+        "value": "URGENT",
+        "displayOrder": 3
+      }
+    ]
+  },
+  {
+    "name": "hs_time_to_close_in_operating_hours",
+    "label": "Time to close in SLA hours",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The time between when the ticket was created and closed. This time calculation accounts for the goals set up for your SLAs.",
+    "options": []
+  },
+  {
+    "name": "hs_time_to_close_sla_at",
+    "label": "Time to Close SLA Due Date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "When the ticket falls out of Time to Close SLA.",
+    "options": []
+  },
+  {
+    "name": "hs_time_to_close_sla_status",
+    "label": "Time to Close SLA Ticket Status",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Current Time to Close SLA status of ticket",
+    "options": [
+      {
+        "label": "Overdue",
+        "value": "1",
+        "displayOrder": 0
+      },
+      {
+        "label": "Due Soon",
+        "value": "2",
+        "displayOrder": 1
+      },
+      {
+        "label": "Active SLA",
+        "value": "0",
+        "displayOrder": 2
+      },
+      {
+        "label": "SLA completed late",
+        "value": "4",
+        "displayOrder": 3
+      },
+      {
+        "label": "SLA completed on time",
+        "value": "3",
+        "displayOrder": 4
+      }
+    ]
+  },
+  {
+    "name": "hs_time_to_first_assign",
+    "label": "Time to first assign",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "This property is deprecated and going to be deleted, please do not use it",
+    "options": []
+  },
+  {
+    "name": "hs_time_to_first_rep_assignment",
+    "label": "Time to first rep assignment",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "",
+    "options": []
+  },
+  {
+    "name": "hs_time_to_first_response_in_operating_hours",
+    "label": "Time to first response in SLA hours",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The time between the ticket create date and the first agent reply. This time calculation accounts for the goals set up for your SLAs.",
+    "options": []
+  },
+  {
+    "name": "hs_time_to_first_response_sla_at",
+    "label": "Time to First Response SLA Due Date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "When the ticket falls out of the Time to First Response SLA",
+    "options": []
+  },
+  {
+    "name": "hs_time_to_first_response_sla_status",
+    "label": "Time to First Response SLA Status",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Current Time to First Response SLA status",
+    "options": [
+      {
+        "label": "Overdue",
+        "value": "1",
+        "displayOrder": 0
+      },
+      {
+        "label": "Due Soon",
+        "value": "2",
+        "displayOrder": 1
+      },
+      {
+        "label": "Active SLA",
+        "value": "0",
+        "displayOrder": 2
+      },
+      {
+        "label": "SLA completed late",
+        "value": "4",
+        "displayOrder": 3
+      },
+      {
+        "label": "SLA completed on time",
+        "value": "3",
+        "displayOrder": 4
+      }
+    ]
+  },
+  {
+    "name": "hs_time_to_next_response_sla_at",
+    "label": "Time to Next Response SLA Due Date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "When the ticket falls out of Time to Next Response SLA",
+    "options": []
+  },
+  {
+    "name": "hs_time_to_next_response_sla_status",
+    "label": "Time to Next Response SLA Status",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Current Time to Next Response SLA status",
+    "options": [
+      {
+        "label": "Overdue",
+        "value": "1",
+        "displayOrder": 0
+      },
+      {
+        "label": "Due Soon",
+        "value": "2",
+        "displayOrder": 1
+      },
+      {
+        "label": "Active SLA",
+        "value": "0",
+        "displayOrder": 2
+      },
+      {
+        "label": "SLA completed late",
+        "value": "4",
+        "displayOrder": 3
+      },
+      {
+        "label": "SLA completed on time",
+        "value": "3",
+        "displayOrder": 4
+      }
+    ]
+  },
+  {
+    "name": "hs_unique_creation_key",
+    "label": "Unique creation key",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Unique property used for idempotent creates",
+    "options": []
+  },
+  {
+    "name": "hs_updated_by_user_id",
+    "label": "Updated by user ID",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The user who last updated this record. This value is set automatically by HubSpot.",
+    "options": []
+  },
+  {
+    "name": "hs_user_ids_of_all_notification_followers",
+    "label": "User IDs of all notification followers",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The user IDs of all users that have clicked follow within the object to opt-in to getting follow notifications",
+    "options": []
+  },
+  {
+    "name": "hs_user_ids_of_all_notification_unfollowers",
+    "label": "User IDs of all notification unfollowers",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The user IDs of all object owners that have clicked unfollow within the object to opt-out of getting follow notifications",
+    "options": []
+  },
+  {
+    "name": "hs_user_ids_of_all_owners",
+    "label": "User IDs of all owners",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The user IDs of all owners of this record.",
+    "options": []
+  },
+  {
+    "name": "hs_was_imported",
+    "label": "Performed in an import",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Object is part of an import",
+    "options": [
+      {
+        "label": "True",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "False",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hubspot_owner_id",
+    "label": "Ticket owner",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": true,
+    "description": "User the ticket is assigned to. Assign additional users to a ticket record by creating a custom user property.",
+    "options": []
+  },
+  {
+    "name": "hubspot_team_id",
+    "label": "HubSpot team",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Primary team of the ticket owner. This property is set automatically by HubSpot.",
+    "options": []
+  },
+  {
+    "name": "last_engagement_date",
+    "label": "Date of last engagement",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date of the last reply or note",
+    "options": []
+  },
+  {
+    "name": "notes_last_contacted",
+    "label": "Last Contacted (Ticket Note)",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The last time a call, chat conversation, LinkedIn message, postal mail, meeting, note, sales email, SMS, or WhatsApp message was logged for a ticket. This is set automatically by HubSpot based on user actions in the ticket record.",
+    "options": []
+  },
+  {
+    "name": "notes_last_updated",
+    "label": "Last Activity Date (Ticket Note)",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The last time a note, call, email, meeting, or task was logged for a ticket. This is set automatically by HubSpot based on user actions in the ticket record.",
+    "options": []
+  },
+  {
+    "name": "notes_next_activity_date",
+    "label": "Next Activity Date (Ticket Note)",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date of the next upcoming activity for this ticket",
+    "options": []
+  },
+  {
+    "name": "nps_follow_up_answer",
+    "label": "NPS follow up",
+    "type": "string",
+    "fieldType": "textarea",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Answer to NPS follow up question",
+    "options": []
+  },
+  {
+    "name": "nps_follow_up_question_version",
+    "label": "NPS follow up question",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Specific version of NPS follow up question that was asked",
+    "options": []
+  },
+  {
+    "name": "nps_score",
+    "label": "Conversation NPS score",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "NPS score received after ticket resolution",
+    "options": [
+      {
+        "label": "0",
+        "value": "0",
+        "displayOrder": 0
+      },
+      {
+        "label": "1",
+        "value": "1",
+        "displayOrder": 1
+      },
+      {
+        "label": "2",
+        "value": "2",
+        "displayOrder": 2
+      },
+      {
+        "label": "3",
+        "value": "3",
+        "displayOrder": 3
+      },
+      {
+        "label": "4",
+        "value": "4",
+        "displayOrder": 4
+      },
+      {
+        "label": "5",
+        "value": "5",
+        "displayOrder": 5
+      },
+      {
+        "label": "6",
+        "value": "6",
+        "displayOrder": 6
+      },
+      {
+        "label": "7",
+        "value": "7",
+        "displayOrder": 7
+      },
+      {
+        "label": "8",
+        "value": "8",
+        "displayOrder": 8
+      },
+      {
+        "label": "9",
+        "value": "9",
+        "displayOrder": 9
+      },
+      {
+        "label": "10",
+        "value": "10",
+        "displayOrder": 10
+      }
+    ]
+  },
+  {
+    "name": "num_contacted_notes",
+    "label": "Number of times contacted (Ticket Note)",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The number of times a call, email or meeting was logged for this ticket",
+    "options": []
+  },
+  {
+    "name": "source_ref",
+    "label": "Reference to source-specific object",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The id of a connected source object",
+    "options": []
+  },
+  {
+    "name": "source_thread_id",
+    "label": "Reference to email thread",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The id of an email thread with ticket conversation",
+    "options": []
+  },
+  {
+    "name": "source_type",
+    "label": "Source",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": true,
+    "description": "Channel where ticket was originally submitted",
+    "options": [
+      {
+        "label": "Chat",
+        "value": "CHAT",
+        "displayOrder": 1
+      },
+      {
+        "label": "Email",
+        "value": "EMAIL",
+        "displayOrder": 5
+      },
+      {
+        "label": "Form",
+        "value": "FORM",
+        "displayOrder": 7
+      },
+      {
+        "label": "Phone",
+        "value": "PHONE",
+        "displayOrder": 8
+      }
+    ]
+  },
+  {
+    "name": "subject",
+    "label": "Ticket name",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": true,
+    "description": "Short summary of ticket",
+    "options": []
+  },
+  {
+    "name": "tags",
+    "label": "Tags",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "ticketinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Tags associated with your tickets",
+    "options": []
+  },
+  {
+    "name": "hs_v2_cumulative_time_in_1",
+    "label": "Cumulative time in \"New (Support Pipeline)\"",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The cumulative time in seconds spent by the ticket  in the 'New' stage, 'Support Pipeline' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_cumulative_time_in_1314062737",
+    "label": "Cumulative time in \"New Inquiry (Sales Inquiries)\"",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The cumulative time in seconds spent by the ticket in the 'New Inquiry' stage, 'Sales Inquiries' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_cumulative_time_in_1314062738",
+    "label": "Cumulative time in \"Qualification Needed (Sales Inquiries)\"",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The cumulative time in seconds spent by the ticket in the 'Qualification Needed' stage, 'Sales Inquiries' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_cumulative_time_in_1314062739",
+    "label": "Cumulative time in \"Recommendation Active (Sales Inquiries)\"",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The cumulative time in seconds spent by the ticket in the 'Recommendation Active' stage, 'Sales Inquiries' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_cumulative_time_in_1314062740",
+    "label": "Cumulative time in \"Closed - Not Interested (Sales Inquiries)\"",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The cumulative time in seconds spent by the ticket in the 'Closed - Not Interested' stage, 'Sales Inquiries' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_cumulative_time_in_1315418461",
+    "label": "Cumulative time in \"Pending (Order Queue)\"",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The cumulative time in seconds spent by the ticket in the 'Pending' stage, 'Order Queue' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_cumulative_time_in_1315418462",
+    "label": "Cumulative time in \"Scheduled (Order Queue)\"",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The cumulative time in seconds spent by the ticket in the 'Scheduled' stage, 'Order Queue' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_cumulative_time_in_1315418463",
+    "label": "Cumulative time in \"Order Sent (Order Queue)\"",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The cumulative time in seconds spent by the ticket in the 'Order Sent' stage, 'Order Queue' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_cumulative_time_in_1315418464",
+    "label": "Cumulative time in \"Closed (Order Queue)\"",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The cumulative time in seconds spent by the ticket in the 'Closed' stage, 'Order Queue' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_cumulative_time_in_1325321729",
+    "label": "Cumulative time in \"Auto-Reply Sent (Support Pipeline)\"",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The cumulative time in seconds spent by the ticket in the 'Auto-Reply Sent' stage, 'Support Pipeline' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_cumulative_time_in_1325321730",
+    "label": "Cumulative time in \"Awaiting Customer Reply (Support Pipeline)\"",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The cumulative time in seconds spent by the ticket in the 'Awaiting Customer Reply' stage, 'Support Pipeline' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_cumulative_time_in_1325321731",
+    "label": "Cumulative time in \"In Progress (Support Pipeline)\"",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The cumulative time in seconds spent by the ticket in the 'In Progress' stage, 'Support Pipeline' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_cumulative_time_in_1325321732",
+    "label": "Cumulative time in \"Escalated (Support Pipeline)\"",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The cumulative time in seconds spent by the ticket in the 'Escalated' stage, 'Support Pipeline' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_cumulative_time_in_1325321733",
+    "label": "Cumulative time in \"Resolved (Support Pipeline)\"",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The cumulative time in seconds spent by the ticket in the 'Resolved' stage, 'Support Pipeline' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_cumulative_time_in_1337764015",
+    "label": "Cumulative time in \"Quote Prep (Sales Inquiries)\"",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The cumulative time in seconds spent by the ticket in the 'Quote Prep' stage, 'Sales Inquiries' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_cumulative_time_in_1337764016",
+    "label": "Cumulative time in \"Closed - Disqualified (Sales Inquiries)\"",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The cumulative time in seconds spent by the ticket in the 'Closed - Disqualified' stage, 'Sales Inquiries' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_cumulative_time_in_1337764017",
+    "label": "Cumulative time in \"Closed - Routed to Service (Sales Inquiries)\"",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The cumulative time in seconds spent by the ticket in the 'Closed - Routed to Service' stage, 'Sales Inquiries' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_cumulative_time_in_1337787444",
+    "label": "Cumulative time in \"Quote Sent (Sales Inquiries)\"",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The cumulative time in seconds spent by the ticket in the 'Quote Sent' stage, 'Sales Inquiries' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_cumulative_time_in_1337787445",
+    "label": "Cumulative time in \"Follow-Up (Sales Inquiries)\"",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The cumulative time in seconds spent by the ticket in the 'Follow-Up' stage, 'Sales Inquiries' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_cumulative_time_in_1337787446",
+    "label": "Cumulative time in \"Converted to Deal (Sales Inquiries)\"",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The cumulative time in seconds spent by the ticket in the 'Converted to Deal' stage, 'Sales Inquiries' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_cumulative_time_in_4",
+    "label": "Cumulative time in \"Closed (Support Pipeline)\"",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The cumulative time in seconds spent by the ticket  in the 'Closed' stage, 'Support Pipeline' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_date_entered_1",
+    "label": "Date entered \"New (Support Pipeline)\"",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time when the ticket entered the 'New' stage, 'Support Pipeline' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_date_entered_1314062737",
+    "label": "Date entered \"New Inquiry (Sales Inquiries)\"",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time when the ticket entered the 'New Inquiry' stage, 'Sales Inquiries' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_date_entered_1314062738",
+    "label": "Date entered \"Qualification Needed (Sales Inquiries)\"",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time when the ticket entered the 'Qualification Needed' stage, 'Sales Inquiries' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_date_entered_1314062739",
+    "label": "Date entered \"Recommendation Active (Sales Inquiries)\"",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time when the ticket entered the 'Recommendation Active' stage, 'Sales Inquiries' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_date_entered_1314062740",
+    "label": "Date entered \"Closed - Not Interested (Sales Inquiries)\"",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time when the ticket entered the 'Closed - Not Interested' stage, 'Sales Inquiries' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_date_entered_1315418461",
+    "label": "Date entered \"Pending (Order Queue)\"",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time when the ticket entered the 'Pending' stage, 'Order Queue' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_date_entered_1315418462",
+    "label": "Date entered \"Scheduled (Order Queue)\"",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time when the ticket entered the 'Scheduled' stage, 'Order Queue' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_date_entered_1315418463",
+    "label": "Date entered \"Order Sent (Order Queue)\"",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time when the ticket entered the 'Order Sent' stage, 'Order Queue' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_date_entered_1315418464",
+    "label": "Date entered \"Closed (Order Queue)\"",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time when the ticket entered the 'Closed' stage, 'Order Queue' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_date_entered_1325321729",
+    "label": "Date entered \"Auto-Reply Sent (Support Pipeline)\"",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time when the ticket entered the 'Auto-Reply Sent' stage, 'Support Pipeline' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_date_entered_1325321730",
+    "label": "Date entered \"Awaiting Customer Reply (Support Pipeline)\"",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time when the ticket entered the 'Awaiting Customer Reply' stage, 'Support Pipeline' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_date_entered_1325321731",
+    "label": "Date entered \"In Progress (Support Pipeline)\"",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time when the ticket entered the 'In Progress' stage, 'Support Pipeline' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_date_entered_1325321732",
+    "label": "Date entered \"Escalated (Support Pipeline)\"",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time when the ticket entered the 'Escalated' stage, 'Support Pipeline' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_date_entered_1325321733",
+    "label": "Date entered \"Resolved (Support Pipeline)\"",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time when the ticket entered the 'Resolved' stage, 'Support Pipeline' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_date_entered_1337764015",
+    "label": "Date entered \"Quote Prep (Sales Inquiries)\"",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time when the ticket entered the 'Quote Prep' stage, 'Sales Inquiries' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_date_entered_1337764016",
+    "label": "Date entered \"Closed - Disqualified (Sales Inquiries)\"",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time when the ticket entered the 'Closed - Disqualified' stage, 'Sales Inquiries' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_date_entered_1337764017",
+    "label": "Date entered \"Closed - Routed to Service (Sales Inquiries)\"",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time when the ticket entered the 'Closed - Routed to Service' stage, 'Sales Inquiries' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_date_entered_1337787444",
+    "label": "Date entered \"Quote Sent (Sales Inquiries)\"",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time when the ticket entered the 'Quote Sent' stage, 'Sales Inquiries' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_date_entered_1337787445",
+    "label": "Date entered \"Follow-Up (Sales Inquiries)\"",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time when the ticket entered the 'Follow-Up' stage, 'Sales Inquiries' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_date_entered_1337787446",
+    "label": "Date entered \"Converted to Deal (Sales Inquiries)\"",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time when the ticket entered the 'Converted to Deal' stage, 'Sales Inquiries' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_date_entered_4",
+    "label": "Date entered \"Closed (Support Pipeline)\"",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time when the ticket entered the 'Closed' stage, 'Support Pipeline' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_date_entered_current_stage",
+    "label": "Date entered current stage",
+    "type": "datetime",
+    "fieldType": "calculation_equation",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date this object entered its current pipeline stage",
+    "options": []
+  },
+  {
+    "name": "hs_v2_date_exited_1",
+    "label": "Date exited \"New (Support Pipeline)\"",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time when the ticket exited the 'New' stage, 'Support Pipeline' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_date_exited_1314062737",
+    "label": "Date exited \"New Inquiry (Sales Inquiries)\"",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time when the ticket exited the 'New Inquiry' stage, 'Sales Inquiries' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_date_exited_1314062738",
+    "label": "Date exited \"Qualification Needed (Sales Inquiries)\"",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time when the ticket exited the 'Qualification Needed' stage, 'Sales Inquiries' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_date_exited_1314062739",
+    "label": "Date exited \"Recommendation Active (Sales Inquiries)\"",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time when the ticket exited the 'Recommendation Active' stage, 'Sales Inquiries' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_date_exited_1314062740",
+    "label": "Date exited \"Closed - Not Interested (Sales Inquiries)\"",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time when the ticket exited the 'Closed - Not Interested' stage, 'Sales Inquiries' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_date_exited_1315418461",
+    "label": "Date exited \"Pending (Order Queue)\"",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time when the ticket exited the 'Pending' stage, 'Order Queue' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_date_exited_1315418462",
+    "label": "Date exited \"Scheduled (Order Queue)\"",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time when the ticket exited the 'Scheduled' stage, 'Order Queue' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_date_exited_1315418463",
+    "label": "Date exited \"Order Sent (Order Queue)\"",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time when the ticket exited the 'Order Sent' stage, 'Order Queue' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_date_exited_1315418464",
+    "label": "Date exited \"Closed (Order Queue)\"",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time when the ticket exited the 'Closed' stage, 'Order Queue' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_date_exited_1325321729",
+    "label": "Date exited \"Auto-Reply Sent (Support Pipeline)\"",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time when the ticket exited the 'Auto-Reply Sent' stage, 'Support Pipeline' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_date_exited_1325321730",
+    "label": "Date exited \"Awaiting Customer Reply (Support Pipeline)\"",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time when the ticket exited the 'Awaiting Customer Reply' stage, 'Support Pipeline' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_date_exited_1325321731",
+    "label": "Date exited \"In Progress (Support Pipeline)\"",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time when the ticket exited the 'In Progress' stage, 'Support Pipeline' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_date_exited_1325321732",
+    "label": "Date exited \"Escalated (Support Pipeline)\"",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time when the ticket exited the 'Escalated' stage, 'Support Pipeline' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_date_exited_1325321733",
+    "label": "Date exited \"Resolved (Support Pipeline)\"",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time when the ticket exited the 'Resolved' stage, 'Support Pipeline' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_date_exited_1337764015",
+    "label": "Date exited \"Quote Prep (Sales Inquiries)\"",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time when the ticket exited the 'Quote Prep' stage, 'Sales Inquiries' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_date_exited_1337764016",
+    "label": "Date exited \"Closed - Disqualified (Sales Inquiries)\"",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time when the ticket exited the 'Closed - Disqualified' stage, 'Sales Inquiries' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_date_exited_1337764017",
+    "label": "Date exited \"Closed - Routed to Service (Sales Inquiries)\"",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time when the ticket exited the 'Closed - Routed to Service' stage, 'Sales Inquiries' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_date_exited_1337787444",
+    "label": "Date exited \"Quote Sent (Sales Inquiries)\"",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time when the ticket exited the 'Quote Sent' stage, 'Sales Inquiries' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_date_exited_1337787445",
+    "label": "Date exited \"Follow-Up (Sales Inquiries)\"",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time when the ticket exited the 'Follow-Up' stage, 'Sales Inquiries' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_date_exited_1337787446",
+    "label": "Date exited \"Converted to Deal (Sales Inquiries)\"",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time when the ticket exited the 'Converted to Deal' stage, 'Sales Inquiries' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_date_exited_4",
+    "label": "Date exited \"Closed (Support Pipeline)\"",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time when the ticket exited the 'Closed' stage, 'Support Pipeline' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_latest_time_in_1",
+    "label": "Latest time in \"New (Support Pipeline)\"",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The total time in seconds spent by the ticket in the 'New' stage, 'Support Pipeline' pipeline since it last entered this stage",
+    "options": []
+  },
+  {
+    "name": "hs_v2_latest_time_in_1314062737",
+    "label": "Latest time in \"New Inquiry (Sales Inquiries)\"",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The total time in seconds spent by the ticket in the 'New Inquiry' stage, 'Sales Inquiries' pipeline since it last entered this stage",
+    "options": []
+  },
+  {
+    "name": "hs_v2_latest_time_in_1314062738",
+    "label": "Latest time in \"Qualification Needed (Sales Inquiries)\"",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The total time in seconds spent by the ticket in the 'Qualification Needed' stage, 'Sales Inquiries' pipeline since it last entered this stage",
+    "options": []
+  },
+  {
+    "name": "hs_v2_latest_time_in_1314062739",
+    "label": "Latest time in \"Recommendation Active (Sales Inquiries)\"",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The total time in seconds spent by the ticket in the 'Recommendation Active' stage, 'Sales Inquiries' pipeline since it last entered this stage",
+    "options": []
+  },
+  {
+    "name": "hs_v2_latest_time_in_1314062740",
+    "label": "Latest time in \"Closed - Not Interested (Sales Inquiries)\"",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The total time in seconds spent by the ticket in the 'Closed - Not Interested' stage, 'Sales Inquiries' pipeline since it last entered this stage",
+    "options": []
+  },
+  {
+    "name": "hs_v2_latest_time_in_1315418461",
+    "label": "Latest time in \"Pending (Order Queue)\"",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The total time in seconds spent by the ticket in the 'Pending' stage, 'Order Queue' pipeline since it last entered this stage",
+    "options": []
+  },
+  {
+    "name": "hs_v2_latest_time_in_1315418462",
+    "label": "Latest time in \"Scheduled (Order Queue)\"",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The total time in seconds spent by the ticket in the 'Scheduled' stage, 'Order Queue' pipeline since it last entered this stage",
+    "options": []
+  },
+  {
+    "name": "hs_v2_latest_time_in_1315418463",
+    "label": "Latest time in \"Order Sent (Order Queue)\"",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The total time in seconds spent by the ticket in the 'Order Sent' stage, 'Order Queue' pipeline since it last entered this stage",
+    "options": []
+  },
+  {
+    "name": "hs_v2_latest_time_in_1315418464",
+    "label": "Latest time in \"Closed (Order Queue)\"",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The total time in seconds spent by the ticket in the 'Closed' stage, 'Order Queue' pipeline since it last entered this stage",
+    "options": []
+  },
+  {
+    "name": "hs_v2_latest_time_in_1325321729",
+    "label": "Latest time in \"Auto-Reply Sent (Support Pipeline)\"",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The total time in seconds spent by the ticket in the 'Auto-Reply Sent' stage, 'Support Pipeline' pipeline since it last entered this stage",
+    "options": []
+  },
+  {
+    "name": "hs_v2_latest_time_in_1325321730",
+    "label": "Latest time in \"Awaiting Customer Reply (Support Pipeline)\"",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The total time in seconds spent by the ticket in the 'Awaiting Customer Reply' stage, 'Support Pipeline' pipeline since it last entered this stage",
+    "options": []
+  },
+  {
+    "name": "hs_v2_latest_time_in_1325321731",
+    "label": "Latest time in \"In Progress (Support Pipeline)\"",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The total time in seconds spent by the ticket in the 'In Progress' stage, 'Support Pipeline' pipeline since it last entered this stage",
+    "options": []
+  },
+  {
+    "name": "hs_v2_latest_time_in_1325321732",
+    "label": "Latest time in \"Escalated (Support Pipeline)\"",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The total time in seconds spent by the ticket in the 'Escalated' stage, 'Support Pipeline' pipeline since it last entered this stage",
+    "options": []
+  },
+  {
+    "name": "hs_v2_latest_time_in_1325321733",
+    "label": "Latest time in \"Resolved (Support Pipeline)\"",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The total time in seconds spent by the ticket in the 'Resolved' stage, 'Support Pipeline' pipeline since it last entered this stage",
+    "options": []
+  },
+  {
+    "name": "hs_v2_latest_time_in_1337764015",
+    "label": "Latest time in \"Quote Prep (Sales Inquiries)\"",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The total time in seconds spent by the ticket in the 'Quote Prep' stage, 'Sales Inquiries' pipeline since it last entered this stage",
+    "options": []
+  },
+  {
+    "name": "hs_v2_latest_time_in_1337764016",
+    "label": "Latest time in \"Closed - Disqualified (Sales Inquiries)\"",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The total time in seconds spent by the ticket in the 'Closed - Disqualified' stage, 'Sales Inquiries' pipeline since it last entered this stage",
+    "options": []
+  },
+  {
+    "name": "hs_v2_latest_time_in_1337764017",
+    "label": "Latest time in \"Closed - Routed to Service (Sales Inquiries)\"",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The total time in seconds spent by the ticket in the 'Closed - Routed to Service' stage, 'Sales Inquiries' pipeline since it last entered this stage",
+    "options": []
+  },
+  {
+    "name": "hs_v2_latest_time_in_1337787444",
+    "label": "Latest time in \"Quote Sent (Sales Inquiries)\"",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The total time in seconds spent by the ticket in the 'Quote Sent' stage, 'Sales Inquiries' pipeline since it last entered this stage",
+    "options": []
+  },
+  {
+    "name": "hs_v2_latest_time_in_1337787445",
+    "label": "Latest time in \"Follow-Up (Sales Inquiries)\"",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The total time in seconds spent by the ticket in the 'Follow-Up' stage, 'Sales Inquiries' pipeline since it last entered this stage",
+    "options": []
+  },
+  {
+    "name": "hs_v2_latest_time_in_1337787446",
+    "label": "Latest time in \"Converted to Deal (Sales Inquiries)\"",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The total time in seconds spent by the ticket in the 'Converted to Deal' stage, 'Sales Inquiries' pipeline since it last entered this stage",
+    "options": []
+  },
+  {
+    "name": "hs_v2_latest_time_in_4",
+    "label": "Latest time in \"Closed (Support Pipeline)\"",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The total time in seconds spent by the ticket in the 'Closed' stage, 'Support Pipeline' pipeline since it last entered this stage",
+    "options": []
+  },
+  {
+    "name": "hs_v2_time_in_current_stage",
+    "label": "Time in current stage",
+    "type": "datetime",
+    "fieldType": "calculation_equation",
+    "groupName": "ticketstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The time this object has spent in the current pipeline stage",
+    "options": []
+  },
+  {
+    "name": "hsc_consultation_completed_at",
+    "label": "HSC Consultation Completed At",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "email_system_properties",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Timestamp when the consultation was completed; triggers recap send",
+    "options": []
+  },
+  {
+    "name": "hsc_consultation_variant",
+    "label": "HSC Consultation Variant",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "email_system_properties",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Which consultation recap variant applies to this ticket",
+    "options": [
+      {
+        "label": "Standard",
+        "value": "standard",
+        "displayOrder": 0
+      },
+      {
+        "label": "No Local Partner",
+        "value": "no_local_partner",
+        "displayOrder": 1
+      },
+      {
+        "label": "Current System User",
+        "value": "current_system_user",
+        "displayOrder": 2
+      },
+      {
+        "label": "Front Partial",
+        "value": "front_partial",
+        "displayOrder": 3
+      }
+    ]
+  },
+  {
+    "name": "hsc_escalation_level",
+    "label": "HSC Escalation Level",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "hsc_sales_intelligence",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Current escalation level",
+    "options": [
+      {
+        "label": "None",
+        "value": "none",
+        "displayOrder": 0
+      },
+      {
+        "label": "Sales Review",
+        "value": "sales_review",
+        "displayOrder": 1
+      },
+      {
+        "label": "Service Review",
+        "value": "service_review",
+        "displayOrder": 2
+      },
+      {
+        "label": "Finance Review",
+        "value": "finance_review",
+        "displayOrder": 3
+      },
+      {
+        "label": "Founder Review",
+        "value": "founder_review",
+        "displayOrder": 4
+      },
+      {
+        "label": "Urgent Founder Review",
+        "value": "urgent_founder_review",
+        "displayOrder": 5
+      }
+    ]
+  },
+  {
+    "name": "hsc_inquiry_type",
+    "label": "HSC Inquiry Type",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "hsc_sales_intelligence",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Type of sales inquiry",
+    "options": [
+      {
+        "label": "Reorder",
+        "value": "reorder",
+        "displayOrder": 0
+      },
+      {
+        "label": "First Time Sale",
+        "value": "first_time_sale",
+        "displayOrder": 1
+      },
+      {
+        "label": "Custom Quote",
+        "value": "custom_quote",
+        "displayOrder": 2
+      },
+      {
+        "label": "Service Quote",
+        "value": "service_quote",
+        "displayOrder": 3
+      },
+      {
+        "label": "Policy Question",
+        "value": "policy_question",
+        "displayOrder": 4
+      },
+      {
+        "label": "Mixed Support Sales",
+        "value": "mixed_support_sales",
+        "displayOrder": 5
+      }
+    ]
+  },
+  {
+    "name": "hsc_next_action_date",
+    "label": "HSC Next Action Date",
+    "type": "date",
+    "fieldType": "date",
+    "groupName": "hsc_sales_intelligence",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Operational due date for next action",
+    "options": []
+  },
+  {
+    "name": "hsc_next_action_type",
+    "label": "HSC Next Action Type",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "hsc_sales_intelligence",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Type of next action needed",
+    "options": [
+      {
+        "label": "Await Customer Reply",
+        "value": "await_customer_reply",
+        "displayOrder": 0
+      },
+      {
+        "label": "Send Recommendation",
+        "value": "send_recommendation",
+        "displayOrder": 1
+      },
+      {
+        "label": "Build Quote",
+        "value": "build_quote",
+        "displayOrder": 2
+      },
+      {
+        "label": "Send Quote",
+        "value": "send_quote",
+        "displayOrder": 3
+      },
+      {
+        "label": "Call",
+        "value": "call",
+        "displayOrder": 4
+      },
+      {
+        "label": "Payment Follow Up",
+        "value": "payment_follow_up",
+        "displayOrder": 5
+      },
+      {
+        "label": "Route to Service",
+        "value": "route_to_service",
+        "displayOrder": 6
+      },
+      {
+        "label": "Route to Founder",
+        "value": "route_to_founder",
+        "displayOrder": 7
+      }
+    ]
+  },
+  {
+    "name": "hsc_primary_blocker",
+    "label": "HSC Primary Blocker",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "hsc_sales_intelligence",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Main blocker preventing progress",
+    "options": [
+      {
+        "label": "None",
+        "value": "none",
+        "displayOrder": 0
+      },
+      {
+        "label": "Spec Missing",
+        "value": "spec_missing",
+        "displayOrder": 1
+      },
+      {
+        "label": "Timing",
+        "value": "timing",
+        "displayOrder": 2
+      },
+      {
+        "label": "Budget",
+        "value": "budget",
+        "displayOrder": 3
+      },
+      {
+        "label": "Trust",
+        "value": "trust",
+        "displayOrder": 4
+      },
+      {
+        "label": "Maintenance",
+        "value": "maintenance",
+        "displayOrder": 5
+      },
+      {
+        "label": "Payment Path",
+        "value": "payment_path",
+        "displayOrder": 6
+      },
+      {
+        "label": "Service Issue",
+        "value": "service_issue",
+        "displayOrder": 7
+      },
+      {
+        "label": "Other",
+        "value": "other",
+        "displayOrder": 8
+      }
+    ]
+  },
+  {
+    "name": "hsc_qualification_state",
+    "label": "HSC Qualification State",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "hsc_sales_intelligence",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Current qualification status",
+    "options": [
+      {
+        "label": "Untriaged",
+        "value": "untriaged",
+        "displayOrder": 0
+      },
+      {
+        "label": "Intake Incomplete",
+        "value": "intake_incomplete",
+        "displayOrder": 1
+      },
+      {
+        "label": "Recommendable",
+        "value": "recommendable",
+        "displayOrder": 2
+      },
+      {
+        "label": "Quote Ready",
+        "value": "quote_ready",
+        "displayOrder": 3
+      },
+      {
+        "label": "Payment Ready",
+        "value": "payment_ready",
+        "displayOrder": 4
+      },
+      {
+        "label": "Deferred",
+        "value": "deferred",
+        "displayOrder": 5
+      },
+      {
+        "label": "Disqualified",
+        "value": "disqualified",
+        "displayOrder": 6
+      },
+      {
+        "label": "Escalated",
+        "value": "escalated",
+        "displayOrder": 7
+      }
+    ]
+  },
+  {
+    "name": "hsc_relationship_state",
+    "label": "HSC Relationship State",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "hsc_sales_intelligence",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Customer relationship state",
+    "options": [
+      {
+        "label": "New Lead",
+        "value": "new_lead",
+        "displayOrder": 0
+      },
+      {
+        "label": "Returning Customer",
+        "value": "returning_customer",
+        "displayOrder": 1
+      },
+      {
+        "label": "Active Customer With Issue",
+        "value": "active_customer_with_issue",
+        "displayOrder": 2
+      },
+      {
+        "label": "Partner",
+        "value": "partner",
+        "displayOrder": 3
+      },
+      {
+        "label": "Unknown",
+        "value": "unknown",
+        "displayOrder": 4
+      }
+    ]
+  },
+  {
+    "name": "hsc_route_decision",
+    "label": "HSC Route Decision",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "hsc_sales_intelligence",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Routing decision for this ticket",
+    "options": [
+      {
+        "label": "Stay Sales",
+        "value": "stay_sales",
+        "displayOrder": 0
+      },
+      {
+        "label": "Sales Then Service",
+        "value": "sales_then_service",
+        "displayOrder": 1
+      },
+      {
+        "label": "Service Then Sales",
+        "value": "service_then_sales",
+        "displayOrder": 2
+      },
+      {
+        "label": "Finance Only",
+        "value": "finance_only",
+        "displayOrder": 3
+      },
+      {
+        "label": "Ops Only",
+        "value": "ops_only",
+        "displayOrder": 4
+      },
+      {
+        "label": "Close Out",
+        "value": "close_out",
+        "displayOrder": 5
+      }
+    ]
+  },
+  {
+    "name": "hsc_spec_readiness",
+    "label": "HSC Spec Readiness",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "hsc_sales_intelligence",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "How ready the spec is for quoting",
+    "options": [
+      {
+        "label": "Unknown",
+        "value": "unknown",
+        "displayOrder": 0
+      },
+      {
+        "label": "Recommendation Ready",
+        "value": "recommendation_ready",
+        "displayOrder": 1
+      },
+      {
+        "label": "Budgetary Quote Ready",
+        "value": "budgetary_quote_ready",
+        "displayOrder": 2
+      },
+      {
+        "label": "Final Quote Ready",
+        "value": "final_quote_ready",
+        "displayOrder": 3
+      },
+      {
+        "label": "Spec Locked",
+        "value": "spec_locked",
+        "displayOrder": 4
+      }
+    ]
+  },
+  {
+    "name": "auto_reply_sent_date",
+    "label": "Auto Reply Sent Date",
+    "type": "date",
+    "fieldType": "date",
+    "groupName": "ticket_activity",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "",
+    "options": []
+  },
+  {
+    "name": "last_outbound_date",
+    "label": "Last Outbound Date",
+    "type": "date",
+    "fieldType": "date",
+    "groupName": "ticket_activity",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "",
+    "options": []
+  },
+  {
+    "name": "resolved_date",
+    "label": "Resolved Date",
+    "type": "date",
+    "fieldType": "date",
+    "groupName": "ticket_activity",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "",
+    "options": []
+  },
+  {
+    "name": "escalation_reason",
+    "label": "Escalation Reason",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "ticketinformation",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "",
+    "options": []
+  },
+  {
+    "name": "hair_system_related",
+    "label": "Hair System Related",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "ticketinformation",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "",
+    "options": [
+      {
+        "label": "Yes",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "No",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "related_order_number",
+    "label": "Related Order Number",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "ticketinformation",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "",
+    "options": []
+  },
+  {
+    "name": "resolution_notes",
+    "label": "Resolution Notes",
+    "type": "string",
+    "fieldType": "textarea",
+    "groupName": "ticketinformation",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "",
+    "options": []
+  },
+  {
+    "name": "resolution_type",
+    "label": "Resolution Type",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "ticketinformation",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "",
+    "options": [
+      {
+        "label": "Self Service",
+        "value": "self_service",
+        "displayOrder": 0
+      },
+      {
+        "label": "Agent Assisted",
+        "value": "agent_assisted",
+        "displayOrder": 1
+      },
+      {
+        "label": "Escalated",
+        "value": "escalated",
+        "displayOrder": 2
+      },
+      {
+        "label": "Automated",
+        "value": "automated",
+        "displayOrder": 3
+      }
+    ]
+  },
+  {
+    "name": "ticket_source",
+    "label": "Ticket Source",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "ticketinformation",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "",
+    "options": [
+      {
+        "label": "WhatsApp",
+        "value": "whatsapp",
+        "displayOrder": 0
+      },
+      {
+        "label": "Email",
+        "value": "email",
+        "displayOrder": 1
+      },
+      {
+        "label": "Portal",
+        "value": "portal",
+        "displayOrder": 2
+      },
+      {
+        "label": "Phone",
+        "value": "phone",
+        "displayOrder": 3
+      },
+      {
+        "label": "Breeze Agent",
+        "value": "breeze_agent",
+        "displayOrder": 4
+      }
+    ]
+  }
+]

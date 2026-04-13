@@ -1,0 +1,29 @@
+{
+  "label": "HSC Lifespan & Next Step Block",
+  "css_assets": [],
+  "external_js": [],
+  "global": false,
+  "host_template_types": ["EMAIL"],
+  "is_available_for_new_content": true,
+  "icon": "",
+  "smart_type": "NOT_SMART",
+  "tags": [],
+  "fields": [
+    {
+      "name": "reorder_cta_url",
+      "label": "Reorder CTA URL",
+      "required": false,
+      "locked": false,
+      "type": "url",
+      "default": "https://hairsolutions.co/pages/reorder"
+    },
+    {
+      "name": "consultation_cta_url",
+      "label": "Upgrade/Consultation CTA URL",
+      "required": false,
+      "locked": false,
+      "type": "url",
+      "default": "https://hairsolutions.co/pages/consultation"
+    }
+  ]
+}

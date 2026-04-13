@@ -1,0 +1,60 @@
+{
+  "schema-drift-audit": {
+    "type": "weekly",
+    "time": "06:30",
+    "days": [
+      1
+    ]
+  },
+  "required-field-gap": {
+    "type": "weekly",
+    "time": "06:30",
+    "days": [
+      1
+    ]
+  },
+  "enum-mismatch": {
+    "type": "weekly",
+    "time": "06:30",
+    "days": [
+      1
+    ]
+  },
+  "unused-properties": {
+    "type": "weekly",
+    "time": "06:30",
+    "days": [
+      1
+    ]
+  },
+  "data-type-mismatch": {
+    "type": "weekly",
+    "time": "06:30",
+    "days": [
+      1
+    ]
+  },
+  "new-contact-triage": {
+    "type": "daily",
+    "time": "07:00"
+  },
+  "pipeline-health": {
+    "type": "daily",
+    "time": "07:00"
+  },
+  "stale-records": {
+    "type": "daily",
+    "time": "07:00"
+  },
+  "duplicate-detection": {
+    "type": "weekly",
+    "time": "06:30",
+    "days": [
+      1
+    ]
+  },
+  "ownerless-records": {
+    "type": "daily",
+    "time": "07:00"
+  }
+}

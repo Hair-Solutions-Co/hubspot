@@ -1,0 +1,1796 @@
+[
+  {
+    "name": "hs_all_accessible_team_ids",
+    "label": "All teams",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The team IDs, including the team hierarchy, of all default and custom owner properties for this record.",
+    "options": []
+  },
+  {
+    "name": "hs_all_assigned_business_unit_ids",
+    "label": "Business units",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The business units this record is assigned to.",
+    "options": []
+  },
+  {
+    "name": "hs_all_owner_ids",
+    "label": "All owner IDs",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Values of all default and custom owner properties for this record.",
+    "options": []
+  },
+  {
+    "name": "hs_all_team_ids",
+    "label": "All team IDs",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The team IDs of all default and custom owner properties for this record.",
+    "options": []
+  },
+  {
+    "name": "hs_billing_address_city",
+    "label": "Billing City",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The city for the billing address.",
+    "options": []
+  },
+  {
+    "name": "hs_billing_address_country",
+    "label": "Billing Country",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The country for the billing address.",
+    "options": []
+  },
+  {
+    "name": "hs_billing_address_email",
+    "label": "Billing Email",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Customer's email from billing information",
+    "options": []
+  },
+  {
+    "name": "hs_billing_address_firstname",
+    "label": "Billing First Name",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Customer's first name from billing information",
+    "options": []
+  },
+  {
+    "name": "hs_billing_address_lastname",
+    "label": "Billing Last Name",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Customer's last name from billing information",
+    "options": []
+  },
+  {
+    "name": "hs_billing_address_name",
+    "label": "Billing Address Customer Name",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Customer's full name from billing information",
+    "options": []
+  },
+  {
+    "name": "hs_billing_address_phone",
+    "label": "Billing Phone Number",
+    "type": "string",
+    "fieldType": "phonenumber",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The phone number for the billing address.",
+    "options": []
+  },
+  {
+    "name": "hs_billing_address_postal_code",
+    "label": "Billing ZIP/Postal Code",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The ZIP/postal code for the billing address.",
+    "options": []
+  },
+  {
+    "name": "hs_billing_address_state",
+    "label": "Billing State",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The state for the billing address.",
+    "options": []
+  },
+  {
+    "name": "hs_billing_address_street",
+    "label": "Billing Street",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The street for the billing address.",
+    "options": []
+  },
+  {
+    "name": "hs_buyer_accepts_marketing",
+    "label": "Buyer Accepts Marketing",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Indicates if the customer has opted in/out of receiving marketing emails.",
+    "options": [
+      {
+        "label": "True",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "False",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_cancellation_reason",
+    "label": "Cancellation Reason",
+    "type": "string",
+    "fieldType": "textarea",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The reason given for cancelling the order.",
+    "options": []
+  },
+  {
+    "name": "hs_closed_date",
+    "label": "Closed Date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Date when the order was closed, null otherwise, set automatically",
+    "options": []
+  },
+  {
+    "name": "hs_created_by_user_id",
+    "label": "Created by user ID",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The user who created this record. This value is set automatically by HubSpot.",
+    "options": []
+  },
+  {
+    "name": "hs_createdate",
+    "label": "Object create date/time",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time at which this object was created. This value is automatically set by HubSpot and may not be modified.",
+    "options": []
+  },
+  {
+    "name": "hs_customer_phone",
+    "label": "Customer Phone",
+    "type": "phone_number",
+    "fieldType": "phonenumber",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Phone number of Customer placing the Order",
+    "options": []
+  },
+  {
+    "name": "hs_exchange_rate",
+    "label": "Exchange rate",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "This is the exchange rate used to convert the cart amount into your company currency.",
+    "options": []
+  },
+  {
+    "name": "hs_external_canceled_date",
+    "label": "Canceled Date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Date the order is canceled.",
+    "options": []
+  },
+  {
+    "name": "hs_external_cart_id",
+    "label": "Cart ID",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Unique identifier in an external system for the cart associated with the order.",
+    "options": []
+  },
+  {
+    "name": "hs_external_checkout_id",
+    "label": "Checkout ID",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Unique identifier in an external system for the checkout associated with the order.",
+    "options": []
+  },
+  {
+    "name": "hs_external_created_date",
+    "label": "Created Date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Date the order is created.",
+    "options": []
+  },
+  {
+    "name": "hs_external_modified_date",
+    "label": "Modified Date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Most recent order modified date.",
+    "options": []
+  },
+  {
+    "name": "hs_external_order_id",
+    "label": "Order ID",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Unique identifier in an external system for the order.",
+    "options": []
+  },
+  {
+    "name": "hs_external_order_status",
+    "label": "Status",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Current status of the order as recorded on the source system. ",
+    "options": []
+  },
+  {
+    "name": "hs_external_order_url",
+    "label": "Order URL",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "An URL that links to an external site where the orders details can be viewed.",
+    "options": []
+  },
+  {
+    "name": "hs_fulfillment_status",
+    "label": "Fulfillment Status",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Current fulfillment/shipping status of the order.",
+    "options": []
+  },
+  {
+    "name": "hs_is_canceled",
+    "label": "Is Canceled",
+    "type": "bool",
+    "fieldType": "calculation_equation",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Field indicating if the order is canceled.",
+    "options": [
+      {
+        "label": "True",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "False",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_is_closed",
+    "label": "Is Order Closed",
+    "type": "bool",
+    "fieldType": "calculation_equation",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Is order in a closed stage",
+    "options": [
+      {
+        "label": "True",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "False",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_landing_site",
+    "label": "Landing Site",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The URL of the first page on the sellers site that the customer landed on prior to them placing the order.",
+    "options": []
+  },
+  {
+    "name": "hs_lastmodifieddate",
+    "label": "Object last modified date/time",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Most recent timestamp of any property update for this object. This includes HubSpot internal properties, which can be visible or hidden. This property is updated automatically.",
+    "options": []
+  },
+  {
+    "name": "hs_merged_object_ids",
+    "label": "Merged record IDs",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The list of record IDs that have been merged into this record. This value is set automatically by HubSpot.",
+    "options": []
+  },
+  {
+    "name": "hs_object_id",
+    "label": "Record ID",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The unique ID for this record. This value is set automatically by HubSpot.",
+    "options": []
+  },
+  {
+    "name": "hs_object_source",
+    "label": "Record creation source",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Raw internal PropertySource present in the RequestMeta when this record was created.",
+    "options": []
+  },
+  {
+    "name": "hs_object_source_detail_1",
+    "label": "Record source detail 1",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "First level of detail on how this record was created.",
+    "options": []
+  },
+  {
+    "name": "hs_object_source_detail_2",
+    "label": "Record source detail 2",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Second level of detail on how this record was created.",
+    "options": []
+  },
+  {
+    "name": "hs_object_source_detail_3",
+    "label": "Record source detail 3",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Third level of detail on how this record was created.",
+    "options": []
+  },
+  {
+    "name": "hs_object_source_id",
+    "label": "Record creation source ID",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Raw internal sourceId present in the RequestMeta when this record was created.",
+    "options": []
+  },
+  {
+    "name": "hs_object_source_label",
+    "label": "Record source",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "How this record was created.",
+    "options": []
+  },
+  {
+    "name": "hs_object_source_user_id",
+    "label": "Record creation source user ID",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Raw internal userId present in the RequestMeta when this record was created.",
+    "options": []
+  },
+  {
+    "name": "hs_order_business_type",
+    "label": "Order Business Type",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The type of Order. By default, categorize your order as either a New Business or Existing Business. Set automatically by HubSpot when an order is closed.",
+    "options": [
+      {
+        "label": "New Business",
+        "value": "new_business",
+        "displayOrder": 0
+      },
+      {
+        "label": "Existing Business",
+        "value": "existing_business",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_order_name",
+    "label": "Name",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Unique ID as represented by a number.",
+    "options": []
+  },
+  {
+    "name": "hs_order_note",
+    "label": "Notes",
+    "type": "string",
+    "fieldType": "textarea",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "A block of text associated with the order.",
+    "options": []
+  },
+  {
+    "name": "hs_owning_teams",
+    "label": "Owning Teams",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The teams that are attributed to this record.",
+    "options": []
+  },
+  {
+    "name": "hs_payment_processing_method",
+    "label": "Payment Processing Method",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Type of payment processing method.",
+    "options": []
+  },
+  {
+    "name": "hs_payment_status",
+    "label": "Payment Status",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Current Payment status of the order.",
+    "options": []
+  },
+  {
+    "name": "hs_pinned_engagement_id",
+    "label": "Pinned engagement ID",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The object ID of the current pinned engagement. This will only be shown if there is already an association to the engagement.",
+    "options": []
+  },
+  {
+    "name": "hs_pipeline",
+    "label": "Pipeline",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": true,
+    "description": "The pipeline that contains this order",
+    "options": []
+  },
+  {
+    "name": "hs_pipeline_stage",
+    "label": "Stage",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The order pipeline stage.",
+    "options": []
+  },
+  {
+    "name": "hs_processed_date",
+    "label": "Processed Date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date/time the order was imported into HubSpot.",
+    "options": []
+  },
+  {
+    "name": "hs_read_only",
+    "label": "Read only object",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Determines whether a record can be edited by a user.",
+    "options": [
+      {
+        "label": "True",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "False",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_referring_site",
+    "label": "Referring Site",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The URL of the site that the customer came from to arrive at the sellers site prior to placing their order.",
+    "options": []
+  },
+  {
+    "name": "hs_shared_team_ids",
+    "label": "Shared teams",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Additional teams whose users can access the record based on their permissions. This can be set manually or through Workflows or APIs.",
+    "options": []
+  },
+  {
+    "name": "hs_shared_user_ids",
+    "label": "Shared users",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Additional users that can access the record based on their permissions. This can be set manually or through Workflows and APIs.",
+    "options": []
+  },
+  {
+    "name": "hs_shipping_address_city",
+    "label": "Shipping City",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The city for the shipping address.",
+    "options": []
+  },
+  {
+    "name": "hs_shipping_address_country",
+    "label": "Shipping Country",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The country for the shipping address.",
+    "options": []
+  },
+  {
+    "name": "hs_shipping_address_name",
+    "label": "Shipping Address Customer Name",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Customer's full name from shipping information",
+    "options": []
+  },
+  {
+    "name": "hs_shipping_address_phone",
+    "label": "Shipping Phone Number",
+    "type": "string",
+    "fieldType": "phonenumber",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The phone number for the shipping address.",
+    "options": []
+  },
+  {
+    "name": "hs_shipping_address_postal_code",
+    "label": "Shipping ZIP/Postal Code",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The ZIP/postal code for the shipping address.",
+    "options": []
+  },
+  {
+    "name": "hs_shipping_address_state",
+    "label": "Shipping State",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The state for the shipping address.",
+    "options": []
+  },
+  {
+    "name": "hs_shipping_address_street",
+    "label": "Shipping Street",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The street for the shipping address.",
+    "options": []
+  },
+  {
+    "name": "hs_shipping_status_url",
+    "label": "Shipping Status URL",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "URL to Shipping status for the order.",
+    "options": []
+  },
+  {
+    "name": "hs_shipping_tracking_number",
+    "label": "Shipping Tracking Number",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "List of Shipment tracking IDs associated with the order.",
+    "options": []
+  },
+  {
+    "name": "hs_source_id",
+    "label": "Source ID",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "HubSpot developer App ID from where this order data is first synced.",
+    "options": []
+  },
+  {
+    "name": "hs_source_store",
+    "label": "Source Store",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Data used to identify which store the order came from.",
+    "options": []
+  },
+  {
+    "name": "hs_tags",
+    "label": "Tags",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "A collection of tag strings associated with the order.",
+    "options": []
+  },
+  {
+    "name": "hs_total_weight",
+    "label": "Total Weight",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The total weight of the order for shipping purposes.",
+    "options": []
+  },
+  {
+    "name": "hs_unique_creation_key",
+    "label": "Unique creation key",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Unique property used for idempotent creates",
+    "options": []
+  },
+  {
+    "name": "hs_updated_by_user_id",
+    "label": "Updated by user ID",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The user who last updated this record. This value is set automatically by HubSpot.",
+    "options": []
+  },
+  {
+    "name": "hs_user_ids_of_all_notification_followers",
+    "label": "User IDs of all notification followers",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The user IDs of all users that have clicked follow within the object to opt-in to getting follow notifications",
+    "options": []
+  },
+  {
+    "name": "hs_user_ids_of_all_notification_unfollowers",
+    "label": "User IDs of all notification unfollowers",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The user IDs of all object owners that have clicked unfollow within the object to opt-out of getting follow notifications",
+    "options": []
+  },
+  {
+    "name": "hs_user_ids_of_all_owners",
+    "label": "User IDs of all owners",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The user IDs of all owners of this record.",
+    "options": []
+  },
+  {
+    "name": "hs_was_imported",
+    "label": "Performed in an import",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Object is part of an import",
+    "options": [
+      {
+        "label": "True",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "False",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hubspot_owner_assigneddate",
+    "label": "Owner assigned date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The most recent timestamp of when an owner was assigned to this record. This value is set automatically by HubSpot.",
+    "options": []
+  },
+  {
+    "name": "hubspot_owner_id",
+    "label": "Owner",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The owner of the object.",
+    "options": []
+  },
+  {
+    "name": "hubspot_team_id",
+    "label": "Owner's main team",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "order_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The main team of the record owner. This value is set automatically by HubSpot.",
+    "options": []
+  },
+  {
+    "name": "hs_currency_code",
+    "label": "Currency Code",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "order_revenue",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The currency code used in the order.",
+    "options": []
+  },
+  {
+    "name": "hs_discount_codes",
+    "label": "Discount Codes",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "order_revenue",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Discount Codes on an order.",
+    "options": []
+  },
+  {
+    "name": "hs_homecurrency_amount",
+    "label": "Amount in company currency",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "order_revenue",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The amount of the order, using the exchange rate, in your company's currency",
+    "options": []
+  },
+  {
+    "name": "hs_order_discount",
+    "label": "Discount",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "order_revenue",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Total Discount on an order as an amount.",
+    "options": []
+  },
+  {
+    "name": "hs_refund_amount",
+    "label": "Refund Amount",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "order_revenue",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Refunded amount, if any, associated with an order.",
+    "options": []
+  },
+  {
+    "name": "hs_shipping_cost",
+    "label": "Shipping Cost",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "order_revenue",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The base cost (i.e. undiscounted), in the orders associated currency, associated with shipping the order.",
+    "options": []
+  },
+  {
+    "name": "hs_subtotal_price",
+    "label": "Subtotal Price",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "order_revenue",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Total order amount before discounts, tax, duties etc. ",
+    "options": []
+  },
+  {
+    "name": "hs_tax",
+    "label": "Tax Price",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "order_revenue",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Tax amount associated with the order, including duties.",
+    "options": []
+  },
+  {
+    "name": "hs_total_price",
+    "label": "Total Price",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "order_revenue",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Sum Total amount associated with this order. ",
+    "options": []
+  },
+  {
+    "name": "order_profile",
+    "label": "Order Profile",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "codex_import_minimal",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "",
+    "options": []
+  },
+  {
+    "name": "order_status",
+    "label": "Order Status",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "codex_import_minimal",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "",
+    "options": []
+  },
+  {
+    "name": "order_date",
+    "label": "Order Date",
+    "type": "date",
+    "fieldType": "date",
+    "groupName": "order_information",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Proper date type replacement for order_date_custom",
+    "options": []
+  },
+  {
+    "name": "order_date_custom",
+    "label": "Order Date",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "order_information",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "",
+    "options": []
+  },
+  {
+    "name": "order_number_custom",
+    "label": "Order Number",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "order_information",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "",
+    "options": []
+  },
+  {
+    "name": "payment_date",
+    "label": "Payment Date",
+    "type": "date",
+    "fieldType": "date",
+    "groupName": "order_information",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Proper date type replacement for payment_date_custom",
+    "options": []
+  },
+  {
+    "name": "payment_date_custom",
+    "label": "Payment Date",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "order_information",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "",
+    "options": []
+  },
+  {
+    "name": "payment_due",
+    "label": "Payment Due",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "order_information",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "",
+    "options": []
+  },
+  {
+    "name": "po_number",
+    "label": "PO Number",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "order_information",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "",
+    "options": []
+  },
+  {
+    "name": "order_margin",
+    "label": "Order Margin",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "order_margin",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Calculated: hs_total_price minus total_cost",
+    "options": []
+  },
+  {
+    "name": "order_margin_pct",
+    "label": "Order Margin %",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "order_margin",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Calculated: order_margin divided by hs_total_price",
+    "options": []
+  },
+  {
+    "name": "paired_po_id",
+    "label": "Paired PO Record ID",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "order_pairing",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "HubSpot record ID of paired PO for API lookups",
+    "options": []
+  },
+  {
+    "name": "paired_po_number",
+    "label": "Paired PO Number",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "order_pairing",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Cross-reference to the paired Purchase Order number",
+    "options": []
+  },
+  {
+    "name": "actual_delivery_date",
+    "label": "Actual Delivery Date",
+    "type": "date",
+    "fieldType": "date",
+    "groupName": "order_sync_targets",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Synced from PO when actually delivered",
+    "options": []
+  },
+  {
+    "name": "actual_ship_date",
+    "label": "Actual Ship Date",
+    "type": "date",
+    "fieldType": "date",
+    "groupName": "order_sync_targets",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Synced from PO when actually shipped",
+    "options": []
+  },
+  {
+    "name": "est_completion_date",
+    "label": "Est. Completion Date",
+    "type": "date",
+    "fieldType": "date",
+    "groupName": "order_sync_targets",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Synced from PO: curated completion date for client",
+    "options": []
+  },
+  {
+    "name": "est_delivery_date",
+    "label": "Est. Delivery Date",
+    "type": "date",
+    "fieldType": "date",
+    "groupName": "order_sync_targets",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Synced from PO: curated delivery date for client",
+    "options": []
+  },
+  {
+    "name": "est_production_start",
+    "label": "Est. Production Start",
+    "type": "date",
+    "fieldType": "date",
+    "groupName": "order_sync_targets",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Synced from PO: curated production start date for client",
+    "options": []
+  },
+  {
+    "name": "est_ship_date",
+    "label": "Est. Ship Date",
+    "type": "date",
+    "fieldType": "date",
+    "groupName": "order_sync_targets",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Synced from PO: curated ship date for client",
+    "options": []
+  },
+  {
+    "name": "order_base_size",
+    "label": "Base Size",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "order_sync_targets",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Synced from PO spec snapshot",
+    "options": []
+  },
+  {
+    "name": "order_hair_color",
+    "label": "Hair Color",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "order_sync_targets",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Synced from PO spec snapshot",
+    "options": []
+  },
+  {
+    "name": "order_hair_density",
+    "label": "Hair Density",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "order_sync_targets",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Synced from PO spec snapshot",
+    "options": [
+      {
+        "label": "Extra Light (80%)",
+        "value": "80",
+        "displayOrder": 0
+      },
+      {
+        "label": "Light (90%)",
+        "value": "90",
+        "displayOrder": 1
+      },
+      {
+        "label": "Light-Medium (100%)",
+        "value": "100",
+        "displayOrder": 2
+      },
+      {
+        "label": "Medium (110%)",
+        "value": "110",
+        "displayOrder": 3
+      },
+      {
+        "label": "Medium-Heavy (120%)",
+        "value": "120",
+        "displayOrder": 4
+      },
+      {
+        "label": "Heavy (130%)",
+        "value": "130",
+        "displayOrder": 5
+      }
+    ]
+  },
+  {
+    "name": "order_hair_length",
+    "label": "Hair Length",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "order_sync_targets",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Synced from PO spec snapshot",
+    "options": []
+  },
+  {
+    "name": "order_hair_system_type",
+    "label": "Hair System Type",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "order_sync_targets",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Synced from PO spec snapshot",
+    "options": [
+      {
+        "label": "Lace",
+        "value": "lace",
+        "displayOrder": 0
+      },
+      {
+        "label": "Skin",
+        "value": "skin",
+        "displayOrder": 1
+      },
+      {
+        "label": "Mono",
+        "value": "mono",
+        "displayOrder": 2
+      },
+      {
+        "label": "Hybrid",
+        "value": "hybrid",
+        "displayOrder": 3
+      },
+      {
+        "label": "Silk",
+        "value": "silk",
+        "displayOrder": 4
+      },
+      {
+        "label": "Other",
+        "value": "other",
+        "displayOrder": 5
+      }
+    ]
+  },
+  {
+    "name": "order_status_client",
+    "label": "Order Status (Client)",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "order_sync_targets",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Curated status shown to client. Synced from paired PO.",
+    "options": [
+      {
+        "label": "Confirmed",
+        "value": "confirmed",
+        "displayOrder": 0
+      },
+      {
+        "label": "In Production",
+        "value": "in_production",
+        "displayOrder": 1
+      },
+      {
+        "label": "Quality Check",
+        "value": "quality_check",
+        "displayOrder": 2
+      },
+      {
+        "label": "Shipping",
+        "value": "shipping",
+        "displayOrder": 3
+      },
+      {
+        "label": "Delivered",
+        "value": "delivered",
+        "displayOrder": 4
+      },
+      {
+        "label": "Issue",
+        "value": "issue",
+        "displayOrder": 5
+      }
+    ]
+  },
+  {
+    "name": "order_unit_count",
+    "label": "Unit Count",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "order_sync_targets",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Number of units in this order, synced from PO",
+    "options": []
+  },
+  {
+    "name": "tracking_number_client",
+    "label": "Tracking Number (Client)",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "order_sync_targets",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Synced from PO: tracking number shown to client",
+    "options": []
+  },
+  {
+    "name": "portal_contact_base_size",
+    "label": "Portal: Contact Base Size",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "portal_sync",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Default base size from Contact",
+    "options": []
+  },
+  {
+    "name": "portal_contact_email",
+    "label": "Portal: Contact Email",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "portal_sync",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Synced from Contact email",
+    "options": []
+  },
+  {
+    "name": "portal_contact_hair_color",
+    "label": "Portal: Contact Hair Color",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "portal_sync",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Default hair color from Contact",
+    "options": []
+  },
+  {
+    "name": "portal_contact_hair_density",
+    "label": "Portal: Contact Hair Density",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "portal_sync",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Default hair density from Contact",
+    "options": []
+  },
+  {
+    "name": "portal_contact_hair_length",
+    "label": "Portal: Contact Hair Length",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "portal_sync",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Default hair length from Contact",
+    "options": []
+  },
+  {
+    "name": "portal_contact_hair_system_type",
+    "label": "Portal: Contact System Type",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "portal_sync",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Default hair system type from Contact",
+    "options": []
+  },
+  {
+    "name": "portal_contact_phone",
+    "label": "Portal: Contact Phone",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "portal_sync",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Synced from Contact phone",
+    "options": []
+  },
+  {
+    "name": "portal_contact_plan",
+    "label": "Portal: Contact Plan",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "portal_sync",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Subscription plan name from Contact",
+    "options": []
+  },
+  {
+    "name": "portal_deal_amount",
+    "label": "Portal: Deal Amount",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "portal_sync",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Synced from Deal amount",
+    "options": []
+  },
+  {
+    "name": "portal_deal_name",
+    "label": "Portal: Deal Name",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "portal_sync",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Synced from associated Deal name",
+    "options": []
+  },
+  {
+    "name": "portal_deal_next_unit_date",
+    "label": "Portal: Next Unit Date",
+    "type": "date",
+    "fieldType": "date",
+    "groupName": "portal_sync",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Next unit delivery date",
+    "options": []
+  },
+  {
+    "name": "portal_deal_plan_units",
+    "label": "Portal: Plan Units",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "portal_sync",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Number of units in plan",
+    "options": []
+  },
+  {
+    "name": "portal_deal_stage",
+    "label": "Portal: Deal Stage",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "portal_sync",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Synced from Deal stage label",
+    "options": []
+  },
+  {
+    "name": "portal_deal_type",
+    "label": "Portal: Deal Type",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "portal_sync",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Order type: single_unit, plan, repair, etc.",
+    "options": []
+  },
+  {
+    "name": "portal_deal_units_delivered",
+    "label": "Portal: Units Delivered",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "portal_sync",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Units delivered so far",
+    "options": []
+  },
+  {
+    "name": "portal_invoice_amount",
+    "label": "Portal: Invoice Amount",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "portal_sync",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Total invoiced amount",
+    "options": []
+  },
+  {
+    "name": "portal_invoice_number",
+    "label": "Portal: Invoice Number",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "portal_sync",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Invoice number for this order",
+    "options": []
+  },
+  {
+    "name": "portal_invoice_paid_date",
+    "label": "Portal: Invoice Paid Date",
+    "type": "date",
+    "fieldType": "date",
+    "groupName": "portal_sync",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Date invoice was paid",
+    "options": []
+  },
+  {
+    "name": "portal_invoice_status",
+    "label": "Portal: Invoice Status",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "portal_sync",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Invoice payment status",
+    "options": [
+      {
+        "label": "Pending",
+        "value": "PENDING",
+        "displayOrder": 1
+      },
+      {
+        "label": "Paid",
+        "value": "PAID",
+        "displayOrder": 2
+      },
+      {
+        "label": "Overdue",
+        "value": "OVERDUE",
+        "displayOrder": 3
+      },
+      {
+        "label": "Cancelled",
+        "value": "CANCELLED",
+        "displayOrder": 4
+      }
+    ]
+  },
+  {
+    "name": "portal_production_confirmed",
+    "label": "Portal: Production Confirmed",
+    "type": "enumeration",
+    "fieldType": "booleancheckbox",
+    "groupName": "portal_sync",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Customer confirmed customization",
+    "options": [
+      {
+        "label": "Yes",
+        "value": "true",
+        "displayOrder": 1
+      },
+      {
+        "label": "No",
+        "value": "false",
+        "displayOrder": 2
+      }
+    ]
+  },
+  {
+    "name": "portal_production_stage",
+    "label": "Portal: Production Stage",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "portal_sync",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Detailed production stage",
+    "options": [
+      {
+        "label": "Awaiting Confirmation",
+        "value": "AWAITING_CONFIRMATION",
+        "displayOrder": 1
+      },
+      {
+        "label": "Materials Preparation",
+        "value": "MATERIALS_PREP",
+        "displayOrder": 2
+      },
+      {
+        "label": "Base Construction",
+        "value": "BASE_CONSTRUCTION",
+        "displayOrder": 3
+      },
+      {
+        "label": "Hair Ventilation",
+        "value": "HAIR_VENTILATION",
+        "displayOrder": 4
+      },
+      {
+        "label": "Styling",
+        "value": "STYLING",
+        "displayOrder": 5
+      },
+      {
+        "label": "Quality Inspection",
+        "value": "QUALITY_INSPECTION",
+        "displayOrder": 6
+      },
+      {
+        "label": "Packaging",
+        "value": "PACKAGING",
+        "displayOrder": 7
+      },
+      {
+        "label": "Completed",
+        "value": "COMPLETED",
+        "displayOrder": 8
+      }
+    ]
+  },
+  {
+    "name": "portal_ticket_category",
+    "label": "Portal: Ticket Category",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "portal_sync",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Ticket category",
+    "options": []
+  },
+  {
+    "name": "portal_ticket_description",
+    "label": "Portal: Ticket Description",
+    "type": "string",
+    "fieldType": "textarea",
+    "groupName": "portal_sync",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Ticket body preview",
+    "options": []
+  },
+  {
+    "name": "portal_ticket_id",
+    "label": "Portal: Ticket ID",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "portal_sync",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Associated ticket ID",
+    "options": []
+  },
+  {
+    "name": "portal_ticket_priority",
+    "label": "Portal: Ticket Priority",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "portal_sync",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Ticket priority level",
+    "options": []
+  },
+  {
+    "name": "portal_ticket_status",
+    "label": "Portal: Ticket Status",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "portal_sync",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Ticket status (Open, In Progress, Closed)",
+    "options": []
+  },
+  {
+    "name": "portal_ticket_subject",
+    "label": "Portal: Ticket Subject",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "portal_sync",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Ticket subject line",
+    "options": []
+  }
+]

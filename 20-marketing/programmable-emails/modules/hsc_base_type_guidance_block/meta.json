@@ -1,0 +1,37 @@
+{
+  "label": "HSC Base Type Guidance Block",
+  "css_assets": [],
+  "external_js": [],
+  "global": false,
+  "host_template_types": ["EMAIL"],
+  "is_available_for_new_content": true,
+  "icon": "",
+  "smart_type": "NOT_SMART",
+  "tags": [],
+  "fields": [
+    {
+      "name": "context",
+      "label": "Content Context",
+      "required": false,
+      "locked": false,
+      "type": "choice",
+      "display": "select",
+      "choices": [
+        ["prep", "Preparation Guide (J3-E2)"],
+        ["removal_styling", "Removal & Styling (J3-E7)"],
+        ["reorder", "Reorder/Refinement (J4-E2)"],
+        ["whats_new", "What's New / Win-Back (J7-E2)"],
+        ["artisan_update", "Artisan Update (J5-E2)"]
+      ],
+      "default": "prep"
+    },
+    {
+      "name": "fallback_cta_url",
+      "label": "Fallback CTA URL (when base preference unknown)",
+      "required": false,
+      "locked": false,
+      "type": "url",
+      "default": "https://hairsolutions.co/pages/consultation"
+    }
+  ]
+}

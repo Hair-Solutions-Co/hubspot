@@ -1,0 +1,22 @@
+{
+  "categories": [
+    {
+      "category": "session_summary",
+      "score": 1.0,
+      "context_file": "/Users/vMac/00-hair-solutions-co/00_engineering/04_hubspot/.claude/memory/.staging/context-session_summary.txt"
+    }
+  ],
+  "parallel_config": {
+    "enabled": true,
+    "category_models": {
+      "session_summary": "haiku",
+      "decision": "sonnet",
+      "runbook": "haiku",
+      "constraint": "sonnet",
+      "tech_debt": "haiku",
+      "preference": "haiku"
+    },
+    "verification_model": "sonnet",
+    "default_model": "haiku"
+  }
+}

@@ -1,0 +1,1880 @@
+[
+  {
+    "name": "hs_all_accessible_team_ids",
+    "label": "All teams",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The team IDs, including the team hierarchy, of all default and custom owner properties for this record.",
+    "options": []
+  },
+  {
+    "name": "hs_all_assigned_business_unit_ids",
+    "label": "Brands",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The brands this record is assigned to.",
+    "options": []
+  },
+  {
+    "name": "hs_all_owner_ids",
+    "label": "All owner IDs",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Values of all default and custom owner properties for this record.",
+    "options": []
+  },
+  {
+    "name": "hs_all_team_ids",
+    "label": "All team IDs",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The team IDs of all default and custom owner properties for this record.",
+    "options": []
+  },
+  {
+    "name": "hs_allow_partial_payments",
+    "label": "Allow partial payments",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Allow your customer to pay less than the balance due",
+    "options": [
+      {
+        "label": "Yes",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "No",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_allowed_checkout_fee_ids",
+    "label": "Allowed checkout fee IDs",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Stores up to two ids for the checkout fees that can be applied to the invoice at checkout",
+    "options": []
+  },
+  {
+    "name": "hs_allowed_payment_methods",
+    "label": "Allowed payment methods",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The payment methods that can be used to pay the invoice.",
+    "options": [
+      {
+        "label": "Credit or Debit Card",
+        "value": "credit_or_debit_card",
+        "displayOrder": 0
+      },
+      {
+        "label": "ACH",
+        "value": "ach",
+        "displayOrder": 1
+      },
+      {
+        "label": "SEPA",
+        "value": "sepa",
+        "displayOrder": 2
+      },
+      {
+        "label": "BACS",
+        "value": "bacs",
+        "displayOrder": 3
+      },
+      {
+        "label": "PADS",
+        "value": "pads",
+        "displayOrder": 4
+      }
+    ]
+  },
+  {
+    "name": "hs_amount_billed",
+    "label": "Amount billed",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The amount billed on the invoice",
+    "options": []
+  },
+  {
+    "name": "hs_amount_billed_in_company_currency",
+    "label": "Amount billed in company currency",
+    "type": "number",
+    "fieldType": "calculation_equation",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The amount billed on the invoice in the company currency",
+    "options": []
+  },
+  {
+    "name": "hs_amount_billed_pre_tax",
+    "label": "Amount billed (pre-tax)",
+    "type": "number",
+    "fieldType": "calculation_equation",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The amount billed on the invoice before tax",
+    "options": []
+  },
+  {
+    "name": "hs_amount_paid",
+    "label": "Amount paid",
+    "type": "number",
+    "fieldType": "calculation_equation",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The total value of non-failed payments associated to the invoice.",
+    "options": []
+  },
+  {
+    "name": "hs_amount_paid_in_company_currency",
+    "label": "Amount paid in company currency",
+    "type": "number",
+    "fieldType": "calculation_equation",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The total value of non-failed payments associated to the invoice in the company currency",
+    "options": []
+  },
+  {
+    "name": "hs_amount_processing",
+    "label": "Amount processing",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The total value of processing payments associated to the invoice.",
+    "options": []
+  },
+  {
+    "name": "hs_associated_line_item_names",
+    "label": "Line item names",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The line item names associated to this invoice",
+    "options": []
+  },
+  {
+    "name": "hs_balance_due",
+    "label": "Balance due",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The balance due for the invoice.",
+    "options": []
+  },
+  {
+    "name": "hs_balance_due_in_company_currency",
+    "label": "Balance due in company currency",
+    "type": "number",
+    "fieldType": "calculation_equation",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The balance due for the invoice in the company currency",
+    "options": []
+  },
+  {
+    "name": "hs_billing_frequency_type",
+    "label": "Billing frequency type",
+    "type": "enumeration",
+    "fieldType": "calculation_equation",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Indicates whether or not the invoice is part of a recurring series (a subscription).",
+    "options": [
+      {
+        "label": "One-time",
+        "value": "ONE_TIME",
+        "displayOrder": 1
+      },
+      {
+        "label": "Recurring",
+        "value": "RECURRING",
+        "displayOrder": 2
+      }
+    ]
+  },
+  {
+    "name": "hs_collect_address_types",
+    "label": "Address types to collect",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The types of addresses that are collected while paying the invoice.",
+    "options": [
+      {
+        "label": "Billing Address",
+        "value": "billing_address",
+        "displayOrder": 0
+      },
+      {
+        "label": "Shipping Address",
+        "value": "shipping_address",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_comments",
+    "label": "Comments",
+    "type": "string",
+    "fieldType": "html",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Comments to the Invoice recipient.",
+    "options": []
+  },
+  {
+    "name": "hs_created_by_user_id",
+    "label": "Created by user ID",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The user who created this record. This value is set automatically by HubSpot.",
+    "options": []
+  },
+  {
+    "name": "hs_createdate",
+    "label": "Create Date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time at which this object was created. This value is automatically set by HubSpot and may not be modified.",
+    "options": []
+  },
+  {
+    "name": "hs_credit_memo_applications",
+    "label": "Credit Memo Applications",
+    "type": "string",
+    "fieldType": "textarea",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Serialized JSON that captures the Credit Memos applied to an Invoice. Used exclusively for Data Sync integration.",
+    "options": []
+  },
+  {
+    "name": "hs_currency",
+    "label": "Currency",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The currency of the invoice",
+    "options": []
+  },
+  {
+    "name": "hs_custom_fields",
+    "label": "Custom Invoice Fields",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The custom fields that have been added to the invoice.",
+    "options": []
+  },
+  {
+    "name": "hs_data_sync_source_details",
+    "label": "data sync source details",
+    "type": "string",
+    "fieldType": "calculation_equation",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Data sync source details",
+    "options": []
+  },
+  {
+    "name": "hs_days_overdue",
+    "label": "Days overdue",
+    "type": "datetime",
+    "fieldType": "calculation_equation",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The number of days this open invoice is overdue. Stored as a datetime value but displayed as a relative date",
+    "options": []
+  },
+  {
+    "name": "hs_days_paid_late",
+    "label": "Days paid late",
+    "type": "enumeration",
+    "fieldType": "calculation_equation",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "How many days the invoice was paid after the due date",
+    "options": [
+      {
+        "label": "Paid on time",
+        "value": "paid_on_time",
+        "displayOrder": 1
+      },
+      {
+        "label": "1-30 days late",
+        "value": "between_1_30_days_late",
+        "displayOrder": 2
+      },
+      {
+        "label": "31-60 days late",
+        "value": "between_31_60_days_late",
+        "displayOrder": 3
+      },
+      {
+        "label": "61-90 days late",
+        "value": "between_61_90_days_late",
+        "displayOrder": 4
+      },
+      {
+        "label": "90+ days late",
+        "value": "over_90_days_late",
+        "displayOrder": 5
+      }
+    ]
+  },
+  {
+    "name": "hs_discounts_total",
+    "label": "Discounts total",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The sum of all line item level discounts and invoice level discounts applied to the invoice.",
+    "options": []
+  },
+  {
+    "name": "hs_domain",
+    "label": "Domain",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Domain of the hosted rendered Invoice.",
+    "options": []
+  },
+  {
+    "name": "hs_due_date",
+    "label": "Due date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The due date for the current invoice.",
+    "options": []
+  },
+  {
+    "name": "hs_due_date_if_overdue",
+    "label": "Due date if overdue",
+    "type": "datetime",
+    "fieldType": "calculation_equation",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Calculated property that conditionally copies the hs_due_date value over if the Invoice is open and overdue",
+    "options": []
+  },
+  {
+    "name": "hs_enable_automated_taxes",
+    "label": "Automated taxes on",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Whether or not automated tax is enabled for the invoice",
+    "options": [
+      {
+        "label": "Yes",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "No",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_exchange_rate",
+    "label": "Exchange rate",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "This is the exchange rate used to convert the invoice amount into your company currency.",
+    "options": []
+  },
+  {
+    "name": "hs_explainability_agent_enabled",
+    "label": "Explainability agent enabled",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Whether or not the explainability agent is enabled for the invoice",
+    "options": [
+      {
+        "label": "Yes",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "No",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_external_account_id",
+    "label": "External account id",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The 3rd party account Id associated with this Invoice",
+    "options": []
+  },
+  {
+    "name": "hs_external_createdate",
+    "label": "Invoice external create date/time",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time at which the invoice was created in the 3rd party accounting application",
+    "options": []
+  },
+  {
+    "name": "hs_external_invoice_id",
+    "label": "External  id",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The 3rd party unique Id associated with this Invoice",
+    "options": []
+  },
+  {
+    "name": "hs_external_recipient",
+    "label": "External recipient",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The recipient of the current invoice.",
+    "options": []
+  },
+  {
+    "name": "hs_fees_total",
+    "label": "Fees total",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The sum of all fees applied to the invoice.",
+    "options": []
+  },
+  {
+    "name": "hs_invoice_age_category",
+    "label": "Age category",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "How many days an invoice has been outstanding",
+    "options": [
+      {
+        "label": "Current",
+        "value": "zero_days",
+        "displayOrder": 0
+      },
+      {
+        "label": "1-30 Days",
+        "value": "between_1_30_days",
+        "displayOrder": 1
+      },
+      {
+        "label": "31-60 Days",
+        "value": "between_31_60_days",
+        "displayOrder": 2
+      },
+      {
+        "label": "61-90 Days",
+        "value": "between_61_90_days",
+        "displayOrder": 3
+      },
+      {
+        "label": "90+ Days",
+        "value": "over_90_days",
+        "displayOrder": 4
+      }
+    ]
+  },
+  {
+    "name": "hs_invoice_billable",
+    "label": "Invoice billable",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Whether or not the invoice is billable",
+    "options": [
+      {
+        "label": "Yes",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "No",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_invoice_class",
+    "label": "Invoice class",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Classification of an Invoice, typically synced from third party accounting integrations.",
+    "options": []
+  },
+  {
+    "name": "hs_invoice_date",
+    "label": "Invoice date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Date of the Invoice.",
+    "options": []
+  },
+  {
+    "name": "hs_invoice_latest_company_name",
+    "label": "Latest company name",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The latest name value among companies associated to this invoice",
+    "options": []
+  },
+  {
+    "name": "hs_invoice_latest_contact_email",
+    "label": "Latest contact email",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The latest email value among contacts associated to this invoice",
+    "options": []
+  },
+  {
+    "name": "hs_invoice_latest_contact_firstname",
+    "label": "Latest contact first name",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The latest first name value among contacts associated to this invoice",
+    "options": []
+  },
+  {
+    "name": "hs_invoice_latest_contact_lastname",
+    "label": "Latest contact last name",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The latest last name value among contacts associated to this invoice",
+    "options": []
+  },
+  {
+    "name": "hs_invoice_link",
+    "label": "Invoice link",
+    "type": "string",
+    "fieldType": "calculation_equation",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The invoice url link, based on the domain and slug.",
+    "options": []
+  },
+  {
+    "name": "hs_invoice_payment_collection_method",
+    "label": "Invoice payment collection method",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The method used to collect payment for the invoice.",
+    "options": [
+      {
+        "label": "Manual",
+        "value": "manual",
+        "displayOrder": 0
+      },
+      {
+        "label": "Automatic",
+        "value": "automatic",
+        "displayOrder": 1
+      },
+      {
+        "label": "None",
+        "value": "none",
+        "displayOrder": 2
+      }
+    ]
+  },
+  {
+    "name": "hs_invoice_preset_id",
+    "label": "Preset ID",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The id of the preset set for this invoice",
+    "options": []
+  },
+  {
+    "name": "hs_invoice_source",
+    "label": "Invoice source",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Creation source of the Invoice.",
+    "options": [
+      {
+        "label": "HubSpot",
+        "value": "native_invoice",
+        "displayOrder": 0
+      },
+      {
+        "label": "Data Sync",
+        "value": "data_sync",
+        "displayOrder": 1
+      },
+      {
+        "label": "Legacy QuickBooks Online",
+        "value": "legacy_quickbooks_online",
+        "displayOrder": 2
+      },
+      {
+        "label": "Legacy Xero",
+        "value": "legacy_xero",
+        "displayOrder": 3
+      }
+    ]
+  },
+  {
+    "name": "hs_invoice_status",
+    "label": "Invoice status",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The status of the Invoice. Invoice statuses allow you to categorize and track billing progress.",
+    "options": [
+      {
+        "label": "Draft",
+        "value": "draft",
+        "displayOrder": 0
+      },
+      {
+        "label": "Open",
+        "value": "open",
+        "displayOrder": 1
+      },
+      {
+        "label": "Paid",
+        "value": "paid",
+        "displayOrder": 2
+      },
+      {
+        "label": "Voided",
+        "value": "voided",
+        "displayOrder": 3
+      }
+    ]
+  },
+  {
+    "name": "hs_invoice_status_details",
+    "label": "Invoice status details",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Additional invoice status details.",
+    "options": [
+      {
+        "label": "Partially Paid",
+        "value": "partially_paid",
+        "displayOrder": 0
+      },
+      {
+        "label": "Partially Refunded",
+        "value": "partially_refunded",
+        "displayOrder": 1
+      },
+      {
+        "label": "Refunded",
+        "value": "refunded",
+        "displayOrder": 2
+      },
+      {
+        "label": "Payment Processing",
+        "value": "payment_processing",
+        "displayOrder": 3
+      }
+    ]
+  },
+  {
+    "name": "hs_invoice_tool_source",
+    "label": "Invoice Tool Source",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The tool that was used to create the invoice.",
+    "options": [
+      {
+        "label": "Invoice Editor",
+        "value": "invoice_editor",
+        "displayOrder": 0
+      },
+      {
+        "label": "Payment Link",
+        "value": "payment_link",
+        "displayOrder": 1
+      },
+      {
+        "label": "Quote",
+        "value": "quote",
+        "displayOrder": 2
+      },
+      {
+        "label": "Subscription",
+        "value": "subscription",
+        "displayOrder": 3
+      },
+      {
+        "label": "Billing Schedule",
+        "value": "billing_schedule",
+        "displayOrder": 4
+      },
+      {
+        "label": "Deal",
+        "value": "deal",
+        "displayOrder": 5
+      }
+    ]
+  },
+  {
+    "name": "hs_invoice_tool_source_id",
+    "label": "Invoice Tool Source ID",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The ID of the tool used to create the invoice.",
+    "options": []
+  },
+  {
+    "name": "hs_language",
+    "label": "Language",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Language of the Invoice.",
+    "options": []
+  },
+  {
+    "name": "hs_last_edit_date",
+    "label": "Last Edit Date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The last time a finalized invoice was edited. This is automatically updated by HubSpot. ",
+    "options": []
+  },
+  {
+    "name": "hs_last_reminder_sent_date",
+    "label": "Last reminder sent date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The last time an email reminder was sent to the customer. This is automatically updated by HubSpot.",
+    "options": []
+  },
+  {
+    "name": "hs_last_sent_date",
+    "label": "Last sent date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The last time the invoice was sent to the customer. This is updated automatically by HubSpot.",
+    "options": []
+  },
+  {
+    "name": "hs_lastmodifieddate",
+    "label": "Object last modified date/time",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Most recent timestamp of any property update for this object. This includes HubSpot internal properties, which can be visible or hidden. This property is updated automatically.",
+    "options": []
+  },
+  {
+    "name": "hs_latest_content_prerendered_time",
+    "label": "Latest content prerendered time",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Latest time of the invoice content page prerendered ",
+    "options": []
+  },
+  {
+    "name": "hs_locale",
+    "label": "Locale",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Locale of the Invoice.",
+    "options": []
+  },
+  {
+    "name": "hs_merged_object_ids",
+    "label": "Merged record IDs",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The list of record IDs that have been merged into this record. This value is set automatically by HubSpot.",
+    "options": []
+  },
+  {
+    "name": "hs_net_payment_term",
+    "label": "net payment term",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Refers to the period, expressed in days (e.g., Net 30), within which invoice must be paid",
+    "options": []
+  },
+  {
+    "name": "hs_number",
+    "label": "Number",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The 3rd party number associated to this invoice",
+    "options": []
+  },
+  {
+    "name": "hs_number_of_associated_subscriptions",
+    "label": "Number of Subscriptions",
+    "type": "number",
+    "fieldType": "calculation_rollup",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Number of subscriptions associated to the invoice.",
+    "options": []
+  },
+  {
+    "name": "hs_object_id",
+    "label": "Record ID",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The unique ID for this record. This value is set automatically by HubSpot.",
+    "options": []
+  },
+  {
+    "name": "hs_object_source",
+    "label": "Record creation source",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Raw internal PropertySource present in the RequestMeta when this record was created.",
+    "options": []
+  },
+  {
+    "name": "hs_object_source_detail_1",
+    "label": "Record source detail 1",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "First level of detail on how this record was created.",
+    "options": []
+  },
+  {
+    "name": "hs_object_source_detail_2",
+    "label": "Record source detail 2",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Second level of detail on how this record was created.",
+    "options": []
+  },
+  {
+    "name": "hs_object_source_detail_3",
+    "label": "Record source detail 3",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Third level of detail on how this record was created.",
+    "options": []
+  },
+  {
+    "name": "hs_object_source_id",
+    "label": "Record creation source ID",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Raw internal sourceId present in the RequestMeta when this record was created.",
+    "options": []
+  },
+  {
+    "name": "hs_object_source_label",
+    "label": "Record source",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "How this record was created.",
+    "options": []
+  },
+  {
+    "name": "hs_object_source_user_id",
+    "label": "Record creation source user ID",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Raw internal userId present in the RequestMeta when this record was created.",
+    "options": []
+  },
+  {
+    "name": "hs_order_level_discounts_total",
+    "label": "Order level discounts total",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The sum of only invoice level discounts applied to the invoice.",
+    "options": []
+  },
+  {
+    "name": "hs_owning_teams",
+    "label": "Owning Teams",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The teams that are attributed to this record.",
+    "options": []
+  },
+  {
+    "name": "hs_payment_collection_option",
+    "label": "Payment Collection Option",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The payment collection option as selected in the invoice editor",
+    "options": [
+      {
+        "label": "PMOF",
+        "value": "pmof",
+        "displayOrder": 0
+      },
+      {
+        "label": "Request payment",
+        "value": "request_payment",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_payment_date",
+    "label": "Payment date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date when payment of an invoice has fully completed.",
+    "options": []
+  },
+  {
+    "name": "hs_payment_status",
+    "label": "Payment status",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The state of payment on an Invoice.",
+    "options": [
+      {
+        "label": "Unpaid",
+        "value": "unpaid",
+        "displayOrder": 0
+      },
+      {
+        "label": "Partially Paid",
+        "value": "partially_paid",
+        "displayOrder": 1
+      },
+      {
+        "label": "Paid",
+        "value": "paid",
+        "displayOrder": 2
+      },
+      {
+        "label": "Refunded",
+        "value": "refunded",
+        "displayOrder": 3
+      },
+      {
+        "label": "Partially Refunded",
+        "value": "partially_refunded",
+        "displayOrder": 4
+      }
+    ]
+  },
+  {
+    "name": "hs_pdf_download_link",
+    "label": "PDF download link",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The link to download the pdf of this Invoice.",
+    "options": []
+  },
+  {
+    "name": "hs_pdf_generation_status",
+    "label": "Pdf generation status",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Current status of invoice pdf generation",
+    "options": [
+      {
+        "label": "PDF generation is processing",
+        "value": "processing",
+        "displayOrder": 0
+      },
+      {
+        "label": "PDF generation was successful",
+        "value": "successful",
+        "displayOrder": 1
+      },
+      {
+        "label": "PDF generations failed",
+        "value": "failed",
+        "displayOrder": 2
+      }
+    ]
+  },
+  {
+    "name": "hs_pinned_engagement_id",
+    "label": "Pinned engagement ID",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The object ID of the current pinned engagement. This will only be shown in the app if there is already an association to the engagement.",
+    "options": []
+  },
+  {
+    "name": "hs_purchase_order_number",
+    "label": "PO number",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Purchase order number of the invoice",
+    "options": []
+  },
+  {
+    "name": "hs_read_only",
+    "label": "Read only object",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Determines whether a record can be edited by a user.",
+    "options": [
+      {
+        "label": "True",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "False",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_received_by_recipient_date",
+    "label": "Received by recipient date (QuickBooks Online)",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date the invoice was received by the recipient.",
+    "options": []
+  },
+  {
+    "name": "hs_recipient_company_address",
+    "label": "Recipient company street address",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The address of the recipient's company or organization.",
+    "options": []
+  },
+  {
+    "name": "hs_recipient_company_address2",
+    "label": "Recipient company street address 2",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Additional address of the recipient's company or organization.",
+    "options": []
+  },
+  {
+    "name": "hs_recipient_company_city",
+    "label": "Recipient company city",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The city of the recipient's company or organization.",
+    "options": []
+  },
+  {
+    "name": "hs_recipient_company_country",
+    "label": "Recipient company country",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The country of the recipient's company or organization.",
+    "options": []
+  },
+  {
+    "name": "hs_recipient_company_country_code",
+    "label": "Recipient company country code",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The country code of the recipient's company or organization.",
+    "options": []
+  },
+  {
+    "name": "hs_recipient_company_state",
+    "label": "Recipient company state/region",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The state or region of the recipient's company or organization.",
+    "options": []
+  },
+  {
+    "name": "hs_recipient_company_zip",
+    "label": "Recipient company postal code",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The postal or zip code of the recipient's company or organization.",
+    "options": []
+  },
+  {
+    "name": "hs_recipient_shipping_address",
+    "label": "Recipient shipping street address",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The shipping address of the recipient.",
+    "options": []
+  },
+  {
+    "name": "hs_recipient_shipping_address2",
+    "label": "Recipient shipping street address 2",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Additional shipping address of the recipient.",
+    "options": []
+  },
+  {
+    "name": "hs_recipient_shipping_city",
+    "label": "Recipient shipping city",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The shipping city of the recipient.",
+    "options": []
+  },
+  {
+    "name": "hs_recipient_shipping_country",
+    "label": "Recipient shipping country",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The shipping country of the recipient.",
+    "options": []
+  },
+  {
+    "name": "hs_recipient_shipping_country_code",
+    "label": "Recipient shipping country code",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The shipping country of the recipient.",
+    "options": []
+  },
+  {
+    "name": "hs_recipient_shipping_name",
+    "label": "Recipient shipping name",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The shipping name of the recipient.",
+    "options": []
+  },
+  {
+    "name": "hs_recipient_shipping_state",
+    "label": "Recipient shipping state/region",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The shipping state or region of the recipient.",
+    "options": []
+  },
+  {
+    "name": "hs_recipient_shipping_zip",
+    "label": "Recipient shipping postal code",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The shipping postal or zip code of the recipient.",
+    "options": []
+  },
+  {
+    "name": "hs_sender_company_address",
+    "label": "Sender company address",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The street address of the company sending this invoice",
+    "options": []
+  },
+  {
+    "name": "hs_sender_company_address2",
+    "label": "Sender company address line 2",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The second line of the street address of the company sending this invoice",
+    "options": []
+  },
+  {
+    "name": "hs_sender_company_city",
+    "label": "Sender company city",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The city of the company sending this invoice",
+    "options": []
+  },
+  {
+    "name": "hs_sender_company_country",
+    "label": "Sender company country",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The country of the company sending this invoice",
+    "options": []
+  },
+  {
+    "name": "hs_sender_company_domain",
+    "label": "Sender company domain",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The domain of the company sending this invoice",
+    "options": []
+  },
+  {
+    "name": "hs_sender_company_logo_url",
+    "label": "Sender company logo url",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The logo url of the company sending this invoice",
+    "options": []
+  },
+  {
+    "name": "hs_sender_company_name",
+    "label": "Sender company name",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The name of the company sending this invoice",
+    "options": []
+  },
+  {
+    "name": "hs_sender_company_state",
+    "label": "Sender company state",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The state of the company sending this invoice",
+    "options": []
+  },
+  {
+    "name": "hs_sender_company_zip",
+    "label": "Sender company zip",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The zip code of the company sending this invoice",
+    "options": []
+  },
+  {
+    "name": "hs_shared_team_ids",
+    "label": "Shared teams",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Additional teams whose users can access the record based on their permissions. This can be set manually or through Workflows or APIs.",
+    "options": []
+  },
+  {
+    "name": "hs_shared_user_ids",
+    "label": "Shared users",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Additional users that can access the record based on their permissions. This can be set manually or through Workflows and APIs.",
+    "options": []
+  },
+  {
+    "name": "hs_slug",
+    "label": "Slug",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Slug of the hosted rendered Invoice.",
+    "options": []
+  },
+  {
+    "name": "hs_status",
+    "label": "External Invoice Status",
+    "type": "enumeration",
+    "fieldType": "radio",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The external status of the current invoice. This value is retrieved from a third party and may not be modified",
+    "options": [
+      {
+        "label": "Waiting to be sent",
+        "value": "INVOICE_WAITING_TO_BE_SENT",
+        "displayOrder": 0
+      },
+      {
+        "label": "Sent to customer",
+        "value": "INVOICE_SENT",
+        "displayOrder": 1
+      },
+      {
+        "label": "Partial payment made",
+        "value": "INVOICE_PAYMENT_MADE",
+        "displayOrder": 2
+      },
+      {
+        "label": "Fully paid",
+        "value": "INVOICE_FULLY_PAID",
+        "displayOrder": 3
+      },
+      {
+        "label": "Overdue",
+        "value": "INVOICE_OVERDUE",
+        "displayOrder": 4
+      },
+      {
+        "label": "Voided",
+        "value": "INVOICE_VOIDED",
+        "displayOrder": 5
+      }
+    ]
+  },
+  {
+    "name": "hs_store_payment_method_at_checkout",
+    "label": "Store payment method at checkout",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Allow customers to store their payment method at checkout.",
+    "options": [
+      {
+        "label": "Yes",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "No",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_subtotal",
+    "label": "Subtotal",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The sum of all line items of the invoice including line item level taxes.",
+    "options": []
+  },
+  {
+    "name": "hs_tax_calculation_id",
+    "label": "Tax calculation ID",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The id reference to the tax calculation data for the invoice",
+    "options": []
+  },
+  {
+    "name": "hs_tax_id",
+    "label": "Tax ID",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The account tax ID listed on this invoice. The tax ID includes a tax ID type and a tax ID number.",
+    "options": []
+  },
+  {
+    "name": "hs_taxes_total",
+    "label": "Taxes total",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The sum of all taxes applied to the invoice.",
+    "options": []
+  },
+  {
+    "name": "hs_test_mode",
+    "label": "Test mode",
+    "type": "enumeration",
+    "fieldType": "radio",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Indicates if the invoice is in test mode",
+    "options": [
+      {
+        "label": "True",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "False",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_timezone",
+    "label": "Time zone",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": " The time zone of dates on the invoice.",
+    "options": []
+  },
+  {
+    "name": "hs_title",
+    "label": "Title",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Title of the Invoice.",
+    "options": []
+  },
+  {
+    "name": "hs_unique_creation_key",
+    "label": "Unique creation key",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Unique property used for idempotent creates",
+    "options": []
+  },
+  {
+    "name": "hs_unique_id",
+    "label": "Unique id",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The unique identifier of the Invoice. This value is automatically set by HubSpot and may not be modified.",
+    "options": []
+  },
+  {
+    "name": "hs_upcoming_reminder_dates",
+    "label": "Upcoming reminder dates",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The upcoming dates in which email reminders will be sent to the customer. This is updated automatically by HubSpot.",
+    "options": []
+  },
+  {
+    "name": "hs_updated_by_user_id",
+    "label": "Updated by user ID",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The user who last updated this record. This value is set automatically by HubSpot.",
+    "options": []
+  },
+  {
+    "name": "hs_user_ids_of_all_notification_followers",
+    "label": "User IDs of all notification followers",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The user IDs of all users that have clicked follow within the object to opt-in to getting follow notifications",
+    "options": []
+  },
+  {
+    "name": "hs_user_ids_of_all_notification_unfollowers",
+    "label": "User IDs of all notification unfollowers",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The user IDs of all object owners that have clicked unfollow within the object to opt-out of getting follow notifications",
+    "options": []
+  },
+  {
+    "name": "hs_user_ids_of_all_owners",
+    "label": "User IDs of all owners",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The user IDs of all owners of this record.",
+    "options": []
+  },
+  {
+    "name": "hs_was_imported",
+    "label": "Performed in an import",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Object is part of an import",
+    "options": [
+      {
+        "label": "True",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "False",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hubspot_owner_assigneddate",
+    "label": "Owner assigned date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The most recent timestamp of when an owner was assigned to this record. This value is set automatically by HubSpot.",
+    "options": []
+  },
+  {
+    "name": "hubspot_owner_id",
+    "label": "Owner",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The owner of the object.",
+    "options": []
+  },
+  {
+    "name": "hubspot_team_id",
+    "label": "Owner's main team",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The main team of the record owner. This value is set automatically by HubSpot.",
+    "options": []
+  },
+  {
+    "name": "stripe_hosted_invoice_url",
+    "label": "Stripe Hosted Invoice URL",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "stripe_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The URL for the hosted version of this invoice in Stripe",
+    "options": []
+  },
+  {
+    "name": "stripe_period_end_date",
+    "label": "Stripe Period End Date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "stripe_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The end date of the billing period for this invoice in Stripe",
+    "options": []
+  },
+  {
+    "name": "stripe_period_start_date",
+    "label": "Stripe Period Start Date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "stripe_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The start date of the billing period for this invoice in Stripe",
+    "options": []
+  },
+  {
+    "name": "legacy_record_id",
+    "label": "Legacy Record ID",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": false,
+    "formField": true,
+    "description": "",
+    "options": []
+  }
+]

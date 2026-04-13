@@ -1,0 +1,2314 @@
+[
+  {
+    "name": "hs_date_entered_attempting_stage_id_745667965",
+    "label": "Date entered 'Attempting (Lead pipeline)'",
+    "type": "datetime",
+    "fieldType": "calculation_read_time",
+    "groupName": "hubspotmetrics",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time when the lead entered the 'Attempting' stage, 'Lead pipeline' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_date_entered_connected_stage_id_2058487257",
+    "label": "Date entered 'Connected (Lead pipeline)'",
+    "type": "datetime",
+    "fieldType": "calculation_read_time",
+    "groupName": "hubspotmetrics",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time when the lead entered the 'Connected' stage, 'Lead pipeline' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_date_entered_new_stage_id_1318266061",
+    "label": "Date entered 'New (Lead pipeline)'",
+    "type": "datetime",
+    "fieldType": "calculation_read_time",
+    "groupName": "hubspotmetrics",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time when the lead entered the 'New' stage, 'Lead pipeline' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_date_entered_qualified_stage_id_233247981",
+    "label": "Date entered 'Qualified (Lead pipeline)'",
+    "type": "datetime",
+    "fieldType": "calculation_read_time",
+    "groupName": "hubspotmetrics",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time when the lead entered the 'Qualified' stage, 'Lead pipeline' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_date_entered_unqualified_stage_id_1675714327",
+    "label": "Date entered 'Disqualified (Lead pipeline)'",
+    "type": "datetime",
+    "fieldType": "calculation_read_time",
+    "groupName": "hubspotmetrics",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time when the lead entered the 'Disqualified' stage, 'Lead pipeline' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_date_exited_attempting_stage_id_745667965",
+    "label": "Date exited 'Attempting (Lead pipeline)'",
+    "type": "datetime",
+    "fieldType": "calculation_read_time",
+    "groupName": "hubspotmetrics",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time when the lead exited the 'Attempting' stage, 'Lead pipeline' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_date_exited_connected_stage_id_2058487257",
+    "label": "Date exited 'Connected (Lead pipeline)'",
+    "type": "datetime",
+    "fieldType": "calculation_read_time",
+    "groupName": "hubspotmetrics",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time when the lead exited the 'Connected' stage, 'Lead pipeline' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_date_exited_new_stage_id_1318266061",
+    "label": "Date exited 'New (Lead pipeline)'",
+    "type": "datetime",
+    "fieldType": "calculation_read_time",
+    "groupName": "hubspotmetrics",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time when the lead exited the 'New' stage, 'Lead pipeline' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_date_exited_qualified_stage_id_233247981",
+    "label": "Date exited 'Qualified (Lead pipeline)'",
+    "type": "datetime",
+    "fieldType": "calculation_read_time",
+    "groupName": "hubspotmetrics",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time when the lead exited the 'Qualified' stage, 'Lead pipeline' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_date_exited_unqualified_stage_id_1675714327",
+    "label": "Date exited 'Disqualified (Lead pipeline)'",
+    "type": "datetime",
+    "fieldType": "calculation_read_time",
+    "groupName": "hubspotmetrics",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time when the lead exited the 'Disqualified' stage, 'Lead pipeline' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_time_in_attempting_stage_id_745667965",
+    "label": "Time in 'Attempting (Lead pipeline)'",
+    "type": "number",
+    "fieldType": "calculation_read_time",
+    "groupName": "hubspotmetrics",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The total time in seconds spent by the lead in the 'Attempting' stage, 'Lead pipeline' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_time_in_connected_stage_id_2058487257",
+    "label": "Time in 'Connected (Lead pipeline)'",
+    "type": "number",
+    "fieldType": "calculation_read_time",
+    "groupName": "hubspotmetrics",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The total time in seconds spent by the lead in the 'Connected' stage, 'Lead pipeline' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_time_in_new_stage_id_1318266061",
+    "label": "Time in 'New (Lead pipeline)'",
+    "type": "number",
+    "fieldType": "calculation_read_time",
+    "groupName": "hubspotmetrics",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The total time in seconds spent by the lead in the 'New' stage, 'Lead pipeline' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_time_in_qualified_stage_id_233247981",
+    "label": "Time in 'Qualified (Lead pipeline)'",
+    "type": "number",
+    "fieldType": "calculation_read_time",
+    "groupName": "hubspotmetrics",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The total time in seconds spent by the lead in the 'Qualified' stage, 'Lead pipeline' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_time_in_unqualified_stage_id_1675714327",
+    "label": "Time in 'Disqualified (Lead pipeline)'",
+    "type": "number",
+    "fieldType": "calculation_read_time",
+    "groupName": "hubspotmetrics",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The total time in seconds spent by the lead in the 'Disqualified' stage, 'Lead pipeline' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_all_accessible_team_ids",
+    "label": "All teams",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The team IDs, including the team hierarchy, of all default and custom owner properties for this record.",
+    "options": []
+  },
+  {
+    "name": "hs_all_assigned_business_unit_ids",
+    "label": "Brands",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The brands this record is assigned to.",
+    "options": []
+  },
+  {
+    "name": "hs_all_owner_ids",
+    "label": "All owner IDs",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Values of all default and custom owner properties for this record.",
+    "options": []
+  },
+  {
+    "name": "hs_all_team_ids",
+    "label": "All team IDs",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The team IDs of all default and custom owner properties for this record.",
+    "options": []
+  },
+  {
+    "name": "hs_associated_company_domain",
+    "label": "Associated Company Domain",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Domain of the associated company if present.",
+    "options": []
+  },
+  {
+    "name": "hs_associated_company_name",
+    "label": "Company",
+    "type": "string",
+    "fieldType": "calculation_rollup",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Name of the associated company if present.",
+    "options": []
+  },
+  {
+    "name": "hs_associated_contact_email",
+    "label": "Associated Contact Email",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Email of the associated contact if present.",
+    "options": []
+  },
+  {
+    "name": "hs_associated_contact_firstname",
+    "label": "Associated Contact First Name",
+    "type": "string",
+    "fieldType": "calculation_rollup",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "First name of the associated contact if present.",
+    "options": []
+  },
+  {
+    "name": "hs_associated_contact_lastname",
+    "label": "Associated Contact Last Name",
+    "type": "string",
+    "fieldType": "",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Last name of the associated contact if present.",
+    "options": []
+  },
+  {
+    "name": "hs_calls_attempted_count",
+    "label": "Attempted calls count",
+    "type": "number",
+    "fieldType": "calculation_rollup",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Number of non-connected calls made to to lead. This exclusively powers our templated automation.",
+    "options": []
+  },
+  {
+    "name": "hs_calls_connected_count",
+    "label": "Calls Connected Count",
+    "type": "number",
+    "fieldType": "calculation_rollup",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The number of associated calls that are considered to be 'connected'",
+    "options": []
+  },
+  {
+    "name": "hs_company_analytics_source",
+    "label": "Primary company analytics source",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The latest analytics source from the lead's primary company at the time when the company was associated with the lead. This property will not be updated after the first rollup.",
+    "options": []
+  },
+  {
+    "name": "hs_company_analytics_source_data_1",
+    "label": "Primary company analytics source first drilldown",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The first drilldown of the latest analytics source from the lead's primary company at the time when the company was associated with the lead. This property will not be updated after the first rollup.",
+    "options": []
+  },
+  {
+    "name": "hs_company_analytics_source_data_2",
+    "label": "Primary company analytics source second drilldown",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The second drilldown of the latest analytics source from the lead's primary company at the time when the company was associated with the lead. This property will not be updated after the first rollup.",
+    "options": []
+  },
+  {
+    "name": "hs_company_is_target_account",
+    "label": "Is Target Account",
+    "type": "string",
+    "fieldType": "calculation_rollup",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Associated company's status about being marketed or sold to.",
+    "options": []
+  },
+  {
+    "name": "hs_company_last_activity_date",
+    "label": "Company Last Activity Date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date of the last activity, rolled up from the primary associated company.",
+    "options": []
+  },
+  {
+    "name": "hs_company_last_engagement_timestamp",
+    "label": "Company Last Engagement Date",
+    "type": "datetime",
+    "fieldType": "calculation_rollup",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The last time a contact engaged with your site or a form, document, meetings link, or tracked email. This doesn't include marketing emails or emails to multiple contacts.",
+    "options": []
+  },
+  {
+    "name": "hs_company_last_engagement_type",
+    "label": "Company Last Engagement Type",
+    "type": "enumeration",
+    "fieldType": "calculation_rollup",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The type of the last engagement a company performed. This doesn't include marketing emails or emails to multiple contacts.",
+    "options": [
+      {
+        "label": "Company Website Visit",
+        "value": "COMPANYPROSPECTS_REVISIT",
+        "displayOrder": 0
+      },
+      {
+        "label": "Document View",
+        "value": "PRESENTATION_REVISIT",
+        "displayOrder": 1
+      },
+      {
+        "label": "Email Click",
+        "value": "EMAIL_CLICK",
+        "displayOrder": 2
+      },
+      {
+        "label": "Email Open",
+        "value": "EMAIL_OPEN",
+        "displayOrder": 3
+      },
+      {
+        "label": "Email Reply",
+        "value": "EMAIL_REPLY",
+        "displayOrder": 4
+      },
+      {
+        "label": "Form Submitted",
+        "value": "FORM_SUBMITTED",
+        "displayOrder": 5
+      },
+      {
+        "label": "Meeting Booked",
+        "value": "MEETING_BOOKED",
+        "displayOrder": 6
+      },
+      {
+        "label": "Website Visit",
+        "value": "HUBSPOT_REVISIT",
+        "displayOrder": 7
+      }
+    ]
+  },
+  {
+    "name": "hs_company_last_webpage_visit_timestamp",
+    "label": "Company Time of Last Session",
+    "type": "datetime",
+    "fieldType": "calculation_rollup",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Time of the last session attributed to any contacts that are associated with this lead's primary company",
+    "options": []
+  },
+  {
+    "name": "hs_company_next_activity_date",
+    "label": "Company Next Activity Date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date of the next activity, rolled up from the primary associated company.",
+    "options": []
+  },
+  {
+    "name": "hs_company_next_activity_type",
+    "label": "Company Next Activity Type",
+    "type": "enumeration",
+    "fieldType": "calculation_rollup",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The type of the next activity, rolled up from the primary associated company.",
+    "options": [
+      {
+        "label": "Call",
+        "value": "CALL",
+        "displayOrder": 0
+      },
+      {
+        "label": "Conversation session",
+        "value": "CONVERSATION_SESSION",
+        "displayOrder": 1
+      },
+      {
+        "label": "Email reply from contact",
+        "value": "INCOMING_EMAIL",
+        "displayOrder": 2
+      },
+      {
+        "label": "Email sent to contact",
+        "value": "EMAIL",
+        "displayOrder": 3
+      },
+      {
+        "label": "Forwarded email",
+        "value": "FORWARDED_EMAIL",
+        "displayOrder": 4
+      },
+      {
+        "label": "LinkedIn message",
+        "value": "LINKEDIN_MESSAGE",
+        "displayOrder": 5
+      },
+      {
+        "label": "Meeting",
+        "value": "MEETING",
+        "displayOrder": 6
+      },
+      {
+        "label": "Note",
+        "value": "NOTE",
+        "displayOrder": 7
+      },
+      {
+        "label": "Postal mail",
+        "value": "POSTAL_MAIL",
+        "displayOrder": 8
+      },
+      {
+        "label": "Publishing task",
+        "value": "PUBLISHING_TASK",
+        "displayOrder": 9
+      },
+      {
+        "label": "SMS",
+        "value": "SMS",
+        "displayOrder": 10
+      },
+      {
+        "label": "Task",
+        "value": "TASK",
+        "displayOrder": 11
+      },
+      {
+        "label": "WhatsApp",
+        "value": "WHATS_APP",
+        "displayOrder": 12
+      }
+    ]
+  },
+  {
+    "name": "hs_company_num_webpage_views",
+    "label": "Company Number of Pageviews",
+    "type": "number",
+    "fieldType": "calculation_rollup",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Total number of page views across all contacts associated with this lead's primary company",
+    "options": []
+  },
+  {
+    "name": "hs_company_timezone",
+    "label": "Associated company timezone",
+    "type": "string",
+    "fieldType": "calculation_rollup",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The associated company's timezone, if present.",
+    "options": []
+  },
+  {
+    "name": "hs_contact_analytics_source",
+    "label": "Primary contact analytics source",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The latest analytics source from the lead's primary contact at the time when the contact was associated with the lead. This property will not be updated after the first rollup.",
+    "options": []
+  },
+  {
+    "name": "hs_contact_analytics_source_data_1",
+    "label": "Primary contact analytics source first drilldown",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The first drilldown of the latest analytics source from the lead's primary contact at the time when the contact was associated with the lead. This property will not be updated after the first rollup.",
+    "options": []
+  },
+  {
+    "name": "hs_contact_analytics_source_data_2",
+    "label": "Primary contact analytics source second drilldown",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The second drilldown of the latest analytics source from the lead's primary contact at the time when the contact was associated with the lead. This property will not be updated after the first rollup.",
+    "options": []
+  },
+  {
+    "name": "hs_contact_buying_role",
+    "label": "Contact Buying Role",
+    "type": "string",
+    "fieldType": "calculation_rollup",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Associated contact's role during the sales process.",
+    "options": []
+  },
+  {
+    "name": "hs_contact_job_title",
+    "label": "Associated contact job title",
+    "type": "string",
+    "fieldType": "calculation_rollup",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Job title of the associated contact if present.",
+    "options": []
+  },
+  {
+    "name": "hs_contact_last_activity_date",
+    "label": "Contact Last Activity Date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date of the last activity, rolled up from the primary associated contact.",
+    "options": []
+  },
+  {
+    "name": "hs_contact_last_engagement_timestamp",
+    "label": "Contact Last Engagement Date",
+    "type": "datetime",
+    "fieldType": "calculation_rollup",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The last time a contact engaged with your site or a form, document, meetings link, or tracked email. This doesn't include marketing emails or emails to multiple contacts.",
+    "options": []
+  },
+  {
+    "name": "hs_contact_last_engagement_type",
+    "label": "Contact Last Engagement Type",
+    "type": "enumeration",
+    "fieldType": "calculation_rollup",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The type of the last engagement a contact performed. This doesn't include marketing emails or emails to multiple contacts.",
+    "options": [
+      {
+        "label": "Company Website Visit",
+        "value": "COMPANYPROSPECTS_REVISIT",
+        "displayOrder": 0
+      },
+      {
+        "label": "Document View",
+        "value": "PRESENTATION_REVISIT",
+        "displayOrder": 1
+      },
+      {
+        "label": "Email Click",
+        "value": "EMAIL_CLICK",
+        "displayOrder": 2
+      },
+      {
+        "label": "Email Open",
+        "value": "EMAIL_OPEN",
+        "displayOrder": 3
+      },
+      {
+        "label": "Email Reply",
+        "value": "EMAIL_REPLY",
+        "displayOrder": 4
+      },
+      {
+        "label": "Form Submitted",
+        "value": "FORM_SUBMITTED",
+        "displayOrder": 5
+      },
+      {
+        "label": "Meeting Booked",
+        "value": "MEETING_BOOKED",
+        "displayOrder": 6
+      },
+      {
+        "label": "Website Visit",
+        "value": "HUBSPOT_REVISIT",
+        "displayOrder": 7
+      }
+    ]
+  },
+  {
+    "name": "hs_contact_last_webpage_visit_timestamp",
+    "label": "Contact Time of Last Session",
+    "type": "datetime",
+    "fieldType": "calculation_rollup",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Timestamp for start of the most recent session for this lead's primary contact to your website.",
+    "options": []
+  },
+  {
+    "name": "hs_contact_next_activity_date",
+    "label": "Contact Next Activity Date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date of the next activity, rolled up from the primary associated contact.",
+    "options": []
+  },
+  {
+    "name": "hs_contact_next_activity_type",
+    "label": "Contact Next Activity Type",
+    "type": "enumeration",
+    "fieldType": "calculation_rollup",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The type of the next activity, rolled up from the primary associated contact.",
+    "options": [
+      {
+        "label": "Call",
+        "value": "CALL",
+        "displayOrder": 0
+      },
+      {
+        "label": "Conversation session",
+        "value": "CONVERSATION_SESSION",
+        "displayOrder": 1
+      },
+      {
+        "label": "Email reply from contact",
+        "value": "INCOMING_EMAIL",
+        "displayOrder": 2
+      },
+      {
+        "label": "Email sent to contact",
+        "value": "EMAIL",
+        "displayOrder": 3
+      },
+      {
+        "label": "Forwarded email",
+        "value": "FORWARDED_EMAIL",
+        "displayOrder": 4
+      },
+      {
+        "label": "LinkedIn message",
+        "value": "LINKEDIN_MESSAGE",
+        "displayOrder": 5
+      },
+      {
+        "label": "Meeting",
+        "value": "MEETING",
+        "displayOrder": 6
+      },
+      {
+        "label": "Note",
+        "value": "NOTE",
+        "displayOrder": 7
+      },
+      {
+        "label": "Postal mail",
+        "value": "POSTAL_MAIL",
+        "displayOrder": 8
+      },
+      {
+        "label": "Publishing task",
+        "value": "PUBLISHING_TASK",
+        "displayOrder": 9
+      },
+      {
+        "label": "SMS",
+        "value": "SMS",
+        "displayOrder": 10
+      },
+      {
+        "label": "Task",
+        "value": "TASK",
+        "displayOrder": 11
+      },
+      {
+        "label": "WhatsApp",
+        "value": "WHATS_APP",
+        "displayOrder": 12
+      }
+    ]
+  },
+  {
+    "name": "hs_contact_num_webpage_views",
+    "label": "Contact Number of Pageviews",
+    "type": "number",
+    "fieldType": "calculation_rollup",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Total number of page views this lead's primary contact has had on your website",
+    "options": []
+  },
+  {
+    "name": "hs_contact_timezone",
+    "label": "Associated contact timezone",
+    "type": "string",
+    "fieldType": "calculation_rollup",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The associated contact's timezone, if present.",
+    "options": []
+  },
+  {
+    "name": "hs_created_by_user_id",
+    "label": "Created by user ID",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The user who created this record. This value is set automatically by HubSpot.",
+    "options": []
+  },
+  {
+    "name": "hs_createdate",
+    "label": "Object create date/time",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time at which this object was created. This value is automatically set by HubSpot and may not be modified.",
+    "options": []
+  },
+  {
+    "name": "hs_emails_connected_count",
+    "label": "Emails Connected Count",
+    "type": "number",
+    "fieldType": "calculation_rollup",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The number of associated emails that are considered to be 'connected'",
+    "options": []
+  },
+  {
+    "name": "hs_emails_connected_count_v2",
+    "label": "Connected emails count v2",
+    "type": "number",
+    "fieldType": "calculation_rollup",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Number of incoming non-OOO emails to the lead. This exclusively powers our templated automation.",
+    "options": []
+  },
+  {
+    "name": "hs_last_activity_date",
+    "label": "Last Activity Date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date of the last activity. Defaults to the date of the primary associated contact. If not present, looks to the date of the primary associated company.",
+    "options": []
+  },
+  {
+    "name": "hs_last_engagement_timestamp",
+    "label": "Last Engagement Date",
+    "type": "datetime",
+    "fieldType": "calculation_equation",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "If primary contact exists, the last time the contact engaged with your site or a form, document, meetings link, or tracked email. This doesn't include marketing emails or emails to multiple contacts. Otherwise it is the last time for the associated company",
+    "options": []
+  },
+  {
+    "name": "hs_last_engagement_type",
+    "label": "Last Engagement Type",
+    "type": "enumeration",
+    "fieldType": "calculation_equation",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "If primary contact exists, the type of the last engagement the contact performed. This doesn't include marketing emails or emails to multiple contacts. Otherwise it is the type of the last engagement for the associated company",
+    "options": []
+  },
+  {
+    "name": "hs_last_webpage_visit_timestamp",
+    "label": "Lead Time of Last Session",
+    "type": "datetime",
+    "fieldType": "calculation_equation",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "If the associated contact exists, the timestamp for the start of the most recent session for this contact to your website. Otherwise the timestamp for the start of the most recent session for the associated company to your website.",
+    "options": []
+  },
+  {
+    "name": "hs_lastmodifieddate",
+    "label": "Object last modified date/time",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Most recent timestamp of any property update for this object. This includes HubSpot internal properties, which can be visible or hidden. This property is updated automatically.",
+    "options": []
+  },
+  {
+    "name": "hs_lead_associated_deal_pipeline_stage",
+    "label": "Associated Deal Pipeline Stage",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The pipeline stage of the primary associated deal",
+    "options": []
+  },
+  {
+    "name": "hs_lead_associated_deals_count",
+    "label": "Associated deals",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Number of associated deals for a given lead.",
+    "options": []
+  },
+  {
+    "name": "hs_lead_call_count",
+    "label": "Call Count",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The number of calls made to this lead",
+    "options": []
+  },
+  {
+    "name": "hs_lead_closed_won_deals_amount",
+    "label": "Closed won deal amount",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The total amount of the lead's associated deals that are closed-won",
+    "options": []
+  },
+  {
+    "name": "hs_lead_communication_count",
+    "label": "Message Thread Count",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The number of message threads (SMS, LinkedIn, WhatsApp) opened with this lead",
+    "options": []
+  },
+  {
+    "name": "hs_lead_currency_code",
+    "label": "Currency",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Currency code for most recent associated deal",
+    "options": []
+  },
+  {
+    "name": "hs_lead_disqualification_note",
+    "label": "Lead Disqualification Note",
+    "type": "string",
+    "fieldType": "textarea",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "A note on why the lead was disqualified ",
+    "options": []
+  },
+  {
+    "name": "hs_lead_disqualification_reason",
+    "label": "Disqualification Reason",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Dropdown list of reasons for disqualification",
+    "options": [
+      {
+        "label": "Bad Timing",
+        "value": "BAD_TIMING",
+        "displayOrder": 0
+      },
+      {
+        "label": "Budget Constraints",
+        "value": "BUDGET_CONSTRAINTS",
+        "displayOrder": 1
+      },
+      {
+        "label": "No Decision-making Power",
+        "value": "NO_DECISION_MAKING_POWER",
+        "displayOrder": 2
+      },
+      {
+        "label": "Competitor Preference",
+        "value": "COMPETITOR_PREFERENCE",
+        "displayOrder": 3
+      },
+      {
+        "label": "Not a Good Fit",
+        "value": "NOT_A_GOOD_FIT",
+        "displayOrder": 4
+      },
+      {
+        "label": "No Interest",
+        "value": "NO_INTEREST",
+        "displayOrder": 5
+      },
+      {
+        "label": "Prior Negative Experience",
+        "value": "PRIOR_NEGATIVE_EXPERIENCE",
+        "displayOrder": 6
+      },
+      {
+        "label": "Technical Limitations",
+        "value": "TECHNICAL_LIMITATIONS",
+        "displayOrder": 7
+      }
+    ]
+  },
+  {
+    "name": "hs_lead_email_count",
+    "label": "Email Count",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The number of emails sent to this lead",
+    "options": []
+  },
+  {
+    "name": "hs_lead_first_outreach_date",
+    "label": "First Outreach Date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date of the first outreach (call, email, meeting or other communication) from the sales rep to the lead.",
+    "options": []
+  },
+  {
+    "name": "hs_lead_flow_id",
+    "label": "Lead flow id",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Flow id of the workflow that created this lead",
+    "options": []
+  },
+  {
+    "name": "hs_lead_import_unique_key",
+    "label": "Import Unique Key",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "A key with format {importUUID}-{primaryAssociationObjectTypeId}-{primaryAssociationObjectId} that enforces idempotency on lead imports",
+    "options": []
+  },
+  {
+    "name": "hs_lead_inferred_pseudostage",
+    "label": "Lead Inferred Pseudostage",
+    "type": "string",
+    "fieldType": "calculation_equation",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "This indicates the inferred lead pipeline pseudostage based on underlying activities taken by the user or lead.",
+    "options": []
+  },
+  {
+    "name": "hs_lead_is_disqualified",
+    "label": "Is Disqualified",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Indicates whether the lead is disqualified (with a value of 1) or not (with a value of 0). Hidden property that exists for the purpose of reporting.",
+    "options": []
+  },
+  {
+    "name": "hs_lead_is_in_progress",
+    "label": "In progress leads",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Indicates whether the lead is in progress (with a value of 1) or not (with a value of 0). Hidden property that exists for the purpose of reporting.",
+    "options": []
+  },
+  {
+    "name": "hs_lead_is_new",
+    "label": "Is New",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Indicates whether the lead is new (with a value of 1) or not (with a value of 0). Hidden property that exists for the purpose of reporting.",
+    "options": []
+  },
+  {
+    "name": "hs_lead_is_open",
+    "label": "Open leads",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Whether the lead's pipeline stage has any category other than `QUALIFIED` or `UNQUALIFIED`",
+    "options": []
+  },
+  {
+    "name": "hs_lead_is_open_v2",
+    "label": "Is Open",
+    "type": "bool",
+    "fieldType": "calculation_equation",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Whether the lead's pipeline stage has category \"Not started\" or \"In progress\"",
+    "options": [
+      {
+        "label": "Yes",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "No",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_lead_is_qualified",
+    "label": "Is Qualified",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Indicates whether the lead is qualified (with a value of 1) or not (with a value of 0). Hidden property that exists for the purpose of reporting.",
+    "options": []
+  },
+  {
+    "name": "hs_lead_label",
+    "label": "Lead Label",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Current status of a given lead",
+    "options": [
+      {
+        "label": "Hot",
+        "value": "HOT",
+        "displayOrder": 0
+      },
+      {
+        "label": "Warm",
+        "value": "WARM",
+        "displayOrder": 1
+      },
+      {
+        "label": "Cold",
+        "value": "COLD",
+        "displayOrder": 2
+      }
+    ]
+  },
+  {
+    "name": "hs_lead_meeting_count",
+    "label": "Meeting Count",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The number of meetings booked with this lead",
+    "options": []
+  },
+  {
+    "name": "hs_lead_name",
+    "label": "Lead Name",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The full name of the lead.",
+    "options": []
+  },
+  {
+    "name": "hs_lead_name_calculated",
+    "label": "Lead name calculated",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The calculated full name of the lead.",
+    "options": []
+  },
+  {
+    "name": "hs_lead_outreach_activity_count",
+    "label": "Outreach activity count",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The total number of outreach activities (call, email, meeting or other communication) from the sales rep to the lead.",
+    "options": []
+  },
+  {
+    "name": "hs_lead_pipeline_value",
+    "label": "Open deal amount",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The total value of any open deals associated with this lead",
+    "options": []
+  },
+  {
+    "name": "hs_lead_primary_company_owner",
+    "label": "Primary Company Owner",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The owner ID of the associated primary company",
+    "options": []
+  },
+  {
+    "name": "hs_lead_primary_contact_owner",
+    "label": "Primary Contact Owner",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The owner ID of the associated primary contact",
+    "options": []
+  },
+  {
+    "name": "hs_lead_source",
+    "label": "Lead Source",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The analytics source of the lead, inherited from primary associated contact or company at the time of lead creation",
+    "options": [
+      {
+        "label": "Organic Search",
+        "value": "ORGANIC_SEARCH",
+        "displayOrder": 0
+      },
+      {
+        "label": "Paid Search",
+        "value": "PAID_SEARCH",
+        "displayOrder": 1
+      },
+      {
+        "label": "Email Marketing",
+        "value": "EMAIL_MARKETING",
+        "displayOrder": 2
+      },
+      {
+        "label": "Organic Social",
+        "value": "SOCIAL_MEDIA",
+        "displayOrder": 3
+      },
+      {
+        "label": "Referrals",
+        "value": "REFERRALS",
+        "displayOrder": 4
+      },
+      {
+        "label": "Other Campaigns",
+        "value": "OTHER_CAMPAIGNS",
+        "displayOrder": 5
+      },
+      {
+        "label": "Direct Traffic",
+        "value": "DIRECT_TRAFFIC",
+        "displayOrder": 6
+      },
+      {
+        "label": "Offline Sources",
+        "value": "OFFLINE",
+        "displayOrder": 7
+      },
+      {
+        "label": "Paid Social",
+        "value": "PAID_SOCIAL",
+        "displayOrder": 8
+      }
+    ]
+  },
+  {
+    "name": "hs_lead_source_company_lifecycle_stage",
+    "label": "Initial company lifecycle stage",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The first detected lifecycle stage on a company associated with the lead as that lead's primary company. Not updated after initial value set. ",
+    "options": []
+  },
+  {
+    "name": "hs_lead_source_contact_lifecycle_stage",
+    "label": "Initial contact lifecycle stage",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The first detected lifecycle stage on a contact associated with the lead as that lead's primary contact. Not updated after initial value set.",
+    "options": []
+  },
+  {
+    "name": "hs_lead_source_drill_down_1",
+    "label": "Lead Source Drill-Down 1",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Second tier of specificity on the lead source",
+    "options": []
+  },
+  {
+    "name": "hs_lead_source_drill_down_2",
+    "label": "Lead Source Drill-Down 2",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Third tier of specificity on the lead source",
+    "options": []
+  },
+  {
+    "name": "hs_lead_source_lifecycle_stage",
+    "label": "Initial source lifecycle stage",
+    "type": "string",
+    "fieldType": "calculation_equation",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The lifecycle stage of the primary associated contact or company at the time of lead creation",
+    "options": []
+  },
+  {
+    "name": "hs_lead_time_to_first_outreach",
+    "label": "Time to First Touch",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Time between lead creation and first outreach activity ",
+    "options": []
+  },
+  {
+    "name": "hs_lead_title",
+    "label": "Lead Title (DEPRECATED: Use hs_lead_name) ",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The title of the lead",
+    "options": []
+  },
+  {
+    "name": "hs_lead_type",
+    "label": "Lead Type",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The type of lead. By default, categorize your lead as either a New Business, Existing Business, or Re-attempting",
+    "options": [
+      {
+        "label": "New business",
+        "value": "NEW_BUSINESS",
+        "displayOrder": 0
+      },
+      {
+        "label": "Upsell",
+        "value": "UPSELL",
+        "displayOrder": 1
+      },
+      {
+        "label": "Re-attempting",
+        "value": "RE_ATTEMPTING",
+        "displayOrder": 2
+      }
+    ]
+  },
+  {
+    "name": "hs_meetings_connected_count",
+    "label": "Meetings Connected Count",
+    "type": "number",
+    "fieldType": "calculation_rollup",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The number of associated meetings that are considered to be 'connected'",
+    "options": []
+  },
+  {
+    "name": "hs_merged_object_ids",
+    "label": "Merged record IDs",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The list of record IDs that have been merged into this record. This value is set automatically by HubSpot.",
+    "options": []
+  },
+  {
+    "name": "hs_next_activity_date",
+    "label": "Next Activity Date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date of the next activity. Defaults to the date of the primary associated contact. If not present, looks to the date of the primary associated company.",
+    "options": []
+  },
+  {
+    "name": "hs_next_activity_type",
+    "label": "Next Activity Type",
+    "type": "enumeration",
+    "fieldType": "calculation_equation",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The type of the next activity. Defaults to the type of the primary associated contact. If not present, looks to the type of the primary associated company.",
+    "options": [
+      {
+        "label": "Call",
+        "value": "CALL",
+        "displayOrder": 0
+      },
+      {
+        "label": "Conversation session",
+        "value": "CONVERSATION_SESSION",
+        "displayOrder": 1
+      },
+      {
+        "label": "Email reply from contact",
+        "value": "INCOMING_EMAIL",
+        "displayOrder": 2
+      },
+      {
+        "label": "Email sent to contact",
+        "value": "EMAIL",
+        "displayOrder": 3
+      },
+      {
+        "label": "Forwarded email",
+        "value": "FORWARDED_EMAIL",
+        "displayOrder": 4
+      },
+      {
+        "label": "LinkedIn message",
+        "value": "LINKEDIN_MESSAGE",
+        "displayOrder": 5
+      },
+      {
+        "label": "Meeting",
+        "value": "MEETING",
+        "displayOrder": 6
+      },
+      {
+        "label": "Note",
+        "value": "NOTE",
+        "displayOrder": 7
+      },
+      {
+        "label": "Postal mail",
+        "value": "POSTAL_MAIL",
+        "displayOrder": 8
+      },
+      {
+        "label": "Publishing task",
+        "value": "PUBLISHING_TASK",
+        "displayOrder": 9
+      },
+      {
+        "label": "SMS",
+        "value": "SMS",
+        "displayOrder": 10
+      },
+      {
+        "label": "Task",
+        "value": "TASK",
+        "displayOrder": 11
+      },
+      {
+        "label": "WhatsApp",
+        "value": "WHATS_APP",
+        "displayOrder": 12
+      }
+    ]
+  },
+  {
+    "name": "hs_notes_backing_company_last_activity",
+    "label": "Primary company last activity",
+    "type": "object_coordinates",
+    "fieldType": "text",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The coordinates of the last activity for the lead's primary company",
+    "options": []
+  },
+  {
+    "name": "hs_notes_backing_company_next_activity",
+    "label": "Primary company next activity",
+    "type": "object_coordinates",
+    "fieldType": "text",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The coordinates of the next upcoming activity for the lead's primary company",
+    "options": []
+  },
+  {
+    "name": "hs_notes_backing_contact_last_activity",
+    "label": "Primary contact last activity",
+    "type": "object_coordinates",
+    "fieldType": "text",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The coordinates of the last activity for the lead's primary contact",
+    "options": []
+  },
+  {
+    "name": "hs_notes_backing_contact_next_activity",
+    "label": "Primary contact next activity",
+    "type": "object_coordinates",
+    "fieldType": "text",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The coordinates of the next upcoming activity for the lead's primary contact",
+    "options": []
+  },
+  {
+    "name": "hs_notes_principal_backing_object_last_activity",
+    "label": "Last activity",
+    "type": "string",
+    "fieldType": "calculation_equation",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The coordinates of the last activity for the lead",
+    "options": []
+  },
+  {
+    "name": "hs_notes_principal_backing_object_next_activity",
+    "label": "Next activity",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The coordinates of the next upcoming activity for the lead",
+    "options": []
+  },
+  {
+    "name": "hs_num_webpage_views",
+    "label": "Lead Number of Pageviews",
+    "type": "number",
+    "fieldType": "calculation_equation",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Number of pageviews for the associated contact if it exists. Otherwise the number of pageviews for the associated company.",
+    "options": []
+  },
+  {
+    "name": "hs_object_id",
+    "label": "Record ID",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The unique ID for this record. This value is set automatically by HubSpot.",
+    "options": []
+  },
+  {
+    "name": "hs_object_source",
+    "label": "Record creation source",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Raw internal PropertySource present in the RequestMeta when this record was created.",
+    "options": []
+  },
+  {
+    "name": "hs_object_source_detail_1",
+    "label": "Record source detail 1",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "First level of detail on how this record was created.",
+    "options": []
+  },
+  {
+    "name": "hs_object_source_detail_2",
+    "label": "Record source detail 2",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Second level of detail on how this record was created.",
+    "options": []
+  },
+  {
+    "name": "hs_object_source_detail_3",
+    "label": "Record source detail 3",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Third level of detail on how this record was created.",
+    "options": []
+  },
+  {
+    "name": "hs_object_source_id",
+    "label": "Record creation source ID",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Raw internal sourceId present in the RequestMeta when this record was created.",
+    "options": []
+  },
+  {
+    "name": "hs_object_source_label",
+    "label": "Record source",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "How this record was created.",
+    "options": []
+  },
+  {
+    "name": "hs_object_source_user_id",
+    "label": "Record creation source user ID",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Raw internal userId present in the RequestMeta when this record was created.",
+    "options": []
+  },
+  {
+    "name": "hs_owner_id_calculated",
+    "label": "Lead owner calculated",
+    "type": "enumeration",
+    "fieldType": "calculation_equation",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The calculated owner of the lead. Owner of the primary contact if it exists, owner of primary company otherwise.",
+    "options": []
+  },
+  {
+    "name": "hs_owning_teams",
+    "label": "Owning Teams",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The teams that are attributed to this record.",
+    "options": []
+  },
+  {
+    "name": "hs_pinned_engagement_id",
+    "label": "Pinned engagement ID",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The object ID of the current pinned engagement. This will only be shown in the app if there is already an association to the engagement.",
+    "options": []
+  },
+  {
+    "name": "hs_pipeline",
+    "label": "Lead Pipeline",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The pipeline that the lead is in",
+    "options": []
+  },
+  {
+    "name": "hs_pipeline_stage",
+    "label": "Lead stage",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "",
+    "options": []
+  },
+  {
+    "name": "hs_pipeline_stage_category",
+    "label": "Pipeline stage category id",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The category id assigned to the lead's current pipeline stage",
+    "options": []
+  },
+  {
+    "name": "hs_pipeline_stage_category_last_updated_at",
+    "label": "Pipeline Stage Category Last Updated At",
+    "type": "datetime",
+    "fieldType": "calculation_equation",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Timestamp of the most recent update to the lead's pipeline stage category",
+    "options": []
+  },
+  {
+    "name": "hs_pipeline_stage_category_v2",
+    "label": "Pipeline stage category",
+    "type": "enumeration",
+    "fieldType": "calculation_equation",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The category assigned to the lead's current pipeline stage",
+    "options": [
+      {
+        "label": "Not started",
+        "value": "NEW",
+        "displayOrder": 1
+      },
+      {
+        "label": "In progress",
+        "value": "IN_PROGRESS",
+        "displayOrder": 2
+      },
+      {
+        "label": "Qualified",
+        "value": "QUALIFIED",
+        "displayOrder": 3
+      },
+      {
+        "label": "Disqualified",
+        "value": "UNQUALIFIED",
+        "displayOrder": 4
+      }
+    ]
+  },
+  {
+    "name": "hs_pipeline_stage_last_updated",
+    "label": "Pipeline stage last updated",
+    "type": "datetime",
+    "fieldType": "calculation_equation",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Timestamp of last update to Lead's pipeline stage",
+    "options": []
+  },
+  {
+    "name": "hs_primary_associated_object_name",
+    "label": "Primary Associated Object Name",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The primary associated contact or company name",
+    "options": []
+  },
+  {
+    "name": "hs_primary_company_id",
+    "label": "Primary Associated Company Object ID",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The object ID of the primary associated company",
+    "options": []
+  },
+  {
+    "name": "hs_primary_contact_enrolled_in_sequence",
+    "label": "Primary contact enrolled in sequence",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Indicates whether the lead's primary contact is currently enrolled in a sequence",
+    "options": [
+      {
+        "label": "Yes",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "No",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_primary_contact_id",
+    "label": "Primary Associated Contact Object ID",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The object ID of the primary associated contact",
+    "options": []
+  },
+  {
+    "name": "hs_read_only",
+    "label": "Read only object",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Determines whether a record can be edited by a user.",
+    "options": [
+      {
+        "label": "True",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "False",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_shared_team_ids",
+    "label": "Shared teams",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Additional teams whose users can access the record based on their permissions. This can be set manually or through Workflows or APIs.",
+    "options": []
+  },
+  {
+    "name": "hs_shared_user_ids",
+    "label": "Shared users",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Additional users that can access the record based on their permissions. This can be set manually or through Workflows and APIs.",
+    "options": []
+  },
+  {
+    "name": "hs_source_form_submission",
+    "label": "Source form submission",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The most recent form submission before the contact based lead was created.",
+    "options": []
+  },
+  {
+    "name": "hs_tag_ids",
+    "label": "Lead tags",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "List of tag ids applicable to a lead. This property is set automatically by HubSpot.",
+    "options": []
+  },
+  {
+    "name": "hs_unique_creation_key",
+    "label": "Unique creation key",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Unique property used for idempotent creates",
+    "options": []
+  },
+  {
+    "name": "hs_updated_by_user_id",
+    "label": "Updated by user ID",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The user who last updated this record. This value is set automatically by HubSpot.",
+    "options": []
+  },
+  {
+    "name": "hs_user_ids_of_all_notification_followers",
+    "label": "User IDs of all notification followers",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The user IDs of all users that have clicked follow within the object to opt-in to getting follow notifications",
+    "options": []
+  },
+  {
+    "name": "hs_user_ids_of_all_notification_unfollowers",
+    "label": "User IDs of all notification unfollowers",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The user IDs of all object owners that have clicked unfollow within the object to opt-out of getting follow notifications",
+    "options": []
+  },
+  {
+    "name": "hs_user_ids_of_all_owners",
+    "label": "User IDs of all owners",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The user IDs of all owners of this record.",
+    "options": []
+  },
+  {
+    "name": "hs_was_imported",
+    "label": "Performed in an import",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Object is part of an import",
+    "options": [
+      {
+        "label": "True",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "False",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_workflow_updated_lifecycle_stage_of_company",
+    "label": "Workflow updated lifecycle stage of company",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Indicates whether a workflow updated the lifecycle stage of the lead\u2019s associated company.",
+    "options": [
+      {
+        "label": "Yes",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "No",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_workflow_updated_lifecycle_stage_of_contact",
+    "label": "Workflow updated lifecycle stage of contact",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Indicates whether a workflow updated the lifecycle stage of the lead\u2019s associated contact.",
+    "options": [
+      {
+        "label": "Yes",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "No",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hubspot_owner_assigneddate",
+    "label": "Owner assigned date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The most recent timestamp of when an owner was assigned to this record. This value is set automatically by HubSpot.",
+    "options": []
+  },
+  {
+    "name": "hubspot_owner_id",
+    "label": "Lead Owner",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Owner of the lead. Defaults to the owner of the primary associated contact. If not present, looks to the owner of the primary associated company.",
+    "options": []
+  },
+  {
+    "name": "hubspot_team_id",
+    "label": "HubSpot Team",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "lead_information",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The primary team of the owner.",
+    "options": []
+  },
+  {
+    "name": "hs_v2_cumulative_time_in_attempting_stage_id_745667965",
+    "label": "Cumulative time in \"Attempting (Lead pipeline)\"",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "leadstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The cumulative time in seconds spent by the lead in the 'Attempting' stage, 'Lead pipeline' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_cumulative_time_in_connected_stage_id_2058487257",
+    "label": "Cumulative time in \"Connected (Lead pipeline)\"",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "leadstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The cumulative time in seconds spent by the lead in the 'Connected' stage, 'Lead pipeline' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_cumulative_time_in_new_stage_id_1318266061",
+    "label": "Cumulative time in \"New (Lead pipeline)\"",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "leadstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The cumulative time in seconds spent by the lead in the 'New' stage, 'Lead pipeline' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_cumulative_time_in_qualified_stage_id_233247981",
+    "label": "Cumulative time in \"Qualified (Lead pipeline)\"",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "leadstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The cumulative time in seconds spent by the lead in the 'Qualified' stage, 'Lead pipeline' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_cumulative_time_in_unqualified_stage_id_1675714327",
+    "label": "Cumulative time in \"Disqualified (Lead pipeline)\"",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "leadstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The cumulative time in seconds spent by the lead in the 'Disqualified' stage, 'Lead pipeline' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_date_entered_attempting_stage_id_745667965",
+    "label": "Date entered \"Attempting (Lead pipeline)\"",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "leadstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time when the lead entered the 'Attempting' stage, 'Lead pipeline' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_date_entered_connected_stage_id_2058487257",
+    "label": "Date entered \"Connected (Lead pipeline)\"",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "leadstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time when the lead entered the 'Connected' stage, 'Lead pipeline' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_date_entered_current_stage",
+    "label": "Date entered current stage",
+    "type": "datetime",
+    "fieldType": "calculation_equation",
+    "groupName": "leadstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date this object entered its current pipeline stage",
+    "options": []
+  },
+  {
+    "name": "hs_v2_date_entered_new_stage_id_1318266061",
+    "label": "Date entered \"New (Lead pipeline)\"",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "leadstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time when the lead entered the 'New' stage, 'Lead pipeline' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_date_entered_qualified_stage_id_233247981",
+    "label": "Date entered \"Qualified (Lead pipeline)\"",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "leadstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time when the lead entered the 'Qualified' stage, 'Lead pipeline' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_date_entered_unqualified_stage_id_1675714327",
+    "label": "Date entered \"Disqualified (Lead pipeline)\"",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "leadstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time when the lead entered the 'Disqualified' stage, 'Lead pipeline' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_date_exited_attempting_stage_id_745667965",
+    "label": "Date exited \"Attempting (Lead pipeline)\"",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "leadstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time when the lead exited the 'Attempting' stage, 'Lead pipeline' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_date_exited_connected_stage_id_2058487257",
+    "label": "Date exited \"Connected (Lead pipeline)\"",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "leadstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time when the lead exited the 'Connected' stage, 'Lead pipeline' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_date_exited_new_stage_id_1318266061",
+    "label": "Date exited \"New (Lead pipeline)\"",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "leadstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time when the lead exited the 'New' stage, 'Lead pipeline' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_date_exited_qualified_stage_id_233247981",
+    "label": "Date exited \"Qualified (Lead pipeline)\"",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "leadstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time when the lead exited the 'Qualified' stage, 'Lead pipeline' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_date_exited_unqualified_stage_id_1675714327",
+    "label": "Date exited \"Disqualified (Lead pipeline)\"",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "leadstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The date and time when the lead exited the 'Disqualified' stage, 'Lead pipeline' pipeline",
+    "options": []
+  },
+  {
+    "name": "hs_v2_latest_time_in_attempting_stage_id_745667965",
+    "label": "Latest time in \"Attempting (Lead pipeline)\"",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "leadstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The total time in seconds spent by the lead in the 'Attempting' stage, 'Lead pipeline' pipeline since it last entered this stage",
+    "options": []
+  },
+  {
+    "name": "hs_v2_latest_time_in_connected_stage_id_2058487257",
+    "label": "Latest time in \"Connected (Lead pipeline)\"",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "leadstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The total time in seconds spent by the lead in the 'Connected' stage, 'Lead pipeline' pipeline since it last entered this stage",
+    "options": []
+  },
+  {
+    "name": "hs_v2_latest_time_in_new_stage_id_1318266061",
+    "label": "Latest time in \"New (Lead pipeline)\"",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "leadstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The total time in seconds spent by the lead in the 'New' stage, 'Lead pipeline' pipeline since it last entered this stage",
+    "options": []
+  },
+  {
+    "name": "hs_v2_latest_time_in_qualified_stage_id_233247981",
+    "label": "Latest time in \"Qualified (Lead pipeline)\"",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "leadstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The total time in seconds spent by the lead in the 'Qualified' stage, 'Lead pipeline' pipeline since it last entered this stage",
+    "options": []
+  },
+  {
+    "name": "hs_v2_latest_time_in_unqualified_stage_id_1675714327",
+    "label": "Latest time in \"Disqualified (Lead pipeline)\"",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "leadstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The total time in seconds spent by the lead in the 'Disqualified' stage, 'Lead pipeline' pipeline since it last entered this stage",
+    "options": []
+  },
+  {
+    "name": "hs_v2_time_in_current_stage",
+    "label": "Time in current stage",
+    "type": "datetime",
+    "fieldType": "calculation_equation",
+    "groupName": "leadstages",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The time this object has spent in the current pipeline stage",
+    "options": []
+  }
+]
