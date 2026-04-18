@@ -1,0 +1,452 @@
+{
+  "pulled_at": "2026-04-18T10:00:52.373526+00:00",
+  "portal_id": "50966981",
+  "counts": {
+    "contacts": 2914,
+    "companies": 496,
+    "deals": 1001,
+    "tickets": 77,
+    "leads": 0,
+    "products": 2,
+    "quotes": 0,
+    "orders": 2729,
+    "subscriptions": 149,
+    "invoices": 251,
+    "line_items": 1277
+  },
+  "pipeline_breakdowns": {
+    "deals": [
+      {
+        "id": "866559161",
+        "label": "Old Deals Pipeline",
+        "stages": [
+          {
+            "id": "1296488757",
+            "label": "Appointment Scheduled",
+            "count": -1
+          },
+          {
+            "id": "1296488758",
+            "label": "Qualified To Buy",
+            "count": -1
+          },
+          {
+            "id": "1296488759",
+            "label": "Presentation Scheduled",
+            "count": -1
+          },
+          {
+            "id": "1296488760",
+            "label": "Decision Maker Bought-In",
+            "count": -1
+          },
+          {
+            "id": "1296488761",
+            "label": "Contract Sent",
+            "count": -1
+          },
+          {
+            "id": "1296488762",
+            "label": "Closed Won",
+            "count": -1
+          },
+          {
+            "id": "1296488763",
+            "label": "Closed Lost",
+            "count": -1
+          }
+        ]
+      },
+      {
+        "id": "882597223",
+        "label": "Sales",
+        "stages": [
+          {
+            "id": "1325233956",
+            "label": "Decision Pending",
+            "count": -1
+          },
+          {
+            "id": "1325233957",
+            "label": "Payment Pending",
+            "count": -1
+          },
+          {
+            "id": "1325233958",
+            "label": "Closed Won",
+            "count": -1
+          },
+          {
+            "id": "1325233963",
+            "label": "Closed Lost",
+            "count": -1
+          },
+          {
+            "id": "1325233960",
+            "label": "Closed Deferred",
+            "count": -1
+          }
+        ]
+      },
+      {
+        "id": "default",
+        "label": "Deals pipeline",
+        "stages": [
+          {
+            "id": "appointmentscheduled",
+            "label": "Appointment Scheduled",
+            "count": -1
+          },
+          {
+            "id": "qualifiedtobuy",
+            "label": "Qualified To Buy",
+            "count": -1
+          },
+          {
+            "id": "presentationscheduled",
+            "label": "Presentation Scheduled",
+            "count": -1
+          },
+          {
+            "id": "decisionmakerboughtin",
+            "label": "Decision Maker Bought-In",
+            "count": -1
+          },
+          {
+            "id": "contractsent",
+            "label": "Contract Sent",
+            "count": -1
+          },
+          {
+            "id": "closedwon",
+            "label": "Closed Won",
+            "count": -1
+          },
+          {
+            "id": "closedlost",
+            "label": "Closed Lost",
+            "count": -1
+          }
+        ]
+      },
+      {
+        "id": "t_6bd0eba39e0a493c7548b788ce148032",
+        "label": "Affiliate Agreement Pipeline",
+        "stages": [
+          {
+            "id": "1295463943",
+            "label": "Agreement Initiated",
+            "count": -1
+          },
+          {
+            "id": "1295463944",
+            "label": "Agreement Negotiation",
+            "count": -1
+          },
+          {
+            "id": "1295463945",
+            "label": "Affiliate Link Received",
+            "count": -1
+          },
+          {
+            "id": "1295463946",
+            "label": "Active Affiliate Partnership",
+            "count": -1
+          },
+          {
+            "id": "1295463947",
+            "label": "Inactive Affiliate Partnership",
+            "count": -1
+          }
+        ]
+      },
+      {
+        "id": "882654841",
+        "label": "Plans",
+        "stages": [
+          {
+            "id": "1325232295",
+            "label": "Plan Inquiry",
+            "count": -1
+          },
+          {
+            "id": "1325232296",
+            "label": "Consultation Completed",
+            "count": -1
+          },
+          {
+            "id": "1325232297",
+            "label": "Plan Agreed",
+            "count": -1
+          },
+          {
+            "id": "1325232298",
+            "label": "Unit 1 Deposit Paid",
+            "count": -1
+          },
+          {
+            "id": "1325232299",
+            "label": "Unit 1 In Production",
+            "count": -1
+          },
+          {
+            "id": "1325232300",
+            "label": "Unit 1 Delivered",
+            "count": -1
+          },
+          {
+            "id": "1325232301",
+            "label": "Unit 2 Scheduled",
+            "count": -1
+          },
+          {
+            "id": "1325232302",
+            "label": "Unit 2 In Production",
+            "count": -1
+          },
+          {
+            "id": "1325232303",
+            "label": "Unit 2 Delivered",
+            "count": -1
+          },
+          {
+            "id": "1325232304",
+            "label": "Unit 3 In Production",
+            "count": -1
+          },
+          {
+            "id": "1325232305",
+            "label": "Unit 3 Delivered",
+            "count": -1
+          },
+          {
+            "id": "1325321640",
+            "label": "Unit 4 In Production",
+            "count": -1
+          },
+          {
+            "id": "1325321641",
+            "label": "Unit 4 Delivered",
+            "count": -1
+          },
+          {
+            "id": "1325321642",
+            "label": "Unit 5 In Production",
+            "count": -1
+          },
+          {
+            "id": "1325321643",
+            "label": "Unit 5 Delivered",
+            "count": -1
+          },
+          {
+            "id": "1325321644",
+            "label": "Unit 6 In Production",
+            "count": -1
+          },
+          {
+            "id": "1325321645",
+            "label": "Unit 6 Delivered",
+            "count": -1
+          },
+          {
+            "id": "1325321646",
+            "label": "Plan Complete / Closed Won",
+            "count": -1
+          },
+          {
+            "id": "1325321647",
+            "label": "Plan Cancelled",
+            "count": -1
+          }
+        ]
+      },
+      {
+        "id": "882654842",
+        "label": "Shopify Orders",
+        "stages": [
+          {
+            "id": "1325321648",
+            "label": "New",
+            "count": -1
+          },
+          {
+            "id": "1325321649",
+            "label": "Payment Received",
+            "count": -1
+          },
+          {
+            "id": "1325321650",
+            "label": "Processing",
+            "count": -1
+          },
+          {
+            "id": "1325321651",
+            "label": "PO Sent to Factory",
+            "count": -1
+          },
+          {
+            "id": "1325321652",
+            "label": "In Production",
+            "count": -1
+          },
+          {
+            "id": "1325321653",
+            "label": "Quality Check",
+            "count": -1
+          },
+          {
+            "id": "1325321654",
+            "label": "Shipped",
+            "count": -1
+          },
+          {
+            "id": "1325321655",
+            "label": "Delivered",
+            "count": -1
+          },
+          {
+            "id": "1325321656",
+            "label": "Fulfilled",
+            "count": -1
+          },
+          {
+            "id": "1325321657",
+            "label": "Cancelled",
+            "count": -1
+          },
+          {
+            "id": "1325321728",
+            "label": "Refunded",
+            "count": -1
+          }
+        ]
+      }
+    ],
+    "tickets": [
+      {
+        "id": "0",
+        "label": "Support Pipeline",
+        "stages": [
+          {
+            "id": "1",
+            "label": "New",
+            "count": 70
+          },
+          {
+            "id": "1325321729",
+            "label": "Auto-Reply Sent",
+            "count": 0
+          },
+          {
+            "id": "1325321730",
+            "label": "Awaiting Customer Reply",
+            "count": 0
+          },
+          {
+            "id": "1325321731",
+            "label": "In Progress",
+            "count": 0
+          },
+          {
+            "id": "1325321732",
+            "label": "Escalated",
+            "count": 0
+          },
+          {
+            "id": "1325321733",
+            "label": "Resolved",
+            "count": 0
+          },
+          {
+            "id": "4",
+            "label": "Closed",
+            "count": 2
+          }
+        ]
+      },
+      {
+        "id": "876724543",
+        "label": "Sales Inquiries",
+        "stages": [
+          {
+            "id": "1314062737",
+            "label": "New Inquiry",
+            "count": 1
+          },
+          {
+            "id": "1314062738",
+            "label": "Qualification Needed",
+            "count": 1
+          },
+          {
+            "id": "1314062739",
+            "label": "Recommendation Active",
+            "count": 0
+          },
+          {
+            "id": "1337764015",
+            "label": "Quote Prep",
+            "count": 0
+          },
+          {
+            "id": "1337787444",
+            "label": "Quote Sent",
+            "count": 0
+          },
+          {
+            "id": "1337787445",
+            "label": "Follow-Up",
+            "count": 0
+          },
+          {
+            "id": "1337787446",
+            "label": "Converted to Deal",
+            "count": 0
+          },
+          {
+            "id": "1314062740",
+            "label": "Closed - Not Interested",
+            "count": 2
+          },
+          {
+            "id": "1337764016",
+            "label": "Closed - Disqualified",
+            "count": 0
+          },
+          {
+            "id": "1337764017",
+            "label": "Closed - Routed to Service",
+            "count": 0
+          }
+        ]
+      },
+      {
+        "id": "876725568",
+        "label": "Order Queue",
+        "stages": [
+          {
+            "id": "1315418461",
+            "label": "Pending",
+            "count": 1
+          },
+          {
+            "id": "1315418462",
+            "label": "Scheduled",
+            "count": 0
+          },
+          {
+            "id": "1315418463",
+            "label": "Order Sent",
+            "count": 0
+          },
+          {
+            "id": "1315418464",
+            "label": "Closed",
+            "count": 0
+          }
+        ]
+      }
+    ]
+  }
+}
