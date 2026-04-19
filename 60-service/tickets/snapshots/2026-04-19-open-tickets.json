@@ -1,0 +1,1506 @@
+{
+  "date": "2026-04-19",
+  "total_open": 75,
+  "tickets": [
+    {
+      "id": "41206724728",
+      "properties": {
+        "content": null,
+        "createdate": "2026-02-05T19:55:51.493Z",
+        "hs_lastmodifieddate": "2026-03-13T05:13:39.151Z",
+        "hs_object_id": "41206724728",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "87934435",
+        "subject": "Ticket #41206724728"
+      },
+      "createdAt": "2026-02-05T19:55:51.493Z",
+      "updatedAt": "2026-03-13T05:13:39.151Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/41206724728"
+    },
+    {
+      "id": "41066970900",
+      "properties": {
+        "content": "There was an unknown error while processing this ticket. Some ticket properties, including pipeline and status, may have been set incorrectly.",
+        "createdate": "2026-02-05T20:28:06.015Z",
+        "hs_lastmodifieddate": "2026-04-13T07:51:25.087Z",
+        "hs_object_id": "41066970900",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "",
+        "subject": "Default Ticket"
+      },
+      "createdAt": "2026-02-05T20:28:06.015Z",
+      "updatedAt": "2026-04-13T07:51:25.087Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/41066970900"
+    },
+    {
+      "id": "41062165254",
+      "properties": {
+        "content": "There was an unknown error while processing this ticket. Some ticket properties, including pipeline and status, may have been set incorrectly.",
+        "createdate": "2026-02-05T20:34:23.366Z",
+        "hs_lastmodifieddate": "2026-02-05T20:40:50.194Z",
+        "hs_object_id": "41062165254",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": null,
+        "subject": "Default Ticket"
+      },
+      "createdAt": "2026-02-05T20:34:23.366Z",
+      "updatedAt": "2026-02-05T20:40:50.194Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/41062165254"
+    },
+    {
+      "id": "41142631505",
+      "properties": {
+        "content": "sUkdmC",
+        "createdate": "2026-02-05T21:19:20Z",
+        "hs_lastmodifieddate": "2026-04-13T07:51:25.087Z",
+        "hs_object_id": "41142631505",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "",
+        "subject": "Your temporary Notion login code"
+      },
+      "createdAt": "2026-02-05T21:19:20Z",
+      "updatedAt": "2026-04-13T07:51:25.087Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/41142631505"
+    },
+    {
+      "id": "41127757346",
+      "properties": {
+        "content": "Ready to monetize? This month\u2019s updates will help you get there \ud83d\udcb8\n\n\n\n <https://bubble.io>\n\n\n <https://bubble.io> \n\n\n\n\n\n\n\n\n\nHi Vincent,\n\n\n There\u2019s never been a better time to turn your idea into a real product. Our \nreleases this month prove it: In-app purchases are live for mobile, and the AI \nAgent can help you build the data and frontend workflows that take your app \nfrom sleek design to functional, shippable product.\n\n\n\n Plus, we just kicked off the Q1 Launch Program \n<https://bble.io/prototype-to-profit-product-newsletter>: Join a community of \nbuilders to get fired up and start shipping.\n\nKeep reading to learn more about this month\u2019s top releases, or read the full \ncommunity update on the forum.\n\n\n\nRead everything on the forum  \n<https://forum.bubble.io/t/monthly-community-update-february-2026/390686>\nRead on the forum  \n<https://forum.bubble.io/t/monthly-community-update-february-2026/390686>\n\n\u2014 Josh Haas & Emmanuel Straschnov, Bubble co-founders\n\n\n\n\n\n\u200a \n\n\n\nFebruary release highlights:\n\n\n\n\n\nStart monetizing mobile with in-app purchases (beta) \ud83d\udcb8\n\n\nYou\u2019ve been waiting: In-app purchases for native mobile are here. Now you can \nset up a flow to charge users a simple subscription. Have an app idea you\u2019ve \nbeen skiing on? Now\u2019s the time to build.\n\nSee how it works  \n<https://forum.bubble.io/t/new-feature-in-app-purchase-subscriptions-are-here-beta/390681>\n\n\n\n\u200a\n\n\n\n\nGenerate data and workflows from a prompt \u2705\n\n\n We just shipped two back-to-back updates to the Agent: It can now create data \ntypes and frontend logic. Add new features to your apps in minutes.\n\nLearn more  \n<https://forum.bubble.io/t/the-bubble-ai-agent-now-builds-workflows/390242>\n\n\n\n\u200a\n\n\n\n\nBuild API connections directly from the editor \u26a1\n\n\n The API Connector just got promoted to its own editor tab. We also gave the \nUI a bit of a polish. Same powerful integrations, now right at your fingertips.\n\nCheck it out  \n<https://www.linkedin.com/feed/update/urn:li:activity:7423073818086383616>\n\n\u200a\n\n\n\n\nTrack your learning with streaks \ud83d\udd25 \n\n\nThe redesigned Academy got another update. Track your progress through courses \nand lessons, and keep coming back to build a daily streak. You\u2019ll be an expert \ndev in no time.\n\nRead more  \n<https://forum.bubble.io/t/new-in-bubble-academy-track-your-progress-and-build-your-streak/389143>\n\n\u200a\n\n\n\n\nNew podcast just dropped \ud83c\udfa7\n\n\nThis week we sat down with Fuzzy Khosrowshahi, the Notion CTO and the man \nresponsible for Google Sheets.\n\n\n\n Tune in: YouTube \n<https://www.youtube.com/playlist?list=PLoNVJrdvQQYnspOK4NkUSkzZkRYfrVQle> \u00b7 \nSpotify \n<https://open.spotify.com/show/3StQMmYoczlfimD3yAjOZ6?si=GgfGVxo8TG6IjCfU3k6AnA>\n \u00b7Apple Podcasts  \n<https://podcasts.apple.com/us/podcast/the-new-build/id1868805926> \n\n\n\u200a\n\n\n\n\u200a\n\n\n\n\n <https://bubble.io/> \n\nYou\u2019re getting this email because you\u2019re building an app with Bubble. \nIf it looks weird, view it in your browser \n<https://links.bubble.io/s/vb/RvSgmr3d1t4MoWVP5WRdnazRTTVPjGsIXKMiAHdBf_37LkfG2PLPydZuuTIo4jgE73zoA9K8J_OOav7H_0j3Kciw2DI2FcYMH5VYDhWZg2YMZ7lVKoUf6X-eCTAFy1S5-brvRdsNNA2dpcA8KNZIUVeDe0l0/UT2Zua9zS3iRdp_QDr7ikBTKeQwSk-57/17>\n.\n\n\n\nNot interested in emails like this?\n\nStop receiving messages of this type \n<https://bubble.io/email-preferences?email=vincent.laroche%40oneheadhair.com&messageTypeId=88889>\n -Manage your preferences \n<https://links.bubble.io/s/eh/ehHH_nhi_fesyta80lhgfjar3x92aGs1xXR0HHFs6dB8Xmls246hOmdmnVuYMtnXGm1_UNoLbdVVRT1bHMs1ViE9aO0_LoDwzRxwfGboYIdzPB-jwIA0g9J-Gd5-g9_R_lCvVPFhTOznO_IZpV7Ntx25NtCIRfdn1e9SseHr8MS3b8l4qdFo5VpB6WGAwst8xqGmu0A1ttY5fKJo7t2y461gesmzITbDAquUNrPfXXg4nvLjroU1MB2ZTxj22fFxrTt4a9Ckxl54UEpVfne_L_tR0psQznk9qd4SGKHVkvCSRk_1IpJE/Y1zZijqoieyZcGRveVW0QZ8iW9ldW0rG/17>\n\n\n\n22 W 21st St, Fl 2, New York, NY 10010, United States\n\u00a9 Bubble Group, Inc., All rights reserved.\n\n\n <https://www.linkedin.com/company/bubble-hq>  \n<https://www.instagram.com/bubble__hq/>  <http://twitter.com/bubble>  \n<https://www.youtube.com/c/BubbleIO>",
+        "createdate": "2026-02-05T23:10:15Z",
+        "hs_lastmodifieddate": "2026-04-13T07:51:25.087Z",
+        "hs_object_id": "41127757346",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "",
+        "subject": "Bubble Product Newsletter: February \u201826"
+      },
+      "createdAt": "2026-02-05T23:10:15Z",
+      "updatedAt": "2026-04-13T07:51:25.087Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/41127757346"
+    },
+    {
+      "id": "41130132283",
+      "properties": {
+        "content": "[hairsolutionsco/affiliate_marketing] Sync Data workflow run\n\nRepository: hairsolutionsco/affiliate_marketing\nWorkflow: Sync Data\nDuration: 16.0 seconds\nFinished: 2026-02-06 00:19:18 UTC\n\nView results: https://github.com/hairsolutionsco/affiliate_marketing/actions/runs/21733717409\n\nJobs:\n  * sync-notion failed (2 annotations)\n  * sync-hubspot failed (2 annotations)\n\n-- \nYou are receiving this because you are subscribed to this thread.\nManage your GitHub Actions notifications: https://github.com/settings/notifications",
+        "createdate": "2026-02-06T00:19:40Z",
+        "hs_lastmodifieddate": "2026-04-13T07:51:25.087Z",
+        "hs_object_id": "41130132283",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "",
+        "subject": "[hairsolutionsco/affiliate_marketing] Run failed: Sync Data - main (a66208f)"
+      },
+      "createdAt": "2026-02-06T00:19:40Z",
+      "updatedAt": "2026-04-13T07:51:25.087Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/41130132283"
+    },
+    {
+      "id": "40985733816",
+      "properties": {
+        "content": "Cey3Di",
+        "createdate": "2026-02-06T01:16:12Z",
+        "hs_lastmodifieddate": "2026-04-13T07:51:25.087Z",
+        "hs_object_id": "40985733816",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "",
+        "subject": "Your temporary Notion login code"
+      },
+      "createdAt": "2026-02-06T01:16:12Z",
+      "updatedAt": "2026-04-13T07:51:25.087Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/40985733816"
+    },
+    {
+      "id": "41069138838",
+      "properties": {
+        "content": "129884",
+        "createdate": "2026-02-06T01:17:41Z",
+        "hs_lastmodifieddate": "2026-04-13T07:51:25.087Z",
+        "hs_object_id": "41069138838",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "",
+        "subject": "Your Notion signup code"
+      },
+      "createdAt": "2026-02-06T01:17:41Z",
+      "updatedAt": "2026-04-13T07:51:25.087Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/41069138838"
+    },
+    {
+      "id": "41137381497",
+      "properties": {
+        "content": "E2z4xU",
+        "createdate": "2026-02-06T01:18:52Z",
+        "hs_lastmodifieddate": "2026-04-13T07:51:25.087Z",
+        "hs_object_id": "41137381497",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "",
+        "subject": "Your temporary Notion login code"
+      },
+      "createdAt": "2026-02-06T01:18:52Z",
+      "updatedAt": "2026-04-13T07:51:25.087Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/41137381497"
+    },
+    {
+      "id": "41076606510",
+      "properties": {
+        "content": "Ey9jV9",
+        "createdate": "2026-02-06T01:19:18Z",
+        "hs_lastmodifieddate": "2026-04-13T07:51:25.087Z",
+        "hs_object_id": "41076606510",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "",
+        "subject": "Your temporary Notion login code"
+      },
+      "createdAt": "2026-02-06T01:19:18Z",
+      "updatedAt": "2026-04-13T07:51:25.087Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/41076606510"
+    },
+    {
+      "id": "40973949005",
+      "properties": {
+        "content": "Review a recent login from a new device There was a recent login to your Notion account. Please review the details: Account info@vincentselects.com Login method Email IP & approximate location 2804:14d:5c56:33fb:c46:3d57:ade0:d527 - BR-RJ, Brazil Device type Mac Time 02/05/2026, 10:19:37 PM Sao Paulo Time Application Notion for web If this was not you, reset your password now to protect your account and enroll in multi-factor authentication in the \"My Account\" tab of \"Settings\". You can also email team@makenotion.com with any questions or concerns. Go to my account Notion Notion.so, the connected workspace for docs, projects, and wikis.",
+        "createdate": "2026-02-06T01:19:38Z",
+        "hs_lastmodifieddate": "2026-04-13T07:51:25.087Z",
+        "hs_object_id": "40973949005",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "",
+        "subject": "A new device logged into your account"
+      },
+      "createdAt": "2026-02-06T01:19:38Z",
+      "updatedAt": "2026-04-13T07:51:25.087Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/40973949005"
+    },
+    {
+      "id": "41006185811",
+      "properties": {
+        "content": "Review a recent login from a new device There was a recent login to your Notion account. Please review the details: Account info@hairsolutions.co Login method Email and Password IP & approximate location 2804:14d:5c56:33fb:c46:3d57:ade0:d527 - BR-RJ, Brazil Device type Mac Time 02/05/2026, 10:20:47 PM Sao Paulo Time Application Notion for web If this was not you, reset your password now to protect your account and enroll in multi-factor authentication in the \"My Account\" tab of \"Settings\". You can also email team@makenotion.com with any questions or concerns. Go to my account Notion Notion.so, the connected workspace for docs, projects, and wikis.",
+        "createdate": "2026-02-06T01:20:47Z",
+        "hs_lastmodifieddate": "2026-04-13T07:51:25.087Z",
+        "hs_object_id": "41006185811",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "",
+        "subject": "A new device logged into your account"
+      },
+      "createdAt": "2026-02-06T01:20:47Z",
+      "updatedAt": "2026-04-13T07:51:25.087Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/41006185811"
+    },
+    {
+      "id": "41138102847",
+      "properties": {
+        "content": "( https://www.notion.so/?utm_campaign=Joiner+Onboarding+2025&utm_campaignid=525&utm_campaigntype=transactional&utm_content=Email+1+-+Marketing+template&utm_medium=email_action&utm_source=customer.io )\n\nThink, organize, collaborate. Get started. ( https://www.notion.so/?target=ai_writer&utm_campaign=Joiner+Onboarding+2025&utm_campaignid=525&utm_campaigntype=transactional&utm_content=Email+1+-+Marketing+template&utm_medium=email_action&utm_source=customer.io )\n\nHi there,\n\nYou just joined a new workspace! Notion is where modern teams come to think, organize and collaborate with AI at your side.\n\nOver the next few days we'll share tips on how to participate in your workspace (don\u2019t worry you won\u2019t mess anything up!) and create places to work on your own. To get started, we recommend jumping in and creating a new page to explore what Notion can do.\n\nGet started ( https://www.notion.so/?target=ai_writer&utm_campaign=Joiner+Onboarding+2025&utm_campaignid=525&utm_campaigntype=transactional&utm_content=Email+1+-+Marketing+template&utm_medium=email_action&utm_source=customer.io )\n\nThanks\n\nThe Notion Team\n\nP.S. Want to learn more about how to get the most from Notion? Check out the Notion Academy. ( https://www.notion.so/help/notion-academy/course/101-introduction?utm_campaign=Joiner+Onboarding+2025&utm_campaignid=525&utm_campaigntype=transactional&utm_content=Email+1+-+Marketing+template&utm_medium=email_action&utm_source=customer.io )\n\n( https://www.notion.so/?utm_campaign=Joiner+Onboarding+2025&utm_campaignid=525&utm_campaigntype=transactional&utm_content=Email+1+-+Marketing+template&utm_medium=email_action&utm_source=customer.io )\n\nWrite, plan, organize.\nIn one AI-powered workspace.\n\nNotion ( https://www.notion.so/?utm_campaign=Joiner+Onboarding+2025&utm_campaignid=525&utm_campaigntype=transactional&utm_content=Email+1+-+Marketing+template&utm_medium=email_action&utm_source=customer.io )\nNotion Mail ( https://www.notion.com/product/mail?utm_campaign=Joiner+Onboarding+2025&utm_campaignid=525&utm_campaigntype=transactional&utm_content=Email+1+-+Marketing+template&utm_medium=email_action&utm_source=customer.io )\nNotion Calendar ( https://www.notion.com/product/calendar?utm_campaign=Joiner+Onboarding+2025&utm_campaignid=525&utm_campaigntype=transactional&utm_content=Email+1+-+Marketing+template&utm_medium=email_action&utm_source=customer.io )\n\n685 Market Street, San Francisco, CA 94105\n\nDon't want this kind of email? Unsubscribe from Product Education and How-To's ( https://track.customer.io/unsubscribe/dgTv2AUBAL3MqX28zKl9AZwwk18Z2Xcf2-D9F1VMbg== ).\nManage preferences ( https://track.customer.io/manage_subscription_preferences/dgTv2AUBAL3MqX28zKl9AZwwk18Z2Xcf2-D9F1VMbg== )\u2003Privacy Policy ( https://www.notion.so/notion/Privacy-Policy-3468d120cf614d4c9014c09f6adc9091?utm_campaign=Joiner+Onboarding+2025&utm_campaignid=525&utm_campaigntype=transactional&utm_content=Email+1+-+Marketing+template&utm_medium=email_action&utm_source=customer.io )\u2003View in browser ( https://track.customer.io/deliveries/dgTv2AUBAL3MqX28zKl9AZwwk18Z2Xcf2-D9F1VMbg== )",
+        "createdate": "2026-02-06T01:31:33Z",
+        "hs_lastmodifieddate": "2026-04-13T07:51:25.087Z",
+        "hs_object_id": "41138102847",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "",
+        "subject": "Notion for teams (1/8):"
+      },
+      "createdAt": "2026-02-06T01:31:33Z",
+      "updatedAt": "2026-04-13T07:51:25.087Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/41138102847"
+    },
+    {
+      "id": "41144029536",
+      "properties": {
+        "content": "Review a recent login from a new device There was a recent login to your Notion account. Please review the details: Account info@hairsolutions.co Login method Email and Password IP & approximate location 2804:14d:5c56:33fb:d4df:ddf2:2432:d98c - BR-RJ, Brazil Device type Mac Time 02/06/2026, 12:00:08 AM Sao Paulo Time Application Notion for Mac If this was not you, reset your password now to protect your account and enroll in multi-factor authentication in the \"My Account\" tab of \"Settings\". You can also email team@makenotion.com with any questions or concerns. Go to my account Notion Notion.so, the connected workspace for docs, projects, and wikis.",
+        "createdate": "2026-02-06T03:00:10Z",
+        "hs_lastmodifieddate": "2026-04-13T07:51:25.087Z",
+        "hs_object_id": "41144029536",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "",
+        "subject": "A new device logged into your account"
+      },
+      "createdAt": "2026-02-06T03:00:10Z",
+      "updatedAt": "2026-04-13T07:51:25.087Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/41144029536"
+    },
+    {
+      "id": "41139033163",
+      "properties": {
+        "content": "[hairsolutionsco/affiliate_marketing] nightly-affiliate-pipeline workflow run\n\nRepository: hairsolutionsco/affiliate_marketing\nWorkflow: nightly-affiliate-pipeline\nDuration: 15.0 seconds\nFinished: 2026-02-06 03:50:12 UTC\n\nView results: https://github.com/hairsolutionsco/affiliate_marketing/actions/runs/21737980789\n\nJobs:\n  * full / run-step failed (1 annotation)\n  * voiceover skipped (0 annotations)\n  * avatar skipped (0 annotations)\n  * publish skipped (0 annotations)\n  * sync skipped (0 annotations)\n\n-- \nYou are receiving this because you are subscribed to this thread.\nManage your GitHub Actions notifications: https://github.com/settings/notifications",
+        "createdate": "2026-02-06T03:50:34Z",
+        "hs_lastmodifieddate": "2026-04-13T07:51:25.087Z",
+        "hs_object_id": "41139033163",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "",
+        "subject": "[hairsolutionsco/affiliate_marketing] Run failed: nightly-affiliate-pipeline - main (a66208f)"
+      },
+      "createdAt": "2026-02-06T03:50:34Z",
+      "updatedAt": "2026-04-13T07:51:25.087Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/41139033163"
+    },
+    {
+      "id": "41074601826",
+      "properties": {
+        "content": "[hairsolutionsco/affiliate_marketing] Sync Data workflow run\n\nRepository: hairsolutionsco/affiliate_marketing\nWorkflow: Sync Data\nDuration: 16.0 seconds\nFinished: 2026-02-06 06:18:57 UTC\n\nView results: https://github.com/hairsolutionsco/affiliate_marketing/actions/runs/21740905452\n\nJobs:\n  * sync-notion failed (2 annotations)\n  * sync-hubspot failed (2 annotations)\n\n-- \nYou are receiving this because you are subscribed to this thread.\nManage your GitHub Actions notifications: https://github.com/settings/notifications",
+        "createdate": "2026-02-06T06:19:18Z",
+        "hs_lastmodifieddate": "2026-04-13T07:51:25.087Z",
+        "hs_object_id": "41074601826",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "",
+        "subject": "[hairsolutionsco/affiliate_marketing] Run failed: Sync Data - main (a66208f)"
+      },
+      "createdAt": "2026-02-06T06:19:18Z",
+      "updatedAt": "2026-04-13T07:51:25.087Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/41074601826"
+    },
+    {
+      "id": "40994633742",
+      "properties": {
+        "content": "( https://www.notion.so/?utm_campaign=Joiner+Onboarding+2025&utm_campaignid=525&utm_campaigntype=transactional&utm_content=Email+2+-+Home&utm_medium=email_action&utm_source=customer.io )\n\nHi there,\n\nAs you join a new workspace, Home is where you can track your work and keep a pulse on what\u2019s happening in your workspace. Head to Home to find your recent pages, tasks, trending workspace content and top learning resources.\n\nHome Hub ( https://notion.com/?target=home&utm_campaign=Joiner+Onboarding+2025&utm_campaignid=525&utm_campaigntype=transactional&utm_content=Email+2+-+Home&utm_medium=email_action&utm_source=customer.io )\n\nGo to Home ( https://notion.com/?target=home&utm_campaign=Joiner+Onboarding+2025&utm_campaignid=525&utm_campaigntype=transactional&utm_content=Email+2+-+Home&utm_medium=email_action&utm_source=customer.io )\n\nThanks,\n\nThe Notion Team\n\nP.S. To learn more about how to create and customize tasks from your home page, check out our help center article here ( https://www.notion.so/help/home-and-my-tasks?utm_campaign=Joiner+Onboarding+2025&utm_campaignid=525&utm_campaigntype=transactional&utm_content=Email+2+-+Home&utm_medium=email_action&utm_source=customer.io ).\n\nWrite, plan, organize.\nIn one AI-powered workspace.\n\nNotion ( https://www.notion.so/?utm_campaign=Joiner+Onboarding+2025&utm_campaignid=525&utm_campaigntype=transactional&utm_content=Email+2+-+Home&utm_medium=email_action&utm_source=customer.io )\nNotion Mail ( https://www.notion.com/product/mail?utm_campaign=Joiner+Onboarding+2025&utm_campaignid=525&utm_campaigntype=transactional&utm_content=Email+2+-+Home&utm_medium=email_action&utm_source=customer.io )\nNotion Calendar ( https://www.notion.com/product/calendar?utm_campaign=Joiner+Onboarding+2025&utm_campaignid=525&utm_campaigntype=transactional&utm_content=Email+2+-+Home&utm_medium=email_action&utm_source=customer.io )\n\n685 Market Street, San Francisco, CA 94105\n\nDon't want this kind of email? Unsubscribe from Product Education and How-To's ( https://track.customer.io/unsubscribe/dgTv2AUBAL3MqX28zKl9AZwxske6-R8deimkup75QQ== ).\nManage preferences ( https://track.customer.io/manage_subscription_preferences/dgTv2AUBAL3MqX28zKl9AZwxske6-R8deimkup75QQ== )\u2003Privacy Policy ( https://www.notion.so/notion/Privacy-Policy-3468d120cf614d4c9014c09f6adc9091?utm_campaign=Joiner+Onboarding+2025&utm_campaignid=525&utm_campaigntype=transactional&utm_content=Email+2+-+Home&utm_medium=email_action&utm_source=customer.io )\u2003View in browser ( https://track.customer.io/deliveries/dgTv2AUBAL3MqX28zKl9AZwxske6-R8deimkup75QQ== )",
+        "createdate": "2026-02-06T06:45:04Z",
+        "hs_lastmodifieddate": "2026-04-13T07:51:25.087Z",
+        "hs_object_id": "40994633742",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "",
+        "subject": "Notion for teams (2/8):"
+      },
+      "createdAt": "2026-02-06T06:45:04Z",
+      "updatedAt": "2026-04-13T07:51:25.087Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/40994633742"
+    },
+    {
+      "id": "41038672971",
+      "properties": {
+        "content": "A data import step failed to run. Resolve any errors and retry. Find emails Run for February 6, 2026 at 05:00 | Email to Notion Open in Relay.app Manage notifications | oneheadhair.com \u00a9\ufe0f Relay.app Inc. \u2022 2261 Market Street STE 5496 \u2022 San Francisco, CA 94114",
+        "createdate": "2026-02-06T08:01:19Z",
+        "hs_lastmodifieddate": "2026-04-13T07:51:25.087Z",
+        "hs_object_id": "41038672971",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "",
+        "subject": "\u2757\ufe0fEmail to Notion: Step failed"
+      },
+      "createdAt": "2026-02-06T08:01:19Z",
+      "updatedAt": "2026-04-13T07:51:25.087Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/41038672971"
+    },
+    {
+      "id": "41130450604",
+      "properties": {
+        "content": "[hairsolutionsco/affiliate_marketing] Generate Content workflow run\n\nRepository: hairsolutionsco/affiliate_marketing\nWorkflow: Generate Content\nDuration: 15.0 seconds\nFinished: 2026-02-06 09:16:04 UTC\n\nView results: https://github.com/hairsolutionsco/affiliate_marketing/actions/runs/21745204933\n\nJobs:\n  * generate-content failed (3 annotations)\n\n-- \nYou are receiving this because you are subscribed to this thread.\nManage your GitHub Actions notifications: https://github.com/settings/notifications",
+        "createdate": "2026-02-06T09:16:26Z",
+        "hs_lastmodifieddate": "2026-04-13T07:51:25.087Z",
+        "hs_object_id": "41130450604",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "",
+        "subject": "[hairsolutionsco/affiliate_marketing] Run failed: Generate Content - main (a66208f)"
+      },
+      "createdAt": "2026-02-06T09:16:26Z",
+      "updatedAt": "2026-04-13T07:51:25.087Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/41130450604"
+    },
+    {
+      "id": "41159411233",
+      "properties": {
+        "content": "----------------------------------------------------------------------------\nSi no ves correctamente este email, haz click aqu\u00ed\nhttps://t1.info.openbank.es//r/?id=t41a388e5,586a904c,4241806&utm_source=campaign&utm_medium=email&utm_term=urlLabel&utm_content=&utm_campaign=DM713898_DPOTR26020600_Seguridad_Spoofing_Bizum_A%20final&bid=1101236453&cid=DM713898&ccode=ES&ccdeliv=ES&segment=client&p1=%40y%2FD4R9qnMqpnhU6G%2Bhr2E1%2Bn34Y87DCfKw3NzKyiEF8%3D\n----------------------------------------------------------------------------",
+        "createdate": "2026-02-06T11:23:31Z",
+        "hs_lastmodifieddate": "2026-04-13T07:51:25.087Z",
+        "hs_object_id": "41159411233",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "",
+        "subject": "Vincent, te contamos c\u00f3mo usan Bizum para estafarte"
+      },
+      "createdAt": "2026-02-06T11:23:31Z",
+      "updatedAt": "2026-04-13T07:51:25.087Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/41159411233"
+    },
+    {
+      "id": "41133981880",
+      "properties": {
+        "content": "Prezado(a) VINCENT LAROCHE,\nEssa mensagem \u00e9 destinada ao respons\u00e1vel pelo CNPJ inscrito sob o n\u00famero 60.335.021/0001-90, a fim de lembrar que o per\u00edodo da\u00a0Declara\u00e7\u00e3o Anual\u00a0se encerrou.\nSaiba que j\u00e1 \u00e9\u00a0poss\u00edvel solicitar a entrega da sua Declara\u00e7\u00e3o Anual MEI 2026, na plataforma Meu MEI.\n\u00c9 importante observar que a entrega desta declara\u00e7\u00e3o \u00e9 obrigat\u00f3ria, mesmo que voc\u00ea n\u00e3o tenha registrado faturamento ou n\u00e3o tenha utilizado o seu CNPJ para atividades comerciais.\nLembre-se de que o envio tardio desta declara\u00e7\u00e3o resultar\u00e1 em multas e deixar\u00e1 o seu MEI em situa\u00e7\u00e3o irregular.\nPara realizar essa obriga\u00e7\u00e3o de modo f\u00e1cil e r\u00e1pido, toque no bot\u00e3o abaixo.\nENTREGAR DECLARA\u00c7\u00c3O ANUAL [https://redirect.mcenter.com.br/mccampanha?MC_ID=<20260206082336.b717a362-57a7-4711-b729-37e79c4d7cf1@p6.centraldecampanhas.com.br-1484229>&amp;url_original=https://meumeiassessoria.com.br/declaracao-de-mei?campanha=67712b79-0add-4d29-b388-58ef98edc87a]\nCaso n\u00e3o esteja utilizando o seu CNPJ, recomendamos fazer o cancelamento, para evitar custos e obriga\u00e7\u00f5es.\nCANCELAR CNPJ MEI [https://redirect.mcenter.com.br/mccampanha?MC_ID=<20260206082336.b717a362-57a7-4711-b729-37e79c4d7cf1@p6.centraldecampanhas.com.br-1484229>&amp;url_original=https://meumeiassessoria.com.br/cancelamento-de-mei?campanha=67712b79-0add-4d29-b388-58ef98edc87a]\nNo bot\u00e3o abaixo, disponibilizamos acesso ao nosso atendimento humanizado via WhatsApp.\n[\u00cdcone WhatsApp] [https://redirect.mcenter.com.br/mccampanha?MC_ID=<20260206082336.b717a362-57a7-4711-b729-37e79c4d7cf1@p6.centraldecampanhas.com.br-1484229>&amp;url_original=https://wa.me/553131575203]\n[Logo Meu MEI]\nLinks\nPortal [https://redirect.mcenter.com.br/mccampanha?MC_ID=<20260206082336.b717a362-57a7-4711-b729-37e79c4d7cf1@p6.centraldecampanhas.com.br-1484229>&amp;url_original=https://meumeiassessoria.com.br/]\nAcompanhar Solicita\u00e7\u00e3o [https://redirect.mcenter.com.br/mccampanha?MC_ID=<20260206082336.b717a362-57a7-4711-b729-37e79c4d7cf1@p6.centraldecampanhas.com.br-1484229>&amp;url_original=https://meumeiassessoria.com.br/acompanhar-protocolo]\nPol\u00edticas de Privacidade [https://redirect.mcenter.com.br/mccampanha?MC_ID=<20260206082336.b717a362-57a7-4711-b729-37e79c4d7cf1@p6.centraldecampanhas.com.br-1484229>&amp;url_original=https://meumeiassessoria.com.br/privacidade]\nTermos de Uso [https://redirect.mcenter.com.br/mccampanha?MC_ID=<20260206082336.b717a362-57a7-4711-b729-37e79c4d7cf1@p6.centraldecampanhas.com.br-1484229>&amp;url_original=https://meumeiassessoria.com.br/termos-de-uso]\nInforma\u00e7\u00e3o de contato\nFale conosco no WhatsApp [https://redirect.mcenter.com.br/mccampanha?MC_ID=<20260206082336.b717a362-57a7-4711-b729-37e79c4d7cf1@p6.centraldecampanhas.com.br-1484229>&amp;url_original=https://wa.me/553131575203]\ncontato@meumeiassessoria.com.br [https://redirect.mcenter.com.br/mccampanha?MC_ID=<20260206082336.b717a362-57a7-4711-b729-37e79c4d7cf1@p6.centraldecampanhas.com.br-1484229>&amp;url_original=mailto:contato@meumeiassessoria.com.br]\nSAC : (31) 3181-2075\nMEU MEI\nExplorando novos mundos do empreendedorismo.\n\u00a9 2026 Meu MEI Ltda\nEsta \u00e9 uma mensagem corporativa, direcionada para voc\u00ea. Mesmo assim, se desejar n\u00e3o receber mais estes e-mails, solicite aqui o descadastramento [https://messagecenter.com.br/site/remover-da-lista?mail=vincent.laroche@oneheadhair.com&msgid=20260206082336.b717a362-57a7-4711-b729-37e79c4d7cf1@p6.centraldecampanhas.com.br-1484229].\nRespeitamos sua privacidade e somos contra o envio de SPAM, caso n\u00e3o tenha solicitado denuncie para abuse@messagecenter.com.br\nSe voc\u00ea est\u00e1 visualizando esta mensagem \u00e9 por que o seu cliente de e-mail n\u00e3o suporta ou n\u00e3o habilitou a leitura no formato HTML. Neste caso, queira por favor entrar em contato pelo e-mail abaixo:",
+        "createdate": "2026-02-06T11:23:53Z",
+        "hs_lastmodifieddate": "2026-04-13T07:51:25.087Z",
+        "hs_object_id": "41133981880",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "",
+        "subject": "VINCENT, Sua Declara\u00e7\u00e3o Anual 2026"
+      },
+      "createdAt": "2026-02-06T11:23:53Z",
+      "updatedAt": "2026-04-13T07:51:25.087Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/41133981880"
+    },
+    {
+      "id": "41137392271",
+      "properties": {
+        "content": "[hairsolutionsco/affiliate_marketing] Sync Data workflow run\n\nRepository: hairsolutionsco/affiliate_marketing\nWorkflow: Sync Data\nDuration: 15.0 seconds\nFinished: 2026-02-06 12:11:24 UTC\n\nView results: https://github.com/hairsolutionsco/affiliate_marketing/actions/runs/21750100761\n\nJobs:\n  * sync-notion failed (2 annotations)\n  * sync-hubspot failed (2 annotations)\n\n-- \nYou are receiving this because you are subscribed to this thread.\nManage your GitHub Actions notifications: https://github.com/settings/notifications",
+        "createdate": "2026-02-06T12:11:46Z",
+        "hs_lastmodifieddate": "2026-04-13T07:51:25.087Z",
+        "hs_object_id": "41137392271",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "",
+        "subject": "[hairsolutionsco/affiliate_marketing] Run failed: Sync Data - main (a66208f)"
+      },
+      "createdAt": "2026-02-06T12:11:46Z",
+      "updatedAt": "2026-04-13T07:51:25.087Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/41137392271"
+    },
+    {
+      "id": "41133985192",
+      "properties": {
+        "content": "Action needed: Your webhook delivery is currently pausedHi Hair Solutions Co, We haven\u2019t been able to successfully deliver webhook events to https://hubspot-notion-sync.notionsync.workers.dev/webhooks/notion for the past 8 hours. To prevent further issues, we\u2019ve temporarily paused delivery. Here\u2019s how to get back up and running: Check and fix any issues on your side Head over to your integration settings Navigate to the Webhooks tab Hit \u201dResume\u201d once everything\u2019s ready \ud83d\udca1 If your integration uses webhooks for critical features, you might want to let your users know about potential disruptions. Thanks for helping us keep things running smoothly! Thanks, \u2014The Notion team Notion Notion.so, the connected workspace for docs, projects, and wikis.",
+        "createdate": "2026-02-06T15:55:12Z",
+        "hs_lastmodifieddate": "2026-04-13T07:51:25.087Z",
+        "hs_object_id": "41133985192",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "",
+        "subject": "Action needed: Your webhook delivery is currently paused"
+      },
+      "createdAt": "2026-02-06T15:55:12Z",
+      "updatedAt": "2026-04-13T07:51:25.087Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/41133985192"
+    },
+    {
+      "id": "41145282187",
+      "properties": {
+        "content": "Hi Vincent\u200b,\n\nNice to meet you! Remco\u200b from Introw here.\n\nSince you're testing the platform - worth a chat to make sure you're\ngetting the most out of it?\n\nI'd love to better understand how you collaborate with partners today and\nshow you around the platform based on that.\n\nPlease let me know what time works best for you or feel free to book a slot\nin my calendar.\n<https://d37qjD04.eu1.hs-sales-engage.com/Ctc/5G+23284/d37qjD04/JkM2-6qcW6N1vHY6lZ3p6W1Q3bpd370ty-W8Zsv7G2lDLhGN5Hc3sYJsk9vW6cfrsG78t3FXW4JcCK48jRD4kN53SnPHDfqkJW51XYn88vT-hxW6_HfmQ8Sd6lBW7GGRbs8yxwrBW64_Ntp4V10bNW4PtL4d7jNZgRW7-S8Y26JzcMTVxJ7-Y3wgtKcW3bBZTL18xlC-W1nsnj-4M6T9nW49KJdk6TV-s4W39HGr71lblt7W2QjzJw1nmmQ8W2SrQ8F1VMwnsV8kcML3n-RMYW5kJ3kq45qVcRVfmJQ-2mXrB7f2ZQmMR04>\n\nHave a nice day!\nKind regards,\n\nRemco Haes\nIntrow",
+        "createdate": "2026-02-06T16:00:10Z",
+        "hs_lastmodifieddate": "2026-04-13T07:51:25.087Z",
+        "hs_object_id": "41145282187",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "",
+        "subject": "Introw question"
+      },
+      "createdAt": "2026-02-06T16:00:10Z",
+      "updatedAt": "2026-04-13T07:51:25.087Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/41145282187"
+    },
+    {
+      "id": "40978448729",
+      "properties": {
+        "content": "[hairsolutionsco/affiliate_marketing] Sync Data workflow run\n\nRepository: hairsolutionsco/affiliate_marketing\nWorkflow: Sync Data\nDuration: 16.0 seconds\nFinished: 2026-02-06 18:15:13 UTC\n\nView results: https://github.com/hairsolutionsco/affiliate_marketing/actions/runs/21761053724\n\nJobs:\n  * sync-notion failed (2 annotations)\n  * sync-hubspot failed (2 annotations)\n\n-- \nYou are receiving this because you are subscribed to this thread.\nManage your GitHub Actions notifications: https://github.com/settings/notifications",
+        "createdate": "2026-02-06T18:15:35Z",
+        "hs_lastmodifieddate": "2026-04-13T07:51:25.087Z",
+        "hs_object_id": "40978448729",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "",
+        "subject": "[hairsolutionsco/affiliate_marketing] Run failed: Sync Data - main (a66208f)"
+      },
+      "createdAt": "2026-02-06T18:15:35Z",
+      "updatedAt": "2026-04-13T07:51:25.087Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/40978448729"
+    },
+    {
+      "id": "41209182838",
+      "properties": {
+        "content": "\u200a Hi Vincent We noticed you last logged into your GetResponse account registered with vincent.laroche@oneheadhair.com over 3 months ago. Our security and data processing policies require that GetResponse Free accounts are automatically closed after over 3 months of inactivity. Yours is scheduled to close on 2026-02-13. To keep your account, log in before 2026-02-13. Until then, you'll find all your data and assets just as you left them. You'll also be able to close the account if you decide you no longer need it. Log into GetResponse \u200a If you take no action, your account will close on 2026-02-13, and you'll no longer have access to your data. Feel free to contact us if you have any questions. If you\u2019d like a helping hand getting started again, we\u2019d be happy to guide you. Book a free 1-hour onboarding call\u00a0with one of our experts to explore how GetResponse can support your goals. Best, GetResponse Team \u200a \u200a GetResponse S.A., Aleja Grunwaldzka 413, 80-309 Gda\u0144sk, Polska of America Terms of Service | Privacy Policy | Contact support",
+        "createdate": "2026-02-06T18:54:04Z",
+        "hs_lastmodifieddate": "2026-04-13T07:51:25.087Z",
+        "hs_object_id": "41209182838",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "",
+        "subject": "Vincent, your GetResponse account is set to close"
+      },
+      "createdAt": "2026-02-06T18:54:04Z",
+      "updatedAt": "2026-04-13T07:51:25.087Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/41209182838"
+    },
+    {
+      "id": "41192421929",
+      "properties": {
+        "content": "Coffee chat vibes with our co-founder. Ask about updates, roadmap, or anything \nelse you're curious about.\n\n\n\n <https://bubble.io>\n\n\n\n\n\n\nHi Vincent,\n\n\n\nDo you have any questions about where Bubble\u2019s heading next? Or maybe you just \nwant to hear the latest thinking from Bubble co-founder Emmanuel Straschnov?\n\n\nMark the date in your calendar: Emmanuel is going live for his next virtual \nAMA on February 12, 12 PM ET.\n\n\n This is your chance to hear the latest product updates, get Emmanuel\u2019s \nperspective on growing a company, get a sneak peek into our roadmap, and more.\n\n\n\nAsk Emmanuel:\n\n\n * His takes on all things AI app building and vibe coding\n * His experience scaling Bubble\n * What's on the horizon for the Bubble product\n * Anything else you've been wondering about\n\nSubmit your AMA questions here \u2192 <https://form.typeform.com/to/mCbTKmd0>\n\n\nWe'll cover pre-submitted questions plus take live ones in the chat, so come \nready to participate.\n\n\nRegister here  <https://luma.com/bubble-ama-feb26>\n\nWe hope to see you there!\n\n\n And if you\u2019re curious about what kinds of questions people typically ask, \ncheck out therecap and replay of January's AMA. \n<https://bubble.io/blog/january-2026-founder-ama/> It included how we ship \nfeatures, The New Build podcast announcement, AI Agent updates, and answers \nabout mobile in-app purchases, pricing, and 2026 priorities.\n\n\n\n\n\n\n <https://bubble.io/> \n\nYou\u2019re getting this email because you\u2019re building an app with Bubble. \nIf it looks weird, view it in your browser \n<https://links.bubble.io/s/vb/o7V3IYWqU6jzQFxoB5Kwp1RK-_zE5jDibDlJn0LAgefNYHzQXDBJ9yShKkrswTU88fZdvnFwwankIExzi2UZ0Zb5tYJ5_ZsN47sJ1Z-PvuHKMWhEKWCe6e3yAkyByyLMSvikLjzfFmuIXz2c_BdbDeehSp6r/HkCQiQNJDUXO5nOGdJC5jeJl-2p8XLa0/17>\n.\n\n\n\nNot interested in emails like this?\n\nStop receiving messages of this type \n<https://bubble.io/email-preferences?email=vincent.laroche%40oneheadhair.com&messageTypeId=88891>\n -Manage your preferences \n<https://links.bubble.io/s/eh/a6mQo2wtnuWBHRwuh2Wg77YUH1xaPNZoSl6g7xNAgHP4mRdx01EmUl2qI-GyOtoPqlgRCVlH9BOZizRgvb9V0H7pcWy12CFkrqfKYakVQthpRc-yVAhNFk2ifSZVC3zdG81XK-1DohtMgTcnIRmopTXk-7NCrVrHX1P7HeA0HRrvCbckud19tMH62j4_yabGq9k0AzyAOuavjh1FN9rZQpd31n2bZ2rFLQxE_VwmSAJ6_0C70d4qinQMeyCzUa6HVeyOOo8n4-2-3NpAmmsqtEPJZ4hZPLyX3m0u77e4Js_redqwuH-X/-EW-KB9wwZPP78rmuw7UaKIqSPm8DlWW/17>\n\n\n\n22 W 21st St, Fl 2, New York, NY 10010, United States\n\u00a9 Bubble Group, Inc., All rights reserved.\n\n\n <https://www.linkedin.com/company/bubble-hq>  \n<https://www.instagram.com/bubble__hq/>  <http://twitter.com/bubble>  \n<https://www.youtube.com/c/BubbleIO>",
+        "createdate": "2026-02-06T23:02:35Z",
+        "hs_lastmodifieddate": "2026-04-13T07:51:25.087Z",
+        "hs_object_id": "41192421929",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "",
+        "subject": "You're invited: Join Emmanuel's AMA on February 12"
+      },
+      "createdAt": "2026-02-06T23:02:35Z",
+      "updatedAt": "2026-04-13T07:51:25.087Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/41192421929"
+    },
+    {
+      "id": "41215888693",
+      "properties": {
+        "content": "Customer Feedback Survey\n\nHello ,\n\nPlease complete a brief survey about your recent support case (Case\n#67590304) before it expires - it should only take a few minutes of your time.\nThe survey closes in 3 days, so let us know your thoughts soon.\n\nGoogle made it easy for me to handle my issue* Agree\n<https://google.qualtrics.com/jfe/form/SV_9n8lOeegUlYytut?Q_DL=99NelSUGEAYI4Nc_9n8lOeegUlYytut_CGC_72ysrGs2l7ZdEk5&Q_RD=EMD_uhOJCDldLneDgVl&Q_CHL=email&Q_PopulateResponse=%7B%22QID110%22:%225%22%7D&Q_PopulateValidate=1&caseId=500Kf00000p9MgDIAU&Q_Language=EN&cs=cda6100e024ff1d22669ce7bd062ef96e122a680&caseProductLine=Google\nWorkspace> Somewhat agree\n<https://google.qualtrics.com/jfe/form/SV_9n8lOeegUlYytut?Q_DL=99NelSUGEAYI4Nc_9n8lOeegUlYytut_CGC_72ysrGs2l7ZdEk5&Q_RD=EMD_uhOJCDldLneDgVl&Q_CHL=email&Q_PopulateResponse=%7B%22QID110%22:%224%22%7D&Q_PopulateValidate=1&caseId=500Kf00000p9MgDIAU&Q_Language=EN&cs=cda6100e024ff1d22669ce7bd062ef96e122a680&caseProductLine=Google\nWorkspace> Neither agree nor disagree\n<https://google.qualtrics.com/jfe/form/SV_9n8lOeegUlYytut?Q_DL=99NelSUGEAYI4Nc_9n8lOeegUlYytut_CGC_72ysrGs2l7ZdEk5&Q_RD=EMD_uhOJCDldLneDgVl&Q_CHL=email&Q_PopulateResponse=%7B%22QID110%22:%223%22%7D&Q_PopulateValidate=1&caseId=500Kf00000p9MgDIAU&Q_Language=EN&cs=cda6100e024ff1d22669ce7bd062ef96e122a680&caseProductLine=Google\nWorkspace> Somewhat disagree\n<https://google.qualtrics.com/jfe/form/SV_9n8lOeegUlYytut?Q_DL=99NelSUGEAYI4Nc_9n8lOeegUlYytut_CGC_72ysrGs2l7ZdEk5&Q_RD=EMD_uhOJCDldLneDgVl&Q_CHL=email&Q_PopulateResponse=%7B%22QID110%22:%222%22%7D&Q_PopulateValidate=1&caseId=500Kf00000p9MgDIAU&Q_Language=EN&cs=cda6100e024ff1d22669ce7bd062ef96e122a680&caseProductLine=Google\nWorkspace> Disagree\n<https://google.qualtrics.com/jfe/form/SV_9n8lOeegUlYytut?Q_DL=99NelSUGEAYI4Nc_9n8lOeegUlYytut_CGC_72ysrGs2l7ZdEk5&Q_RD=EMD_uhOJCDldLneDgVl&Q_CHL=email&Q_PopulateResponse=%7B%22QID110%22:%221%22%7D&Q_PopulateValidate=1&caseId=500Kf00000p9MgDIAU&Q_Language=EN&cs=cda6100e024ff1d22669ce7bd062ef96e122a680&caseProductLine=Google\nWorkspace> Google made it easy for me to handle my issue* Disagree\n<https://google.qualtrics.com/jfe/form/SV_9n8lOeegUlYytut?Q_DL=99NelSUGEAYI4Nc_9n8lOeegUlYytut_CGC_72ysrGs2l7ZdEk5&Q_RD=EMD_uhOJCDldLneDgVl&Q_CHL=email&Q_PopulateResponse=%7B%22QID110%22:%221%22%7D&Q_PopulateValidate=1&caseId=500Kf00000p9MgDIAU&Q_Language=EN&cs=cda6100e024ff1d22669ce7bd062ef96e122a680&caseProductLine=Google\nWorkspace> Somewhat disagree\n<https://google.qualtrics.com/jfe/form/SV_9n8lOeegUlYytut?Q_DL=99NelSUGEAYI4Nc_9n8lOeegUlYytut_CGC_72ysrGs2l7ZdEk5&Q_RD=EMD_uhOJCDldLneDgVl&Q_CHL=email&Q_PopulateResponse=%7B%22QID110%22:%222%22%7D&Q_PopulateValidate=1&caseId=500Kf00000p9MgDIAU&Q_Language=EN&cs=cda6100e024ff1d22669ce7bd062ef96e122a680&caseProductLine=Google\nWorkspace> Neither agree nor disagree\n<https://google.qualtrics.com/jfe/form/SV_9n8lOeegUlYytut?Q_DL=99NelSUGEAYI4Nc_9n8lOeegUlYytut_CGC_72ysrGs2l7ZdEk5&Q_RD=EMD_uhOJCDldLneDgVl&Q_CHL=email&Q_PopulateResponse=%7B%22QID110%22:%223%22%7D&Q_PopulateValidate=1&caseId=500Kf00000p9MgDIAU&Q_Language=EN&cs=cda6100e024ff1d22669ce7bd062ef96e122a680&caseProductLine=Google\nWorkspace> Somewhat agree\n<https://google.qualtrics.com/jfe/form/SV_9n8lOeegUlYytut?Q_DL=99NelSUGEAYI4Nc_9n8lOeegUlYytut_CGC_72ysrGs2l7ZdEk5&Q_RD=EMD_uhOJCDldLneDgVl&Q_CHL=email&Q_PopulateResponse=%7B%22QID110%22:%224%22%7D&Q_PopulateValidate=1&caseId=500Kf00000p9MgDIAU&Q_Language=EN&cs=cda6100e024ff1d22669ce7bd062ef96e122a680&caseProductLine=Google\nWorkspace> Agree\n<https://google.qualtrics.com/jfe/form/SV_9n8lOeegUlYytut?Q_DL=99NelSUGEAYI4Nc_9n8lOeegUlYytut_CGC_72ysrGs2l7ZdEk5&Q_RD=EMD_uhOJCDldLneDgVl&Q_CHL=email&Q_PopulateResponse=%7B%22QID110%22:%225%22%7D&Q_PopulateValidate=1&caseId=500Kf00000p9MgDIAU&Q_Language=EN&cs=cda6100e024ff1d22669ce7bd062ef96e122a680&caseProductLine=Google\nWorkspace>\n\n\n\n\n\nIf you still need assistance with this issue, please reply to this email to\nreopen your case and I'll be happy to help.\n\nTake Survey\n<https://google.qualtrics.com/jfe/form/SV_9n8lOeegUlYytut?Q_DL=99NelSUGEAYI4Nc_9n8lOeegUlYytut_CGC_72ysrGs2l7ZdEk5&Q_RD=EMD_uhOJCDldLneDgVl&Q_CHL=email&caseId=500Kf00000p9MgDIAU&Q_Language=EN&cs=cda6100e024ff1d22669ce7bd062ef96e122a680&caseProductLine=Google\nWorkspace>\n\nSincerely,\nGoogle Workspace Support\nref:_00Df423Flu._500Kfp9MgD:ref \u00a9 2026 Google LLC 1600 Amphitheatre Parkway,\nMountain View, CA 94043",
+        "createdate": "2026-02-07T00:03:42Z",
+        "hs_lastmodifieddate": "2026-04-13T07:51:25.087Z",
+        "hs_object_id": "41215888693",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "",
+        "subject": "Quick reminder - [I want to move my user from this workspace to another workspace] Your feedback matters for case #67590304"
+      },
+      "createdAt": "2026-02-07T00:03:42Z",
+      "updatedAt": "2026-04-13T07:51:25.087Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/41215888693"
+    },
+    {
+      "id": "41236977543",
+      "properties": {
+        "content": "Customer Feedback Survey\n\nHello Vincent,\n\nPlease complete a brief survey about your recent support case (Case\n#67603376) before it expires - it should only take a few minutes of your time.\nThe survey closes in 3 days, so let us know your thoughts soon.\n\nGoogle made it easy for me to handle my issue* Agree\n<https://google.qualtrics.com/jfe/form/SV_9n8lOeegUlYytut?Q_DL=xnvl1LOcpW6S7Jx_9n8lOeegUlYytut_CGC_eq83RbJXLJuCfUf&Q_RD=EMD_uEtAQdsfIHnWOyt&Q_CHL=email&Q_PopulateResponse=%7B%22QID110%22:%225%22%7D&Q_PopulateValidate=1&caseId=500Kf00000pQEqiIAG&Q_Language=EN&cs=5df49a5fe5cee884e1e396dd5f72ce05e684ba49&caseProductLine=Google\nWorkspace> Somewhat agree\n<https://google.qualtrics.com/jfe/form/SV_9n8lOeegUlYytut?Q_DL=xnvl1LOcpW6S7Jx_9n8lOeegUlYytut_CGC_eq83RbJXLJuCfUf&Q_RD=EMD_uEtAQdsfIHnWOyt&Q_CHL=email&Q_PopulateResponse=%7B%22QID110%22:%224%22%7D&Q_PopulateValidate=1&caseId=500Kf00000pQEqiIAG&Q_Language=EN&cs=5df49a5fe5cee884e1e396dd5f72ce05e684ba49&caseProductLine=Google\nWorkspace> Neither agree nor disagree\n<https://google.qualtrics.com/jfe/form/SV_9n8lOeegUlYytut?Q_DL=xnvl1LOcpW6S7Jx_9n8lOeegUlYytut_CGC_eq83RbJXLJuCfUf&Q_RD=EMD_uEtAQdsfIHnWOyt&Q_CHL=email&Q_PopulateResponse=%7B%22QID110%22:%223%22%7D&Q_PopulateValidate=1&caseId=500Kf00000pQEqiIAG&Q_Language=EN&cs=5df49a5fe5cee884e1e396dd5f72ce05e684ba49&caseProductLine=Google\nWorkspace> Somewhat disagree\n<https://google.qualtrics.com/jfe/form/SV_9n8lOeegUlYytut?Q_DL=xnvl1LOcpW6S7Jx_9n8lOeegUlYytut_CGC_eq83RbJXLJuCfUf&Q_RD=EMD_uEtAQdsfIHnWOyt&Q_CHL=email&Q_PopulateResponse=%7B%22QID110%22:%222%22%7D&Q_PopulateValidate=1&caseId=500Kf00000pQEqiIAG&Q_Language=EN&cs=5df49a5fe5cee884e1e396dd5f72ce05e684ba49&caseProductLine=Google\nWorkspace> Disagree\n<https://google.qualtrics.com/jfe/form/SV_9n8lOeegUlYytut?Q_DL=xnvl1LOcpW6S7Jx_9n8lOeegUlYytut_CGC_eq83RbJXLJuCfUf&Q_RD=EMD_uEtAQdsfIHnWOyt&Q_CHL=email&Q_PopulateResponse=%7B%22QID110%22:%221%22%7D&Q_PopulateValidate=1&caseId=500Kf00000pQEqiIAG&Q_Language=EN&cs=5df49a5fe5cee884e1e396dd5f72ce05e684ba49&caseProductLine=Google\nWorkspace> Google made it easy for me to handle my issue* Disagree\n<https://google.qualtrics.com/jfe/form/SV_9n8lOeegUlYytut?Q_DL=xnvl1LOcpW6S7Jx_9n8lOeegUlYytut_CGC_eq83RbJXLJuCfUf&Q_RD=EMD_uEtAQdsfIHnWOyt&Q_CHL=email&Q_PopulateResponse=%7B%22QID110%22:%221%22%7D&Q_PopulateValidate=1&caseId=500Kf00000pQEqiIAG&Q_Language=EN&cs=5df49a5fe5cee884e1e396dd5f72ce05e684ba49&caseProductLine=Google\nWorkspace> Somewhat disagree\n<https://google.qualtrics.com/jfe/form/SV_9n8lOeegUlYytut?Q_DL=xnvl1LOcpW6S7Jx_9n8lOeegUlYytut_CGC_eq83RbJXLJuCfUf&Q_RD=EMD_uEtAQdsfIHnWOyt&Q_CHL=email&Q_PopulateResponse=%7B%22QID110%22:%222%22%7D&Q_PopulateValidate=1&caseId=500Kf00000pQEqiIAG&Q_Language=EN&cs=5df49a5fe5cee884e1e396dd5f72ce05e684ba49&caseProductLine=Google\nWorkspace> Neither agree nor disagree\n<https://google.qualtrics.com/jfe/form/SV_9n8lOeegUlYytut?Q_DL=xnvl1LOcpW6S7Jx_9n8lOeegUlYytut_CGC_eq83RbJXLJuCfUf&Q_RD=EMD_uEtAQdsfIHnWOyt&Q_CHL=email&Q_PopulateResponse=%7B%22QID110%22:%223%22%7D&Q_PopulateValidate=1&caseId=500Kf00000pQEqiIAG&Q_Language=EN&cs=5df49a5fe5cee884e1e396dd5f72ce05e684ba49&caseProductLine=Google\nWorkspace> Somewhat agree\n<https://google.qualtrics.com/jfe/form/SV_9n8lOeegUlYytut?Q_DL=xnvl1LOcpW6S7Jx_9n8lOeegUlYytut_CGC_eq83RbJXLJuCfUf&Q_RD=EMD_uEtAQdsfIHnWOyt&Q_CHL=email&Q_PopulateResponse=%7B%22QID110%22:%224%22%7D&Q_PopulateValidate=1&caseId=500Kf00000pQEqiIAG&Q_Language=EN&cs=5df49a5fe5cee884e1e396dd5f72ce05e684ba49&caseProductLine=Google\nWorkspace> Agree\n<https://google.qualtrics.com/jfe/form/SV_9n8lOeegUlYytut?Q_DL=xnvl1LOcpW6S7Jx_9n8lOeegUlYytut_CGC_eq83RbJXLJuCfUf&Q_RD=EMD_uEtAQdsfIHnWOyt&Q_CHL=email&Q_PopulateResponse=%7B%22QID110%22:%225%22%7D&Q_PopulateValidate=1&caseId=500Kf00000pQEqiIAG&Q_Language=EN&cs=5df49a5fe5cee884e1e396dd5f72ce05e684ba49&caseProductLine=Google\nWorkspace>\n\n\n\n\n\nIf you still need assistance with this issue, please reply to this email to\nreopen your case and I'll be happy to help.\n\nTake Survey\n<https://google.qualtrics.com/jfe/form/SV_9n8lOeegUlYytut?Q_DL=xnvl1LOcpW6S7Jx_9n8lOeegUlYytut_CGC_eq83RbJXLJuCfUf&Q_RD=EMD_uEtAQdsfIHnWOyt&Q_CHL=email&caseId=500Kf00000pQEqiIAG&Q_Language=EN&cs=5df49a5fe5cee884e1e396dd5f72ce05e684ba49&caseProductLine=Google\nWorkspace>\n\nSincerely,\nGoogle Workspace Support\nref:_00Df423Flu._500KfpQEqi:ref \u00a9 2026 Google LLC 1600 Amphitheatre Parkway,\nMountain View, CA 94043",
+        "createdate": "2026-02-07T00:05:28Z",
+        "hs_lastmodifieddate": "2026-04-13T07:51:25.087Z",
+        "hs_object_id": "41236977543",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "",
+        "subject": "Quick reminder - [I need to cancel my free trial] Your feedback matters for case #67603376"
+      },
+      "createdAt": "2026-02-07T00:05:28Z",
+      "updatedAt": "2026-04-13T07:51:25.087Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/41236977543"
+    },
+    {
+      "id": "41222085276",
+      "properties": {
+        "content": "[hairsolutionsco/affiliate_marketing] Sync Data workflow run\n\nRepository: hairsolutionsco/affiliate_marketing\nWorkflow: Sync Data\nDuration: 14.0 seconds\nFinished: 2026-02-07 00:20:21 UTC\n\nView results: https://github.com/hairsolutionsco/affiliate_marketing/actions/runs/21770552682\n\nJobs:\n  * sync-notion failed (2 annotations)\n  * sync-hubspot failed (2 annotations)\n\n-- \nYou are receiving this because you are subscribed to this thread.\nManage your GitHub Actions notifications: https://github.com/settings/notifications",
+        "createdate": "2026-02-07T00:20:42Z",
+        "hs_lastmodifieddate": "2026-04-13T07:51:25.087Z",
+        "hs_object_id": "41222085276",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "",
+        "subject": "[hairsolutionsco/affiliate_marketing] Run failed: Sync Data - main (a66208f)"
+      },
+      "createdAt": "2026-02-07T00:20:42Z",
+      "updatedAt": "2026-04-13T07:51:25.087Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/41222085276"
+    },
+    {
+      "id": "41204543113",
+      "properties": {
+        "content": "()\n\nHi there,\n\n\nTo save on cloud resources I just did a scan of all our projects and identified those which have not seen sufficient activity for more than 7 days.\n\nYour project Affiliate Marketing Automation (ID: ysnmukhhuedvshtuzjur) (https://supabase.com/dashboard/project/ysnmukhhuedvshtuzjur) from your organization VinceSelects was one of those and it is scheduled to be paused in a couple of days.\n\nYour project is not currently paused but if it continues not to receive sufficient activity it will be pause.\n\nOnce a project is paused\n- We will send another email confirm that it has been paused\n- You can unpause it from the [dashboard](https://supabase.com/dashboard/project/ysnmukhhuedvshtuzjur) within 90 days of the pause date. Beyond that point, you won't be able to unpause your project, but you'll be able to download your data.\n\nTo prevent future automatic pausing, upgrade to Pro from your billing settings: https://supabase.com/dashboard/org/oarpnkjxldjkomkswwan/billing?panel=subscriptionPlan\n\nFor more information read the docs (https://supabase.com/docs/guides/platform/migrating-and-upgrading-projects#time-limits). Have questions? Submit a support ticket (https://supabase.help) and our team will help.\n\n\nHappy Hacking!\n\n\nAnt\nCTO & Co-founder @ Supabase\n\nCheck out the latest Supabase features here: https://supabase.com/changelog\n\n\u00a9 2025 . All rights reserved.",
+        "createdate": "2026-02-07T03:37:42Z",
+        "hs_lastmodifieddate": "2026-04-13T07:51:25.087Z",
+        "hs_object_id": "41204543113",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "",
+        "subject": "Your Supabase Project Affiliate Marketing Automation is going to be paused."
+      },
+      "createdAt": "2026-02-07T03:37:42Z",
+      "updatedAt": "2026-04-13T07:51:25.087Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/41204543113"
+    },
+    {
+      "id": "41209807763",
+      "properties": {
+        "content": "[hairsolutionsco/affiliate_marketing] nightly-affiliate-pipeline workflow run\n\nRepository: hairsolutionsco/affiliate_marketing\nWorkflow: nightly-affiliate-pipeline\nDuration: 11.0 seconds\nFinished: 2026-02-07 03:48:26 UTC\n\nView results: https://github.com/hairsolutionsco/affiliate_marketing/actions/runs/21773669054\n\nJobs:\n  * full / run-step failed (1 annotation)\n  * voiceover skipped (0 annotations)\n  * avatar skipped (0 annotations)\n  * publish skipped (0 annotations)\n  * sync skipped (0 annotations)\n\n-- \nYou are receiving this because you are subscribed to this thread.\nManage your GitHub Actions notifications: https://github.com/settings/notifications",
+        "createdate": "2026-02-07T03:48:48Z",
+        "hs_lastmodifieddate": "2026-04-13T07:51:25.087Z",
+        "hs_object_id": "41209807763",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "",
+        "subject": "[hairsolutionsco/affiliate_marketing] Run failed: nightly-affiliate-pipeline - main (a66208f)"
+      },
+      "createdAt": "2026-02-07T03:48:48Z",
+      "updatedAt": "2026-04-13T07:51:25.087Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/41209807763"
+    },
+    {
+      "id": "41192424530",
+      "properties": {
+        "content": "\u00a0 Thanks for chatting!Here's your chat transcript from https://app.hubspot.com/pricing/50966981/add-ons \u00a0 Need help choosing a plan? Chat with a sales agent now. \ud83d\ude0a 11:16 PM What would you like to do? 11:16 PM Hi, I currently have the Curtomer Platform Professional and Im interested in purchasing a singular sales enterprise seat\u00a0 You11:16 PM Got it. I'll connect you with someone from the team who can help. HubSpot11:16 PM One moment please. HubSpot11:16 PM It looks like there are currently no team members available for chat here. With a HubSpot Professional or Enterprise subscription, you have access to chat and email support channels. For assistance, follow these steps: In your HubSpot account, click the ? help icon in the main navigation bar. In the Ask a question field, enter your question. To display additional resources, click See related results. If you are unable to resolve your issue, reach out to HubSpot support. At the bottom of the dialog box, click Contact us. To chat with a HubSpot Customer Support Specialist in real-time, click Chat to the team. To send a help email to a HubSpot Customer Support Specialist, click Email Support. You should receive a reply within one working day. If you're having trouble logging into your HubSpot account, you can try these troubleshooting steps and alternatively call the support line via the numbers listed on help.hubspot.com. As a HubSpot user, you can also access how-to guides, reference docs, and troubleshooting steps in HubSpot's Knowledge Base. You can also ask questions, find answers, and engage with professionals from around the world in the HubSpot Community. Looking to upgrade your account? Reserve time for a consultation with your HubSpot account manager here: Reserve Time Now HubBot11:27 PM Visit website \u00a0",
+        "createdate": "2026-02-07T04:27:11Z",
+        "hs_lastmodifieddate": "2026-04-13T07:51:25.087Z",
+        "hs_object_id": "41192424530",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "",
+        "subject": "Chat transcript on https://app.hubspot.com/pricing/50966981/add-ons"
+      },
+      "createdAt": "2026-02-07T04:27:11Z",
+      "updatedAt": "2026-04-13T07:51:25.087Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/41192424530"
+    },
+    {
+      "id": "41217750812",
+      "properties": {
+        "content": "[hairsolutionsco/affiliate_marketing] Sync Data workflow run\n\nRepository: hairsolutionsco/affiliate_marketing\nWorkflow: Sync Data\nDuration: 14.0 seconds\nFinished: 2026-02-07 06:13:11 UTC\n\nView results: https://github.com/hairsolutionsco/affiliate_marketing/actions/runs/21775493239\n\nJobs:\n  * sync-notion failed (2 annotations)\n  * sync-hubspot failed (2 annotations)\n\n-- \nYou are receiving this because you are subscribed to this thread.\nManage your GitHub Actions notifications: https://github.com/settings/notifications",
+        "createdate": "2026-02-07T06:13:32Z",
+        "hs_lastmodifieddate": "2026-04-13T07:51:25.087Z",
+        "hs_object_id": "41217750812",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "",
+        "subject": "[hairsolutionsco/affiliate_marketing] Run failed: Sync Data - main (a66208f)"
+      },
+      "createdAt": "2026-02-07T06:13:32Z",
+      "updatedAt": "2026-04-13T07:51:25.087Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/41217750812"
+    },
+    {
+      "id": "41222552230",
+      "properties": {
+        "content": "( https://www.notion.so/?utm_campaign=Joiner+Onboarding+2025&utm_campaignid=525&utm_campaigntype=transactional&utm_content=Email+3+-+Bonus+email&utm_medium=email_action&utm_source=customer.io )\n\nHi there,\n\nHere are some tips to help you navigate your workspace and make the most of Notion as you get started:\n\nAdd with ease:\n\nYou can enhance your pages with a variety of content. Just click into a new block, hit the \u201c/\u201d key, and explore the shortcut menu. Add anything from a checklist, to a page, to an image, to an AI summary.\n\nSubpages ( http://www.notion.so/4db93a7e199243cf974fed63bdf9285a?duplicate=true&from=notion_template_gallery&workspaceId=a8b539e5-0ae7-44fd-8c7b-e99ed0fa6921&utm_campaign=Joiner+Onboarding+2025&utm_campaignid=525&utm_campaigntype=transactional&utm_content=Email+3+-+Bonus+email&utm_medium=email_action&utm_source=customer.io )\n\nCreate your own page:\n\nYou can customize your workspace to suit your needs. Simply hit the \u201c+\u201d under the \u201cPrivate\u201d section in your sidebar. This is a perfect place for to-do lists, first drafts, notes, and more.\n\nPrivate page ( http://www.notion.so/4db93a7e199243cf974fed63bdf9285a?duplicate=true&from=notion_template_gallery&workspaceId=a8b539e5-0ae7-44fd-8c7b-e99ed0fa6921&utm_campaign=Joiner+Onboarding+2025&utm_campaignid=525&utm_campaigntype=transactional&utm_content=Email+3+-+Bonus+email&utm_medium=email_action&utm_source=customer.io )\n\nTry it out ( http://www.notion.so/4db93a7e199243cf974fed63bdf9285a?duplicate=true&from=notion_template_gallery&workspaceId=a8b539e5-0ae7-44fd-8c7b-e99ed0fa6921&utm_campaign=Joiner+Onboarding+2025&utm_campaignid=525&utm_campaigntype=transactional&utm_content=Email+3+-+Bonus+email&utm_medium=email_action&utm_source=customer.io )\n\nThanks,\n\nThe Notion Team\n\n( https://www.notion.so/?utm_campaign=Joiner+Onboarding+2025&utm_campaignid=525&utm_campaigntype=transactional&utm_content=Email+3+-+Bonus+email&utm_medium=email_action&utm_source=customer.io )\n\nWrite, plan, organize.\nIn one AI-powered workspace.\n\nNotion ( https://www.notion.so/?utm_campaign=Joiner+Onboarding+2025&utm_campaignid=525&utm_campaigntype=transactional&utm_content=Email+3+-+Bonus+email&utm_medium=email_action&utm_source=customer.io )\nNotion Mail ( https://www.notion.com/product/mail?utm_campaign=Joiner+Onboarding+2025&utm_campaignid=525&utm_campaigntype=transactional&utm_content=Email+3+-+Bonus+email&utm_medium=email_action&utm_source=customer.io )\nNotion Calendar ( https://www.notion.com/product/calendar?utm_campaign=Joiner+Onboarding+2025&utm_campaignid=525&utm_campaigntype=transactional&utm_content=Email+3+-+Bonus+email&utm_medium=email_action&utm_source=customer.io )\n\n685 Market Street, San Francisco, CA 94105\n\nDon't want this kind of email? Unsubscribe from Product Education and How-To's ( https://track.customer.io/unsubscribe/dgTv2AUBAL3MqX28zKl9AZw23Ai0taLrq_h0Ds5KUg== ).\nManage preferences ( https://track.customer.io/manage_subscription_preferences/dgTv2AUBAL3MqX28zKl9AZw23Ai0taLrq_h0Ds5KUg== )\u2003Privacy Policy ( https://www.notion.so/notion/Privacy-Policy-3468d120cf614d4c9014c09f6adc9091?utm_campaign=Joiner+Onboarding+2025&utm_campaignid=525&utm_campaigntype=transactional&utm_content=Email+3+-+Bonus+email&utm_medium=email_action&utm_source=customer.io )\u2003View in browser ( https://track.customer.io/deliveries/dgTv2AUBAL3MqX28zKl9AZw23Ai0taLrq_h0Ds5KUg== )",
+        "createdate": "2026-02-07T06:48:41Z",
+        "hs_lastmodifieddate": "2026-04-13T07:51:25.087Z",
+        "hs_object_id": "41222552230",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "",
+        "subject": "Notion for teams (3/8):"
+      },
+      "createdAt": "2026-02-07T06:48:41Z",
+      "updatedAt": "2026-04-13T07:51:25.087Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/41222552230"
+    },
+    {
+      "id": "41241012757",
+      "properties": {
+        "content": "A data import step failed to run. Resolve any errors and retry. Find emails Run for February 7, 2026 at 05:00 | Email to Notion Open in Relay.app Manage notifications | oneheadhair.com \u00a9\ufe0f Relay.app Inc. \u2022 2261 Market Street STE 5496 \u2022 San Francisco, CA 94114",
+        "createdate": "2026-02-07T08:01:02Z",
+        "hs_lastmodifieddate": "2026-04-13T07:51:25.087Z",
+        "hs_object_id": "41241012757",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "",
+        "subject": "\u2757\ufe0fEmail to Notion: Step failed"
+      },
+      "createdAt": "2026-02-07T08:01:02Z",
+      "updatedAt": "2026-04-13T07:51:25.087Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/41241012757"
+    },
+    {
+      "id": "41217907045",
+      "properties": {
+        "content": "[hairsolutionsco/affiliate_marketing] Generate Content workflow run\n\nRepository: hairsolutionsco/affiliate_marketing\nWorkflow: Generate Content\nDuration: 14.0 seconds\nFinished: 2026-02-07 09:08:19 UTC\n\nView results: https://github.com/hairsolutionsco/affiliate_marketing/actions/runs/21777672378\n\nJobs:\n  * generate-content failed (3 annotations)\n\n-- \nYou are receiving this because you are subscribed to this thread.\nManage your GitHub Actions notifications: https://github.com/settings/notifications",
+        "createdate": "2026-02-07T09:08:41Z",
+        "hs_lastmodifieddate": "2026-04-13T07:51:25.087Z",
+        "hs_object_id": "41217907045",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "",
+        "subject": "[hairsolutionsco/affiliate_marketing] Run failed: Generate Content - main (a66208f)"
+      },
+      "createdAt": "2026-02-07T09:08:41Z",
+      "updatedAt": "2026-04-13T07:51:25.087Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/41217907045"
+    },
+    {
+      "id": "41197461842",
+      "properties": {
+        "content": "\u00a0\u00a0\u00a0 \u00a0 Ver online \u00a0 Vincent Laroche N\u00ba M\u00e1s Renfe: 81960999 \u00a0 \u00a0 \u00a0 \u00a0 SALDO DE PUNTOS RENFE 24 A caducar en 3 meses: 12 \u00a0 \u00a0 PUNTOS RENFE EN EL \u00daLTIMO MES \u00a0 Obtenidos 0 Canjeados 0 \u00a0 \u00a0 \u00a0 \u00a0 \u00bfD\u00f3nde puedes canjear tus Puntos Renfe? \u00a0 Para obtener m\u00e1s informaci\u00f3n sobre c\u00f3mo sacar el m\u00e1ximo partido a tu M\u00e1s Renfe visita tu \u00c1rea Privada. \u00a0 \u00a0 Adem\u00e1s, con tu M\u00e1s Renfe podr\u00e1s disfrutar de ventajas como estas: Consigue un 3% en Puntos Renfe, por cada 10\u20ac en billetes obtendr\u00e1s 3 Puntos Renfe. Disfruta de las ofertas de las empresas colaboradoras. \u00a0 \u00a0 \u00a0 S\u00cdGUENOS EN RRSS M\u00e1s informaci\u00f3n en 919 191 566 y en masrenfe@renfe.es Por favor, no respondas a este email. Esta direcci\u00f3n de correo est\u00e1 destinada al env\u00edo de la informaci\u00f3n y no est\u00e1 habilitada para la recepci\u00f3n de mensajes. \u00a0",
+        "createdate": "2026-02-07T09:32:43Z",
+        "hs_lastmodifieddate": "2026-04-13T07:51:25.087Z",
+        "hs_object_id": "41197461842",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "",
+        "subject": "Vincent, aqu\u00ed tienes tu extracto M\u00e1s Renfe"
+      },
+      "createdAt": "2026-02-07T09:32:43Z",
+      "updatedAt": "2026-04-13T07:51:25.087Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/41197461842"
+    },
+    {
+      "id": "41222558515",
+      "properties": {
+        "content": "A academia inteligente Problema no Pagamento Prezado cliente Vincent Laroche, Informamos que a Smart Fit n\u00e3o conseguiu realizar os d\u00e9bitos abaixo que est\u00e3o pendentes em nosso banco de dados: Mensalidade - Periodo de 10/01/2026 at\u00e9 09/02/2026 - Vencimento: 01/02/2026 - R$ 144,14 - Data de Retorno: 06/02/2026 09:11 Recebemos o seguinte retorno do seu banco: 56_39 - Transa\u00e7\u00e3o n\u00e3o autorizada Para regularizar a sua situa\u00e7\u00e3o sugerimos: Alterar a sua forma de pagamento direto na unidade Smart Fit mais pr\u00f3xima ou no Espa\u00e7o Cliente https://espacodocliente.smartfit.com.br/pt-BR/login Ressaltamos que tais pagamentos n\u00e3o tem qualquer rela\u00e7\u00e3o com a frequ\u00eancia do cliente. Atenciosamente, Equipe Smart Fit Caso j\u00e1 tenha solucionado esta pend\u00eancia favor desconsiderar este aviso. \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 Baixe o nosso app de treino",
+        "createdate": "2026-02-07T14:51:22Z",
+        "hs_lastmodifieddate": "2026-04-13T07:51:25.087Z",
+        "hs_object_id": "41222558515",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "",
+        "subject": "Smart Fit - Problema no Pagamento"
+      },
+      "createdAt": "2026-02-07T14:51:22Z",
+      "updatedAt": "2026-04-13T07:51:25.087Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/41222558515"
+    },
+    {
+      "id": "41197468239",
+      "properties": {
+        "content": "We removed a product from your account that you canceled. \u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0 \u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0\u200c\u00a0 Need help? Contact us. Customer Number: 151791060 Here's what we removed from your account. When you delete or cancel a product, here's what happens: Deleted products are immediately removed from your account, and canceled products are no longer renewable. Here's what you deleted or canceled today: .STORE Domain Registration (associated with: myhairsolutions.store) There may be other products not in our list that have been deleted or canceled. Any deleted products have been removed from your account. You can sign in to your account to find out which products have been canceled or are still active. You may get separate confirmation emails if we've removed other products. View My Account\u00a0 \u00a0 We're here to help. If this removal was a mistake or you need assistance with anything else, contact us. \u00a0 \u00a0 Please do not reply to this email. Emails sent to this address will not be answered. Copyright \u00a9 1999-2026 GoDaddy Operating Company, LLC. 100 S Mill Ave, Suite 1600, Tempe, AZ 85281 USA. All rights reserved. \u00a0 \u00a0 7019300400",
+        "createdate": "2026-02-07T16:03:11Z",
+        "hs_lastmodifieddate": "2026-04-13T07:51:25.087Z",
+        "hs_object_id": "41197468239",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "",
+        "subject": "A product's been removed from your GoDaddy account."
+      },
+      "createdAt": "2026-02-07T16:03:11Z",
+      "updatedAt": "2026-04-13T07:51:25.087Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/41197468239"
+    },
+    {
+      "id": "41200409630",
+      "properties": {
+        "content": null,
+        "createdate": "2026-02-07T20:06:29.958Z",
+        "hs_lastmodifieddate": "2026-02-07T20:06:38.198Z",
+        "hs_object_id": "41200409630",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": null,
+        "subject": "Ticket #41200409630"
+      },
+      "createdAt": "2026-02-07T20:06:29.958Z",
+      "updatedAt": "2026-02-07T20:06:38.198Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/41200409630"
+    },
+    {
+      "id": "41180733255",
+      "properties": {
+        "content": null,
+        "createdate": "2026-02-07T20:08:19.696Z",
+        "hs_lastmodifieddate": "2026-03-13T05:13:39.561Z",
+        "hs_object_id": "41180733255",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": null,
+        "subject": "Ticket #41180733255"
+      },
+      "createdAt": "2026-02-07T20:08:19.696Z",
+      "updatedAt": "2026-03-13T05:13:39.561Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/41180733255"
+    },
+    {
+      "id": "41192126891",
+      "properties": {
+        "content": null,
+        "createdate": "2026-02-08T04:06:06.889Z",
+        "hs_lastmodifieddate": "2026-03-13T05:13:39.631Z",
+        "hs_object_id": "41192126891",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": null,
+        "subject": "Ticket #41192126891"
+      },
+      "createdAt": "2026-02-08T04:06:06.889Z",
+      "updatedAt": "2026-03-13T05:13:39.631Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/41192126891"
+    },
+    {
+      "id": "41207035955",
+      "properties": {
+        "content": "Confirm your email address by clicking on this link: https://huggingface.co/email_confirmation/aDrHixNuTmOxUyKpvZpIkHqugUtL If you didn't create a Hugging Face account, you can ignore this email. Hugging Face: The AI community building the future.",
+        "createdate": "2026-02-08T05:58:07Z",
+        "hs_lastmodifieddate": "2026-04-13T07:51:25.087Z",
+        "hs_object_id": "41207035955",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "",
+        "subject": "[Hugging Face] Click this link to confirm your email address"
+      },
+      "createdAt": "2026-02-08T05:58:07Z",
+      "updatedAt": "2026-04-13T07:51:25.087Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/41207035955"
+    },
+    {
+      "id": "41182744358",
+      "properties": {
+        "content": "Ol\u00e1 VINCENT,\n\nEsta \u00e9 uma notifica\u00e7\u00e3o de que  em sua conta de acesso no gov.br.\n\nOpera\u00e7\u00e3o realizada em 09/02/2026 \u00e0s 04:13\n\nA partir de agora voc\u00ea receber\u00e1 notifica\u00e7\u00f5es por SMS no novo telefone cadastrado.\nNovo telefone cadastrado: 21 97516-5700\n\nSe voc\u00ea n\u00e3o solicitou esta altera\u00e7\u00e3o, acesse https://e.gov.br/email.\n\nNunca informe seus dados de acesso para outra pessoa.\n\nVoc\u00ea est\u00e1 recebendo esse e-mail porque aceitou nosso \"Termo de Uso e Aviso de Privacidade\" (https://cadastro.acesso.gov.br/termo-de-uso)\n\nAtenciosamente,\nEquipe do gov.br",
+        "createdate": "2026-02-09T07:14:01Z",
+        "hs_lastmodifieddate": "2026-04-13T07:51:25.087Z",
+        "hs_object_id": "41182744358",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "",
+        "subject": "gov.br: Aviso de altera\u00e7\u00e3o de dados da conta de acesso gov.br"
+      },
+      "createdAt": "2026-02-09T07:14:01Z",
+      "updatedAt": "2026-04-13T07:51:25.087Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/41182744358"
+    },
+    {
+      "id": "41201044104",
+      "properties": {
+        "content": "Ol\u00e1 VINCENT,\n\nEsta \u00e9 uma notifica\u00e7\u00e3o de que o campo \"e-mail\" foi alterado em sua conta de acesso no gov.br.\n\nOpera\u00e7\u00e3o realizada em 09/02/2026 \u00e0s 04:14\n\nA partir de agora voc\u00ea receber\u00e1 informa\u00e7\u00f5es no novo e-mail cadastrado.\nNovo e-mail cadastrado:  vincent.laroche.br@gmail.com\n\nSe voc\u00ea n\u00e3o solicitou esta altera\u00e7\u00e3o, acesse https://e.gov.br/email.\n\nNunca informe seus dados de acesso para outra pessoa.\n\nVoc\u00ea est\u00e1 recebendo esse e-mail porque aceitou nosso \"Termo de Uso e Aviso de Privacidade\" (https://cadastro.acesso.gov.br/termo-de-uso)\n\nAtenciosamente,\nEquipe do gov.br",
+        "createdate": "2026-02-09T07:14:35Z",
+        "hs_lastmodifieddate": "2026-04-13T07:51:25.087Z",
+        "hs_object_id": "41201044104",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "",
+        "subject": "gov.br: Aviso de altera\u00e7\u00e3o de dados da conta de acesso gov.br"
+      },
+      "createdAt": "2026-02-09T07:14:35Z",
+      "updatedAt": "2026-04-13T07:51:25.087Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/41201044104"
+    },
+    {
+      "id": "41237936196",
+      "properties": {
+        "content": "Vincent, hace un par de d\u00edas te mand\u00e9 algo que creo que podr\u00eda ser de ayuda.\n\u00bfPudiste echarle un vistazo?\n\n\n\u00a0Marc L\u00f3pez\nhola@titbit.tv\nDirector de cuentas\nTitbitAI\nhttps://www.titbitai.com/\n\n",
+        "createdate": "2026-02-09T07:20:46Z",
+        "hs_lastmodifieddate": "2026-04-13T07:51:25.087Z",
+        "hs_object_id": "41237936196",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "",
+        "subject": "RE: video para Vincent"
+      },
+      "createdAt": "2026-02-09T07:20:46Z",
+      "updatedAt": "2026-04-13T07:51:25.087Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/41237936196"
+    },
+    {
+      "id": "41225932628",
+      "properties": {
+        "content": "Hi,\n\nPlease use the verification code below to verify that the email address belongs to 60 335 021 VINCENT LAROCHE. Verification code: 261308\n\nThanks,\nThe Facebook team\n\n\n\n========================================\nThis message was sent to vincent.laroche@oneheadhair.com at your request.\nMeta Platforms, Inc., Attention: Community Support, 1 Meta Way, Menlo Park, CA 94025",
+        "createdate": "2026-02-09T07:22:52Z",
+        "hs_lastmodifieddate": "2026-04-13T07:51:25.087Z",
+        "hs_object_id": "41225932628",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "",
+        "subject": "Verify your business email"
+      },
+      "createdAt": "2026-02-09T07:22:52Z",
+      "updatedAt": "2026-04-13T07:51:25.087Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/41225932628"
+    },
+    {
+      "id": "41275861421",
+      "properties": {
+        "content": "Houve recentemente um acesso suspeito em sua conta Claro.",
+        "createdate": "2026-02-09T07:29:11Z",
+        "hs_lastmodifieddate": "2026-04-13T07:51:25.087Z",
+        "hs_object_id": "41275861421",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "",
+        "subject": "Houve recentemente um acesso suspeito em sua conta Claro."
+      },
+      "createdAt": "2026-02-09T07:29:11Z",
+      "updatedAt": "2026-04-13T07:51:25.087Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/41275861421"
+    },
+    {
+      "id": "41227787276",
+      "properties": {
+        "content": "Seu c\u00f3digo de verifica\u00e7\u00e3o para troca de senha no Minha Claro \u00e9 689837 Obrigado! Equipe Claro",
+        "createdate": "2026-02-09T07:29:33Z",
+        "hs_lastmodifieddate": "2026-04-13T07:51:25.087Z",
+        "hs_object_id": "41227787276",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "",
+        "subject": "Seu c\u00f3digo de verifica\u00e7\u00e3o para troca de senha no Minha Claro"
+      },
+      "createdAt": "2026-02-09T07:29:33Z",
+      "updatedAt": "2026-04-13T07:51:25.087Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/41227787276"
+    },
+    {
+      "id": "41208132624",
+      "properties": {
+        "content": "Informamos que sua senha de acesso foi alterada em 09/02/2026, \u00e0s 04:29:56. Um abra\u00e7o, Claro.",
+        "createdate": "2026-02-09T07:29:56Z",
+        "hs_lastmodifieddate": "2026-04-13T07:51:25.087Z",
+        "hs_object_id": "41208132624",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "",
+        "subject": "Sua senha de acesso foi redefinida"
+      },
+      "createdAt": "2026-02-09T07:29:56Z",
+      "updatedAt": "2026-04-13T07:51:25.087Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/41208132624"
+    },
+    {
+      "id": "41221339212",
+      "properties": {
+        "content": "Hi,\n\nPlease use the verification code below to verify that the email address belongs to VINCENT LAROCHE. Verification code: 317723\n\nThanks,\nThe Facebook team\n\n\n\n========================================\nThis message was sent to vincent@hairsolutions.co at your request.\nMeta Platforms, Inc., Attention: Community Support, 1 Meta Way, Menlo Park, CA 94025",
+        "createdate": "2026-02-09T07:33:04Z",
+        "hs_lastmodifieddate": "2026-04-13T07:51:25.087Z",
+        "hs_object_id": "41221339212",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "",
+        "subject": "Verify your business email"
+      },
+      "createdAt": "2026-02-09T07:33:04Z",
+      "updatedAt": "2026-04-13T07:51:25.087Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/41221339212"
+    },
+    {
+      "id": "41244537883",
+      "properties": {
+        "content": "RECLAMACI\u00d3N POR POSICIONES DEUDORAS N\u00ba Expediente: 2800-026830 Titulares: \u00a0\u00a0\u00a0VINCENT LAROCHE LAROCHE Fecha Devoluci\u00f3n: 09/02/2026 Direcci\u00f3n: Calle Luis Cabrera 31 Pl:Es:1 Pl:01 Pt:IZ \u00a0\u00a0\u00a0Estimado Sr/Sra. Vincent Laroche Laroche, le comunicamos que nos ha sido devuelto el recibo del mes de 2/2026 que se gir\u00f3 en la cuenta terminada en ...4393. Dicha devoluci\u00f3n ha generado los gastos descritos en la liquidaci\u00f3n adjunta seg\u00fan lo acordado en las condiciones particulares del contrato. LIQUIDACI\u00d3N 1. Renta mes 2/2026 947,39 2. Gastos bancarios de devoluci\u00f3n 18,91 3. Reclamaci\u00f3n por posici\u00f3n deudora 30,00 5. Gastos de comunicaci\u00f3n 15,00 SALDO 1.011,30 \u00a0\u00a0\u00a0Puede usted abonar esta cantidad, accediendo al SMS que ha recibido y eligiendo pago con tarjeta bancaria, BIZUM o transferencia autom\u00e1tica. Tambi&eacuten puede hacerlo a trav&eacutes de su \u00c1rea Privada en nuestra web www.alquilerseguro.es. Le recordamos que su usuario es su NIF/NIE. Si lo prefiere, puede escanear este c\u00f3digo QR \u00a0\u00a0\u00a0Si accede al pago de la deuda por una de las v\u00edas anteriores en el plazo de 48h, podr\u00e1 regularizar su situaci\u00f3n abonando 966,30 \u20ac. \u00a0\u00a0\u00a0Alternativamente puede realizar el abono de la totalidad de la deuda mediante transferencia manual, en la cuenta Banco Sabadell: ES87 0081 1526 7900 0142 0351. Es muy importante que indique como concepto el N\u00ba de expediente (2800-026830). \u00a0\u00a0\u00a0En caso de no saldar su posici\u00f3n antes de 30 d\u00edas, daremos traslado de su expediente al departamento jur\u00eddico, con el incremento de gastos que eso supondr\u00e1 para usted. \u00a0\u00a0\u00a0Para cualquier consulta puede contactar en el 963 37 57 77 o mediante la siguiente direcci\u00f3n de e-mail: gestiondecobros@alquilerseguro.es Atentamente, ALQUILER SEGURO, S.A.U.",
+        "createdate": "2026-02-09T14:24:23Z",
+        "hs_lastmodifieddate": "2026-04-13T07:51:25.087Z",
+        "hs_object_id": "41244537883",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "",
+        "subject": "ALQUILER SEGURO, SAU Reclamaci\u00f3n por posiciones deudoras."
+      },
+      "createdAt": "2026-02-09T14:24:23Z",
+      "updatedAt": "2026-04-13T07:51:25.087Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/41244537883"
+    },
+    {
+      "id": "41299906111",
+      "properties": {
+        "content": "Membership Now\nMembership Now\n\naudible, uma empresa de amazon\n\nMinha conta https://www.audible.com.br/account/overview/?source_code=AUDOR2651115189OZ6\nhttps://www.audible.com.br/sign-in?rdpath=https://www.audible.com.br/?source_code=AUDOR2651115189OZ6\n\n-------------------------------------------------------------------------------------------------------\n\n\n\nOl\u00e1 Vincent,\n\n\nInfelizmente n\u00e3o conseguimos cobrar a mensalidade da sua assinatura Audible no seu cart\u00e3o.\n\n\nPara evitar qualquer interrup\u00e7\u00e3o no seu servi\u00e7o, por favor entre em [Detalhes da Conta](https://www.audible.com.br/account/payments?source_code=AUDOR2651115189OZ6) e revise as informa\u00e7\u00f5es de cobran\u00e7a. Confirme se as informa\u00e7\u00f5es do seu endere\u00e7o de faturamento s\u00e3o as mesmas do seu m\u00e9todo de pagamento escolhido. Se poss\u00edvel, verifique tamb\u00e9m se as informa\u00e7\u00f5es do seu cart\u00e3o de cr\u00e9dito est\u00e3o corretas.\nDetalhes da Conta\nhttps://www.audible.com.br/account/payments?source_code=AUDOR2651115189OZ6\n\n\nCaso as informa\u00e7\u00f5es de cobran\u00e7a na sua conta estejam corretas, entre em contato com o emissor do seu cart\u00e3o para saber o motivo da negativa da cobran\u00e7a da sua mensalidade. Por raz\u00f5es de seguran\u00e7a, n\u00e3o envie qualquer informa\u00e7\u00e3o do seu cart\u00e3o de cr\u00e9dito por e-mail para a Audible.\n\nVoc\u00ea tamb\u00e9m pode entrar em contato com a nossa [Central de Ajuda](https://www.audible.com.br/contactus?source_code=AUDOR2651115189OZ6) ao assinante pelo telefone 0800 891 3966.\n\nAtenciosamente,\nEquipe Audible-------------------------------------------------------------------------------------------------------\n\nBiblioteca https://www.audible.com.br/lib?source_code=AUDOR2651115189OZ6\nLista\u00a0de\u00a0desejos https://www.audible.com.br/wl?source_code=AUDOR2651115189OZ6\nCentral\u00a0de\u00a0ajuda https://ajuda.audible.com.br/s/\nPol\u00edtica\u00a0de\u00a0privacidade https://www.amazon.com.br/gp/help/customer/display.html?nodeId=201283950\nEsse e-mail foi enviado para amazon@oneheadhair.com. \n\n\u00a91\u200c9\u200c9\u200c7\u200c-2026 Audible, Inc. Audible e a logomarca Audible s\u00e3o marcas comerciais da Audible, Inc e suas afiliadas. Amazon Servi\u00e7os de Varejo do Brasil LTDA. Av Presidente Juscelino Kubitschek, n\u00ba 2041, Andar 18 20 21 22 E 23 Lado A Torre E, CEP 04.543-011, Vila Nova Concei\u00e7\u00e3o, S\u00e3o Paulo \u2013 SP \u2013 Brasil. Todos os direitos reservados. N\u00famero de refer\u00eancia do email: 1133186740",
+        "createdate": "2026-02-09T16:06:51Z",
+        "hs_lastmodifieddate": "2026-04-13T07:51:25.087Z",
+        "hs_object_id": "41299906111",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "",
+        "subject": "N\u00e3o conseguimos cobrar a mensalidade da sua assinatura Audible"
+      },
+      "createdAt": "2026-02-09T16:06:51Z",
+      "updatedAt": "2026-04-13T07:51:25.087Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/41299906111"
+    },
+    {
+      "id": "41196265039",
+      "properties": {
+        "content": "Hello 003Kf00002AyUolIAF, <br/><br/>\nWe have received your request and a new case #67770453 has been opened.\nIf you have any questions or require assistance, please reply to this email to contact Google Workspace Support.<br/>\n <a href=\"\"></a><br/>\nThanks for choosing Google Workspace.\n<br/><br/>\n\u2014The Google Team<br/>\n<font color=\"white\">[ref:_00Df423Flu._500Kfp9tvL:ref]</font>\n                          <b>CAUTION:</b> Google will never call or offer to fix an account issue without a contact by you first. This request was created using a publicly available form. If this was not initiated by you, please ignore this message and do not respond.",
+        "createdate": "2026-02-09T16:22:32Z",
+        "hs_lastmodifieddate": "2026-04-13T07:51:25.087Z",
+        "hs_object_id": "41196265039",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "",
+        "subject": "Google Workspace Support #67770453: The user is unable to send emails from their Google Workspace account."
+      },
+      "createdAt": "2026-02-09T16:22:32Z",
+      "updatedAt": "2026-04-13T07:51:25.087Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/41196265039"
+    },
+    {
+      "id": "41225174095",
+      "properties": {
+        "content": "\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f\u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f\u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f\u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f\u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f\u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f\u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f\u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f\u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f\u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f\u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f\u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f\u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f\u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f\u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f\u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f\u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad\n\u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad\u00a0\u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f\u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f\u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f\u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f\u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f\u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f\u2007\u034f \u2007\u034f \u2007\u034f\n\u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f\u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f\u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f\u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f\u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f\u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f\u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f\u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f\u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f\u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f \u2007\u034f\u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad\n\u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad \u00ad\u00a0\n\nHi there,\n\nFirst round of 2026 updates are in! This release helps Notion fit into your world even better. Work on the go, choose your AI models, and track what matters to your team.\n\n**************************\nAI Meeting Notes on mobile\n**************************\n\nAI Meeting Notes on mobile ( https://www.notion.com/mobile?utm_campaign=What%27s+New+3.2&utm_campaignid=939&utm_campaigntype=seg_attr&utm_content=Email+1&utm_medium=email_action&utm_source=customer.io )\n\nWhether you\u2019re joining a call while commuting, brainstorming on your morning walk, or meeting without laptops, everything just works on mobile the way you\u2019d hope. Start transcribing in one tap (even when you switch apps or lock your screen) and summarize everything in a shareable doc. Not on mobile yet? Get the Notion app here ( https://www.notion.com/mobile?utm_campaign=What%27s+New+3.2&utm_campaignid=939&utm_campaigntype=seg_attr&utm_content=Email+1&utm_medium=email_action&utm_source=customer.io ).\n\n******************************\nYour Agent fits in your pocket\n******************************\n\nYour Agent fits in your pocket ( https://x.com/akothari/status/2007140306677055931?s=20&utm_campaign=What%27s+New+3.2&utm_campaignid=939&utm_campaigntype=seg_attr&utm_content=Email+1&utm_medium=email_action&utm_source=customer.io )\n\nEverything your Notion Agent can do on desktop, it now does on your phone. Build forms, create databases, search your company\u2019s brain. Think of an item on your to-do list, hand it off to your agent, and it will work in the background while you move onto your next task. No more waiting. Here\u2019s a live demo ( https://x.com/akothari/status/2007140306677055931?s=20&utm_campaign=What%27s+New+3.2&utm_campaignid=939&utm_campaigntype=seg_attr&utm_content=Email+1&utm_medium=email_action&utm_source=customer.io ) of what Notion Agent\ncan do.\n\n***********************\nNew models, same memory\n***********************\n\nNew models, same memory ( http://notion.so/?utm_campaign=What%27s+New+3.2&utm_campaignid=939&utm_campaigntype=seg_attr&utm_content=Email+1&utm_medium=email_action&utm_source=customer.io )\n\nWhen a new model drops, it\u2019s ready in Notion. You can now pick from GPT-5.2, Claude Opus 4.5, or Gemini 3. Or let Auto select the best model for the job. Switch between them freely while your context stays with you. Models will continue to change, but your memory in Notion doesn\u2019t.\n\n***************************************\nUnderstand how your team uses Notion AI\n***************************************\n\nUnderstand how your team uses Notion AI ( http://notion.so/?utm_campaign=What%27s+New+3.2&utm_campaignid=939&utm_campaigntype=seg_attr&utm_content=Email+1&utm_medium=email_action&utm_source=customer.io )\n\nEnterprise admins now have clear visibility into AI usage over time. See who\u2019s using it most, which features drive engagement, and where AI delivers value. Go to Settings \u2192 Analytics \u2192 AI to access. More insights coming soon.\n\n****************\nPeople Directory\n****************\n\nPeople Directory ( https://www.notion.com/help/people-directory?utm_campaign=What%27s+New+3.2&utm_campaignid=939&utm_campaigntype=seg_attr&utm_content=Email+1&utm_medium=email_action&utm_source=customer.io )\n\nThe new People Directory shows everyone in your workspace. It\u2019s a pre-built database you can customize or import from HR systems (learn more ( https://www.notion.com/help/people-directory?utm_campaign=What%27s+New+3.2&utm_campaignid=939&utm_campaigntype=seg_attr&utm_content=Email+1&utm_medium=email_action&utm_source=customer.io )). Check it out by searching for \u201cPeople\u201d or go to Settings \u2192 Members \u2192 View People Directory (it\u2019s on the top right).\n\n**************************\nDo more with Notion & Jira\n**************************\n\nDo more with Notion & Jira ( https://www.notion.com/help/jira?utm_campaign=What%27s+New+3.2&utm_campaignid=939&utm_campaigntype=seg_attr&utm_content=Email+1&utm_medium=email_action&utm_source=customer.io )\n\nThe improved Jira integration ( https://www.notion.com/help/jira?utm_campaign=What%27s+New+3.2&utm_campaignid=939&utm_campaigntype=seg_attr&utm_content=Email+1&utm_medium=email_action&utm_source=customer.io ) is for teams where engineers live in Jira, but everyone else plans in Notion. Sync development work from Jira, then add your own Notion properties right alongside it\u2014quarterly goals, customer feedback, revenue impact. Build dashboards that combine both, so you see the full picture. On Enterprise, edit key Jira fields directly from Notion and sync changes back automatically.\n\n****************************\nMulti-account on Notion Mail\n****************************\n\nMulti-account on Notion Mail ( https://www.notion.com/help/get-started-with-notion-mail?utm_campaign=What%27s+New+3.2&utm_campaignid=939&utm_campaigntype=seg_attr&utm_content=Email+1&utm_medium=email_action&utm_source=customer.io#download-notion-mail )\n\nManage multiple email addresses under one Notion account. Switch between personal and work inboxes easily. A lot of you have been waiting for this one, so thank you for your patience. We hope you give Notion Mail a try ( https://www.notion.com/help/get-started-with-notion-mail?utm_campaign=What%27s+New+3.2&utm_campaignid=939&utm_campaigntype=seg_attr&utm_content=Email+1&utm_medium=email_action&utm_source=customer.io#download-notion-mail )!\n\n*****************\nMore improvements\n*****************\n\n* Big desktop performance improvements: Pages on Windows open 27% faster, Mac desktop is up +11%.This chart ( https://x.com/ivanhzhao/status/2001834160198197305?s=20&utm_campaign=What%27s+New+3.2&utm_campaignid=939&utm_campaigntype=seg_attr&utm_content=Email+1&utm_medium=email_action&utm_source=customer.io ) is one of our most meaningful from 2025. It shows pages now load in one third less time. And we\u2019ll keep improving!\n* Hide Calendar panel: You can hide the context panel now for a full view of your calendar (see the demo ( https://x.com/NotionCalendar/status/1995939070154080553?s=20&utm_campaign=What%27s+New+3.2&utm_campaignid=939&utm_campaigntype=seg_attr&utm_content=Email+1&utm_medium=email_action&utm_source=customer.io )).\n* Mail to Notion pages: Save emails directly to Notion pages for project documentation and reference.\n* In-page find knows diacritics: Searching on a page for words with accents like \u201ccaf\u00e9\u201d or \u201cna\u00efve\u201d now works exactly how you\u2019d expect.\n* Confetti effect in automations: Add a little celebration for your automations \u2014 like this ( https://www.linkedin.com/posts/matthiasfrankprofile_so-i-guess-this-just-happened-notion-activity-7407336436582068224-Yzh3?utm_source=share&utm_medium=member_desktop&rcm=ACoAAASwbfgBDD6e1rYFMC4ggWjFn4pUkVaN0Vw&utm_campaign=What%27s+New+3.2&utm_campaignid=939&utm_campaigntype=seg_attr&utm_content=Email+1&utm_medium=email_action&utm_source=customer.io )!\n* Notion MCP improvements for Enterprise: Track MCP activity in audit logs and query multiple databases. Soon, you\u2019ll also be able to control which external AI tools can connect to your workspace.\n\nThanks for being with us. Big year ahead.\n\nIvan\n\nP.S. Last year brought Agents, AI Notes, Enterprise Search, offline mode, database permissions, and 90+ features. Here\u2019s a database with everything released in 2025 ( https://notion.notion.site/2025?utm_campaign=What%27s+New+3.2&utm_campaignid=939&utm_campaigntype=seg_attr&utm_content=Email+1&utm_medium=email_action&utm_source=customer.io ).\n\nWrite, plan, organize.\nIn one AI-powered workspace.\n\nNotion ( https://www.notion.so/?utm_campaign=What%27s+New+3.2&utm_campaignid=939&utm_campaigntype=seg_attr&utm_content=Email+1&utm_medium=email_action&utm_source=customer.io )\nNotion Calendar ( https://www.notion.com/product/calendar?utm_campaign=What%27s+New+3.2&utm_campaignid=939&utm_campaigntype=seg_attr&utm_content=Email+1&utm_medium=email_action&utm_source=customer.io )\nNotion Mail ( https://www.notion.com/product/mail?utm_campaign=What%27s+New+3.2&utm_campaignid=939&utm_campaigntype=seg_attr&utm_content=Email+1&utm_medium=email_action&utm_source=customer.io )\n\n685 Market Street, San Francisco, CA 94105\n\nDon't want this kind of email? Unsubscribe from Product Updates and Releases ( https://track.customer.io/unsubscribe/dgTv2AULAL3MqX28zKl9AZxDOtrzkh6e_LjI3vBcFA== ).\nManage preferences ( https://track.customer.io/manage_subscription_preferences/dgTv2AULAL3MqX28zKl9AZxDOtrzkh6e_LjI3vBcFA== )\u2003Privacy Policy ( https://www.notion.so/notion/Privacy-Policy-3468d120cf614d4c9014c09f6adc9091?utm_campaign=What%27s+New+3.2&utm_campaignid=939&utm_campaigntype=seg_attr&utm_content=Email+1&utm_medium=email_action&utm_source=customer.io )\u2003View in browser ( https://track.customer.io/deliveries/dgTv2AULAL3MqX28zKl9AZxDOtrzkh6e_LjI3vBcFA== )",
+        "createdate": "2026-02-09T16:27:40Z",
+        "hs_lastmodifieddate": "2026-04-13T07:51:25.087Z",
+        "hs_object_id": "41225174095",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "",
+        "subject": "Notion 3.2"
+      },
+      "createdAt": "2026-02-09T16:27:40Z",
+      "updatedAt": "2026-04-13T07:51:25.087Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/41225174095"
+    },
+    {
+      "id": "41210163513",
+      "properties": {
+        "content": "Hi Vincent,\n\nThank you so much for applying to the Framer Switch program! We truly\nappreciate your interest and the time you took to share your project with\nus.\n\nAfter reviewing your application, we\u2019ve determined you\u2019d be a better fit to\nwork directly with one of our Experts. You can find an Expert that fits\nyour needs here <https://www.framer.com/experts/>!\n\nBest,\n\nKai\n\n\n-- \nKai Jarmon\nEnterprise Marketing Sites @ Framer",
+        "createdate": "2026-02-09T17:00:06Z",
+        "hs_lastmodifieddate": "2026-04-13T07:51:25.087Z",
+        "hs_object_id": "41210163513",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "",
+        "subject": "Your Framer Switch Application"
+      },
+      "createdAt": "2026-02-09T17:00:06Z",
+      "updatedAt": "2026-04-13T07:51:25.087Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/41210163513"
+    },
+    {
+      "id": "41280075862",
+      "properties": {
+        "content": "Hi Vincent, \n\nGood news! You can now connect [Uncat](http://www.uncat.com) with [Karbon](https://karbonhq.com/) practice management software. \n\n\ud83d\ude3b Import receipts from Karbon to Uncat. (i.e. Upload receipts to Karbon and Uncat will match them to transactions in QuickBooks Online.)\n\n\ud83d\ude3b Sync Uncat updates to Karbon timeline notes. (i.e. \u201cAcme just updated 17 transactions.\u201d)\n\n\ud83d\ude3b Create Karbon work items based on Uncat activity triggers. (i.e. When a client updates transactions in Uncat, create a work item for the assigned accountant user to categorize the transactions.)\n\nLearn more in our [Guide to Uncat + Karbon](https://support.uncat.com/help/articles/8857618-uncat-and-karbon-integration).\n\nTo get started, paste your Karbon Access Key into Settings in Uncat and configure it to match your preferred workflows:\n\nView image: (https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/be5b2d14-7353-4517-bf2a-a3a5827f2f8b/image.png?t=1770648646)\nCaption: \n\nHappy herding!\n\nBrandon\nChief Cat Herder, [Uncat](http://www.uncat.com)\n\nView image: (https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80/uploads/asset/file/8d2b74ea-382e-4ce6-be09-ed54337d466d/image.png?t=1768837028)\nFollow image link: (https://forms.gle/pPFH2fNzGZVQjJ659)\nCaption: \n\n\n\u2014\u2014\u2014\n\nYou are reading a plain text version of this post. For the best experience, copy and paste this link in your browser to view the post online:\nhttps://uncat.beehiiv.com/p/uncat-is-now-integrated-with-karbon",
+        "createdate": "2026-02-09T17:00:57Z",
+        "hs_lastmodifieddate": "2026-04-13T07:51:25.087Z",
+        "hs_object_id": "41280075862",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "",
+        "subject": "Uncat now integrates with Karbon"
+      },
+      "createdAt": "2026-02-09T17:00:57Z",
+      "updatedAt": "2026-04-13T07:51:25.087Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/41280075862"
+    },
+    {
+      "id": "41340160107",
+      "properties": {
+        "content": "Hello there, Thank you for contacting the Google Workspace Support team. This is an automated email to confirm support case 67770453 has been created from your recent chat. If you have anything additional you would like to add, simply reply to this email. Here are some details about your case: Subject: The user is unable to send emails from their Google Workspace account. Chat transcript: Chat started: Mon, 9 Feb 2026 21:52:33 +0530 Google Workspace Support, Kolla: Thank you for contacting Google Workspace Support. My name is Kolla and I'll be working with you today. While I read over your message, is there anything else you'd like to add? Before sharing any details, please make sure to remove any sensitive information (e.g., credit card numbers, passwords, or Government ID information). Google Workspace Support, Kolla: Hello, I hope you're doing well. Vincent Laroche: Hello Kolla Google Workspace Support, Kolla: Hello Vincent, thank you for your message. Google Workspace Support, Kolla: Upon checking, it seems you are unable to send emails from the Google workspace accounts. Is that right? Vincent Laroche: I recently merged two other workspace into one (this one) and I decided to start using another domain to continue with this current workspace but I think this caused issues regarding my email account (sending only, reciving is okay) Vincent Laroche: Situation: Workspace 1 Before: vincent.laroche@oneheadhair.com Primary domain: oneheadhair.com Now: vincent@hairsolutions.co Primary domain: hairsolutions.co Workspace 2 Before: info@hairsolutions.co Now: Workspace closed Workspace 3 Before: info@vincentselects.com Now: Workspace closed Vincent Laroche: I've been unable to send emails since I did the change of primary domains Vincent Laroche: Customer attached CleanShot 2026-02-09 at 12.19.27.png: https://support.cloud.google.com/attachments/download/6184789483884026768 Vincent Laroche: All my sent emails bounce and fail like this Google Workspace Support, Kolla: We sincerely apologize for the inconvenience, please be rest assured we will investigate this and find the root cause of the issue. If I understand the issue correctly, you are unable to send emails from the primary domain oneheadhair.com email addresses and receiving the above bounce back errors. Is that right? Vincent Laroche: Not exactly, I'm unable to send emails from my main and only user now associated with tis domain \"hairsolutions.co\" and this exact name: vincent@hairsolutions.co Vincent Laroche: Customer attached CleanShot 2026-02-09 at 13.30.41@2x.png: https://support.cloud.google.com/attachments/download/6269657352695394872 Vincent Laroche: Customer attached CleanShot 2026-02-09 at 13.30.52@2x.png: https://support.cloud.google.com/attachments/download/185217550816754312 Vincent Laroche: Just sending you these screenshot to show you that all my domains are not reunited under one roof/workspace. My hairsolutions.co domain is set up properly as my primary domain as well Vincent Laroche: But I'm unable to send emails from vincent@hairsolutions.co Vincent Laroche: Customer attached CleanShot 2026-02-09 at 13.32.16@2x.png: https://support.cloud.google.com/attachments/download/3876839733204203664 Google Workspace Support, Kolla: Got it, thank you for sharing the screenshot. I completely understand the issue. Vincent Laroche: I have also set up the MX records correctly Google Workspace Support, Kolla: Vincent, I completely understand and we also reviewed the domain MX records (receiving) and I have reviewed the TXT records which are essential for sending and it seems the Google SPF and DMARC are updated and only the DKIM record is not updated but the error is showing a different error of SMTP relay. We are investigating on this, would you please allow me for 4-5 minutes here. Google Workspace Support, Kolla: Would you please login to the incognito window once and login to the Gmail interface of vincent@hairsolutions.co and please try to send an email once. Vincent Laroche: Of course Vincent Laroche: Customer attached CleanShot 2026-02-09 at 13.37.14.png: https://support.cloud.google.com/attachments/download/3011263096504861192 Vincent Laroche: My Cloudflare DNS settings if it's helpful Google Workspace Support, Kolla: Thank you so much, Vincent. In the meantime, would you please help us with the message header of the email which has been sent originally for us to investigate. Vincent Laroche: Customer attached CleanShot 2026-02-09 at 13.38.24.png: https://support.cloud.google.com/attachments/download/8997264731026334056 Google Workspace Support, Kolla: Thank you for sharing the screenshot. I completely understand that you are unable to send emails from the workspace email account. We will investigate on this issue, would you please help me with the message header of the email to analyse it. Google Workspace Support, Kolla: 1. Log in to Gmail. 2. Go to your sent box, open the email 3. Click the three dot icon next to \u201cReply\u201d, at the top right of the message. 4. Select \u201cShow Original\u201d. 5. The full headers will appear in a new window. 6. Select \u201cDownload original\u201d 7. Paste it over our chat. Help article for message header : https://support.google.com/mail/answer/29436 Vincent Laroche: Customer attached CleanShot 2026-02-09 at 13.43.48.png: https://support.cloud.google.com/attachments/download/395064446011063056 Vincent Laroche: MIME-Version: 1.0 Date: Mon, 9 Feb 2026 12:18:57 -0300 Message-ID: Subject: TEst From: Vincent Laroche To: vincent.laroche.br@gmail.com Content-Type: multipart/alternative; boundary=\"0000000000006b1156064a65a866\" --0000000000006b1156064a65a866 Content-Type: text/plain; charset=\"UTF-8\" This is a test --0000000000006b1156064a65a866 Content-Type: text/html; charset=\"UTF-8\" This is a test --0000000000006b1156064a65a866-- Google Workspace Support, Kolla: Thank you for sharing the message header/screenshot, I will go ahead and analyse it. Would you please allow me for 4-5 minutes here. Vincent Laroche: of course Vincent Laroche: thanks Google Workspace Support, Kolla: Thank you so much for allowing me to check on this, Vincent. Upon checking the email is getting bounced due to a rule triggered \"Outbound Gateway\" which is created under your Google workspace account. Would you please login to the Google admin console and navigate to Home>Apps>Google Workspace>Gmail>Routing. Vincent Laroche: IM there Google Workspace Support, Kolla: Under the Routing setting, would you please click on the Outbound gateway and you will be able to see \"smtp-relay.gmail.com\" which is set up to route the sending emails from this servers. Vincent Laroche: Customer attached CleanShot 2026-02-09 at 13.49.15.png: https://support.cloud.google.com/attachments/download/4883774730012168720 Vincent Laroche: This is the problem right? Google Workspace Support, Kolla: Would you please let us know why it is added under the Outbound Gateway, did you have any reason behind adding it over there? Google Workspace Support, Kolla: Yes, Vincent. This set up is required when you want to Route outgoing emails to the following SMTP server. Vincent Laroche: I modified it when I was trying to send emails on behalf of another workspace account Vincent Laroche: Before I decided to merge my three workspace into one Google Workspace Support, Kolla: Thank you for sharing the screenshots. I see, would you please delete it from there and save the changes and try to send an email and check once. Google Workspace Support, Kolla: I completely understand it, I would request you to delete it under the Outbound gateway to route the emails from the SMTP server. Vincent Laroche: This seems to have fixed the issue, thank you so much for your help Vincent Laroche: I might have another question if you dont mind Google Workspace Support, Kolla: Sure, please go ahead and also I would like to inform you that the changes made on the Google admin console would take up to 24 hours to propagate on the servers but it seems the changes has been reflected. Vincent Laroche: Customer attached CleanShot 2026-02-09 at 13.53.30.png: https://support.cloud.google.com/attachments/download/5897125662388165384 Google Workspace Support, Kolla: Sure, please go ahead. I will be happy to help! Vincent Laroche: Customer attached CleanShot 2026-02-09 at 13.53.39.png: https://support.cloud.google.com/attachments/download/3466104026850429080 Vincent Laroche: I'm not sure I have set up the DKIM correctly, I'm unable to authenticate Vincent Laroche: Customer attached CleanShot 2026-02-09 at 13.54.58.png: https://support.cloud.google.com/attachments/download/7391168184612485504 Google Workspace Support, Kolla: Thank you for sharing the screenshot. It seems the DKIM is generated, would you please let us know if you have updated it on the domain DNS host page? Google Workspace Support, Kolla: Thank you for sharing the screenshots. Please access the host site and click on \"Add new record \"select the record type as TXT. Google Workspace Support, Kolla: Record type should be TXT, host/name should be Google._domainkey Vincent Laroche: Do I need to update it at the registrant where I purchased the domain? Cloudflare \"manages\" it but the Nameservers are somewhere else. Is it related? Google Workspace Support, Kolla: Yes, you need to update it in the Cloudflare host site as it manages the Name servers of this domain. Vincent Laroche: Customer attached CleanShot 2026-02-09 at 13.57.26.png: https://support.cloud.google.com/attachments/download/1314353164176867376 Vincent Laroche: This TXT ? Google Workspace Support, Kolla: Please follow these steps to update the DKIM key in the Cloudflare host site : 1.Select the record type as TXT, 2.host/name: google._domainkey 3.Please Paste the entire copied text under the Value section. 4.Under TTL : 3600 or 1 Hour. (If you have this option) Google Workspace Support, Kolla: Yes, the record type should be TXT and the name should be given as Google._domainkey Google Workspace Support, Kolla: Thank you for sharing the screenshots, Vincent. Vincent Laroche: Customer attached CleanShot 2026-02-09 at 14.00.35.png: https://support.cloud.google.com/attachments/download/7816549209598040200 Vincent Laroche: Customer attached CleanShot 2026-02-09 at 14.00.00.png: https://support.cloud.google.com/attachments/download/3760992098698359120 Vincent Laroche: So this domain was purchased on atom.com Vincent Laroche: And will not be released until I finish paying it in 2 years. But I manage it through CLoudflare. Vincent Laroche: I'm explaining it just in case things need to be done on atom instead of cloudflare Google Workspace Support, Kolla: Thank you for sharing the screenshots. I completely understand it, Vincent. Google Workspace Support, Kolla: Please login to the Cloudflare and update the record under TXT. Vincent Laroche: Which one exactly? Google Workspace Support, Kolla: Please access the Cloudflare host site and hover to the DNS management page where you are able to see \"Add record\" and then please select the record type as TXT. Google Workspace Support, Kolla: Host should be given as Google._domainkey Vincent Laroche: I have this one, it's incorrect? Vincent Laroche: Customer attached CleanShot 2026-02-09 at 14.06.35@2x.png: https://support.cloud.google.com/attachments/download/7023809308826220464 Google Workspace Support, Kolla: Thank you for sharing it, it seems you have updated it with incorrect host field. Could you please give the host as Google._domainkey Google Workspace Support, Kolla: The name field is given incorrect as per the screenshot. Vincent Laroche: Okay and what about the content? Google Workspace Support, Kolla: Yes, could you please let us know if you have copied and pasted the entire key which is generated on the Google admin console. Vincent Laroche: Customer attached CleanShot 2026-02-09 at 14.08.41@2x.png: https://support.cloud.google.com/attachments/download/8510868548797575752 Vincent Laroche: This is what I need to put in the TXT Content part correct? Google Workspace Support, Kolla: Thank you for sharing the screenshots. Google Workspace Support, Kolla: Yes, exactly. The entire key should be copied and given under the Content. v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuorLZc4LmvG8BV/gdIPhv61G0vebLb4vQehM6nrF8O9QqYLagcajyT/Mw4ZhcUDCWY+7ttW1gmX4EUPoBjqAirWaSj/KxkFvu34wPQbqFmgTiFpyV9wtKYTFXBZKVAiVnM7bO0LKIoDrc3YDYKlSORWx2pE1a0nlaK0wN7cLioatCn5UfNn3dNg7L3YOiCYwYvTh8vHd3la1Dl6ZEROm5koVHqeezAy3rrQMQFRzWBQWHzQo3l8Bw9cmCvRnRpkwGT1pAK6dcmWMs2DkW/t4W9VMgLvto7hX6prxrxJEQOo5qVwRW4s9FQlVq9qWRib6JHlPteL/BXsG+lM1J0Q7qQIDAQAB Vincent Laroche: Customer attached CleanShot 2026-02-09 at 14.11.02@2x.png: https://support.cloud.google.com/attachments/download/7595802614895098528 Vincent Laroche: Done Google Workspace Support, Kolla: Thank you for sharing, please come back to the Google admin console and refresh the admin console page and click on \"Start authentication\". Google Workspace Support, Kolla: The status should be changed to \"Stop authentication\". Google Workspace Support, Kolla: Could you please check once. Google Workspace Support, Kolla: Help Article on Google DKIM record : https://support.google.com/a/answer/174124?hl=en&src=supportwidget0&authuser=0 Vincent Laroche: Google admin console and refresh the admin console page and click on \"Start authentication\". I did this just now Google Workspace Support, Kolla: Got it, would you please check if the status is changed now? Vincent Laroche: Customer attached CleanShot 2026-02-09 at 14.13.18@2x.png: https://support.cloud.google.com/attachments/download/9107507957760985008 Google Workspace Support, Kolla: Perfect, it seems the DKIM is correctly updated and propagated now. Please allow the changes to propagate globally on the serves which would take upto 24-48 hours on the servers. Google Workspace Support, Kolla: Thank you for sharing the screenshot, Vincent. Vincent Laroche: Sounds good, would you recommend that I don't send my marketing campaign of 500 emails today? Vincent Laroche: I should have a \"slow start' for 2-3 days I believe correct? Emailing safe contacts that have a good chance of replying first? To gain authority is that correct? Google Workspace Support, Kolla: As I checked your Google workspace account is not in trail where you will be able to send emails upto 2000 per day but this email sending limit will depends on how you are sending emails. We would suggest you not to send any bulk emails at once. Yes, please send emails who are aware of the workspace account which will help you to enhance the domain reputation. Google Workspace Support, Kolla: Here is the article link for your reference : https://support.google.com/a/answer/166852?hl=en Vincent Laroche: Pardon me could you explain what you mean when you say that my workspace \"is not in trail where you will be able to send emails upto 2000 per day\" I'm not sure I uderstad Vincent Laroche: Oh you mean that I'm not a trial account Vincent Laroche: So I should be able to send up to 2000 emails Vincent Laroche: Got it Google Workspace Support, Kolla: Do not be sorry, I completely understand it. As per the process, if Google workspace account is in trail period the sending limit will be upto 500 but as I checked your Google workspace account is not in trail period where your limit is upto 2000. Vincent Laroche: But my question was not able if I will be able to, but rahter if I should or if I should not. Vincent Laroche: But you answered that already Google Workspace Support, Kolla: Thank you so much for your understanding, Vincent. Vincent Laroche: thank you so much for your support, much appreciated Google Workspace Support, Kolla: Honestly, you are one of the most patient, polite and understandable person I have ever worked with. Please tell me, if there is anything else I can help you with today? Vincent Laroche: thats all I needed for today Google Workspace Support, Kolla: I am glad to be here to assist you for today, Vincent. Google Workspace Support, Kolla: Thanks for chatting with Google Workspace Support! There's a short survey coming up and we'd love to hear your feedback about our interaction today. Have a great day! Vincent Laroche: Have a great rest of your day Google Workspace Support, Kolla: Thank you so much for your kind words, take care! Best Regards, Google Workspace Support [ref:_00Df423Flu._500Kfp9tvL:ref;] cn:67770453:cn \u00a9 2026 Google LLC 1600 Amphitheatre Parkway, Mountain View, CA 94043",
+        "createdate": "2026-02-09T17:20:11Z",
+        "hs_lastmodifieddate": "2026-04-13T07:51:25.087Z",
+        "hs_object_id": "41340160107",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "",
+        "subject": "Your chat transcript for Case #67770453"
+      },
+      "createdAt": "2026-02-09T17:20:11Z",
+      "updatedAt": "2026-04-13T07:51:25.087Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/41340160107"
+    },
+    {
+      "id": "41343102058",
+      "properties": {
+        "content": "Hello there\n\n\n",
+        "createdate": "2026-02-09T17:20:25Z",
+        "hs_lastmodifieddate": "2026-04-13T07:51:25.087Z",
+        "hs_object_id": "41343102058",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "",
+        "subject": "Re: hello"
+      },
+      "createdAt": "2026-02-09T17:20:25Z",
+      "updatedAt": "2026-04-13T07:51:25.087Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/41343102058"
+    },
+    {
+      "id": "41321598979",
+      "properties": {
+        "content": "Hello yes?\n\n",
+        "createdate": "2026-02-09T17:22:33Z",
+        "hs_lastmodifieddate": "2026-04-18T07:47:56.137Z",
+        "hs_object_id": "41321598979",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "",
+        "subject": "Re: Hello this in an important email"
+      },
+      "createdAt": "2026-02-09T17:22:33Z",
+      "updatedAt": "2026-04-18T07:47:56.137Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/41321598979"
+    },
+    {
+      "id": "41337630837",
+      "properties": {
+        "content": "Yes hello?\n\n",
+        "createdate": "2026-02-09T17:24:13Z",
+        "hs_lastmodifieddate": "2026-04-18T07:47:56.137Z",
+        "hs_object_id": "41337630837",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "",
+        "subject": "Re: Hello Hello"
+      },
+      "createdAt": "2026-02-09T17:24:13Z",
+      "updatedAt": "2026-04-18T07:47:56.137Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/41337630837"
+    },
+    {
+      "id": "41316751648",
+      "properties": {
+        "content": "Customer Feedback Survey\n\nHello Vincent,\n\nPlease complete a brief survey about your recent support case (Case\n#67770453) - it should only take a few minutes of your time.\nThe survey closes in 4 days, so let us know your thoughts soon.\n\nGoogle made it easy for me to handle my issue* Agree\n<https://google.qualtrics.com/jfe/form/SV_9n8lOeegUlYytut?Q_DL=mhAsQTlN3t4sYg2_9n8lOeegUlYytut_CGC_tTH4l2IDCIxgwxH&Q_CHL=email&Q_PopulateResponse=%7B%22QID110%22:%225%22%7D&Q_PopulateValidate=1&caseId=500Kf00000p9tvLIAQ&Q_Language=EN&cs=fd485bab6e72a9d026d72438260fb09cb3e95042&caseProductLine=Google\nWorkspace> Somewhat agree\n<https://google.qualtrics.com/jfe/form/SV_9n8lOeegUlYytut?Q_DL=mhAsQTlN3t4sYg2_9n8lOeegUlYytut_CGC_tTH4l2IDCIxgwxH&Q_CHL=email&Q_PopulateResponse=%7B%22QID110%22:%224%22%7D&Q_PopulateValidate=1&caseId=500Kf00000p9tvLIAQ&Q_Language=EN&cs=fd485bab6e72a9d026d72438260fb09cb3e95042&caseProductLine=Google\nWorkspace> Neither agree nor disagree\n<https://google.qualtrics.com/jfe/form/SV_9n8lOeegUlYytut?Q_DL=mhAsQTlN3t4sYg2_9n8lOeegUlYytut_CGC_tTH4l2IDCIxgwxH&Q_CHL=email&Q_PopulateResponse=%7B%22QID110%22:%223%22%7D&Q_PopulateValidate=1&caseId=500Kf00000p9tvLIAQ&Q_Language=EN&cs=fd485bab6e72a9d026d72438260fb09cb3e95042&caseProductLine=Google\nWorkspace> Somewhat disagree\n<https://google.qualtrics.com/jfe/form/SV_9n8lOeegUlYytut?Q_DL=mhAsQTlN3t4sYg2_9n8lOeegUlYytut_CGC_tTH4l2IDCIxgwxH&Q_CHL=email&Q_PopulateResponse=%7B%22QID110%22:%222%22%7D&Q_PopulateValidate=1&caseId=500Kf00000p9tvLIAQ&Q_Language=EN&cs=fd485bab6e72a9d026d72438260fb09cb3e95042&caseProductLine=Google\nWorkspace> Disagree\n<https://google.qualtrics.com/jfe/form/SV_9n8lOeegUlYytut?Q_DL=mhAsQTlN3t4sYg2_9n8lOeegUlYytut_CGC_tTH4l2IDCIxgwxH&Q_CHL=email&Q_PopulateResponse=%7B%22QID110%22:%221%22%7D&Q_PopulateValidate=1&caseId=500Kf00000p9tvLIAQ&Q_Language=EN&cs=fd485bab6e72a9d026d72438260fb09cb3e95042&caseProductLine=Google\nWorkspace> Google made it easy for me to handle my issue* Disagree\n<https://google.qualtrics.com/jfe/form/SV_9n8lOeegUlYytut?Q_DL=mhAsQTlN3t4sYg2_9n8lOeegUlYytut_CGC_tTH4l2IDCIxgwxH&Q_CHL=email&Q_PopulateResponse=%7B%22QID110%22:%221%22%7D&Q_PopulateValidate=1&caseId=500Kf00000p9tvLIAQ&Q_Language=EN&cs=fd485bab6e72a9d026d72438260fb09cb3e95042&caseProductLine=Google\nWorkspace> Somewhat disagree\n<https://google.qualtrics.com/jfe/form/SV_9n8lOeegUlYytut?Q_DL=mhAsQTlN3t4sYg2_9n8lOeegUlYytut_CGC_tTH4l2IDCIxgwxH&Q_CHL=email&Q_PopulateResponse=%7B%22QID110%22:%222%22%7D&Q_PopulateValidate=1&caseId=500Kf00000p9tvLIAQ&Q_Language=EN&cs=fd485bab6e72a9d026d72438260fb09cb3e95042&caseProductLine=Google\nWorkspace> Neither agree nor disagree\n<https://google.qualtrics.com/jfe/form/SV_9n8lOeegUlYytut?Q_DL=mhAsQTlN3t4sYg2_9n8lOeegUlYytut_CGC_tTH4l2IDCIxgwxH&Q_CHL=email&Q_PopulateResponse=%7B%22QID110%22:%223%22%7D&Q_PopulateValidate=1&caseId=500Kf00000p9tvLIAQ&Q_Language=EN&cs=fd485bab6e72a9d026d72438260fb09cb3e95042&caseProductLine=Google\nWorkspace> Somewhat agree\n<https://google.qualtrics.com/jfe/form/SV_9n8lOeegUlYytut?Q_DL=mhAsQTlN3t4sYg2_9n8lOeegUlYytut_CGC_tTH4l2IDCIxgwxH&Q_CHL=email&Q_PopulateResponse=%7B%22QID110%22:%224%22%7D&Q_PopulateValidate=1&caseId=500Kf00000p9tvLIAQ&Q_Language=EN&cs=fd485bab6e72a9d026d72438260fb09cb3e95042&caseProductLine=Google\nWorkspace> Agree\n<https://google.qualtrics.com/jfe/form/SV_9n8lOeegUlYytut?Q_DL=mhAsQTlN3t4sYg2_9n8lOeegUlYytut_CGC_tTH4l2IDCIxgwxH&Q_CHL=email&Q_PopulateResponse=%7B%22QID110%22:%225%22%7D&Q_PopulateValidate=1&caseId=500Kf00000p9tvLIAQ&Q_Language=EN&cs=fd485bab6e72a9d026d72438260fb09cb3e95042&caseProductLine=Google\nWorkspace>\n\n\n\n\n\nIf you still need assistance with this issue, please reply to this email to\nreopen your case and I'll be happy to help.\n\nTake Survey\n<https://google.qualtrics.com/jfe/form/SV_9n8lOeegUlYytut?Q_DL=mhAsQTlN3t4sYg2_9n8lOeegUlYytut_CGC_tTH4l2IDCIxgwxH&Q_CHL=email&caseId=500Kf00000p9tvLIAQ&Q_Language=EN&cs=fd485bab6e72a9d026d72438260fb09cb3e95042&caseProductLine=Google\nWorkspace>\n\nSincerely,\nGoogle Workspace Support\nref:_00Df423Flu._500Kfp9tvL:ref \u00a9 2026 Google LLC 1600 Amphitheatre Parkway,\nMountain View, CA 94043",
+        "createdate": "2026-02-09T17:29:01Z",
+        "hs_lastmodifieddate": "2026-04-13T07:51:25.087Z",
+        "hs_object_id": "41316751648",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "",
+        "subject": "[The user is unable to send emails from their Google Workspace account.] Your feedback matters for case #67770453"
+      },
+      "createdAt": "2026-02-09T17:29:01Z",
+      "updatedAt": "2026-04-13T07:51:25.087Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/41316751648"
+    },
+    {
+      "id": "41319278470",
+      "properties": {
+        "content": "( https://www.notion.so/?utm_campaign=HDYHAN+-+Core+-+2024&utm_campaignid=420&utm_campaigntype=transactional&utm_content=Email+1+-+D&utm_medium=email_action&utm_source=customer.io )\n\nHi Vincent,\n\nThanks so much for signing up for Notion. Could you let us know where you first heard about us? Your response helps us better serve our community.\n\nPlease choose one of the options below. You\u2019ll be routed to the form to submit your answer.\n\nHow did you first hear about Notion?\n\nA ( https://notionup.typeform.com/to/GEMwLr6X?typeform-medium=embed-email&utm_campaign=HDYHAN+-+Core+-+2024&utm_campaignid=420&utm_campaigntype=transactional&utm_content=Email+1+-+D&utm_medium=email_action&utm_source=customer.io#email=vincent.laroche@oneheadhair.com&answers-01HRSQKB52Z4N5WHQ63CCYHP5N=536f8f9f-419b-40eb-b3a7-bdd7ccf924ff )\n\nInfluencer ( https://notionup.typeform.com/to/GEMwLr6X?typeform-medium=embed-email&utm_campaign=HDYHAN+-+Core+-+2024&utm_campaignid=420&utm_campaigntype=transactional&utm_content=Email+1+-+D&utm_medium=email_action&utm_source=customer.io#email=vincent.laroche@oneheadhair.com&answers-01HRSQKB52Z4N5WHQ63CCYHP5N=536f8f9f-419b-40eb-b3a7-bdd7ccf924ff )\n\nB ( https://notionup.typeform.com/to/GEMwLr6X?typeform-medium=embed-email&utm_campaign=HDYHAN+-+Core+-+2024&utm_campaignid=420&utm_campaigntype=transactional&utm_content=Email+1+-+D&utm_medium=email_action&utm_source=customer.io#email=vincent.laroche@oneheadhair.com&answers-01HRSQKB52Z4N5WHQ63CCYHP5N=ec5e082e-5091-42f5-8f0d-deba9ec4fe4e )\n\nFriend or family ( https://notionup.typeform.com/to/GEMwLr6X?typeform-medium=embed-email&utm_campaign=HDYHAN+-+Core+-+2024&utm_campaignid=420&utm_campaigntype=transactional&utm_content=Email+1+-+D&utm_medium=email_action&utm_source=customer.io#email=vincent.laroche@oneheadhair.com&answers-01HRSQKB52Z4N5WHQ63CCYHP5N=ec5e082e-5091-42f5-8f0d-deba9ec4fe4e )\n\nC ( https://notionup.typeform.com/to/GEMwLr6X?typeform-medium=embed-email&utm_campaign=HDYHAN+-+Core+-+2024&utm_campaignid=420&utm_campaigntype=transactional&utm_content=Email+1+-+D&utm_medium=email_action&utm_source=customer.io#email=vincent.laroche@oneheadhair.com&answers-01HRSQKB52Z4N5WHQ63CCYHP5N=01HRSQKB52DB56KRYYD8YV6KZ0 )\n\nCoworker ( https://notionup.typeform.com/to/GEMwLr6X?typeform-medium=embed-email&utm_campaign=HDYHAN+-+Core+-+2024&utm_campaignid=420&utm_campaigntype=transactional&utm_content=Email+1+-+D&utm_medium=email_action&utm_source=customer.io#email=vincent.laroche@oneheadhair.com&answers-01HRSQKB52Z4N5WHQ63CCYHP5N=01HRSQKB52DB56KRYYD8YV6KZ0 )\n\nD ( https://notionup.typeform.com/to/GEMwLr6X?typeform-medium=embed-email&utm_campaign=HDYHAN+-+Core+-+2024&utm_campaignid=420&utm_campaigntype=transactional&utm_content=Email+1+-+D&utm_medium=email_action&utm_source=customer.io#email=vincent.laroche@oneheadhair.com&answers-01HRSQKB52Z4N5WHQ63CCYHP5N=01HRSQKB52M1XBRRTEY8Y06NWY )\n\nPodcast / Radio / Spotify / Audio ( https://notionup.typeform.com/to/GEMwLr6X?typeform-medium=embed-email&utm_campaign=HDYHAN+-+Core+-+2024&utm_campaignid=420&utm_campaigntype=transactional&utm_content=Email+1+-+D&utm_medium=email_action&utm_source=customer.io#email=vincent.laroche@oneheadhair.com&answers-01HRSQKB52Z4N5WHQ63CCYHP5N=01HRSQKB52M1XBRRTEY8Y06NWY )\n\nE ( https://notionup.typeform.com/to/GEMwLr6X?typeform-medium=embed-email&utm_campaign=HDYHAN+-+Core+-+2024&utm_campaignid=420&utm_campaigntype=transactional&utm_content=Email+1+-+D&utm_medium=email_action&utm_source=customer.io#email=vincent.laroche@oneheadhair.com&answers-01HRSQKB52Z4N5WHQ63CCYHP5N=6f4486c9-8a01-4a06-af61-d38cef50d18a )\n\nYoutube ad ( https://notionup.typeform.com/to/GEMwLr6X?typeform-medium=embed-email&utm_campaign=HDYHAN+-+Core+-+2024&utm_campaignid=420&utm_campaigntype=transactional&utm_content=Email+1+-+D&utm_medium=email_action&utm_source=customer.io#email=vincent.laroche@oneheadhair.com&answers-01HRSQKB52Z4N5WHQ63CCYHP5N=6f4486c9-8a01-4a06-af61-d38cef50d18a )\n\nC ( https://notionup.typeform.com/to/GEMwLr6X?typeform-medium=embed-email&utm_campaign=HDYHAN+-+Core+-+2024&utm_campaignid=420&utm_campaigntype=transactional&utm_content=Email+1+-+D&utm_medium=email_action&utm_source=customer.io#email=vincent.laroche@oneheadhair.com&answers-01HRSQKB52Z4N5WHQ63CCYHP5N=6d3bc72e-4ccd-48a5-9574-333eaa353940 )\n\nBillboard / Poster ( https://notionup.typeform.com/to/GEMwLr6X?typeform-medium=embed-email&utm_campaign=HDYHAN+-+Core+-+2024&utm_campaignid=420&utm_campaigntype=transactional&utm_content=Email+1+-+D&utm_medium=email_action&utm_source=customer.io#email=vincent.laroche@oneheadhair.com&answers-01HRSQKB52Z4N5WHQ63CCYHP5N=6d3bc72e-4ccd-48a5-9574-333eaa353940 )\n\nG ( https://notionup.typeform.com/to/GEMwLr6X?typeform-medium=embed-email&utm_campaign=HDYHAN+-+Core+-+2024&utm_campaignid=420&utm_campaigntype=transactional&utm_content=Email+1+-+D&utm_medium=email_action&utm_source=customer.io#email=vincent.laroche@oneheadhair.com&answers-01HRSQKB52Z4N5WHQ63CCYHP5N=0c5f1796-e83e-4129-8bd8-c4e6175c94fb )\n\nLinkedIn ( https://notionup.typeform.com/to/GEMwLr6X?typeform-medium=embed-email&utm_campaign=HDYHAN+-+Core+-+2024&utm_campaignid=420&utm_campaigntype=transactional&utm_content=Email+1+-+D&utm_medium=email_action&utm_source=customer.io#email=vincent.laroche@oneheadhair.com&answers-01HRSQKB52Z4N5WHQ63CCYHP5N=0c5f1796-e83e-4129-8bd8-c4e6175c94fb )\n\nH ( https://notionup.typeform.com/to/GEMwLr6X?typeform-medium=embed-email&utm_campaign=HDYHAN+-+Core+-+2024&utm_campaignid=420&utm_campaigntype=transactional&utm_content=Email+1+-+D&utm_medium=email_action&utm_source=customer.io#email=vincent.laroche@oneheadhair.com&answers-01HRSQKB52Z4N5WHQ63CCYHP5N=ed40148c-0732-4ce2-a867-63822cb5fe70 )\n\nYouTube video ( https://notionup.typeform.com/to/GEMwLr6X?typeform-medium=embed-email&utm_campaign=HDYHAN+-+Core+-+2024&utm_campaignid=420&utm_campaigntype=transactional&utm_content=Email+1+-+D&utm_medium=email_action&utm_source=customer.io#email=vincent.laroche@oneheadhair.com&answers-01HRSQKB52Z4N5WHQ63CCYHP5N=ed40148c-0732-4ce2-a867-63822cb5fe70 )\n\nI ( https://notionup.typeform.com/to/GEMwLr6X?typeform-medium=embed-email&utm_campaign=HDYHAN+-+Core+-+2024&utm_campaignid=420&utm_campaigntype=transactional&utm_content=Email+1+-+D&utm_medium=email_action&utm_source=customer.io#email=vincent.laroche@oneheadhair.com&answers-01HRSQKB52Z4N5WHQ63CCYHP5N=292c4b4c-f265-4603-bd45-d2ff5c44ccd8 )\n\nSocial media (TikTok, X/Twitter, Facebook, Instagram, Snapchat) ( https://notionup.typeform.com/to/GEMwLr6X?typeform-medium=embed-email&utm_campaign=HDYHAN+-+Core+-+2024&utm_campaignid=420&utm_campaigntype=transactional&utm_content=Email+1+-+D&utm_medium=email_action&utm_source=customer.io#email=vincent.laroche@oneheadhair.com&answers-01HRSQKB52Z4N5WHQ63CCYHP5N=292c4b4c-f265-4603-bd45-d2ff5c44ccd8 )\n\nJ ( https://notionup.typeform.com/to/GEMwLr6X?typeform-medium=embed-email&utm_campaign=HDYHAN+-+Core+-+2024&utm_campaignid=420&utm_campaigntype=transactional&utm_content=Email+1+-+D&utm_medium=email_action&utm_source=customer.io#email=vincent.laroche@oneheadhair.com&answers-01HRSQKB52Z4N5WHQ63CCYHP5N=44ff957a-b40c-488c-a96a-6f463c673983 )\n\nWhile searching for something unrelated to Notion ( https://notionup.typeform.com/to/GEMwLr6X?typeform-medium=embed-email&utm_campaign=HDYHAN+-+Core+-+2024&utm_campaignid=420&utm_campaigntype=transactional&utm_content=Email+1+-+D&utm_medium=email_action&utm_source=customer.io#email=vincent.laroche@oneheadhair.com&answers-01HRSQKB52Z4N5WHQ63CCYHP5N=44ff957a-b40c-488c-a96a-6f463c673983 )\n\nThanks,\n\nThe Notion Team\n\nWrite, plan, organize.\nIn one AI-powered workspace.\n\nNotion ( https://www.notion.so/?utm_campaign=HDYHAN+-+Core+-+2024&utm_campaignid=420&utm_campaigntype=transactional&utm_content=Email+1+-+D&utm_medium=email_action&utm_source=customer.io )\nNotion Mail ( https://www.notion.com/product/mail?utm_campaign=HDYHAN+-+Core+-+2024&utm_campaignid=420&utm_campaigntype=transactional&utm_content=Email+1+-+D&utm_medium=email_action&utm_source=customer.io )\nNotion Calendar ( https://www.notion.com/product/calendar?utm_campaign=HDYHAN+-+Core+-+2024&utm_campaignid=420&utm_campaigntype=transactional&utm_content=Email+1+-+D&utm_medium=email_action&utm_source=customer.io )\n\n685 Market Street, San Francisco, CA 94105\n\nDon't want this kind of email? Unsubscribe from User Research and Surveys ( https://track.customer.io/unsubscribe/dgTv2AUBALC9z3yvvc98AZxDwJaD0M7mwa3o6eApAA== ).\nManage preferences ( https://track.customer.io/manage_subscription_preferences/dgTv2AUBALC9z3yvvc98AZxDwJaD0M7mwa3o6eApAA== )\u2003Privacy Policy ( https://www.notion.so/notion/Privacy-Policy-3468d120cf614d4c9014c09f6adc9091?utm_campaign=HDYHAN+-+Core+-+2024&utm_campaignid=420&utm_campaigntype=transactional&utm_content=Email+1+-+D&utm_medium=email_action&utm_source=customer.io )\u2003View in browser ( https://track.customer.io/deliveries/dgTv2AUBALC9z3yvvc98AZxDwJaD0M7mwa3o6eApAA== )",
+        "createdate": "2026-02-09T18:53:43Z",
+        "hs_lastmodifieddate": "2026-04-13T07:51:25.087Z",
+        "hs_object_id": "41319278470",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "",
+        "subject": "Tell us how you first heard about Notion"
+      },
+      "createdAt": "2026-02-09T18:53:43Z",
+      "updatedAt": "2026-04-13T07:51:25.087Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/41319278470"
+    },
+    {
+      "id": "41311965816",
+      "properties": {
+        "content": "*|MC:SUBJECT|*\n\n*|MC_PREVIEW_TEXT|*\n\nThank you for choosing pngtree, please click on the link below to complete the verification:https://pngtree.com/call-back/reg-complete?token=1cd56af7a2b41138082d00d03b76d962 \n\nCopyright \u00a9 *|2026|* *|pngtree|*, All rights reserved.\n\nOur mailing address is:\n*info@pngtree.com*",
+        "createdate": "2026-02-09T22:13:13Z",
+        "hs_lastmodifieddate": "2026-04-13T07:51:25.087Z",
+        "hs_object_id": "41311965816",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "",
+        "subject": "E-mail verification"
+      },
+      "createdAt": "2026-02-09T22:13:13Z",
+      "updatedAt": "2026-04-13T07:51:25.087Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/41311965816"
+    },
+    {
+      "id": "42599307794",
+      "properties": {
+        "content": null,
+        "createdate": "2026-02-27T18:18:17.034Z",
+        "hs_lastmodifieddate": "2026-02-27T18:49:18.616Z",
+        "hs_object_id": "42599307794",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": null,
+        "subject": "Ticket #42599307794"
+      },
+      "createdAt": "2026-02-27T18:18:17.034Z",
+      "updatedAt": "2026-02-27T18:49:18.616Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/42599307794"
+    },
+    {
+      "id": "42774070954",
+      "properties": {
+        "content": null,
+        "createdate": "2026-03-01T00:41:39.518Z",
+        "hs_lastmodifieddate": "2026-03-03T15:18:31.876Z",
+        "hs_object_id": "42774070954",
+        "hs_pipeline": "876724543",
+        "hs_pipeline_stage": "1314062738",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": "HIGH",
+        "hubspot_owner_id": "87733525",
+        "subject": "New hair system order"
+      },
+      "createdAt": "2026-03-01T00:41:39.518Z",
+      "updatedAt": "2026-03-03T15:18:31.876Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/42774070954"
+    },
+    {
+      "id": "42774006367",
+      "properties": {
+        "content": null,
+        "createdate": "2026-03-02T21:18:14.392Z",
+        "hs_lastmodifieddate": "2026-03-02T21:22:56.665Z",
+        "hs_object_id": "42774006367",
+        "hs_pipeline": "876725568",
+        "hs_pipeline_stage": "1315418461",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "87733525",
+        "subject": "Order for Michael Augustus - 1 x Custom Hair System"
+      },
+      "createdAt": "2026-03-02T21:18:14.392Z",
+      "updatedAt": "2026-03-02T21:22:56.665Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/42774006367"
+    },
+    {
+      "id": "43292797338",
+      "properties": {
+        "content": "Any new emails sent to this address will also appear here as tickets. Choose what you'd like to do next:\n\nSend a test email\nSend yourself a test email using <a href = 'mailto:hello-345@hairsolutionsco.hs-inbox.com' style='text-decoration: underline' data-tracking-id='onboarding-ticket-email-test'>hello-345@hairsolutionsco.hs-inbox.com</a>\n\nManage email channel settings\nConfigure this channel to match your team's workflow. <a href = 'hello-345@hairsolutionsco.hs-inbox.com' target='_blank' rel='noopener' style='text-decoration: underline' data-tracking-id='onboarding-ticket-email-edit'>Manage email channel settings</a>\n\nhello-345@hairsolutionsco.hs-inbox.com",
+        "createdate": "2026-03-11T18:50:02.174Z",
+        "hs_lastmodifieddate": "2026-03-13T05:13:39.495Z",
+        "hs_object_id": "43292797338",
+        "hs_pipeline": "876724543",
+        "hs_pipeline_stage": "1314062737",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "87934435",
+        "subject": "New email channel connected to HubSpot"
+      },
+      "createdAt": "2026-03-11T18:50:02.174Z",
+      "updatedAt": "2026-03-13T05:13:39.495Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/43292797338"
+    },
+    {
+      "id": "43308484194",
+      "properties": {
+        "content": "[image: image]\n\n[image: facebook] <https://facebook.com/hairsolutions.co>[image: instagram]\n<https://instagram.com/hairsolutions.company>[image: whatsapp]\n<https://wa.me/message/R2TGDZCC55TVO1>\nVincent Laroche\n\nCEO\n\nHair Solutions Co\n\n[image: mobilePhone]\n\n+1-909-323-0084\n\n[image: emailAddress]\n\nvincent.laroche@hairsolutions.co\n\n[image: website]\n\nwww.hairsolutions.co\n\n\u200b\n\nSent with Notion Mail <https://www.notion.so/product/mail>\n\n\u200b\n\n",
+        "createdate": "2026-03-11T18:54:52.185Z",
+        "hs_lastmodifieddate": "2026-03-26T03:36:23.618Z",
+        "hs_object_id": "43308484194",
+        "hs_pipeline": "876724543",
+        "hs_pipeline_stage": "1314062740",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "87934435",
+        "subject": "FWD: Re: New hair system order"
+      },
+      "createdAt": "2026-03-11T18:54:52.185Z",
+      "updatedAt": "2026-03-26T03:36:23.618Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/43308484194"
+    },
+    {
+      "id": "43351042584",
+      "properties": {
+        "content": "Client requested guidance on density, base size, and delivery timing for order demo-1.",
+        "createdate": "2026-03-12T08:34:46.921Z",
+        "hs_lastmodifieddate": "2026-03-13T05:13:41.444Z",
+        "hs_object_id": "43351042584",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "87497028",
+        "subject": "Customer inquiry about hair system customization #1"
+      },
+      "createdAt": "2026-03-12T08:34:46.921Z",
+      "updatedAt": "2026-03-13T05:13:41.444Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/43351042584"
+    },
+    {
+      "id": "43329178930",
+      "properties": {
+        "content": "Client requested guidance on density, base size, and delivery timing for order demo-2.",
+        "createdate": "2026-03-12T08:34:47.559Z",
+        "hs_lastmodifieddate": "2026-03-13T05:13:41.904Z",
+        "hs_object_id": "43329178930",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "87497028",
+        "subject": "Customer inquiry about hair system customization #2"
+      },
+      "createdAt": "2026-03-12T08:34:47.559Z",
+      "updatedAt": "2026-03-13T05:13:41.904Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/43329178930"
+    },
+    {
+      "id": "43330879796",
+      "properties": {
+        "content": "Client requested guidance on density, base size, and delivery timing for order demo-3.",
+        "createdate": "2026-03-12T08:34:48.368Z",
+        "hs_lastmodifieddate": "2026-03-13T05:13:41.668Z",
+        "hs_object_id": "43330879796",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "87497028",
+        "subject": "Customer inquiry about hair system customization #3"
+      },
+      "createdAt": "2026-03-12T08:34:48.368Z",
+      "updatedAt": "2026-03-13T05:13:41.668Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/43330879796"
+    },
+    {
+      "id": "43562564680",
+      "properties": {
+        "content": "Hi Michael,\n\nJust touching base regarding your last message, and first, pardon my late\nreply. I was fairly busy yesterday, and I meant to get back to you sooner\ntoday.\n\nI also want to address your question directly and transparently.\n\nWe did have some issues with our previous factory. Over time, product\nquality started to decline, and we ended up returning several units. As we\nbegan reducing order volume and shifting production to a second supplier,\nwho delivers much better and more consistent quality, things became a bit\ntense with them. This new supplier does cost us more to produce with, but\nthe increased cost is absolutely worth it for clients who value consistency\nand overall quality.\n\nI have also been made aware that the previous factory has been contacting\ncustomers and presenting themselves as our official supplier. I am\ncurrently addressing this directly with them to resolve the situation\nproperly. In the meantime, you can safely ignore those communications.\nRegarding the comment about overdue payments, that is simply not accurate.\nWe pay for every order we place, and statements like that unfortunately do\nnot reflect reality.\n\nI also want to clarify something regarding your order. I did reply\npreviously about using the measurements from your current system, but it\nseems that message did not reach you. We are currently using a new\nticketing system for customer support, and there have been a few instances\nwhere emails were either routed to spam or not delivered at all. This\nappears to have been one of those cases. I apologize for that, we have\nsince resolved the issue on our end.\n\nTo confirm, yes, you can absolutely use the measurements from your current\nsystem and simply add an inch to the back. That approach works perfectly.\n\nDo you feel comfortable taking the measurements based on the diagram I\nshared? The most important ones are:\n\nfull length\nwidth at the hairline front\nwidth at the center\nwidth approximately one third to one quarter from the back\n\nIdeally, all 7 measurements would be perfect, but having the full length\nand these three widths is enough for us to accurately replicate your\ncurrent size.\n\nOnce I have those, we can move forward smoothly and keep your order\nprogressing.\n\nI appreciate you reaching out directly and your continued trust over the\nyears, Michael. I will await your reply with the measurements.\n\nBest,\nVincent\n\n\n",
+        "createdate": "2026-03-21T00:39:30.748Z",
+        "hs_lastmodifieddate": "2026-04-14T21:48:30.422Z",
+        "hs_object_id": "43562564680",
+        "hs_pipeline": "876724543",
+        "hs_pipeline_stage": "1314062740",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "87934435",
+        "subject": "Re: New Order"
+      },
+      "createdAt": "2026-03-21T00:39:30.748Z",
+      "updatedAt": "2026-04-14T21:48:30.422Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/43562564680"
+    },
+    {
+      "id": "44162236772",
+      "properties": {
+        "content": null,
+        "createdate": "2026-04-07T09:18:22.989Z",
+        "hs_lastmodifieddate": "2026-04-07T09:51:12.537Z",
+        "hs_object_id": "44162236772",
+        "hs_pipeline": "0",
+        "hs_pipeline_stage": "1",
+        "hs_resolution": null,
+        "hs_ticket_category": null,
+        "hs_ticket_priority": null,
+        "hubspot_owner_id": "",
+        "subject": "Ticket #44162236772"
+      },
+      "createdAt": "2026-04-07T09:18:22.989Z",
+      "updatedAt": "2026-04-07T09:51:12.537Z",
+      "archived": false,
+      "url": "https://app.hubspot.com/contacts/50966981/record/0-5/44162236772"
+    }
+  ]
+}
