@@ -164,7 +164,7 @@
   },
   {
     "name": "hs_approver_id",
-    "label": "Quote Approver",
+    "label": "Approver",
     "type": "enumeration",
     "fieldType": "select",
     "groupName": "quoteinformation",
@@ -702,7 +702,7 @@
   },
   {
     "name": "hs_domain",
-    "label": "Quote Domain",
+    "label": "Domain",
     "type": "string",
     "fieldType": "text",
     "groupName": "quoteinformation",
@@ -900,7 +900,7 @@
   },
   {
     "name": "hs_feedback",
-    "label": "Quote approval feedback",
+    "label": "Approval feedback",
     "type": "string",
     "fieldType": "text",
     "groupName": "quoteinformation",
@@ -1433,7 +1433,7 @@
   },
   {
     "name": "hs_payment_status",
-    "label": "Quote payment status",
+    "label": "Payment status",
     "type": "enumeration",
     "fieldType": "calculation_equation",
     "groupName": "quoteinformation",
@@ -1492,7 +1492,7 @@
   },
   {
     "name": "hs_pdf_download_link",
-    "label": "Quote PDF download link",
+    "label": "PDF download link",
     "type": "string",
     "fieldType": "text",
     "groupName": "quoteinformation",
@@ -1716,7 +1716,7 @@
   },
   {
     "name": "hs_quote_amount",
-    "label": "Quote amount",
+    "label": "Amount",
     "type": "number",
     "fieldType": "number",
     "groupName": "quoteinformation",
@@ -1727,7 +1727,7 @@
   },
   {
     "name": "hs_quote_amount_in_home_currency",
-    "label": "Quote Amount in Home Currency",
+    "label": "Amount in Home Currency",
     "type": "number",
     "fieldType": "calculation_equation",
     "groupName": "quoteinformation",
@@ -1738,7 +1738,7 @@
   },
   {
     "name": "hs_quote_auth_method",
-    "label": "Quote authentication method",
+    "label": "Authentication method",
     "type": "enumeration",
     "fieldType": "select",
     "groupName": "quoteinformation",
@@ -1760,7 +1760,7 @@
   },
   {
     "name": "hs_quote_auth_password",
-    "label": "Quote authentication password",
+    "label": "Authentication password",
     "type": "string",
     "fieldType": "text",
     "groupName": "quoteinformation",
@@ -1820,7 +1820,7 @@
   },
   {
     "name": "hs_quote_owner_id",
-    "label": "Quote Owner ID",
+    "label": "Owner ID",
     "type": "enumeration",
     "fieldType": "select",
     "groupName": "quoteinformation",
@@ -1831,7 +1831,7 @@
   },
   {
     "name": "hs_quote_progression_status",
-    "label": "Quote progression status",
+    "label": "Progression status",
     "type": "enumeration",
     "fieldType": "calculation_equation",
     "groupName": "quoteinformation",
@@ -1908,7 +1908,7 @@
   },
   {
     "name": "hs_quote_status",
-    "label": "Quote Status",
+    "label": "Status",
     "type": "enumeration",
     "fieldType": "calculation_equation",
     "groupName": "quoteinformation",
@@ -1965,7 +1965,7 @@
   },
   {
     "name": "hs_quote_total_preference",
-    "label": "Quote Total Preference",
+    "label": "Total Preference",
     "type": "enumeration",
     "fieldType": "select",
     "groupName": "quoteinformation",
@@ -1987,7 +1987,7 @@
   },
   {
     "name": "hs_quote_version",
-    "label": "Quote Version",
+    "label": "Version",
     "type": "number",
     "fieldType": "number",
     "groupName": "quoteinformation",
@@ -1998,7 +1998,7 @@
   },
   {
     "name": "hs_quote_view_count",
-    "label": "Quote View Count",
+    "label": "View Count",
     "type": "number",
     "fieldType": "number",
     "groupName": "quoteinformation",
@@ -2194,7 +2194,7 @@
   },
   {
     "name": "hs_slug",
-    "label": "Quote Slug",
+    "label": "Slug",
     "type": "string",
     "fieldType": "text",
     "groupName": "quoteinformation",
@@ -2432,7 +2432,7 @@
   },
   {
     "name": "hs_title",
-    "label": "Quote title",
+    "label": "Title",
     "type": "string",
     "fieldType": "text",
     "groupName": "quoteinformation",
@@ -2602,7 +2602,7 @@
   },
   {
     "name": "hubspot_owner_id",
-    "label": "Quote owner",
+    "label": "Owner",
     "type": "enumeration",
     "fieldType": "calculation_equation",
     "groupName": "quoteinformation",
@@ -2734,7 +2734,7 @@
   },
   {
     "name": "hs_quote_activity_count",
-    "label": "Quote Activity Count",
+    "label": "Activity Count",
     "type": "number",
     "fieldType": "calculation_equation",
     "groupName": "quotetrackinginformation",
@@ -2745,7 +2745,7 @@
   },
   {
     "name": "hs_quote_activity_count_since_last_communication",
-    "label": "Quote Activity Count Since Last Communication",
+    "label": "Activity Count Since Last Communication",
     "type": "number",
     "fieldType": "calculation_equation",
     "groupName": "quotetrackinginformation",
@@ -2756,7 +2756,7 @@
   },
   {
     "name": "hs_quote_download_count",
-    "label": "Quote Download Count",
+    "label": "Download Count",
     "type": "number",
     "fieldType": "number",
     "groupName": "quotetrackinginformation",
@@ -2767,7 +2767,7 @@
   },
   {
     "name": "hs_quote_download_count_since_last_communication",
-    "label": "Quote Download Count Since Last Communication",
+    "label": "Download Count Since Last Communication",
     "type": "number",
     "fieldType": "number",
     "groupName": "quotetrackinginformation",
@@ -2778,7 +2778,7 @@
   },
   {
     "name": "hs_quote_print_count",
-    "label": "Quote Print Count",
+    "label": "Print Count",
     "type": "number",
     "fieldType": "number",
     "groupName": "quotetrackinginformation",
@@ -2789,7 +2789,7 @@
   },
   {
     "name": "hs_quote_print_count_since_last_communication",
-    "label": "Quote Print Count Since Last Communication",
+    "label": "Print Count Since Last Communication",
     "type": "number",
     "fieldType": "number",
     "groupName": "quotetrackinginformation",
@@ -2800,7 +2800,7 @@
   },
   {
     "name": "hs_quote_view_count_since_last_communication",
-    "label": "Quote View Count Since Last Communication",
+    "label": "View Count Since Last Communication",
     "type": "number",
     "fieldType": "number",
     "groupName": "quotetrackinginformation",

@@ -811,6 +811,16 @@
         "label": "Workflows Limit Increase",
         "value": "Workflows Limit Increase",
         "displayOrder": 65
+      },
+      {
+        "label": "HubSpot AEO",
+        "value": "HubSpot AEO",
+        "displayOrder": 66
+      },
+      {
+        "label": "Conversational Context Limit Increase",
+        "value": "Conversational Context Limit Increase",
+        "displayOrder": 67
       }
     ]
   },
@@ -5593,6 +5603,17 @@
     "options": []
   },
   {
+    "name": "old_deal_name",
+    "label": "Old Deal Name",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "dealinformation",
+    "hubspotDefined": false,
+    "formField": true,
+    "description": "",
+    "options": []
+  },
+  {
     "name": "order_type",
     "label": "Order Type",
     "type": "enumeration",
@@ -5638,6 +5659,17 @@
         "displayOrder": 6
       }
     ]
+  },
+  {
+    "name": "payment_date__old_hub_",
+    "label": "Payment Date (Old Hub)",
+    "type": "date",
+    "fieldType": "date",
+    "groupName": "dealinformation",
+    "hubspotDefined": false,
+    "formField": true,
+    "description": "",
+    "options": []
   },
   {
     "name": "payment_method",

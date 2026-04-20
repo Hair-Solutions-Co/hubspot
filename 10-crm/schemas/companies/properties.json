@@ -15116,6 +15116,39 @@
     "options": []
   },
   {
+    "name": "hs_excluded_from_cross_account_data_mirroring",
+    "label": "Excluded from cross-account data mirroring",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "multiaccountmanagement",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Control whether this object is mirrored across connected accounts.",
+    "options": [
+      {
+        "label": "Yes",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "No",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_latest_prospecting_agent_monitoring_date",
+    "label": "Latest prospecting agent monitoring date",
+    "type": "number",
+    "fieldType": "calculation_rollup",
+    "groupName": "prospectingagent",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The most recent date this company was added to monitoring across all plays",
+    "options": []
+  },
+  {
     "name": "hs_max_recommendation_score",
     "label": "Max recommendation score",
     "type": "number",

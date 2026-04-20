@@ -421,28 +421,6 @@
     ]
   },
   {
-    "name": "hs_email_optout_1998000142",
-    "label": "Opted out of email: Marketing Information",
-    "type": "enumeration",
-    "fieldType": "booleancheckbox",
-    "groupName": "consent_subscription",
-    "hubspotDefined": true,
-    "formField": false,
-    "description": "Indicates that the current email address has opted out of this email type.",
-    "options": [
-      {
-        "label": "Yes",
-        "value": "true",
-        "displayOrder": 0
-      },
-      {
-        "label": "No",
-        "value": "false",
-        "displayOrder": 1
-      }
-    ]
-  },
-  {
     "name": "hs_email_optout_1998000146",
     "label": "Opted out of email: One to One",
     "type": "enumeration",
@@ -2369,6 +2347,72 @@
     "hubspotDefined": true,
     "formField": false,
     "description": "A contact's full name, formatting first name and last name by I18n/utils/formatName, fall back to email.",
+    "options": []
+  },
+  {
+    "name": "hs_geohash_1",
+    "label": "geohash_1",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "contactinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "level 1 geohash property for mapping",
+    "options": []
+  },
+  {
+    "name": "hs_geohash_2",
+    "label": "geohash_2",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "contactinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "level 2 geohash property for mapping",
+    "options": []
+  },
+  {
+    "name": "hs_geohash_3",
+    "label": "geohash_3",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "contactinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "level 3 geohash property for mapping",
+    "options": []
+  },
+  {
+    "name": "hs_geohash_4",
+    "label": "geohash_4",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "contactinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "level 4 geohash property for mapping",
+    "options": []
+  },
+  {
+    "name": "hs_geohash_5",
+    "label": "geohash_5",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "contactinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "level 5 geohash property for mapping",
+    "options": []
+  },
+  {
+    "name": "hs_geohash_6",
+    "label": "geohash_6",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "contactinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "level 6 geohash property for mapping",
     "options": []
   },
   {
@@ -5344,6 +5388,196 @@
     "options": []
   },
   {
+    "name": "legacy_commerce_score",
+    "label": "Legacy Commerce Score",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "contactinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "",
+    "options": []
+  },
+  {
+    "name": "legacy_commerce_score_status",
+    "label": "Legacy Commerce Score status",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "contactinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "",
+    "options": [
+      {
+        "label": "High",
+        "value": "High",
+        "displayOrder": 0
+      },
+      {
+        "label": "Average",
+        "value": "Average",
+        "displayOrder": 1
+      },
+      {
+        "label": "Low",
+        "value": "Low",
+        "displayOrder": 2
+      }
+    ]
+  },
+  {
+    "name": "legacy_form_score",
+    "label": "Legacy Form Score",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "contactinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Historical form submission engagement score (0-100). Groups: Form Existence (40), Form Recency (30), Form Volume (30).",
+    "options": []
+  },
+  {
+    "name": "legacy_form_score_status",
+    "label": "Legacy Form Score status",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "contactinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "",
+    "options": [
+      {
+        "label": "High",
+        "value": "High",
+        "displayOrder": 0
+      },
+      {
+        "label": "Average",
+        "value": "Average",
+        "displayOrder": 1
+      },
+      {
+        "label": "Low",
+        "value": "Low",
+        "displayOrder": 2
+      }
+    ]
+  },
+  {
+    "name": "legacy_marketing_score",
+    "label": "Legacy Marketing Score",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "contactinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "",
+    "options": []
+  },
+  {
+    "name": "legacy_marketing_score_status",
+    "label": "Legacy Marketing Score status",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "contactinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "",
+    "options": [
+      {
+        "label": "Hight",
+        "value": "Hight",
+        "displayOrder": 0
+      },
+      {
+        "label": "Average",
+        "value": "Average",
+        "displayOrder": 1
+      },
+      {
+        "label": "Low",
+        "value": "Low",
+        "displayOrder": 2
+      }
+    ]
+  },
+  {
+    "name": "legacy_sales_score",
+    "label": "Legacy Sales Score",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "contactinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "",
+    "options": []
+  },
+  {
+    "name": "legacy_sales_score_status",
+    "label": "Legacy Sales Score status",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "contactinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "",
+    "options": [
+      {
+        "label": "High",
+        "value": "High",
+        "displayOrder": 0
+      },
+      {
+        "label": "Average",
+        "value": "Average",
+        "displayOrder": 1
+      },
+      {
+        "label": "Low",
+        "value": "Low",
+        "displayOrder": 2
+      }
+    ]
+  },
+  {
+    "name": "legacy_web_score",
+    "label": "Legacy Web Score",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "contactinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "",
+    "options": []
+  },
+  {
+    "name": "legacy_web_score_status",
+    "label": "Legacy Web Score status",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "contactinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "",
+    "options": [
+      {
+        "label": "High",
+        "value": "High",
+        "displayOrder": 0
+      },
+      {
+        "label": "Average",
+        "value": "Average",
+        "displayOrder": 1
+      },
+      {
+        "label": "Low",
+        "value": "Low",
+        "displayOrder": 2
+      }
+    ]
+  },
+  {
     "name": "lifecyclestage",
     "label": "Lifecycle Stage",
     "type": "enumeration",
@@ -5471,6 +5705,72 @@
     "formField": true,
     "description": "The contact's zip code. This might be set via import, form, or integration.",
     "options": []
+  },
+  {
+    "name": "hs_email_optout_1998000142",
+    "label": "Opted out of email: News & Offers",
+    "type": "enumeration",
+    "fieldType": "booleancheckbox",
+    "groupName": "emailinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Indicates that the current email address has opted out of this email type.",
+    "options": [
+      {
+        "label": "No",
+        "value": "false",
+        "displayOrder": 0
+      },
+      {
+        "label": "Yes",
+        "value": "true",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_email_optout_2540801883",
+    "label": "Opted out of email: Order & Shipping Updates",
+    "type": "enumeration",
+    "fieldType": "booleancheckbox",
+    "groupName": "emailinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Indicates that the current email address has opted out of this email type.",
+    "options": [
+      {
+        "label": "Yes",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "No",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hs_email_optout_2540802249",
+    "label": "Opted out of email: Hair Care Guidance",
+    "type": "enumeration",
+    "fieldType": "booleancheckbox",
+    "groupName": "emailinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Indicates that the current email address has opted out of this email type.",
+    "options": [
+      {
+        "label": "Yes",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "No",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
   },
   {
     "name": "hs_customer_agent_lead_status",
@@ -5905,6 +6205,28 @@
     "formField": false,
     "description": "The time this object has spent in the current pipeline stage",
     "options": []
+  },
+  {
+    "name": "hs_excluded_from_cross_account_data_mirroring",
+    "label": "Excluded from cross-account data mirroring",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "multiaccountmanagement",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Control whether this object is mirrored across connected accounts.",
+    "options": [
+      {
+        "label": "Yes",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "No",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
   },
   {
     "name": "annualrevenue",
@@ -11425,17 +11747,6 @@
     ]
   },
   {
-    "name": "lead_score_composite",
-    "label": "Engagement Score",
-    "type": "number",
-    "fieldType": "number",
-    "groupName": "affiliate_marketing",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "0-100. Email engagement 25pts + page views 25pts + WhatsApp 25pts + forms 15pts + recency 10pts. Decay -5/30d inactive.",
-    "options": []
-  },
-  {
     "name": "lead_source",
     "label": "Lead source",
     "type": "enumeration",
@@ -12495,6 +12806,28 @@
     ]
   },
   {
+    "name": "legacy_email_score",
+    "label": "Legacy Email Score",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "contactinformation",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Historical marketing email engagement score (0-100). Groups: Email Presence (15), Engagement Quality (55), Open Volume (30).",
+    "options": []
+  },
+  {
+    "name": "legacy_sales_actv_score",
+    "label": "Legacy Sales Activity Score",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "contactinformation",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Historical sales touchpoint depth score (0-100). Groups: Sales Recency (50), Sales Volume (40), Relationship Depth (10).",
+    "options": []
+  },
+  {
     "name": "linkedin_account",
     "label": "Linkedin account",
     "type": "string",
@@ -12658,39 +12991,6 @@
     "options": []
   },
   {
-    "name": "total_lifetime_spend",
-    "label": "Total Lifetime Spend",
-    "type": "number",
-    "fieldType": "number",
-    "groupName": "contactinformation",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "Sum of all succeeded payment amounts (hs_initial_amount) from associated Payments object. Updated by sync script.",
-    "options": []
-  },
-  {
-    "name": "current_commerce_engagement_score",
-    "label": "Current Commerce Engagement Score",
-    "type": "number",
-    "fieldType": "number",
-    "groupName": "current_engagement",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "0-100 score from recent order behavior, payment quality, and value signals.",
-    "options": []
-  },
-  {
-    "name": "current_email_engagement_score",
-    "label": "Current Email Engagement Score",
-    "type": "number",
-    "fieldType": "number",
-    "groupName": "current_engagement",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "0-100 score from native HubSpot email engagement signals.",
-    "options": []
-  },
-  {
     "name": "current_engagement_age_days",
     "label": "Current Engagement Age Days",
     "type": "number",
@@ -12836,17 +13136,6 @@
     "options": []
   },
   {
-    "name": "current_engagement_score",
-    "label": "Current Engagement Score",
-    "type": "number",
-    "fieldType": "number",
-    "groupName": "current_engagement",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "0-100 current-state engagement score from native HubSpot activity and recent commerce signals.",
-    "options": []
-  },
-  {
     "name": "current_intent_level",
     "label": "Current Intent Level",
     "type": "enumeration",
@@ -12879,36 +13168,245 @@
     ]
   },
   {
-    "name": "current_intent_score",
-    "label": "Current Intent Score",
-    "type": "number",
-    "fieldType": "number",
-    "groupName": "current_engagement",
+    "name": "legacy_commerce_first_date",
+    "label": "legacy_commerce_first_date",
+    "type": "date",
+    "fieldType": "date",
+    "groupName": "custom_information",
     "hubspotDefined": false,
-    "formField": false,
-    "description": "0-100 signal of current purchase intent from combined live activity.",
+    "formField": true,
+    "description": "Date of the contact's first known order or payment",
     "options": []
   },
   {
-    "name": "current_sales_engagement_score",
-    "label": "Current Sales Engagement Score",
-    "type": "number",
-    "fieldType": "number",
-    "groupName": "current_engagement",
+    "name": "legacy_commerce_last_date",
+    "label": "legacy_commerce_last_date",
+    "type": "date",
+    "fieldType": "date",
+    "groupName": "custom_information",
     "hubspotDefined": false,
-    "formField": false,
-    "description": "0-100 score from recent sales activity and communication recency/sentiment.",
+    "formField": true,
+    "description": "Date of the contact's most recent order, payment, or deal close",
     "options": []
   },
   {
-    "name": "current_web_engagement_score",
-    "label": "Current Web Engagement Score",
+    "name": "legacy_deals_count",
+    "label": "legacy_deals_count",
     "type": "number",
     "fieldType": "number",
-    "groupName": "current_engagement",
+    "groupName": "custom_information",
     "hubspotDefined": false,
-    "formField": false,
-    "description": "0-100 score from web sessions, pageviews, and web recency.",
+    "formField": true,
+    "description": "Total number of deals associated with this contact historically",
+    "options": []
+  },
+  {
+    "name": "legacy_form_count",
+    "label": "legacy_form_count",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "custom_information",
+    "hubspotDefined": false,
+    "formField": true,
+    "description": "Total number of form submissions across all historical hubs",
+    "options": []
+  },
+  {
+    "name": "legacy_form_first_date",
+    "label": "legacy_form_first_date",
+    "type": "date",
+    "fieldType": "date",
+    "groupName": "custom_information",
+    "hubspotDefined": false,
+    "formField": true,
+    "description": "Date of the contact's first ever form submission across all historical hubs",
+    "options": []
+  },
+  {
+    "name": "legacy_form_last_date",
+    "label": "legacy_form_last_date",
+    "type": "date",
+    "fieldType": "date",
+    "groupName": "custom_information",
+    "hubspotDefined": false,
+    "formField": true,
+    "description": "Date of the contact's most recent form submission across all historical hubs",
+    "options": []
+  },
+  {
+    "name": "legacy_form_last_name",
+    "label": "legacy_form_last_name",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "custom_information",
+    "hubspotDefined": false,
+    "formField": true,
+    "description": "Name of the last form the contact submitted",
+    "options": []
+  },
+  {
+    "name": "legacy_mkt_clicks",
+    "label": "legacy_mkt_clicks",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "custom_information",
+    "hubspotDefined": false,
+    "formField": true,
+    "description": "Total marketing emails clicked across all historical hubs",
+    "options": []
+  },
+  {
+    "name": "legacy_mkt_first_date",
+    "label": "legacy_mkt_first_date",
+    "type": "date",
+    "fieldType": "date",
+    "groupName": "custom_information",
+    "hubspotDefined": false,
+    "formField": true,
+    "description": "Date of the contact's first marketing email engagement",
+    "options": []
+  },
+  {
+    "name": "legacy_mkt_last_date",
+    "label": "legacy_mkt_last_date",
+    "type": "date",
+    "fieldType": "date",
+    "groupName": "custom_information",
+    "hubspotDefined": false,
+    "formField": true,
+    "description": "Date of the contact's most recent marketing email engagement",
+    "options": []
+  },
+  {
+    "name": "legacy_mkt_last_email_name",
+    "label": "legacy_mkt_last_email_name",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "custom_information",
+    "hubspotDefined": false,
+    "formField": true,
+    "description": "Name of the last marketing email the contact opened or clicked",
+    "options": []
+  },
+  {
+    "name": "legacy_mkt_opens",
+    "label": "legacy_mkt_opens",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "custom_information",
+    "hubspotDefined": false,
+    "formField": true,
+    "description": "Total marketing emails opened across all historical hubs",
+    "options": []
+  },
+  {
+    "name": "legacy_mkt_replies",
+    "label": "legacy_mkt_replies",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "custom_information",
+    "hubspotDefined": false,
+    "formField": true,
+    "description": "Total marketing emails replied to across all historical hubs",
+    "options": []
+  },
+  {
+    "name": "legacy_orders_count",
+    "label": "legacy_orders_count",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "custom_information",
+    "hubspotDefined": false,
+    "formField": true,
+    "description": "Total number of orders associated with this contact historically",
+    "options": []
+  },
+  {
+    "name": "legacy_sales_count",
+    "label": "legacy_sales_count",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "custom_information",
+    "hubspotDefined": false,
+    "formField": true,
+    "description": "Total number of sales activities logged across all historical hubs",
+    "options": []
+  },
+  {
+    "name": "legacy_sales_first_date",
+    "label": "legacy_sales_first_date",
+    "type": "date",
+    "fieldType": "date",
+    "groupName": "custom_information",
+    "hubspotDefined": false,
+    "formField": true,
+    "description": "Earliest known sales activity date across all historical hubs",
+    "options": []
+  },
+  {
+    "name": "legacy_sales_last_date",
+    "label": "legacy_sales_last_date",
+    "type": "date",
+    "fieldType": "date",
+    "groupName": "custom_information",
+    "hubspotDefined": false,
+    "formField": true,
+    "description": "Most recent sales activity date across all historical hubs",
+    "options": []
+  },
+  {
+    "name": "legacy_web_first_seen",
+    "label": "legacy_web_first_seen",
+    "type": "date",
+    "fieldType": "date",
+    "groupName": "custom_information",
+    "hubspotDefined": false,
+    "formField": true,
+    "description": "Date the contact first visited the website",
+    "options": []
+  },
+  {
+    "name": "legacy_web_last_page",
+    "label": "legacy_web_last_page",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "custom_information",
+    "hubspotDefined": false,
+    "formField": true,
+    "description": "URL of the last page the contact viewed",
+    "options": []
+  },
+  {
+    "name": "legacy_web_last_seen",
+    "label": "legacy_web_last_seen",
+    "type": "date",
+    "fieldType": "date",
+    "groupName": "custom_information",
+    "hubspotDefined": false,
+    "formField": true,
+    "description": "Date the contact most recently visited the website",
+    "options": []
+  },
+  {
+    "name": "legacy_web_pageviews",
+    "label": "legacy_web_pageviews",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "custom_information",
+    "hubspotDefined": false,
+    "formField": true,
+    "description": "Total number of pageviews across all historical hubs",
+    "options": []
+  },
+  {
+    "name": "legacy_web_sessions",
+    "label": "legacy_web_sessions",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "custom_information",
+    "hubspotDefined": false,
+    "formField": true,
+    "description": "Total number of website sessions across all historical hubs",
     "options": []
   },
   {
@@ -12968,17 +13466,6 @@
     "hubspotDefined": false,
     "formField": false,
     "description": "Short explanation of how the unified customer health score was derived.",
-    "options": []
-  },
-  {
-    "name": "unified_customer_health_score",
-    "label": "Unified Customer Health Score",
-    "type": "number",
-    "fieldType": "number",
-    "groupName": "customer_health_unified",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "0-100 primary customer health score combining historical baseline and current engagement.",
     "options": []
   },
   {
@@ -13085,393 +13572,6 @@
     ]
   },
   {
-    "name": "hsc_anniversary_type",
-    "label": "HSC Anniversary Type",
-    "type": "enumeration",
-    "fieldType": "select",
-    "groupName": "email_system_properties",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "Type of anniversary to celebrate in J5-E3",
-    "options": [
-      {
-        "label": "First Purchase",
-        "value": "first_purchase",
-        "displayOrder": 0
-      },
-      {
-        "label": "Fitting",
-        "value": "fitting",
-        "displayOrder": 1
-      },
-      {
-        "label": "Birthday",
-        "value": "birthday",
-        "displayOrder": 2
-      }
-    ]
-  },
-  {
-    "name": "hsc_current_system_user",
-    "label": "HSC Current System User",
-    "type": "bool",
-    "fieldType": "booleancheckbox",
-    "groupName": "email_system_properties",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "True if contact already wears a hair system from any supplier",
-    "options": [
-      {
-        "label": "Yes",
-        "value": "true",
-        "displayOrder": 0
-      },
-      {
-        "label": "No",
-        "value": "false",
-        "displayOrder": 1
-      }
-    ]
-  },
-  {
-    "name": "hsc_customer_milestone_summary",
-    "label": "HSC Customer Milestone Summary",
-    "type": "string",
-    "fieldType": "textarea",
-    "groupName": "email_system_properties",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "Pre-rendered milestone text for annual recap and renewal emails",
-    "options": []
-  },
-  {
-    "name": "hsc_estimated_annual_spend_individual",
-    "label": "HSC Estimated Annual Spend (Individual)",
-    "type": "number",
-    "fieldType": "number",
-    "groupName": "email_system_properties",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "Projected annual cost if contact continues buying individually",
-    "options": []
-  },
-  {
-    "name": "hsc_estimated_annual_spend_plan",
-    "label": "HSC Estimated Annual Spend (Plan)",
-    "type": "number",
-    "fieldType": "number",
-    "groupName": "email_system_properties",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "Projected annual cost on a subscription plan",
-    "options": []
-  },
-  {
-    "name": "hsc_estimated_plan_savings",
-    "label": "HSC Estimated Plan Savings",
-    "type": "number",
-    "fieldType": "number",
-    "groupName": "email_system_properties",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "Individual annual spend minus plan annual spend",
-    "options": []
-  },
-  {
-    "name": "hsc_has_local_partner",
-    "label": "HSC Has Local Partner",
-    "type": "bool",
-    "fieldType": "booleancheckbox",
-    "groupName": "email_system_properties",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "True if a nearby affiliated stylist or location exists for this contact",
-    "options": [
-      {
-        "label": "Yes",
-        "value": "true",
-        "displayOrder": 0
-      },
-      {
-        "label": "No",
-        "value": "false",
-        "displayOrder": 1
-      }
-    ]
-  },
-  {
-    "name": "hsc_last_order_value",
-    "label": "HSC Last Order Value",
-    "type": "number",
-    "fieldType": "number",
-    "groupName": "email_system_properties",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "Total value of the most recent completed order (USD)",
-    "options": []
-  },
-  {
-    "name": "hsc_last_spec_summary",
-    "label": "HSC Last Spec Summary",
-    "type": "string",
-    "fieldType": "textarea",
-    "groupName": "email_system_properties",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "Human-readable snapshot of last confirmed specs: base, density, hair type",
-    "options": []
-  },
-  {
-    "name": "hsc_nearest_partner_location",
-    "label": "HSC Nearest Partner Location",
-    "type": "string",
-    "fieldType": "text",
-    "groupName": "email_system_properties",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "Name and city of the nearest affiliated stylist or partner location",
-    "options": []
-  },
-  {
-    "name": "hsc_reorder_message_angle",
-    "label": "HSC Reorder Message Angle",
-    "type": "enumeration",
-    "fieldType": "select",
-    "groupName": "email_system_properties",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "Which reorder messaging variant to use in J4 emails",
-    "options": [
-      {
-        "label": "Refresh",
-        "value": "refresh",
-        "displayOrder": 0
-      },
-      {
-        "label": "Upgrade",
-        "value": "upgrade",
-        "displayOrder": 1
-      },
-      {
-        "label": "Loyalty",
-        "value": "loyalty",
-        "displayOrder": 2
-      },
-      {
-        "label": "Default",
-        "value": "default",
-        "displayOrder": 3
-      }
-    ]
-  },
-  {
-    "name": "hsc_reorder_window_open",
-    "label": "HSC Reorder Window Open",
-    "type": "bool",
-    "fieldType": "booleancheckbox",
-    "groupName": "email_system_properties",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "True when contact is within their active reorder window",
-    "options": [
-      {
-        "label": "Yes",
-        "value": "true",
-        "displayOrder": 0
-      },
-      {
-        "label": "No",
-        "value": "false",
-        "displayOrder": 1
-      }
-    ]
-  },
-  {
-    "name": "hsc_specs_locked",
-    "label": "HSC Specs Locked",
-    "type": "bool",
-    "fieldType": "booleancheckbox",
-    "groupName": "email_system_properties",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "True when the contact's hair system specifications are finalized",
-    "options": [
-      {
-        "label": "Yes",
-        "value": "true",
-        "displayOrder": 0
-      },
-      {
-        "label": "No",
-        "value": "false",
-        "displayOrder": 1
-      }
-    ]
-  },
-  {
-    "name": "hsc_subscription_deliveries_last_12m",
-    "label": "HSC Subscription Deliveries Last 12m",
-    "type": "number",
-    "fieldType": "number",
-    "groupName": "email_system_properties",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "Number of units delivered under this subscription in trailing 12 months",
-    "options": []
-  },
-  {
-    "name": "hsc_subscription_eligible",
-    "label": "HSC Subscription Eligible",
-    "type": "bool",
-    "fieldType": "booleancheckbox",
-    "groupName": "email_system_properties",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "True when contact meets criteria for a subscription plan offer",
-    "options": [
-      {
-        "label": "Yes",
-        "value": "true",
-        "displayOrder": 0
-      },
-      {
-        "label": "No",
-        "value": "false",
-        "displayOrder": 1
-      }
-    ]
-  },
-  {
-    "name": "hsc_subscription_last4",
-    "label": "HSC Subscription Last 4",
-    "type": "string",
-    "fieldType": "text",
-    "groupName": "email_system_properties",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "Last 4 digits of the payment card on file for the subscription",
-    "options": []
-  },
-  {
-    "name": "hsc_subscription_payment_link",
-    "label": "HSC Subscription Payment Link",
-    "type": "string",
-    "fieldType": "text",
-    "groupName": "email_system_properties",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "URL for self-service payment method update",
-    "options": []
-  },
-  {
-    "name": "hsc_subscription_plan_amount",
-    "label": "HSC Subscription Plan Amount",
-    "type": "number",
-    "fieldType": "number",
-    "groupName": "email_system_properties",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "Recurring plan amount (monthly or per-cycle)",
-    "options": []
-  },
-  {
-    "name": "hsc_subscription_plan_name",
-    "label": "HSC Subscription Plan Name",
-    "type": "string",
-    "fieldType": "text",
-    "groupName": "email_system_properties",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "Name of the active subscription plan, e.g. 3-Unit Plan",
-    "options": []
-  },
-  {
-    "name": "hsc_subscription_renewal_date",
-    "label": "HSC Subscription Renewal Date",
-    "type": "date",
-    "fieldType": "date",
-    "groupName": "email_system_properties",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "Date of next subscription renewal",
-    "options": []
-  },
-  {
-    "name": "hsc_subscription_status",
-    "label": "HSC Subscription Status",
-    "type": "enumeration",
-    "fieldType": "select",
-    "groupName": "email_system_properties",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "Current hair system subscription/plan status",
-    "options": [
-      {
-        "label": "Active",
-        "value": "active",
-        "displayOrder": 0
-      },
-      {
-        "label": "Paused",
-        "value": "paused",
-        "displayOrder": 1
-      },
-      {
-        "label": "Unpaid",
-        "value": "unpaid",
-        "displayOrder": 2
-      },
-      {
-        "label": "Expired",
-        "value": "expired",
-        "displayOrder": 3
-      },
-      {
-        "label": "Cancelled",
-        "value": "cancelled",
-        "displayOrder": 4
-      },
-      {
-        "label": "None",
-        "value": "none",
-        "displayOrder": 5
-      }
-    ]
-  },
-  {
-    "name": "hsc_total_orders_last_12m",
-    "label": "HSC Total Orders Last 12m",
-    "type": "number",
-    "fieldType": "number",
-    "groupName": "email_system_properties",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "Count of completed orders in the trailing 12 months",
-    "options": []
-  },
-  {
-    "name": "hsc_total_orders_lifetime",
-    "label": "HSC Total Orders Lifetime",
-    "type": "number",
-    "fieldType": "number",
-    "groupName": "email_system_properties",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "Lifetime count of completed orders",
-    "options": []
-  },
-  {
-    "name": "hsc_vip_reward_choice",
-    "label": "HSC VIP Reward Choice",
-    "type": "string",
-    "fieldType": "text",
-    "groupName": "email_system_properties",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "VIP reward selected by contact in J5-E3",
-    "options": []
-  },
-  {
     "name": "email_frequency_preference",
     "label": "Email Frequency Preference",
     "type": "enumeration",
@@ -13551,648 +13651,526 @@
     ]
   },
   {
-    "name": "hsl_commerce_last_date",
-    "label": "HSL Commerce Last Date",
-    "type": "datetime",
-    "fieldType": "date",
-    "groupName": "hair_solutions_intelligence",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "",
-    "options": []
-  },
-  {
-    "name": "hsl_commerce_metrics_safe",
-    "label": "HSL Commerce Metrics Safe",
-    "type": "enumeration",
-    "fieldType": "select",
-    "groupName": "hair_solutions_intelligence",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "",
-    "options": [
-      {
-        "label": "safe",
-        "value": "safe",
-        "displayOrder": 0
-      },
-      {
-        "label": "review",
-        "value": "review",
-        "displayOrder": 1
-      }
-    ]
-  },
-  {
-    "name": "hsl_commerce_value_level",
-    "label": "HSL Commerce Value Level",
-    "type": "enumeration",
-    "fieldType": "select",
-    "groupName": "hair_solutions_intelligence",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "",
-    "options": [
-      {
-        "label": "Tier 1 - Hot",
-        "value": "Tier 1 - Hot",
-        "displayOrder": 0
-      },
-      {
-        "label": "Tier 2 - Warm",
-        "value": "Tier 2 - Warm",
-        "displayOrder": 1
-      },
-      {
-        "label": "Tier 3 - Aging",
-        "value": "Tier 3 - Aging",
-        "displayOrder": 2
-      },
-      {
-        "label": "Tier 4 - Legacy",
-        "value": "Tier 4 - Legacy",
-        "displayOrder": 3
-      },
-      {
-        "label": "Tier 5 - No dated signal",
-        "value": "Tier 5 - No dated signal",
-        "displayOrder": 4
-      }
-    ]
-  },
-  {
-    "name": "hsl_commerce_value_score",
-    "label": "HSL Commerce Value Score",
-    "type": "number",
-    "fieldType": "number",
-    "groupName": "hair_solutions_intelligence",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "",
-    "options": []
-  },
-  {
-    "name": "hsl_deals_orders_total",
-    "label": "HSL Deals Orders Total",
-    "type": "number",
-    "fieldType": "number",
-    "groupName": "hair_solutions_intelligence",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "",
-    "options": []
-  },
-  {
-    "name": "hsl_effective_history_end",
-    "label": "HSL Effective History End",
-    "type": "datetime",
-    "fieldType": "date",
-    "groupName": "hair_solutions_intelligence",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "Latest effective known history date across merged sources.",
-    "options": []
-  },
-  {
-    "name": "hsl_effective_history_start",
-    "label": "HSL Effective History Start",
-    "type": "datetime",
-    "fieldType": "date",
-    "groupName": "hair_solutions_intelligence",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "Earliest effective known history date across merged sources.",
-    "options": []
-  },
-  {
-    "name": "hsl_form_metrics_safe",
-    "label": "HSL Form Metrics Safe",
-    "type": "enumeration",
-    "fieldType": "select",
-    "groupName": "hair_solutions_intelligence",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "",
-    "options": [
-      {
-        "label": "safe",
-        "value": "safe",
-        "displayOrder": 0
-      },
-      {
-        "label": "review",
-        "value": "review",
-        "displayOrder": 1
-      }
-    ]
-  },
-  {
-    "name": "hsl_forms_last_date",
-    "label": "HSL Forms Last Date",
-    "type": "datetime",
-    "fieldType": "date",
-    "groupName": "hair_solutions_intelligence",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "",
-    "options": []
-  },
-  {
-    "name": "hsl_forms_total",
-    "label": "HSL Forms Total",
-    "type": "number",
-    "fieldType": "number",
-    "groupName": "hair_solutions_intelligence",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "",
-    "options": []
-  },
-  {
-    "name": "hsl_forms_value_level",
-    "label": "HSL Forms Value Level",
-    "type": "enumeration",
-    "fieldType": "select",
-    "groupName": "hair_solutions_intelligence",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "",
-    "options": [
-      {
-        "label": "Tier 1 - Hot",
-        "value": "Tier 1 - Hot",
-        "displayOrder": 0
-      },
-      {
-        "label": "Tier 2 - Warm",
-        "value": "Tier 2 - Warm",
-        "displayOrder": 1
-      },
-      {
-        "label": "Tier 3 - Aging",
-        "value": "Tier 3 - Aging",
-        "displayOrder": 2
-      },
-      {
-        "label": "Tier 4 - Legacy",
-        "value": "Tier 4 - Legacy",
-        "displayOrder": 3
-      },
-      {
-        "label": "Tier 5 - No dated signal",
-        "value": "Tier 5 - No dated signal",
-        "displayOrder": 4
-      }
-    ]
-  },
-  {
-    "name": "hsl_forms_value_score",
-    "label": "HSL Forms Value Score",
-    "type": "number",
-    "fieldType": "number",
-    "groupName": "hair_solutions_intelligence",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "",
-    "options": []
-  },
-  {
-    "name": "hsl_marketing_email_clicks_total",
-    "label": "HSL Marketing Email Clicks Total",
-    "type": "number",
-    "fieldType": "number",
-    "groupName": "hair_solutions_intelligence",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "",
-    "options": []
-  },
-  {
-    "name": "hsl_marketing_email_opens_total",
-    "label": "HSL Marketing Email Opens Total",
-    "type": "number",
-    "fieldType": "number",
-    "groupName": "hair_solutions_intelligence",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "",
-    "options": []
-  },
-  {
-    "name": "hsl_marketing_email_replies_total",
-    "label": "HSL Marketing Email Replies Total",
-    "type": "number",
-    "fieldType": "number",
-    "groupName": "hair_solutions_intelligence",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "",
-    "options": []
-  },
-  {
-    "name": "hsl_marketing_last_date",
-    "label": "HSL Marketing Last Date",
-    "type": "datetime",
-    "fieldType": "date",
-    "groupName": "hair_solutions_intelligence",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "",
-    "options": []
-  },
-  {
-    "name": "hsl_marketing_metrics_safe",
-    "label": "HSL Marketing Metrics Safe",
-    "type": "enumeration",
-    "fieldType": "select",
-    "groupName": "hair_solutions_intelligence",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "",
-    "options": [
-      {
-        "label": "safe",
-        "value": "safe",
-        "displayOrder": 0
-      },
-      {
-        "label": "review",
-        "value": "review",
-        "displayOrder": 1
-      }
-    ]
-  },
-  {
-    "name": "hsl_marketing_value_level",
-    "label": "HSL Marketing Value Level",
-    "type": "enumeration",
-    "fieldType": "select",
-    "groupName": "hair_solutions_intelligence",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "",
-    "options": [
-      {
-        "label": "Tier 1 - Hot",
-        "value": "Tier 1 - Hot",
-        "displayOrder": 0
-      },
-      {
-        "label": "Tier 2 - Warm",
-        "value": "Tier 2 - Warm",
-        "displayOrder": 1
-      },
-      {
-        "label": "Tier 3 - Aging",
-        "value": "Tier 3 - Aging",
-        "displayOrder": 2
-      },
-      {
-        "label": "Tier 4 - Legacy",
-        "value": "Tier 4 - Legacy",
-        "displayOrder": 3
-      },
-      {
-        "label": "Tier 5 - No dated signal",
-        "value": "Tier 5 - No dated signal",
-        "displayOrder": 4
-      }
-    ]
-  },
-  {
-    "name": "hsl_marketing_value_score",
-    "label": "HSL Marketing Value Score",
-    "type": "number",
-    "fieldType": "number",
-    "groupName": "hair_solutions_intelligence",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "",
-    "options": []
-  },
-  {
-    "name": "hsl_merge_notes",
-    "label": "HSL Merge Notes",
-    "type": "string",
-    "fieldType": "textarea",
-    "groupName": "hair_solutions_intelligence",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "Merge notes and overlap comments from the merged file.",
-    "options": []
-  },
-  {
-    "name": "hsl_metrics_overlap_flag",
-    "label": "HSL Metrics Overlap Flag",
-    "type": "enumeration",
-    "fieldType": "select",
-    "groupName": "hair_solutions_intelligence",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "",
-    "options": [
-      {
-        "label": "Safe",
-        "value": "Safe",
-        "displayOrder": 0
-      },
-      {
-        "label": "Review",
-        "value": "Review",
-        "displayOrder": 1
-      },
-      {
-        "label": "Unknown",
-        "value": "Unknown",
-        "displayOrder": 2
-      }
-    ]
-  },
-  {
-    "name": "hsl_overall_signal_age_days",
-    "label": "HSL Overall Signal Age Days",
-    "type": "number",
-    "fieldType": "number",
-    "groupName": "hair_solutions_intelligence",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "",
-    "options": []
-  },
-  {
-    "name": "hsl_overall_signal_last_date",
-    "label": "HSL Overall Signal Last Date",
-    "type": "datetime",
-    "fieldType": "date",
-    "groupName": "hair_solutions_intelligence",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "",
-    "options": []
-  },
-  {
-    "name": "hsl_overall_value_level",
-    "label": "HSL Overall Value Level",
-    "type": "enumeration",
-    "fieldType": "select",
-    "groupName": "hair_solutions_intelligence",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "",
-    "options": [
-      {
-        "label": "Tier 1 - Hot",
-        "value": "Tier 1 - Hot",
-        "displayOrder": 0
-      },
-      {
-        "label": "Tier 2 - Warm",
-        "value": "Tier 2 - Warm",
-        "displayOrder": 1
-      },
-      {
-        "label": "Tier 3 - Aging",
-        "value": "Tier 3 - Aging",
-        "displayOrder": 2
-      },
-      {
-        "label": "Tier 4 - Legacy",
-        "value": "Tier 4 - Legacy",
-        "displayOrder": 3
-      },
-      {
-        "label": "Tier 5 - No dated signal",
-        "value": "Tier 5 - No dated signal",
-        "displayOrder": 4
-      }
-    ]
-  },
-  {
-    "name": "hsl_overall_value_score",
-    "label": "HSL Overall Value Score",
-    "type": "number",
-    "fieldType": "number",
-    "groupName": "hair_solutions_intelligence",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "",
-    "options": []
-  },
-  {
-    "name": "hsl_pageview_metrics_safe",
-    "label": "HSL Pageview Metrics Safe",
+    "name": "hsc_current_system_user",
+    "label": "Consultation - Current System User",
     "type": "bool",
     "fieldType": "booleancheckbox",
-    "groupName": "hair_solutions_intelligence",
+    "groupName": "hsc_consultation",
     "hubspotDefined": false,
     "formField": false,
-    "description": "",
+    "description": "Whether the contact currently wears a hair system; used for consultation segmentation and messaging.",
     "options": [
       {
-        "label": "true",
+        "label": "Yes",
         "value": "true",
         "displayOrder": 0
       },
       {
-        "label": "false",
+        "label": "No",
         "value": "false",
         "displayOrder": 1
       }
     ]
   },
   {
-    "name": "hsl_pursuit_priority_level",
-    "label": "HSL Pursuit Priority Level",
-    "type": "enumeration",
-    "fieldType": "select",
-    "groupName": "hair_solutions_intelligence",
+    "name": "hsc_has_local_partner",
+    "label": "Consultation - Has Local Partner",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "hsc_consultation",
     "hubspotDefined": false,
     "formField": false,
-    "description": "",
+    "description": "Whether a local partner exists for the contact; used for consultation routing and service messaging.",
     "options": [
       {
-        "label": "Priority A - Chase now",
-        "value": "Priority A - Chase now",
+        "label": "Yes",
+        "value": "true",
         "displayOrder": 0
       },
       {
-        "label": "Priority B - Strong follow-up",
-        "value": "Priority B - Strong follow-up",
+        "label": "No",
+        "value": "false",
         "displayOrder": 1
-      },
-      {
-        "label": "Priority C - Worth reviewing",
-        "value": "Priority C - Worth reviewing",
-        "displayOrder": 2
-      },
-      {
-        "label": "Priority D - Light nurture",
-        "value": "Priority D - Light nurture",
-        "displayOrder": 3
-      },
-      {
-        "label": "Priority E - Legacy only",
-        "value": "Priority E - Legacy only",
-        "displayOrder": 4
       }
     ]
   },
   {
-    "name": "hsl_pursuit_priority_score",
-    "label": "HSL Pursuit Priority Score",
-    "type": "number",
-    "fieldType": "number",
-    "groupName": "hair_solutions_intelligence",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "",
-    "options": []
-  },
-  {
-    "name": "hsl_pursuit_reason_summary",
-    "label": "HSL Pursuit Reason Summary",
-    "type": "string",
-    "fieldType": "textarea",
-    "groupName": "hair_solutions_intelligence",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "",
-    "options": []
-  },
-  {
-    "name": "hsl_pursuit_recommendation",
-    "label": "HSL Pursuit Recommendation",
+    "name": "hsc_nearest_partner_location",
+    "label": "Consultation - Nearest Partner Location",
     "type": "string",
     "fieldType": "text",
-    "groupName": "hair_solutions_intelligence",
+    "groupName": "hsc_consultation",
     "hubspotDefined": false,
     "formField": false,
-    "description": "",
+    "description": "Nearest affiliated stylist or location for consultation and service routing.",
     "options": []
   },
   {
-    "name": "hsl_sales_activities_total",
-    "label": "HSL Sales Activities Total",
-    "type": "number",
-    "fieldType": "number",
-    "groupName": "hair_solutions_intelligence",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "",
-    "options": []
-  },
-  {
-    "name": "hsl_sales_last_date",
-    "label": "HSL Sales Last Date",
-    "type": "datetime",
-    "fieldType": "date",
-    "groupName": "hair_solutions_intelligence",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "",
-    "options": []
-  },
-  {
-    "name": "hsl_sales_metrics_safe",
-    "label": "HSL Sales Metrics Safe",
+    "name": "hsc_qualification_state",
+    "label": "Consultation - Qualification State",
     "type": "enumeration",
     "fieldType": "select",
-    "groupName": "hair_solutions_intelligence",
+    "groupName": "hsc_consultation",
     "hubspotDefined": false,
     "formField": false,
-    "description": "",
+    "description": "Consultation state written by Email Sequence - Consultation Follow-Up - Reengagement [CONS.1].",
     "options": [
       {
-        "label": "safe",
-        "value": "safe",
+        "label": "Recap Sent",
+        "value": "recap_sent",
         "displayOrder": 0
       },
       {
-        "label": "review",
-        "value": "review",
+        "label": "Closed Loop",
+        "value": "closed_loop",
         "displayOrder": 1
       }
     ]
   },
   {
-    "name": "hsl_sales_value_level",
-    "label": "HSL Sales Value Level",
+    "name": "communication_preference",
+    "label": "Contact Preference - Communication Channel",
     "type": "enumeration",
     "fieldType": "select",
-    "groupName": "hair_solutions_intelligence",
+    "groupName": "hsc_contact_preference",
     "hubspotDefined": false,
     "formField": false,
-    "description": "",
+    "description": "Preferred contact channel written by Data Automation - Contact Preference - Communication Channel [DATA.PREF.1]. Review automation logic before activation.",
     "options": [
       {
-        "label": "Tier 1 - Hot",
-        "value": "Tier 1 - Hot",
+        "label": "WhatsApp",
+        "value": "whatsapp",
         "displayOrder": 0
       },
       {
-        "label": "Tier 2 - Warm",
-        "value": "Tier 2 - Warm",
+        "label": "Email",
+        "value": "email",
         "displayOrder": 1
       },
       {
-        "label": "Tier 3 - Aging",
-        "value": "Tier 3 - Aging",
+        "label": "Both",
+        "value": "both",
+        "displayOrder": 2
+      }
+    ]
+  },
+  {
+    "name": "hsc_preferred_channel",
+    "label": "Contact Preference - Preferred Channel Override",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "hsc_contact_preference",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Manual channel preference override used with communication preference automation.",
+    "options": [
+      {
+        "label": "Email",
+        "value": "email",
+        "displayOrder": 0
+      },
+      {
+        "label": "WhatsApp",
+        "value": "whatsapp",
+        "displayOrder": 1
+      },
+      {
+        "label": "Phone",
+        "value": "phone",
         "displayOrder": 2
       },
       {
-        "label": "Tier 4 - Legacy",
-        "value": "Tier 4 - Legacy",
+        "label": "Chat",
+        "value": "chat",
         "displayOrder": 3
       },
       {
-        "label": "Tier 5 - No dated signal",
-        "value": "Tier 5 - No dated signal",
+        "label": "Form",
+        "value": "form",
+        "displayOrder": 4
+      },
+      {
+        "label": "Other",
+        "value": "other",
+        "displayOrder": 5
+      }
+    ]
+  },
+  {
+    "name": "hsc_risk_band",
+    "label": "Customer Health - Risk Band",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "hsc_customer_health",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Customer risk classification used for customer health and retention prioritization.",
+    "options": [
+      {
+        "label": "Low",
+        "value": "low",
+        "displayOrder": 0
+      },
+      {
+        "label": "Moderate",
+        "value": "moderate",
+        "displayOrder": 1
+      },
+      {
+        "label": "High",
+        "value": "high",
+        "displayOrder": 2
+      },
+      {
+        "label": "Critical",
+        "value": "critical",
+        "displayOrder": 3
+      }
+    ]
+  },
+  {
+    "name": "hsc_commerce_score",
+    "label": "Customer Intelligence - Commerce Score",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "hsc_customer_intelligence",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Commerce engagement score for customer intelligence and prioritization.",
+    "options": []
+  },
+  {
+    "name": "hsc_form_score",
+    "label": "Customer Intelligence - Form Score",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "hsc_customer_intelligence",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Form engagement score for customer intelligence and prioritization.",
+    "options": []
+  },
+  {
+    "name": "hsc_web_score",
+    "label": "Customer Intelligence - Web Score",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "hsc_customer_intelligence",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Website engagement score for customer intelligence and prioritization.",
+    "options": []
+  },
+  {
+    "name": "hsc_customer_class",
+    "label": "Customer Profile - Class",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "hsc_customer_profile",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Customer classification used by Data Automation - Reorder - Window & Message Angle [DATA.REORDER.1].",
+    "options": [
+      {
+        "label": "First Time Lead",
+        "value": "first_time_lead",
+        "displayOrder": 0
+      },
+      {
+        "label": "Returning Customer",
+        "value": "returning_customer",
+        "displayOrder": 1
+      },
+      {
+        "label": "Active Customer",
+        "value": "active_customer",
+        "displayOrder": 2
+      },
+      {
+        "label": "Other",
+        "value": "other",
+        "displayOrder": 3
+      }
+    ]
+  },
+  {
+    "name": "hsc_experience_level",
+    "label": "Customer Profile - Experience Level",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "hsc_customer_profile",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Hair system experience level used for consultation segmentation and education.",
+    "options": [
+      {
+        "label": "First System",
+        "value": "first_system",
+        "displayOrder": 0
+      },
+      {
+        "label": "Some Experience",
+        "value": "some_experience",
+        "displayOrder": 1
+      },
+      {
+        "label": "Experienced Wearer",
+        "value": "experienced_wearer",
+        "displayOrder": 2
+      }
+    ]
+  },
+  {
+    "name": "hsc_primary_goal",
+    "label": "Customer Profile - Primary Goal",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "hsc_customer_profile",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Customer primary goal used for consultation segmentation and personalization.",
+    "options": [
+      {
+        "label": "Realism",
+        "value": "realism",
+        "displayOrder": 0
+      },
+      {
+        "label": "Durability",
+        "value": "durability",
+        "displayOrder": 1
+      },
+      {
+        "label": "Easy Cleanup",
+        "value": "easy_cleanup",
+        "displayOrder": 2
+      },
+      {
+        "label": "Fast Replacement",
+        "value": "fast_replacement",
+        "displayOrder": 3
+      },
+      {
+        "label": "Budget Control",
+        "value": "budget_control",
+        "displayOrder": 4
+      },
+      {
+        "label": "Help Deciding",
+        "value": "help_deciding",
+        "displayOrder": 5
+      },
+      {
+        "label": "Issue Resolution",
+        "value": "issue_resolution",
+        "displayOrder": 6
+      }
+    ]
+  },
+  {
+    "name": "hsc_relationship_state",
+    "label": "Customer Profile - Relationship State",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "hsc_customer_profile",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Relationship state used for lifecycle segmentation and customer context.",
+    "options": [
+      {
+        "label": "New Lead",
+        "value": "new_lead",
+        "displayOrder": 0
+      },
+      {
+        "label": "Returning Customer",
+        "value": "returning_customer",
+        "displayOrder": 1
+      },
+      {
+        "label": "Active Customer With Issue",
+        "value": "active_customer_with_issue",
+        "displayOrder": 2
+      },
+      {
+        "label": "Partner",
+        "value": "partner",
+        "displayOrder": 3
+      },
+      {
+        "label": "Unknown",
+        "value": "unknown",
         "displayOrder": 4
       }
     ]
   },
   {
-    "name": "hsl_sales_value_score",
-    "label": "HSL Sales Value Score",
+    "name": "clv_total",
+    "label": "Customer Value - Lifetime Value",
     "type": "number",
     "fieldType": "number",
-    "groupName": "hair_solutions_intelligence",
+    "groupName": "hsc_customer_value",
     "hubspotDefined": false,
     "formField": false,
-    "description": "",
+    "description": "Total customer lifetime value used by Data Automation - Customer Value - Tier from CLV [DATA.VALUE.1].",
     "options": []
   },
   {
-    "name": "hsl_snapshot_date",
-    "label": "HSL Snapshot Date",
-    "type": "datetime",
-    "fieldType": "date",
-    "groupName": "hair_solutions_intelligence",
+    "name": "customer_tier",
+    "label": "Customer Value - Tier",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "hsc_customer_value",
     "hubspotDefined": false,
     "formField": false,
-    "description": "Date this imported scoring snapshot was generated.",
-    "options": []
+    "description": "Customer value tier written by Data Automation - Customer Value - Tier from CLV [DATA.VALUE.1].",
+    "options": [
+      {
+        "label": "Bronze",
+        "value": "Bronze",
+        "displayOrder": 0
+      },
+      {
+        "label": "Silver",
+        "value": "Silver",
+        "displayOrder": 1
+      },
+      {
+        "label": "Gold",
+        "value": "Gold",
+        "displayOrder": 2
+      },
+      {
+        "label": "VIP",
+        "value": "VIP",
+        "displayOrder": 3
+      }
+    ]
   },
   {
-    "name": "hsl_sources_present",
-    "label": "HSL Sources Present",
+    "name": "hsc_anniversary_type",
+    "label": "Customer Value - Anniversary Type",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "hsc_customer_value",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Anniversary category used for customer milestone and lifecycle emails.",
+    "options": [
+      {
+        "label": "First Purchase",
+        "value": "first_purchase",
+        "displayOrder": 0
+      },
+      {
+        "label": "Fitting",
+        "value": "fitting",
+        "displayOrder": 1
+      },
+      {
+        "label": "Birthday",
+        "value": "birthday",
+        "displayOrder": 2
+      }
+    ]
+  },
+  {
+    "name": "hsc_customer_milestone_summary",
+    "label": "Customer Value - Milestone Summary",
     "type": "string",
     "fieldType": "textarea",
-    "groupName": "hair_solutions_intelligence",
+    "groupName": "hsc_customer_value",
     "hubspotDefined": false,
     "formField": false,
-    "description": "Source hubs/files that contributed to the contact summary.",
+    "description": "Pre-rendered customer milestone summary for lifecycle email personalization.",
+    "options": []
+  },
+  {
+    "name": "hsc_estimated_annual_spend_individual",
+    "label": "Customer Value - Est. Annual Spend (Individual)",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "hsc_customer_value",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Estimated annual spend if the customer continues individual purchases.",
+    "options": []
+  },
+  {
+    "name": "hsc_estimated_annual_spend_plan",
+    "label": "Customer Value - Est. Annual Spend (Plan)",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "hsc_customer_value",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Estimated annual spend under a subscription plan.",
+    "options": []
+  },
+  {
+    "name": "hsc_estimated_plan_savings",
+    "label": "Customer Value - Est. Plan Savings",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "hsc_customer_value",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Estimated savings between individual purchasing and subscription plan purchasing.",
+    "options": []
+  },
+  {
+    "name": "hsc_last_order_value",
+    "label": "Customer Value - Last Order Value",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "hsc_customer_value",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Most recent completed order value used for customer value context.",
+    "options": []
+  },
+  {
+    "name": "hsc_total_orders_last_12m",
+    "label": "Customer Value - Orders Last 12M",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "hsc_customer_value",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Completed order count in the trailing 12 months for customer value context.",
+    "options": []
+  },
+  {
+    "name": "hsc_total_orders_lifetime",
+    "label": "Customer Value - Lifetime Orders",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "hsc_customer_value",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Lifetime order count used by Email Sequence - Customer Onboarding - First Purchase [J3.1] and Data Automation - Reorder - Window & Message Angle [DATA.REORDER.1].",
+    "options": []
+  },
+  {
+    "name": "hsc_vip_reward_choice",
+    "label": "Customer Value - VIP Reward Choice",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "hsc_customer_value",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Selected VIP reward for customer milestone and loyalty messaging.",
     "options": []
   },
   {
     "name": "hsc_attachment_preference",
-    "label": "HSC Attachment Preference",
+    "label": "Hair System Profile - Attachment Preference",
     "type": "enumeration",
     "fieldType": "select",
-    "groupName": "hsc_sales_intelligence",
+    "groupName": "hsc_hair_system_profile",
     "hubspotDefined": false,
     "formField": false,
-    "description": "Preferred attachment method",
+    "description": "Customer attachment preference used for consultation and personalization.",
     "options": [
       {
         "label": "Tape",
@@ -14223,13 +14201,13 @@
   },
   {
     "name": "hsc_base_preference",
-    "label": "HSC Base Preference",
+    "label": "Hair System Profile - Base Preference",
     "type": "enumeration",
     "fieldType": "select",
-    "groupName": "hsc_sales_intelligence",
+    "groupName": "hsc_hair_system_profile",
     "hubspotDefined": false,
     "formField": false,
-    "description": "Preferred base type",
+    "description": "Customer base preference used for consultation and personalization.",
     "options": [
       {
         "label": "Nano Skin",
@@ -14279,57 +14257,14 @@
     ]
   },
   {
-    "name": "hsc_customer_class",
-    "label": "HSC Customer Class",
-    "type": "enumeration",
-    "fieldType": "select",
-    "groupName": "hsc_sales_intelligence",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "Customer classification",
-    "options": [
-      {
-        "label": "First Time Lead",
-        "value": "first_time_lead",
-        "displayOrder": 0
-      },
-      {
-        "label": "Returning Customer",
-        "value": "returning_customer",
-        "displayOrder": 1
-      },
-      {
-        "label": "Active Customer",
-        "value": "active_customer",
-        "displayOrder": 2
-      },
-      {
-        "label": "Other",
-        "value": "other",
-        "displayOrder": 3
-      }
-    ]
-  },
-  {
-    "name": "hsc_customer_health_score",
-    "label": "HSC Customer Health Score",
-    "type": "number",
-    "fieldType": "number",
-    "groupName": "hsc_sales_intelligence",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "Weighted health score 0-100",
-    "options": []
-  },
-  {
     "name": "hsc_density_preference",
-    "label": "HSC Density Preference",
+    "label": "Hair System Profile - Density Preference",
     "type": "enumeration",
     "fieldType": "select",
-    "groupName": "hsc_sales_intelligence",
+    "groupName": "hsc_hair_system_profile",
     "hubspotDefined": false,
     "formField": false,
-    "description": "Preferred density percentage",
+    "description": "Customer density preference used for consultation and personalization.",
     "options": [
       {
         "label": "50%",
@@ -14364,41 +14299,14 @@
     ]
   },
   {
-    "name": "hsc_experience_level",
-    "label": "HSC Experience Level",
-    "type": "enumeration",
-    "fieldType": "select",
-    "groupName": "hsc_sales_intelligence",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "Hair system experience level",
-    "options": [
-      {
-        "label": "First System",
-        "value": "first_system",
-        "displayOrder": 0
-      },
-      {
-        "label": "Some Experience",
-        "value": "some_experience",
-        "displayOrder": 1
-      },
-      {
-        "label": "Experienced Wearer",
-        "value": "experienced_wearer",
-        "displayOrder": 2
-      }
-    ]
-  },
-  {
     "name": "hsc_hair_type_preference",
-    "label": "HSC Hair Type Preference",
+    "label": "Hair System Profile - Hair Type Preference",
     "type": "enumeration",
     "fieldType": "select",
-    "groupName": "hsc_sales_intelligence",
+    "groupName": "hsc_hair_system_profile",
     "hubspotDefined": false,
     "formField": false,
-    "description": "Preferred hair type",
+    "description": "Customer hair type preference used for consultation and personalization.",
     "options": [
       {
         "label": "European",
@@ -14424,193 +14332,111 @@
   },
   {
     "name": "hsc_last_known_system_family",
-    "label": "HSC Last Known System Family",
+    "label": "Hair System Profile - Last Known System Family",
     "type": "string",
     "fieldType": "text",
-    "groupName": "hsc_sales_intelligence",
+    "groupName": "hsc_hair_system_profile",
     "hubspotDefined": false,
     "formField": false,
-    "description": "Branded model name (e.g. Lace Pro, Thin Skin Injected)",
+    "description": "Last known product/system family used for personalization and reorder context.",
     "options": []
+  },
+  {
+    "name": "hsc_last_spec_summary",
+    "label": "Hair System Profile - Last Spec Summary",
+    "type": "string",
+    "fieldType": "textarea",
+    "groupName": "hsc_hair_system_profile",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Readable summary of last confirmed specs for service, reorder, and consultation context.",
+    "options": []
+  },
+  {
+    "name": "hsc_specs_locked",
+    "label": "Hair System Profile - Specs Locked",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "hsc_hair_system_profile",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Whether hair system specs are finalized for service, reorder, and consultation context.",
+    "options": [
+      {
+        "label": "Yes",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "No",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
   },
   {
     "name": "hsc_next_action_date",
-    "label": "HSC Next Action Date",
+    "label": "Lifecycle Operations - Next Action Date",
     "type": "date",
     "fieldType": "date",
-    "groupName": "hsc_sales_intelligence",
+    "groupName": "hsc_lifecycle_ops",
     "hubspotDefined": false,
     "formField": false,
-    "description": "Operational due date for next action",
+    "description": "Operational next-action date for follow-up and lifecycle task planning.",
     "options": []
   },
   {
-    "name": "hsc_preferred_channel",
-    "label": "HSC Preferred Channel",
-    "type": "enumeration",
-    "fieldType": "select",
-    "groupName": "hsc_sales_intelligence",
+    "name": "days_since_last_order",
+    "label": "Reorder - Days Since Last Order",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "hsc_reorder",
     "hubspotDefined": false,
     "formField": false,
-    "description": "Preferred communication channel (manual override)",
-    "options": [
-      {
-        "label": "Email",
-        "value": "email",
-        "displayOrder": 0
-      },
-      {
-        "label": "WhatsApp",
-        "value": "whatsapp",
-        "displayOrder": 1
-      },
-      {
-        "label": "Phone",
-        "value": "phone",
-        "displayOrder": 2
-      },
-      {
-        "label": "Chat",
-        "value": "chat",
-        "displayOrder": 3
-      },
-      {
-        "label": "Form",
-        "value": "form",
-        "displayOrder": 4
-      },
-      {
-        "label": "Other",
-        "value": "other",
-        "displayOrder": 5
-      }
-    ]
+    "description": "Days since last completed order. Written by Draft Automation - Reorder - Days Since Last Order [DATA.REORDER.DRAFT.1].",
+    "options": []
   },
   {
-    "name": "hsc_primary_goal",
-    "label": "HSC Primary Goal",
+    "name": "hsc_reorder_message_angle",
+    "label": "Reorder - Message Angle",
     "type": "enumeration",
     "fieldType": "select",
-    "groupName": "hsc_sales_intelligence",
+    "groupName": "hsc_reorder",
     "hubspotDefined": false,
     "formField": false,
-    "description": "Customer primary goal",
+    "description": "Messaging variant written by Data Automation - Reorder - Window & Message Angle [DATA.REORDER.1].",
     "options": [
       {
-        "label": "Realism",
-        "value": "realism",
+        "label": "Refresh",
+        "value": "refresh",
         "displayOrder": 0
       },
       {
-        "label": "Durability",
-        "value": "durability",
+        "label": "Upgrade",
+        "value": "upgrade",
         "displayOrder": 1
       },
       {
-        "label": "Easy Cleanup",
-        "value": "easy_cleanup",
+        "label": "Loyalty",
+        "value": "loyalty",
         "displayOrder": 2
       },
       {
-        "label": "Fast Replacement",
-        "value": "fast_replacement",
+        "label": "Default",
+        "value": "default",
         "displayOrder": 3
-      },
-      {
-        "label": "Budget Control",
-        "value": "budget_control",
-        "displayOrder": 4
-      },
-      {
-        "label": "Help Deciding",
-        "value": "help_deciding",
-        "displayOrder": 5
-      },
-      {
-        "label": "Issue Resolution",
-        "value": "issue_resolution",
-        "displayOrder": 6
-      }
-    ]
-  },
-  {
-    "name": "hsc_reengagement_priority",
-    "label": "HSC Reengagement Priority",
-    "type": "enumeration",
-    "fieldType": "select",
-    "groupName": "hsc_sales_intelligence",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "Priority level for re-engagement outreach",
-    "options": [
-      {
-        "label": "Low",
-        "value": "low",
-        "displayOrder": 0
-      },
-      {
-        "label": "Medium",
-        "value": "medium",
-        "displayOrder": 1
-      },
-      {
-        "label": "High",
-        "value": "high",
-        "displayOrder": 2
-      },
-      {
-        "label": "Critical Retention",
-        "value": "critical_retention",
-        "displayOrder": 3
-      }
-    ]
-  },
-  {
-    "name": "hsc_relationship_state",
-    "label": "HSC Relationship State",
-    "type": "enumeration",
-    "fieldType": "select",
-    "groupName": "hsc_sales_intelligence",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "Current relationship state",
-    "options": [
-      {
-        "label": "New Lead",
-        "value": "new_lead",
-        "displayOrder": 0
-      },
-      {
-        "label": "Returning Customer",
-        "value": "returning_customer",
-        "displayOrder": 1
-      },
-      {
-        "label": "Active Customer With Issue",
-        "value": "active_customer_with_issue",
-        "displayOrder": 2
-      },
-      {
-        "label": "Partner",
-        "value": "partner",
-        "displayOrder": 3
-      },
-      {
-        "label": "Unknown",
-        "value": "unknown",
-        "displayOrder": 4
       }
     ]
   },
   {
     "name": "hsc_reorder_readiness",
-    "label": "HSC Reorder Readiness",
+    "label": "Reorder - Readiness",
     "type": "enumeration",
     "fieldType": "select",
-    "groupName": "hsc_sales_intelligence",
+    "groupName": "hsc_reorder",
     "hubspotDefined": false,
     "formField": false,
-    "description": "Reorder timing readiness",
+    "description": "Reorder readiness signal used for reorder prioritization and future reorder workflows.",
     "options": [
       {
         "label": "Active Now",
@@ -14645,14 +14471,199 @@
     ]
   },
   {
-    "name": "hsc_risk_band",
-    "label": "HSC Risk Band",
-    "type": "enumeration",
-    "fieldType": "select",
-    "groupName": "hsc_sales_intelligence",
+    "name": "hsc_reorder_window_open",
+    "label": "Reorder - Window Open",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "hsc_reorder",
     "hubspotDefined": false,
     "formField": false,
-    "description": "Customer risk classification",
+    "description": "Boolean reorder-window flag written by Data Automation - Reorder - Window & Message Angle [DATA.REORDER.1].",
+    "options": [
+      {
+        "label": "Yes",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "No",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "next_expected_reorder_date",
+    "label": "Reorder - Expected Date",
+    "type": "date",
+    "fieldType": "date",
+    "groupName": "hsc_reorder",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Projected reorder date used by Data Automation - Reorder - Window & Message Angle [DATA.REORDER.1].",
+    "options": []
+  },
+  {
+    "name": "reorder_due_date",
+    "label": "Reorder - Due Date",
+    "type": "date",
+    "fieldType": "date",
+    "groupName": "hsc_reorder",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Calculated reorder due date written by Draft Automation - Reorder - Due Date Calculation [DATA.REORDER.DRAFT.2].",
+    "options": []
+  },
+  {
+    "name": "hsc_subscription_deliveries_last_12m",
+    "label": "Subscription Service - Deliveries Last 12M",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "hsc_subscription_service",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Subscription deliveries in the trailing 12 months for plan service context.",
+    "options": []
+  },
+  {
+    "name": "hsc_subscription_eligible",
+    "label": "Subscription Service - Eligible",
+    "type": "bool",
+    "fieldType": "booleancheckbox",
+    "groupName": "hsc_subscription_service",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Eligibility flag for subscription plan offer and lifecycle messaging.",
+    "options": [
+      {
+        "label": "Yes",
+        "value": "true",
+        "displayOrder": 0
+      },
+      {
+        "label": "No",
+        "value": "false",
+        "displayOrder": 1
+      }
+    ]
+  },
+  {
+    "name": "hsc_subscription_last4",
+    "label": "Subscription Service - Payment Card Last 4",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "hsc_subscription_service",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Last four digits of card on file for subscription service notifications.",
+    "options": []
+  },
+  {
+    "name": "hsc_subscription_payment_link",
+    "label": "Subscription Service - Payment Update Link",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "hsc_subscription_service",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Self-service payment update link for subscription service notifications.",
+    "options": []
+  },
+  {
+    "name": "hsc_subscription_plan_amount",
+    "label": "Subscription Service - Plan Amount",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "hsc_subscription_service",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Recurring plan amount for subscription service context.",
+    "options": []
+  },
+  {
+    "name": "hsc_subscription_plan_name",
+    "label": "Subscription Service - Plan Name",
+    "type": "string",
+    "fieldType": "text",
+    "groupName": "hsc_subscription_service",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Active subscription plan name for subscription service context.",
+    "options": []
+  },
+  {
+    "name": "hsc_subscription_renewal_date",
+    "label": "Subscription Service - Renewal Date",
+    "type": "date",
+    "fieldType": "date",
+    "groupName": "hsc_subscription_service",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Next renewal date for subscription service notifications.",
+    "options": []
+  },
+  {
+    "name": "hsc_subscription_status",
+    "label": "Subscription Service - Status",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "hsc_subscription_service",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Current subscription status for subscription service workflows and messaging.",
+    "options": [
+      {
+        "label": "Active",
+        "value": "active",
+        "displayOrder": 0
+      },
+      {
+        "label": "Paused",
+        "value": "paused",
+        "displayOrder": 1
+      },
+      {
+        "label": "Unpaid",
+        "value": "unpaid",
+        "displayOrder": 2
+      },
+      {
+        "label": "Expired",
+        "value": "expired",
+        "displayOrder": 3
+      },
+      {
+        "label": "Cancelled",
+        "value": "cancelled",
+        "displayOrder": 4
+      },
+      {
+        "label": "None",
+        "value": "none",
+        "displayOrder": 5
+      }
+    ]
+  },
+  {
+    "name": "plan_progress",
+    "label": "Subscription Service - Plan Progress",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "hsc_subscription_service",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Plan progress written by Draft Automation - Subscription Service - Plan Progress [DATA.SUB.DRAFT.1].",
+    "options": []
+  },
+  {
+    "name": "hsc_reengagement_priority",
+    "label": "Win-Back - Reengagement Priority",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "hsc_winback",
+    "hubspotDefined": false,
+    "formField": false,
+    "description": "Priority level for win-back and reengagement workflows.",
     "options": [
       {
         "label": "Low",
@@ -14660,8 +14671,8 @@
         "displayOrder": 0
       },
       {
-        "label": "Moderate",
-        "value": "moderate",
+        "label": "Medium",
+        "value": "medium",
         "displayOrder": 1
       },
       {
@@ -14670,8 +14681,8 @@
         "displayOrder": 2
       },
       {
-        "label": "Critical",
-        "value": "critical",
+        "label": "Critical Retention",
+        "value": "critical_retention",
         "displayOrder": 3
       }
     ]
@@ -14743,17 +14754,6 @@
     "options": []
   },
   {
-    "name": "lchs_score",
-    "label": "LCHS Score",
-    "type": "number",
-    "fieldType": "number",
-    "groupName": "lchs",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "Legacy Customer Health Score (0\u2013100). Composite of LTV, payment recency, subscription, engagement, and order frequency pillars.",
-    "options": []
-  },
-  {
     "name": "lchs_subscription_pts",
     "label": "LCHS \u2014 Subscription Points",
     "type": "number",
@@ -14798,6 +14798,196 @@
         "label": "Dead Zone",
         "value": "Dead Zone",
         "displayOrder": 4
+      }
+    ]
+  },
+  {
+    "name": "legacy_commerce_score_static",
+    "label": "Legacy Commerce Score Static",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "lchs",
+    "hubspotDefined": false,
+    "formField": true,
+    "description": "",
+    "options": []
+  },
+  {
+    "name": "legacy_commerce_score_status_static",
+    "label": "Legacy Commerce Score Status Static",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "lchs",
+    "hubspotDefined": false,
+    "formField": true,
+    "description": "",
+    "options": [
+      {
+        "label": "High",
+        "value": "High",
+        "displayOrder": 0
+      },
+      {
+        "label": "Average",
+        "value": "Average",
+        "displayOrder": 1
+      },
+      {
+        "label": "Low",
+        "value": "Low",
+        "displayOrder": 2
+      }
+    ]
+  },
+  {
+    "name": "legacy_form_score_static",
+    "label": "Legacy Form Score Static",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "lchs",
+    "hubspotDefined": false,
+    "formField": true,
+    "description": "",
+    "options": []
+  },
+  {
+    "name": "legacy_form_status_static",
+    "label": "Legacy Form Status Static",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "lchs",
+    "hubspotDefined": false,
+    "formField": true,
+    "description": "",
+    "options": [
+      {
+        "label": "High",
+        "value": "High",
+        "displayOrder": 0
+      },
+      {
+        "label": "Average",
+        "value": "Average",
+        "displayOrder": 1
+      },
+      {
+        "label": "Low",
+        "value": "Low",
+        "displayOrder": 2
+      }
+    ]
+  },
+  {
+    "name": "legacy_marketing_score_static",
+    "label": "Legacy Marketing Score Static",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "lchs",
+    "hubspotDefined": false,
+    "formField": true,
+    "description": "",
+    "options": []
+  },
+  {
+    "name": "legacy_marketing_score_status_static",
+    "label": "Legacy Marketing Score Status Static",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "lchs",
+    "hubspotDefined": false,
+    "formField": true,
+    "description": "",
+    "options": [
+      {
+        "label": "High",
+        "value": "High",
+        "displayOrder": 0
+      },
+      {
+        "label": "Average",
+        "value": "Average",
+        "displayOrder": 1
+      },
+      {
+        "label": "Low",
+        "value": "Low",
+        "displayOrder": 2
+      }
+    ]
+  },
+  {
+    "name": "legacy_sales_score_static",
+    "label": "Legacy Sales Score Static",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "lchs",
+    "hubspotDefined": false,
+    "formField": true,
+    "description": "",
+    "options": []
+  },
+  {
+    "name": "legacy_sales_score_status_static",
+    "label": "Legacy Sales Score Status Static",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "lchs",
+    "hubspotDefined": false,
+    "formField": true,
+    "description": "",
+    "options": [
+      {
+        "label": "High",
+        "value": "High",
+        "displayOrder": 0
+      },
+      {
+        "label": "Average",
+        "value": "Average",
+        "displayOrder": 1
+      },
+      {
+        "label": "Low",
+        "value": "Low",
+        "displayOrder": 2
+      }
+    ]
+  },
+  {
+    "name": "legacy_web_score_static",
+    "label": "Legacy Web Score Static",
+    "type": "number",
+    "fieldType": "number",
+    "groupName": "lchs",
+    "hubspotDefined": false,
+    "formField": true,
+    "description": "",
+    "options": []
+  },
+  {
+    "name": "legacy_web_score_status_static",
+    "label": "Legacy Web Score Status Static",
+    "type": "enumeration",
+    "fieldType": "select",
+    "groupName": "lchs",
+    "hubspotDefined": false,
+    "formField": true,
+    "description": "",
+    "options": [
+      {
+        "label": "High",
+        "value": "High",
+        "displayOrder": 0
+      },
+      {
+        "label": "Average",
+        "value": "Average",
+        "displayOrder": 1
+      },
+      {
+        "label": "Low",
+        "value": "Low",
+        "displayOrder": 2
       }
     ]
   },
@@ -15146,17 +15336,6 @@
     "options": []
   },
   {
-    "name": "next_expected_reorder_date",
-    "label": "Next Expected Reorder Date",
-    "type": "date",
-    "fieldType": "date",
-    "groupName": "revenue_purchase_profile",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "Projected next purchase date based on reorder cycle and last purchase",
-    "options": []
-  },
-  {
     "name": "number_of_orders",
     "label": "Number of Orders",
     "type": "number",
@@ -15179,74 +15358,15 @@
     "options": []
   },
   {
-    "name": "churn_risk_score",
-    "label": "Churn Risk Score",
-    "type": "enumeration",
-    "fieldType": "select",
-    "groupName": "smart_scoring",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "Composite of days_since_last_order (base) + engagement_trend (modifier) + support_ticket_sentiment (modifier). Updated daily.",
-    "options": [
-      {
-        "label": "Low",
-        "value": "low",
-        "displayOrder": 0
-      },
-      {
-        "label": "Medium",
-        "value": "medium",
-        "displayOrder": 1
-      },
-      {
-        "label": "High",
-        "value": "high",
-        "displayOrder": 2
-      },
-      {
-        "label": "Critical",
-        "value": "critical",
-        "displayOrder": 3
-      }
-    ]
-  },
-  {
-    "name": "clv_total",
-    "label": "Customer Lifetime Value",
+    "name": "total_usd_payments",
+    "label": "Total USD payments",
     "type": "number",
-    "fieldType": "number",
-    "groupName": "smart_scoring",
+    "fieldType": "calculation_rollup",
+    "groupName": "revenue_purchase_profile",
     "hubspotDefined": false,
     "formField": false,
-    "description": "Rollup of all closed-won deal amounts for this contact. Bronze <$200 | Silver $200-$500 | Gold $500-$1500 | VIP $1500+.",
+    "description": "",
     "options": []
-  },
-  {
-    "name": "communication_preference",
-    "label": "Communication Preference",
-    "type": "enumeration",
-    "fieldType": "select",
-    "groupName": "smart_scoring",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "Auto-detected from last 5 interactions. >3 WhatsApp = whatsapp | >3 email = email | else both. Manual override supported.",
-    "options": [
-      {
-        "label": "WhatsApp",
-        "value": "whatsapp",
-        "displayOrder": 0
-      },
-      {
-        "label": "Email",
-        "value": "email",
-        "displayOrder": 1
-      },
-      {
-        "label": "Both",
-        "value": "both",
-        "displayOrder": 2
-      }
-    ]
   },
   {
     "name": "customer_profile",
@@ -15393,49 +15513,6 @@
     ]
   },
   {
-    "name": "customer_tier",
-    "label": "Customer Tier",
-    "type": "enumeration",
-    "fieldType": "select",
-    "groupName": "smart_scoring",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "Derived from clv_total. Bronze <$200 | Silver $200-$500 | Gold $500-$1500 | VIP $1500+.",
-    "options": [
-      {
-        "label": "Bronze",
-        "value": "Bronze",
-        "displayOrder": 0
-      },
-      {
-        "label": "Silver",
-        "value": "Silver",
-        "displayOrder": 1
-      },
-      {
-        "label": "Gold",
-        "value": "Gold",
-        "displayOrder": 2
-      },
-      {
-        "label": "VIP",
-        "value": "VIP",
-        "displayOrder": 3
-      }
-    ]
-  },
-  {
-    "name": "days_since_last_order",
-    "label": "Days Since Last Order",
-    "type": "number",
-    "fieldType": "number",
-    "groupName": "smart_scoring",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "TODAY() - last_purchase_date in days. Null if no purchase. Updated daily at 6am.",
-    "options": []
-  },
-  {
     "name": "next_best_action",
     "label": "Next Best Action",
     "type": "enumeration",
@@ -15486,28 +15563,6 @@
         "displayOrder": 7
       }
     ]
-  },
-  {
-    "name": "order_readiness_score",
-    "label": "Order Readiness Score",
-    "type": "number",
-    "fieldType": "number",
-    "groupName": "smart_scoring",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "% of hair system spec fields filled. 8 fields x 12.5pts each: base_size, density, color, curl_pattern, grey_pct, length, origin, system_type.",
-    "options": []
-  },
-  {
-    "name": "reorder_due_date",
-    "label": "Reorder Due Date",
-    "type": "date",
-    "fieldType": "date",
-    "groupName": "smart_scoring",
-    "hubspotDefined": false,
-    "formField": false,
-    "description": "last_purchase_date + reorder_cycle_days. Default cycle = 90 days if not set.",
-    "options": []
   },
   {
     "name": "sales_priority",

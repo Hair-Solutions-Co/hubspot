@@ -22,6 +22,17 @@
     "options": []
   },
   {
+    "name": "hs_all_facsimile_thread_ids",
+    "label": "All facsimile thread ids",
+    "type": "enumeration",
+    "fieldType": "checkbox",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "Thread ids from facsimile invoice emails ",
+    "options": []
+  },
+  {
     "name": "hs_all_owner_ids",
     "label": "All owner IDs",
     "type": "enumeration",
@@ -878,6 +889,17 @@
     "hubspotDefined": true,
     "formField": false,
     "description": "The last time a finalized invoice was edited. This is automatically updated by HubSpot. ",
+    "options": []
+  },
+  {
+    "name": "hs_last_prioritized_date",
+    "label": "Last prioritized date",
+    "type": "datetime",
+    "fieldType": "date",
+    "groupName": "invoiceinformation",
+    "hubspotDefined": true,
+    "formField": false,
+    "description": "The last time the invoice was prioritized. This is updated automatically by HubSpot",
     "options": []
   },
   {
